@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from bs4.element import NavigableString
+import os
 
 links = open("links.txt", "r")
 counter = 0
@@ -28,6 +29,10 @@ for URL in links:
         cat = cat[0].contents[0]
         s += cat + ", "
     s += "\n\n"
+
+    # controllo che esista la cartella corpus, se no la creo
+    if not os.path.exists("corpus"):
+        os.mkdir("corpus/")
     f = open(f"corpus/butac_{counter}.txt", "w", encoding='utf-8')
     for i in texts:
         # print("----------------------------------------------------------------------")

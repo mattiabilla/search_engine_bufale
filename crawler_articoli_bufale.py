@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
-from bs4.element import NavigableString
+from bs4.element import NavigableString, Tag
+import os
 
 links = open("links.txt", "r")
 counter = 0
@@ -28,15 +29,25 @@ for URL in links:
         for _ in cat:
             s += _.contents[0] + ", "
     s += "\n\n"
+    # controllo che esista la cartella corpus, se no la creo
+    if not os.path.exists("corpus"):
+        os.mkdir("corpus/")
+
     f = open(f"corpus/bufale_{counter}.txt", "w", encoding='utf-8')
     for i in texts:
         for _ in i:
-            if isinstance(_, NavigableString):
-                s += _.string + "\n"
+            try:
+                if isinstance(_, NavigableString):
+                    s += _.string + "\n"
 
-                # QUI VIENE LANCIATO L'ERRORE
-            '''else:
-                s += _.contents[0] + "\n"'''
+                    # QUI VIENE LANCIATO L'ERRORE
+                elif isinstance(_, Tag):
+                    if _.name == 'a':
+                        s += _.contents[0] + "\n"
+                    elif _.name == 'strong':
+                        s += _.contents[0] + "\n"
+            except TypeError:
+                print(_)
 
     f.write(s)
     f.close()
