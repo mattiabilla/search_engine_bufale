@@ -1,7 +1,16 @@
 import requests
 from bs4 import BeautifulSoup
-from bs4.element import NavigableString
+from bs4.element import NavigableString, Comment
 import os
+
+
+def tag_visible(element):
+    if element.parent.name in ['style', 'script', 'head', 'title', 'meta', '[document]']:
+        return False
+    if isinstance(element, Comment):
+        return False
+    return True
+
 
 links = open("links.txt", "r")
 counter = 0
@@ -34,12 +43,18 @@ for URL in links:
     if not os.path.exists("corpus"):
         os.mkdir("corpus/")
     f = open(f"corpus/butac_{counter}.txt", "w", encoding='utf-8')
-    for i in texts:
+
+    texts = soup.find(class_="text-article").findAll(text=True)
+    visible_texts = filter(tag_visible, texts)
+    # s.join(t for t in visible_texts)
+    for t in visible_texts:
+        s += t
+    '''for i in texts:
         # print("----------------------------------------------------------------------")
         for _ in i:
             if isinstance(_, NavigableString):
                 # print(_.string)
-                s += _.string + "\n"
+                s += _.string + "\n"'''
 
     f.write(s)
     f.close()

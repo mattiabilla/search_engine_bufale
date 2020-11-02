@@ -1,13 +1,21 @@
 import requests
 from bs4 import BeautifulSoup
-from bs4.element import NavigableString, Tag
+from bs4.element import NavigableString, Tag, Comment
 import os
+
+
+def tag_visible(element):
+    if element.parent.name in ['style', 'script', 'head', 'title', 'meta', '[document]']:
+        return False
+    if isinstance(element, Comment):
+        return False
+    return True
+
 
 links = open("links.txt", "r")
 counter = 0
 
 for URL in links:
-
     page = requests.get(URL, headers={"User-Agent": "Mozilla/5.0"})
 
     soup = BeautifulSoup(page.content, "html.parser")
@@ -34,7 +42,14 @@ for URL in links:
         os.mkdir("corpus/")
 
     f = open(f"corpus/bufale_{counter}.txt", "w", encoding='utf-8')
-    for i in texts:
+
+    texts = soup.find(class_="text-article").findAll(text=True)
+    visible_texts = filter(tag_visible, texts)
+    # s.join(t for t in visible_texts)
+    for t in visible_texts:
+        s += t
+
+    '''for i in texts:
         for _ in i:
             try:
                 if isinstance(_, NavigableString):
@@ -47,7 +62,7 @@ for URL in links:
                     elif _.name == 'strong':
                         s += _.contents[0] + "\n"
             except TypeError:
-                print(_)
+                print(_)'''
 
     f.write(s)
     f.close()
