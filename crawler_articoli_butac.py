@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from bs4.element import NavigableString, Comment
+from bs4.element import Comment
 import os
 
 
@@ -21,22 +21,17 @@ for URL in links:
 
     soup = BeautifulSoup(page.content, "html.parser")
 
-    results = soup.find(class_="td-ss-main-content")
-
-    texts = results.find_all(["p", "h1", "h2", "h3", "h4", "h5", "h5", "i", "li", "b", "strong", "blockquote"])
-
-    title = soup.find(class_="entry-title").contents
+    title = soup.find("div",class_="titleArticle").find("h1").contents
     title = title[0]
 
     s = URL
     s += f"{title}\n"
 
-    categories = soup.find_all(class_="entry-category")
+    categories=soup.find("div",class_="tags").find("ul").find_all("li")
     for cat in categories:
-        cat = cat.contents
-        print(cat)
-        cat = cat[0].contents[0]
+        cat = cat.find("a").contents[0]
         s += cat + ", "
+
     s += "\n\n"
 
     # controllo che esista la cartella corpus, se no la creo
@@ -44,17 +39,12 @@ for URL in links:
         os.mkdir("corpus/")
     f = open(f"corpus/butac_{counter}.txt", "w", encoding='utf-8')
 
-    texts = soup.find(class_="text-article").findAll(text=True)
+    texts = soup.find(class_="textArticle").findAll(text=True)
     visible_texts = filter(tag_visible, texts)
-    # s.join(t for t in visible_texts)
+
     for t in visible_texts:
         s += t
-    '''for i in texts:
-        # print("----------------------------------------------------------------------")
-        for _ in i:
-            if isinstance(_, NavigableString):
-                # print(_.string)
-                s += _.string + "\n"'''
+
 
     f.write(s)
     f.close()

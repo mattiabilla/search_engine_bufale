@@ -1,9 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
 
-#crawler per bufale.net
-f = open("links.txt", "a")
-for i in range(1, 10):
+# crawler per bufale.net
+f = open("links.txt", "w")
+for i in range(1, 5):
     URL = f"https://www.bufale.net/bufala/page/{str(i)}/"
 
     page = requests.get(URL, headers={"User-Agent": "Mozilla/5.0"})
