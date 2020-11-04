@@ -10,12 +10,12 @@ for i in range(1, 5):
 
     soup = BeautifulSoup(page.content, "html.parser")
 
-    results = soup.find("div",class_="archives").find_all(class_="j-title")#.find("h3").find_all('a', class_='blackText')
+    results = soup.find("div", class_="archives").find_all(
+        class_="j-title")  # .find("h3").find_all('a', class_='blackText')
 
     for result in results:
-
-        result=result.find('h3')
-        result=result.find("a")
+        result = result.find('h3')
+        result = result.find("a")
 
         f.write(result.get("href"))
 

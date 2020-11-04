@@ -16,29 +16,29 @@ links = open("links.txt", "r")
 counter = 0
 
 for URL in links:
+
     page = requests.get(URL, headers={"User-Agent": "Mozilla/5.0"})
 
     soup = BeautifulSoup(page.content, "html.parser")
 
-    title = soup.find(class_="title").findChildren('h1')[0]
+    title = soup.find("h1", class_="news__title").contents[0]
 
     s = URL
-    s += f"{title.contents[0]}\n"
+    s += f"{title}\n"
 
-    categories = soup.find_all(class_="tag")
+    categories = soup.find("span", class_="news__tags").find_all("a")
     for cat in categories:
-        cat = cat.contents
-        cat = cat[1].findChildren('a', recursive=True)
-        for _ in cat:
-            s += _.contents[0] + ", "
+        cat = cat.contents[0]
+        s += cat + ", "
+
     s += "\n\n"
+
     # controllo che esista la cartella corpus, se no la creo
     if not os.path.exists("corpus"):
         os.mkdir("corpus/")
+    f = open(f"corpus/open_{counter}.txt", "w", encoding='utf-8')
 
-    f = open(f"corpus/bufale_{counter}.txt", "w", encoding='utf-8')
-
-    texts = soup.find(class_="text-article").findAll(text=True)
+    texts = soup.find("div", class_="article").findAll(text=True)
     visible_texts = filter(tag_visible, texts)
 
     for t in visible_texts:

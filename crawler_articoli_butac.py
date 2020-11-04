@@ -21,13 +21,12 @@ for URL in links:
 
     soup = BeautifulSoup(page.content, "html.parser")
 
-    title = soup.find("div",class_="titleArticle").find("h1").contents
-    title = title[0]
+    title = soup.find("div", class_="titleArticle").find("h1").contents[0]
 
     s = URL
     s += f"{title}\n"
 
-    categories=soup.find("div",class_="tags").find("ul").find_all("li")
+    categories = soup.find("div", class_="tags").find("ul").find_all("li")
     for cat in categories:
         cat = cat.find("a").contents[0]
         s += cat + ", "
@@ -44,7 +43,6 @@ for URL in links:
 
     for t in visible_texts:
         s += t
-
 
     f.write(s)
     f.close()
