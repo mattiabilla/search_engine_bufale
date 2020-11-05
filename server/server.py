@@ -8,34 +8,33 @@ from whoosh.qparser import QueryParser
 from whoosh.index import open_dir
 
 
-
-from flask import Flask, request
+import re
+from flask import Flask, request, render_template
 app = Flask(__name__)
 
 @app.route('/', methods=['GET','POST'])
 def home_results():
-    #data = request.form.get('query', "")
-    data=""
+
+    data = ""
     if request.method == 'GET' and 'query' in request.args:  #this block is only entered when the form is submitted
         data = request.args.get('query')
         print(data)
-        
-    
-    s=f"""
-        <form action="/" method="GET">
-          
-          <input type="text" id="query" name="query" value="{data}"><br>
-          
-          <input type="submit" value="Submit">
-        </form>
-    
-    """
+
     print(data)
+    retrieved = []
     ix = open_dir("../indexdir")
     with ix.searcher() as searcher:
         query = QueryParser("content", ix.schema).parse(data)
         results = searcher.search(query)
         for i in results:
-            link=i["url"]
-            s+= f"<div><a href='{link}'>"+i["title"]+"</a></div>"
-    return s
+            link = i["url"]
+            title = i["title"]
+
+            p = re.compile("www\.[^\/]+")
+            match = p.search(link)
+            site=match.group(0)
+            print(site)
+
+            retrieved.append({"link":link,"title":title,"site":site})
+
+    return render_template("index.html", results=retrieved)
