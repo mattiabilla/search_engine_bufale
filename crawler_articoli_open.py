@@ -17,7 +17,7 @@ counter = 0
 
 for URL in links:
 
-    page = requests.get(URL, headers={"User-Agent": "Mozilla/5.0"})
+    page = requests.get(URL.rstrip(), headers={"User-Agent": "Mozilla/5.0"})
 
     soup = BeautifulSoup(page.content, "html.parser")
 
