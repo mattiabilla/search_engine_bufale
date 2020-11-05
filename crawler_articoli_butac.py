@@ -26,10 +26,13 @@ for URL in links:
     s = URL
     s += f"{title}\n"
 
-    categories = soup.find("div", class_="tags").find("ul").find_all("li")
-    for cat in categories:
-        cat = cat.find("a").contents[0]
-        s += cat + ", "
+    try:
+        categories = soup.find("div", class_="tags").find("ul").find_all("li")
+        for cat in categories:
+            cat = cat.find("a").contents[0]
+            s += cat + ", "
+    except:
+        s += ""
 
     s += "\n\n"
 
