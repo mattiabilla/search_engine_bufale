@@ -36,6 +36,15 @@ for URL in links:
 
     s += "\n\n"
 
+    '''try:
+        image = soup.find("img", class_="img-responsive wp-post-image")
+        s += f"{image['data-src']}\n"
+    except:
+        image = soup.find("img", class_="size-large aligncenter")
+        s += f"{image['data-src']}\n"
+    else:
+        pass'''
+
     # controllo che esista la cartella corpus, se no la creo
     if not os.path.exists("corpus"):
         os.mkdir("corpus/")

@@ -32,6 +32,10 @@ for URL in links:
         for _ in cat:
             s += _.contents[0] + ", "
     s += "\n\n"
+
+    image = soup.find(id="post-thumbnail").find("figure").find("img", class_="img-responsive wp-post-image")
+    s += f"{image['data-src']}\n"
+
     # controllo che esista la cartella corpus, se no la creo
     if not os.path.exists("corpus"):
         os.mkdir("corpus/")

@@ -33,6 +33,9 @@ for URL in links:
 
     s += "\n\n"
 
+    image = soup.find("img", class_="news-image image--large")
+    s += f"{image['src']}\n"
+
     # controllo che esista la cartella corpus, se no la creo
     if not os.path.exists("corpus"):
         os.mkdir("corpus/")
