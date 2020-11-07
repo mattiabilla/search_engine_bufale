@@ -29,12 +29,15 @@ def home_results():
         for i in results:
             link = i["url"]
             title = i["title"]
+            linkimage = i["urlimage"]
+            date = i["date"]
+            date = date.strftime("%d/%m/%Y")
 
             p = re.compile("www\.[^\/]+")
             match = p.search(link)
             site=match.group(0)
             print(site)
 
-            retrieved.append({"link":link,"title":title,"site":site})
+            retrieved.append({"link":link,"title":title,"site":site, "urlimage":linkimage, "date":date})
 
     return render_template("index.html", results=retrieved)
