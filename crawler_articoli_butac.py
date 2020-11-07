@@ -1,7 +1,34 @@
+from datetime import datetime
+
+import re
+
 import requests
 from bs4 import BeautifulSoup
 from bs4.element import Comment
 import os
+
+
+month = {
+    "Gen": "01",
+    "Feb": "02",
+    "Mar": "03",
+    "Apr": "04",
+    "Mag": "05",
+    "Giu": "06",
+    "Lug": "07",
+    "Ago": "08",
+    "Set": "09",
+    "Ott": "10",
+    "Nov": "11",
+    "Dic": "12"
+}
+
+
+def convertdate(date):
+    mese = re.compile(" (.*?) ")  # per prendere tutto quello che c'è tra gli spazi, ovvero il mese
+    mese = mese.search(date).group().strip()  # prendo il mese con la regex
+    date = date.replace(mese, month.get(mese)) # costruisco la stringa in un formato leggibile
+    return datetime.strptime(date, '%d %m %Y') # ritorno l'oggetto costruito
 
 
 def tag_visible(element):
@@ -44,6 +71,8 @@ for URL in links:
         s += f"{image['data-src']}\n"
     else:
         pass'''
+
+    s += f"{convertdate(soup.find('time').attrs['datetime'])}\n"
 
     # controllo che esista la cartella corpus, se no la creo
     if not os.path.exists("corpus"):

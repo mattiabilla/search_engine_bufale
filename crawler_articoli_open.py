@@ -1,7 +1,29 @@
+from datetime import datetime
+
 import requests
 from bs4 import BeautifulSoup
 from bs4.element import Comment
 import os
+
+
+month = {
+    "Gen": "01",
+    "Feb": "02",
+    "Mar": "03",
+    "Apr": "04",
+    "Mag": "05",
+    "Giu": "06",
+    "Lug": "07",
+    "Ago": "08",
+    "Set": "09",
+    "Ott": "10",
+    "Nov": "11",
+    "Dic": "12"
+}
+
+
+def convertdate(date):
+    return datetime.strptime(date, '%Y-%m-%d %H:%M') # ritorno il formato corretto
 
 
 def tag_visible(element):
@@ -35,6 +57,8 @@ for URL in links:
 
     image = soup.find("img", class_="news-image image--large")
     s += f"{image['src']}\n"
+
+    s += f"{convertdate(soup.find('time').attrs['datetime'])}\n"
 
     # controllo che esista la cartella corpus, se no la creo
     if not os.path.exists("corpus"):

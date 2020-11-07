@@ -1,7 +1,30 @@
 import requests
+from datetime import datetime
 from bs4 import BeautifulSoup
 from bs4.element import Comment
 import os
+
+month = {
+    "Gennaio": "01",
+    "Febbraio": "02",
+    "Marzo": "03",
+    "Aprile": "04",
+    "Maggio": "05",
+    "Giugno": "06",
+    "Luglio": "07",
+    "Agosto": "08",
+    "Settembre": "09",
+    "Ottobre": "10",
+    "Novembre": "11",
+    "Dicembre": "12"
+}
+
+
+def convertdate(date):
+    mese = (date[0])[:date[0].find(' ')]  # per prendere il mese dalla stringa
+    mese = month.get(mese)  #sostituisco il mese con la sua traduzione dal dizionario
+    mese = date[0].replace((date[0])[:date[0].find(' ')], mese) # costruisco la stringa in un formato leggibile
+    return datetime.strptime(mese, '%m %d, %Y') # ritorno l'oggetto costruito
 
 
 def tag_visible(element):
@@ -35,6 +58,8 @@ for URL in links:
 
     image = soup.find(id="post-thumbnail").find("figure").find("img", class_="img-responsive wp-post-image")
     s += f"{image['data-src']}\n"
+
+    s += f"{convertdate(soup.find('time').contents)}\n"
 
     # controllo che esista la cartella corpus, se no la creo
     if not os.path.exists("corpus"):
