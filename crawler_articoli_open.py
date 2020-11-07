@@ -53,12 +53,16 @@ for URL in links:
         cat = cat.contents[0]
         s += cat + ", "
 
-    s += "\n\n"
-
-    image = soup.find("img", class_="news-image image--large")
-    s += f"{image['src']}\n"
+    s += "\n"
+    try:
+        image = soup.find("img", class_="news-image image--large")
+        s += f"{image['src']}\n"
+    except:
+        s += "https://storage.avalanches.com/it/6303/images/avatar_domain_open.online.jpg\n"
 
     s += f"{convertdate(soup.find('time').attrs['datetime'])}\n"
+
+    s += "\n\n"
 
     # controllo che esista la cartella corpus, se no la creo
     if not os.path.exists("corpus"):

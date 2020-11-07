@@ -2,10 +2,10 @@ import os
 from os import listdir
 from os.path import isfile, join
 
-from whoosh.index import create_in
 from whoosh.fields import *
+from whoosh.index import create_in
 
-schema = Schema(title=TEXT(stored=True), url=ID(stored=True), content=TEXT)
+schema = Schema(title=TEXT(stored=True), url=ID(stored=True), urlimage=TEXT(stored=True), date=DATETIME(stored=True), content=TEXT)
 if not os.path.exists("indexdir"):
     os.mkdir("indexdir/")
 ix = create_in("indexdir", schema)
@@ -25,9 +25,17 @@ for i in filelist:
     fkeyword = f.readline()
     fkeyword = fkeyword.rstrip()
 
+    furlimage=f.readline()
+    furlimage = furlimage.rstrip()
+
+    date = f.readline()
+    date = date.rstrip()
+    date_obj=datetime.datetime.strptime(date,'%Y-%m-%d %H:%M:%S')
+
     fcontent = f.read()
 
-    writer.add_document(title=ftitle, url=furl, content=fcontent)
+
+    writer.add_document(title=ftitle, url=furl, urlimage=furlimage, date=date_obj, content=fcontent)
     f.close()
 
 writer.commit()

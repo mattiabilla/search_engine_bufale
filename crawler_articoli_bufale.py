@@ -54,12 +54,15 @@ for URL in links:
         cat = cat[1].findChildren('a', recursive=True)
         for _ in cat:
             s += _.contents[0] + ", "
-    s += "\n\n"
+
+    s += "\n"
 
     image = soup.find(id="post-thumbnail").find("figure").find("img", class_="img-responsive wp-post-image")
     s += f"{image['data-src']}\n"
 
     s += f"{convertdate(soup.find('time').contents)}\n"
+
+    s += "\n\n"
 
     # controllo che esista la cartella corpus, se no la creo
     if not os.path.exists("corpus"):

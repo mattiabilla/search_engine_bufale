@@ -61,18 +61,18 @@ for URL in links:
     except:
         s += ""
 
-    s += "\n\n"
+    s += "\n"
 
-    '''try:
+    try:
         image = soup.find("img", class_="img-responsive wp-post-image")
         s += f"{image['data-src']}\n"
     except:
-        image = soup.find("img", class_="size-large aligncenter")
-        s += f"{image['data-src']}\n"
-    else:
-        pass'''
+        s += "https://www.butac.it/wp-content/themes/butac/images/LOGO_DESKTOP_WHITE-2.png\n"
+
 
     s += f"{convertdate(soup.find('time').attrs['datetime'])}\n"
+
+    s += "\n\n"
 
     # controllo che esista la cartella corpus, se no la creo
     if not os.path.exists("corpus"):
