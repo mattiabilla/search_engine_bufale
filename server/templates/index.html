@@ -63,15 +63,15 @@
 		</form>
 		{% for result in results %}
 		<div class="row">
-			<div class="card mb-3" >
+			<div class="card mb-3">
 			  <div class="row no-gutters">
 				<div class="col-md-4">
-				  <img src="https://www.butac.it/wp-content/uploads/2020/10/SALVINI-EH-LA-MADONNA.jpg" class="card-img" alt="boh" height="100%" style="object-fit: cover">
+				  <img src="{{result['urlimage']}}" class="card-img" alt="boh"  height="100%"  style="object-fit: cover; max-height: 200px">
 				</div>
 				<div class="col-md-8">
 				  <div class="card-body">
 					<h5 class="card-title">{{result['title']}}</h5>
-					<p class="card-text"><small class="text-muted">10 Set 2020</small></p>
+					<p class="card-text"><small class="text-muted">{{result['date']}}</small></p>
 					<!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					-->
 					<a class="card-text text-success stretched-link" href="{{result['link']}}" target="_blank">{{result["site"]}}</a>
