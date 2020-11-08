@@ -56,9 +56,12 @@ for URL in links:
             s += _.contents[0] + ", "
 
     s += "\n"
+    try:
+        image = soup.find(id="post-thumbnail").find("figure").find("img", class_="img-responsive wp-post-image")
+        s += f"{image['data-src']}\n"
+    except:
+        s += "https://static.nexilia.it/bufale/2016/10/logo_bufale.png\n"
 
-    image = soup.find(id="post-thumbnail").find("figure").find("img", class_="img-responsive wp-post-image")
-    s += f"{image['data-src']}\n"
 
     s += f"{convertdate(soup.find('time').contents)}\n"
 
