@@ -64,8 +64,8 @@ for URL in links:
     s += "\n"
 
     try:
-        image = soup.find("img", class_="img-responsive wp-post-image")
-        s += f"{image['data-src']}\n"
+        image = soup.find(class_="leftColumn").findAll("img")#, class_="size-large")
+        s += f"{image[2]['src']}\n"
     except:
         s += "https://www.butac.it/wp-content/themes/butac/images/LOGO_DESKTOP_WHITE-2.png\n"
 
