@@ -11,7 +11,10 @@ from whoosh.index import open_dir
 ix = open_dir("indexdir")
 
 with ix.searcher() as searcher:
-    query = QueryParser("content", ix.schema).parse("covid")
+    corrector = searcher.corrector("content")
+    s = "Salvini"
+    query = QueryParser("content", ix.schema).parse(s)
+    print(corrector.suggest(s, limit=1))
     results = searcher.search(query)
     for i in results:
         print(i)
