@@ -34,11 +34,11 @@ def tag_visible(element):
         return False
     return True
 
+#links = open("links.txt", "r")
+#counter = 0
 
-links = open("links.txt", "r")
-counter = 0
-
-for URL in links:
+#for URL in links:
+def getpage(URL, counter):
     page = requests.get(URL, headers={"User-Agent": "Mozilla/5.0"})
 
     soup = BeautifulSoup(page.content, "html.parser")
@@ -68,10 +68,10 @@ for URL in links:
     s += "\n\n"
 
     # controllo che esista la cartella corpus, se no la creo
-    if not os.path.exists("corpus"):
-        os.mkdir("corpus/")
+    if not os.path.exists("../corpus"):
+        os.mkdir("../corpus/")
 
-    f = open(f"corpus/bufale_{counter}.txt", "w", encoding='utf-8')
+    f = open(f"../corpus/bufale_{counter}.txt", "w", encoding='utf-8')
 
     texts = soup.find(class_="text-article").findAll(text=True)
     visible_texts = filter(tag_visible, texts)
@@ -83,4 +83,4 @@ for URL in links:
     f.close()
     counter += 1
 
-links.close()
+#links.close()

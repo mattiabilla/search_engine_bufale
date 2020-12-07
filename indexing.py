@@ -6,11 +6,15 @@ from whoosh.analysis import LanguageAnalyzer
 from whoosh.fields import *
 from whoosh.index import create_in
 
+from crawler.crawler import crawl
+
 schema = Schema(title=TEXT(analyzer=LanguageAnalyzer("it"), stored=True), url=ID(stored=True), urlimage=TEXT(stored=True), date=DATETIME(stored=True),
                 content=TEXT(analyzer=LanguageAnalyzer("it"), stored=True))
 if not os.path.exists("indexdir"):
     os.mkdir("indexdir/")
 ix = create_in("indexdir", schema)
+
+crawl()
 
 filelist = [f for f in listdir("corpus") if isfile(join("corpus", f))]
 
