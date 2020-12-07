@@ -24,9 +24,14 @@ def home_results():
 
     # print(data)
     retrieved = []
+    did_you_mean = None
     ix = open_dir("../indexdir")
     with ix.searcher() as searcher:
-        query = QueryParser("content", ix.schema).parse(data)
+        qp = QueryParser("content", ix.schema)
+        query = qp.parse(data)
+        corrected = searcher.correct_query(query, data)
+        if corrected.query != query:
+            did_you_mean = corrected.string
         results = searcher.search(query)
         results.fragmenter = SentenceFragmenter()
         for i in results:
@@ -45,4 +50,4 @@ def home_results():
 
             retrieved.append({"link": link, "title": title, "site": site, "urlimage": linkimage, "date": date, "snippet":snippet})
 
-    return render_template("index.html", results=retrieved)
+    return render_template("index.html", results=retrieved, correction=did_you_mean)

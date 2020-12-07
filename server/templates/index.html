@@ -75,6 +75,12 @@
                 </div>
 
             </form>
+        
+            {% if correction %}
+                <div class="row">
+                    <h6>Forse intendevi: {{correction}}</h6>
+                </div>
+            {% endif %}
             {% for result in results %}
             <div class="row">
                 <div class="card mb-3" style="width: 100%;">
