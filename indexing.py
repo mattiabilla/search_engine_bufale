@@ -2,11 +2,12 @@ import os
 from os import listdir
 from os.path import isfile, join
 
+from whoosh.analysis import LanguageAnalyzer
 from whoosh.fields import *
 from whoosh.index import create_in
 
-schema = Schema(title=TEXT(stored=True), url=ID(stored=True), urlimage=TEXT(stored=True), date=DATETIME(stored=True),
-                content=TEXT(stored=True))
+schema = Schema(title=TEXT(analyzer=LanguageAnalyzer("it"), stored=True), url=ID(stored=True), urlimage=TEXT(stored=True), date=DATETIME(stored=True),
+                content=TEXT(analyzer=LanguageAnalyzer("it"), stored=True))
 if not os.path.exists("indexdir"):
     os.mkdir("indexdir/")
 ix = create_in("indexdir", schema)
