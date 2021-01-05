@@ -6,8 +6,10 @@ from whoosh.analysis import LanguageAnalyzer
 from whoosh.fields import *
 from whoosh.index import create_in
 
+from nltk.corpus import wordnet as wn
+
 schema = Schema(title=TEXT(analyzer=LanguageAnalyzer("it"), stored=True), url=ID(stored=True), urlimage=TEXT(stored=True), date=DATETIME(stored=True),
-                content=TEXT(analyzer=LanguageAnalyzer("it"), stored=True))
+                content=TEXT(analyzer=LanguageAnalyzer("it"), stored=True), categories=TEXT(stored=True))
 if not os.path.exists("indexdir"):
     os.mkdir("indexdir/")
 ix = create_in("indexdir", schema)
@@ -36,7 +38,7 @@ for i in filelist:
 
     fcontent = f.read()
 
-    writer.add_document(title=ftitle, url=furl, urlimage=furlimage, date=date_obj, content=fcontent)
+    writer.add_document(title=ftitle, url=furl, urlimage=furlimage, date=date_obj, content=fcontent, categories=fkeyword)
     f.close()
 
 writer.commit()

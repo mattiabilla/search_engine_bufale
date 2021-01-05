@@ -5,12 +5,16 @@ Created on Wed Oct 28 23:06:58 2020
 @author: Mattia
 """
 from whoosh.qparser import QueryParser
+from whoosh.qparser import MultifieldParser
+
 from whoosh.index import open_dir
 
 import re
 from flask import Flask, request, render_template
 
 from whoosh.highlight import SentenceFragmenter
+
+from nltk.corpus import wordnet as wn
 
 app = Flask(__name__)
 
@@ -27,7 +31,16 @@ def home_results():
     did_you_mean = None
     ix = open_dir("../indexdir")
     with ix.searcher() as searcher:
-        qp = QueryParser("content", ix.schema)
+        qp = None
+        thterm = ""
+        # provvisorio ricerca con thesaurus con []
+        if "[" in data and "]" in data:
+            qp = MultifieldParser(["categories", "content"], ix.schema)
+            thterm = data[data.find("["):data.find("]")]
+            wn.synsets(thterm)
+
+        else:
+            qp = QueryParser("content", ix.schema)
         query = qp.parse(data)
         corrected = searcher.correct_query(query, data)
         if corrected.query != query:
