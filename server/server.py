@@ -33,14 +33,27 @@ def home_results():
     with ix.searcher() as searcher:
         qp = None
         thterm = ""
+        concepts = dict()
         # provvisorio ricerca con thesaurus con []
         if "[" in data and "]" in data:
-            qp = MultifieldParser(["categories", "content"], ix.schema)
-            thterm = data[data.find("["):data.find("]")]
-            wn.synsets(thterm)
+            qp = MultifieldParser(["categories", "title"], ix.schema)
+            thterm = data[data.find("[") + 1:data.find("]")]
+            synlist = wn.synsets(thterm, lang="ita")
+            concepts[thterm] = {"hyper": [], "hypo": [], "related": []}
+            for _ in synlist:
+                for i in _.hyponyms():
+                    if len(i.lemmas(lang="ita")):
+                        concepts[thterm]["hypo"].append(i.lemmas(lang="ita")[0].name())
+                for i in _.hypernyms():
+                    if len(i.lemmas(lang="ita")):
+                        concepts[thterm]["hyper"].append(i.lemmas(lang="ita")[0].name())
 
+                # TODO parole related
+
+            print(concepts)
         else:
-            qp = QueryParser("content", ix.schema)
+            # ricerca "normale"
+            qp = MultifieldParser(["content", "title"], ix.schema)
         query = qp.parse(data)
         corrected = searcher.correct_query(query, data)
         if corrected.query != query:
@@ -53,7 +66,7 @@ def home_results():
             linkimage = i["urlimage"]
             date = i["date"]
             date = date.strftime("%d/%m/%Y")
-            snippet = i.highlights("content", top=1)#, scorer=BasicFragmentScorer, order=SCORE)
+            snippet = i.highlights("content", top=1)  # , scorer=BasicFragmentScorer, order=SCORE)
             print(snippet)
 
             p = re.compile("www\.[^\/]+")
@@ -61,6 +74,7 @@ def home_results():
             site = match.group(0)
             print(site)
 
-            retrieved.append({"link": link, "title": title, "site": site, "urlimage": linkimage, "date": date, "snippet":snippet})
+            retrieved.append(
+                {"link": link, "title": title, "site": site, "urlimage": linkimage, "date": date, "snippet": snippet})
 
-    return render_template("index.html", results=retrieved, correction=did_you_mean)
+    return render_template("index.html", results=retrieved, correction=did_you_mean, concepts=concepts, query=data)

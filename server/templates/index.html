@@ -37,7 +37,7 @@
                 <div class="row">
                     <div class="col-md-11 mb-3">
                         <div class="input-group" >
-                            <input type="text" class="form-control" aria-label="Text input with dropdown button" id="query" name="query">
+                            <input type="text" class="form-control" aria-label="Text input with dropdown button" id="query" name="query" value="{{ query }}">
                             <button type="button" class="btn btn-outline-secondary" aria-label="Left Align" id="drop-avanzate">
                               <i class="fa fa-cog"></i>
                             </button>
@@ -72,6 +72,28 @@
                             </div>
                         </div>
                     </div>
+                    {% for concept,value in concepts.items() %}
+                        <div class="row">
+                            <div class="col-md-11">
+                                <h3>{{ concept }}</h3>
+                                {% for k,v in value.items() %}
+                                    <div>
+                                        <h4>{{ k }}</h4>
+                                        {% for _ in v %}
+                                            <div class="form-check">
+                                             <input class="form-check-input" type="checkbox" value="{{ _ }}" name="concept">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                     {{ _ }}
+                                                </label>
+                                            </div>
+                                        {% endfor %}
+
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    {% endfor %}
+
                 </div>
 
             </form>
