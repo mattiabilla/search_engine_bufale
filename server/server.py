@@ -19,11 +19,31 @@ from nltk.corpus import wordnet as wn
 app = Flask(__name__)
 
 
-@app.route('/', methods=['GET', 'POST'])
+# restituisce un dizionario di liste, per ogni parola dei concetti
+# sono ottenuti tutti i concetti richiesti
+def parseconc(par):
+    ret = dict()
+    for i in par:
+        conc = i[:i.find(':')]
+        try:
+            ret[conc]
+        except KeyError:
+            ret[conc] = list()
+        val = i[i.find(':') + 1:]
+        ret[conc].append(val.replace('_', ' '))
+
+    return ret
+
+
+@app.route('/', methods=['GET'])
 def home_results():
     data = ""
+    par_conc = list()
     if request.method == 'GET' and 'query' in request.args:  # this block is only entered when the form is submitted
         data = request.args.get('query')
+        if 'concept' in request.args:
+            par_conc = request.args.getlist('concept')
+            print(parseconc(par_conc))
         # print(data)
 
     # print(data)
@@ -34,10 +54,14 @@ def home_results():
         qp = None
         thterm = ""
         concepts = dict()
+
         # provvisorio ricerca con thesaurus con []
-        if "[" in data and "]" in data:
-            qp = MultifieldParser(["categories", "title"], ix.schema)
-            thterm = data[data.find("[") + 1:data.find("]")]
+        p = re.compile(r'\[\w*\]')
+        for i in p.finditer(data):
+            thterm = i[1:len(i)-2] #escludo le parentesi quadre
+        #if "[" in data and "]" in data:
+            # qp = MultifieldParser(["categories", "title"], ix.schema)
+            # thterm = data[data.find("[") + 1:data.find("]")]
             synlist = wn.synsets(thterm, lang="ita")
             concepts[thterm] = {"hyper": [], "hypo": [], "related": []}
             for _ in synlist:
@@ -51,9 +75,9 @@ def home_results():
                 # TODO parole related
 
             print(concepts)
-        else:
+        # else:
             # ricerca "normale"
-            qp = MultifieldParser(["content", "title"], ix.schema)
+            # qp = MultifieldParser(["content", "title"], ix.schema)
         query = qp.parse(data)
         corrected = searcher.correct_query(query, data)
         if corrected.query != query:
@@ -69,7 +93,7 @@ def home_results():
             snippet = i.highlights("content", top=1)  # , scorer=BasicFragmentScorer, order=SCORE)
             print(snippet)
 
-            p = re.compile("www\.[^\/]+")
+            p = re.compile(r"www\.[^\/]+")
             match = p.search(link)
             site = match.group(0)
             print(site)
