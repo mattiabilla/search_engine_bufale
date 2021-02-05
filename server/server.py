@@ -57,8 +57,9 @@ def home_results():
 
         # provvisorio ricerca con thesaurus con []
         p = re.compile(r'\[\w*\]')
-        for i in p.finditer(data):
-            thterm = i[1:len(i)-2] #escludo le parentesi quadre
+        for i in p.findall(data):
+            print(i)
+            thterm = i[1:len(i)-1] #escludo le parentesi quadre
         #if "[" in data and "]" in data:
             # qp = MultifieldParser(["categories", "title"], ix.schema)
             # thterm = data[data.find("[") + 1:data.find("]")]
@@ -78,6 +79,8 @@ def home_results():
         # else:
             # ricerca "normale"
             # qp = MultifieldParser(["content", "title"], ix.schema)
+
+        qp = MultifieldParser(["categories", "title"], ix.schema)
         query = qp.parse(data)
         corrected = searcher.correct_query(query, data)
         if corrected.query != query:
