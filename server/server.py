@@ -38,12 +38,12 @@ def parseconc(par):
 @app.route('/', methods=['GET'])
 def home_results():
     data = ""
-    par_conc = list()
+    par_conc = dict()
     if request.method == 'GET' and 'query' in request.args:  # this block is only entered when the form is submitted
         data = request.args.get('query')
         if 'concept' in request.args:
-            par_conc = request.args.getlist('concept')
-            print(parseconc(par_conc))
+            par_conc = parseconc(request.args.getlist('concept'))
+            # print(par_conc)
         # print(data)
 
     # print(data)
@@ -58,29 +58,45 @@ def home_results():
         # provvisorio ricerca con thesaurus con []
         p = re.compile(r'\[\w*\]')
         for i in p.findall(data):
-            print(i)
-            thterm = i[1:len(i)-1] #escludo le parentesi quadre
-        #if "[" in data and "]" in data:
+            # print(i)
+            thterm = i[1:len(i) - 1]  # prendo il termine escludendo le parentesi quadre
+            # if "[" in data and "]" in data:
             # qp = MultifieldParser(["categories", "title"], ix.schema)
             # thterm = data[data.find("[") + 1:data.find("]")]
             synlist = wn.synsets(thterm, lang="ita")
-            concepts[thterm] = {"hyper": [], "hypo": [], "related": []}
-            for _ in synlist:
-                for i in _.hyponyms():
+            concepts[thterm] = {"hyper": [], "hypo": []}  # TODO , "related": []}
+            for syn in synlist:
+                for i in syn.hyponyms():
                     if len(i.lemmas(lang="ita")):
                         concepts[thterm]["hypo"].append(i.lemmas(lang="ita")[0].name())
-                for i in _.hypernyms():
+                for i in syn.hypernyms():
                     if len(i.lemmas(lang="ita")):
                         concepts[thterm]["hyper"].append(i.lemmas(lang="ita")[0].name())
 
                 # TODO parole related
 
-            print(concepts)
+            # print(concepts)
         # else:
-            # ricerca "normale"
-            # qp = MultifieldParser(["content", "title"], ix.schema)
+        # ricerca "normale"
+        # qp = MultifieldParser(["content", "title"], ix.schema)
+        olddata = data
+        # espansione della query con i concetti dati dall'utente
+        for i in p.findall(data):
+            thterm = i[1:len(i) - 1]
+            replstr = f"({thterm}"
+            try:
+                for c in par_conc[thterm]:
+                    replstr += f" OR {c}"
+            except KeyError:
+                pass
+            finally:
+                replstr += ")"
 
-        qp = MultifieldParser(["categories", "title"], ix.schema)
+            data = data.replace(i, replstr)
+
+        # print(data)
+
+        qp = MultifieldParser(["categories", "title", "content"], ix.schema)
         query = qp.parse(data)
         corrected = searcher.correct_query(query, data)
         if corrected.query != query:
@@ -104,4 +120,4 @@ def home_results():
             retrieved.append(
                 {"link": link, "title": title, "site": site, "urlimage": linkimage, "date": date, "snippet": snippet})
 
-    return render_template("index.html", results=retrieved, correction=did_you_mean, concepts=concepts, query=data)
+    return render_template("index.html", results=retrieved, correction=did_you_mean, concepts=concepts, query=olddata)
