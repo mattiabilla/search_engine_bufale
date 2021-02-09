@@ -16,6 +16,10 @@ from whoosh.highlight import SentenceFragmenter
 
 from nltk.corpus import wordnet as wn
 
+from whoosh.query import Term, Or, And, DateRange
+
+from datetime import date, time, datetime
+
 app = Flask(__name__)
 
 
@@ -35,16 +39,41 @@ def parseconc(par):
     return ret
 
 
+# restituisce una lista che serve per costruire il filtro con l'oggetto Or
+# quando andiamo ad effettuare una richiesta
+def filter_site(site_pref):
+    ret_list = list()
+    for i in site_pref:
+        ret_list.append(Term('site', i))
+
+    return ret_list
+
+
 @app.route('/', methods=['GET'])
 def home_results():
     data = ""
     par_conc = dict()
+    site_pref = list()
+    startdate = datetime.min
+    enddate = datetime.today()
     if request.method == 'GET' and 'query' in request.args:  # this block is only entered when the form is submitted
         data = request.args.get('query')
+
         if 'concept' in request.args:
             par_conc = parseconc(request.args.getlist('concept'))
-            # print(par_conc)
-        # print(data)
+
+        if 'site' in request.args:
+            site_pref = request.args.getlist('site')
+
+        if 'start-date' in request.args and not request.args.get('start-date') == '':
+            startdate = datetime.strptime(request.args.get('start-date'), '%Y-%m-%d')
+
+        if 'end-date' in request.args and not request.args.get('end-date') == '':
+            enddate = datetime.strptime(request.args.get('end-date'), '%Y-%m-%d')
+
+        # controllo coerenza temporale sulle date
+        if startdate > enddate:
+            startdate, enddate = enddate, startdate
 
     # print(data)
     retrieved = []
@@ -80,7 +109,9 @@ def home_results():
         # ricerca "normale"
         # qp = MultifieldParser(["content", "title"], ix.schema)
         olddata = data
+
         # espansione della query con i concetti dati dall'utente
+        # per ogni parola considerata
         for i in p.findall(data):
             thterm = i[1:len(i) - 1]
             replstr = f"({thterm}"
@@ -101,14 +132,14 @@ def home_results():
         corrected = searcher.correct_query(query, data)
         if corrected.query != query:
             did_you_mean = corrected.string
-        results = searcher.search(query)
+        results = searcher.search(query, filter=And([Or(filter_site(site_pref)), DateRange('date', startdate, enddate)]))
         results.fragmenter = SentenceFragmenter()
         for i in results:
             link = i["url"]
             title = i["title"]
             linkimage = i["urlimage"]
-            date = i["date"]
-            date = date.strftime("%d/%m/%Y")
+            resultdate = i["date"]
+            resultdate = resultdate.strftime("%d/%m/%Y")
             snippet = i.highlights("content", top=1)  # , scorer=BasicFragmentScorer, order=SCORE)
             print(snippet)
 
@@ -118,6 +149,7 @@ def home_results():
             print(site)
 
             retrieved.append(
-                {"link": link, "title": title, "site": site, "urlimage": linkimage, "date": date, "snippet": snippet})
+                {"link": link, "title": title, "site": site, "urlimage": linkimage, "date": resultdate,
+                 "snippet": snippet})
 
     return render_template("index.html", results=retrieved, correction=did_you_mean, concepts=concepts, query=olddata)

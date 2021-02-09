@@ -52,7 +52,7 @@
                         <div class="input-group mb-5" >
                             <input class="form-control" type="date" name="start-date">
                             <input class="form-control" type="date" name="end-date">
-                            <div class="input-group-append">
+                            <!-- <div class="input-group-append">
                                 <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorie</button>
                                 <div class="dropdown-menu">
                                     <a class="dropdown-item" href="#">Vaccini</a>
@@ -61,13 +61,28 @@
                                     <div role="separator" class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="#">Bill Gates</a>
                                 </div>
-                            </div>
+                            </div>-->
                             <div class="input-group-append">
                                 <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fonte</button>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Bufale.net</a>
-                                    <a class="dropdown-item" href="#">Butac</a>
-                                    <a class="dropdown-item" href="#">Open</a>
+                                    <div class="form-check dropdown-item">
+                                        <input class="form-check-input" checked type="checkbox" value="bufale.net" name="site">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                         Bufale.net
+                                                    </label>
+                                    </div>
+                                    <div class="form-check dropdown-item">
+                                        <input class="form-check-input" checked type="checkbox" value="open.online" name="site">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                         Open.online
+                                                    </label>
+                                    </div>
+                                    <div class="form-check dropdown-item">
+                                        <input class="form-check-input" checked type="checkbox" value="butac.it" name="site">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                         Butac.it
+                                                    </label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
