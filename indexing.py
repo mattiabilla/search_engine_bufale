@@ -8,7 +8,7 @@ from whoosh.analysis import LanguageAnalyzer
 from whoosh.fields import *
 from whoosh.index import create_in
 
-from nltk.corpus import wordnet as wn
+
 
 schema = Schema(title=TEXT(analyzer=LanguageAnalyzer("it"), stored=True), url=ID(stored=True), urlimage=TEXT(stored=True), date=DATETIME(stored=True),
                 content=TEXT(analyzer=LanguageAnalyzer("it"), stored=True), categories=TEXT(stored=True), site=TEXT(stored=True))
@@ -38,6 +38,7 @@ for i in filelist:
     furlimage = f.readline()
     furlimage = furlimage.rstrip()
 
+    f.readline()
     date = f.readline()
     date = date.rstrip()
     date_obj = datetime.datetime.strptime(date, '%Y-%m-%d %H:%M:%S')

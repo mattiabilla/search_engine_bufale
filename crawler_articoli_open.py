@@ -27,6 +27,7 @@ def convertdate(date):
 
 
 def tag_visible(element):
+
     if element.parent.name in ['style', 'script', 'head', 'title', 'meta', '[document]']:
         return False
     if isinstance(element, Comment):
@@ -34,10 +35,16 @@ def tag_visible(element):
     return True
 
 
-links = open("links.txt", "r")
+links = open("linkopen.txt", "r",encoding='utf-8')
 counter = 0
 
 for URL in links:
+    counter += 1
+
+
+    parts = URL.split(",")
+    URL = parts[0]
+    img = parts[1]
 
     page = requests.get(URL.rstrip(), headers={"User-Agent": "Mozilla/5.0"})
 
@@ -45,18 +52,21 @@ for URL in links:
 
     title = soup.find("h1", class_="news__title").contents[0]
 
-    s = URL
+    s = URL+"\n"
     s += f"{title}\n"
 
-    categories = soup.find("span", class_="news__tags").find_all("a")
-    for cat in categories:
-        cat = cat.contents[0]
-        s += cat + ", "
+    try:
+        categories = soup.find("span", class_="news__tags").find_all("a")
+        for cat in categories:
+            cat = cat.contents[0]
+            s += cat + ", "
+    except:
+        pass
 
     s += "\n"
     try:
-        image = soup.find("img", class_="news-image image--large")
-        s += f"{image['src']}\n"
+        image = img
+        s += f"{image}\n"
     except:
         s += "https://storage.avalanches.com/it/6303/images/avatar_domain_open.online.jpg\n"
 
@@ -69,14 +79,20 @@ for URL in links:
         os.mkdir("corpus/")
     f = open(f"corpus/open_{counter}.txt", "w", encoding='utf-8')
 
-    texts = soup.find("div", class_="article").findAll(text=True)
-    visible_texts = filter(tag_visible, texts)
+    try:
+        texts = soup.find("div", class_="article").findAll(text=True)
+        visible_texts = filter(tag_visible, texts)
 
-    for t in visible_texts:
-        s += t
+        for t in visible_texts:
+            if "Leggi anche:" in t:
+                break
+            s += t
+    except:
+        pass
 
     f.write(s)
     f.close()
-    counter += 1
+
+    print(str(counter)+" "+URL)
 
 links.close()

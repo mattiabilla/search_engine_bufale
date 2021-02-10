@@ -39,10 +39,13 @@ def tag_visible(element):
     return True
 
 
-links = open("links.txt", "r")
+links = open("linkbutac.txt", "r",encoding='utf-8')
 counter = 0
 
 for URL in links:
+    parts = URL.split(",")
+    URL = parts[0]
+    img = parts[1]
 
     page = requests.get(URL, headers={"User-Agent": "Mozilla/5.0"})
 
@@ -50,7 +53,7 @@ for URL in links:
 
     title = soup.find("div", class_="titleArticle").find("h1").contents[0]
 
-    s = URL
+    s = URL+"\n"
     s += f"{title}\n"
 
     try:
@@ -64,8 +67,8 @@ for URL in links:
     s += "\n"
 
     try:
-        image = soup.find(class_="leftColumn").findAll("img")#, class_="size-large")
-        s += f"{image[2]['src']}\n"
+        image = img
+        s += f"{image}\n"
     except:
         s += "https://www.butac.it/wp-content/themes/butac/images/LOGO_DESKTOP_WHITE-2.png\n"
 
@@ -88,5 +91,6 @@ for URL in links:
     f.write(s)
     f.close()
     counter += 1
+    print(counter)
 
 links.close()
