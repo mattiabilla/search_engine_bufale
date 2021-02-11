@@ -1,0 +1,926 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 12,
+    "credits_used_this_request": 1,
+    "credits_remaining": 113,
+    "credits_reset_at": "2021-03-11T14:34:14.000Z"
+  },
+  "search_metadata": {
+    "created_at": "2021-02-11T16:30:37.580Z",
+    "processed_at": "2021-02-11T16:30:42.251Z",
+    "total_time_taken": 4.67,
+    "engine_url": "https://www.google.it/search?q=clandestini+sbarchi+salvini+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&gl=it&hl=it&uule=w+CAIQICIFSXRhbHk&num=50&tbs=cdr:1,cd_min:,cd_max:02/10/2021",
+    "html_url": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=clandestini+sbarchi+salvini+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=1&num=50&engine=google&output=html",
+    "json_url": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=clandestini+sbarchi+salvini+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=1&num=50&engine=google&output=json",
+    "location_auto_message": "We have automatically set the 'google_domain', 'gl' and 'hl' parameters to match the supplied location of 'Italy'. You can stop this behaviour by setting the 'location_auto' parameter to 'false'.",
+    "timing": [
+      "global_init - 0ms (total 0ms)",
+      "auth_apikey - 39ms (total 39ms)",
+      "auth_retrieve_plan - 17ms (total 57ms)",
+      "auth_retrieve_credit_usage - 35ms (total 92ms)",
+      "processing_invoking_worker - 1ms (total 93ms)",
+      "processing_execution_complete - 4671ms (total 4765ms)",
+      "auth_credit_usage_reconcile - 31ms (total 4796ms)",
+      "global_end - 0ms (total 4797ms)"
+    ]
+  },
+  "search_parameters": {
+    "q": "clandestini sbarchi salvini (site:bufale.net OR site:butac.it OR site:open.online)",
+    "google_domain": "google.it",
+    "location": "Italy",
+    "gl": "it",
+    "hl": "it",
+    "time_period": "custom",
+    "time_period_max": "02/10/2021",
+    "page": "1",
+    "num": "50"
+  },
+  "search_information": {
+    "original_query_yields_zero_results": false,
+    "total_results": 115,
+    "time_taken_displayed": 0.34,
+    "query_displayed": "clandestini sbarchi salvini (site:bufale.net OR site:butac.it OR site:open.online)",
+    "detected_location": "Italia"
+  },
+  "inline_images": [
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqGED67ruhx-Lu2MZFsmt4CG3No2piJycPlYL-_bf6iQ&s",
+      "link": "https://www.open.online/2019/12/29/la-svolta-sullemergenza-immigrazione-e-merito-di-salvini-no-ecco-perche/",
+      "title": "Risultati immagini per clandestini sbarchi salvini (site:bufale.net OR site:butac.it OR site:open.online)",
+      "block_position": 23
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEuDZxtT8zn5GSczZJhmt0wxyLMQ84y6ACR91xZninew&s",
+      "link": "https://www.open.online/2019/12/29/la-svolta-sullemergenza-immigrazione-e-merito-di-salvini-no-ecco-perche/",
+      "title": "Risultati immagini per clandestini sbarchi salvini (site:bufale.net OR site:butac.it OR site:open.online)",
+      "block_position": 23
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_-khv6ueIgNrA9USf3L8RNvSr87KJg1vy041zkbB8JA&s",
+      "link": "https://www.open.online/2019/12/29/la-svolta-sullemergenza-immigrazione-e-merito-di-salvini-no-ecco-perche/",
+      "title": "Risultati immagini per clandestini sbarchi salvini (site:bufale.net OR site:butac.it OR site:open.online)",
+      "block_position": 23
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI2Lgnql5ncrDCtcTK1D324ctmz8ndMVhMFdo2hjCkNg&s",
+      "link": "https://www.open.online/2019/12/29/la-svolta-sullemergenza-immigrazione-e-merito-di-salvini-no-ecco-perche/",
+      "title": "Risultati immagini per clandestini sbarchi salvini (site:bufale.net OR site:butac.it OR site:open.online)",
+      "block_position": 23
+    }
+  ],
+  "pagination": {
+    "next": "https://www.google.it/search?q=clandestini+sbarchi+salvini+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=r1slYPCqIZqUr7wP0K-ZwA8&start=50&sa=N&ved=2ahUKEwiwvo3SoOLuAhUayosBHdBXBvgQ8NMDegQICRBK",
+    "other_pages": {
+      "2": "https://www.google.it/search?q=clandestini+sbarchi+salvini+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=r1slYPCqIZqUr7wP0K-ZwA8&start=50&sa=N&ved=2ahUKEwiwvo3SoOLuAhUayosBHdBXBvgQ8tMDegQICRBG",
+      "3": "https://www.google.it/search?q=clandestini+sbarchi+salvini+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=r1slYPCqIZqUr7wP0K-ZwA8&start=100&sa=N&ved=2ahUKEwiwvo3SoOLuAhUayosBHdBXBvgQ8tMDegQICRBI"
+    },
+    "api_pagination": {
+      "next": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=clandestini%20sbarchi%20salvini%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=2&num=50",
+      "other_pages": {
+        "2": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=clandestini%20sbarchi%20salvini%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=2&num=50",
+        "3": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=clandestini%20sbarchi%20salvini%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=3&num=50"
+      }
+    }
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Fact-checking: ma davvero il crollo dell'immigrazione è merito ...",
+      "link": "https://www.open.online/2019/12/29/la-svolta-sullemergenza-immigrazione-e-merito-di-salvini-no-ecco-perche/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/12/29 › la-svolta-sullemergenza-im...",
+      "snippet": "Ed è impossibile negare che la svolta l'abbia data Salvini al Viminale. ... succeduti nel 2019, di non aver attribuito a Minniti il giusto merito nel calo degli sbarchi di clandestini. ... Ieri a #cartabianca Salvini ha parlato di “sbarchi raddoppiati”.",
+      "prerender": false,
+      "snippet_matched": [
+        "Salvini",
+        "sbarchi",
+        "clandestini",
+        "Salvini",
+        "sbarchi"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:wnG1X2fMQc0J:https://www.open.online/2019/12/29/la-svolta-sullemergenza-immigrazione-e-merito-di-salvini-no-ecco-perche/+&cd=1&hl=it&ct=clnk&gl=it",
+      "date": "29 dic 2019",
+      "date_utc": "2019-12-29T12:00:00.000Z",
+      "block_position": 1
+    },
+    {
+      "position": 2,
+      "title": "Ma davvero la maggioranza degli italiani è d'accordo con ...",
+      "link": "https://www.open.online/2019/07/04/ma-la-maggioranza-degli-italiani-e-daccordo-con-salvini-su-ong-e-migranti-si/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/07/04 › ma-la-maggioranza-degli-it...",
+      "snippet": "... dell'immigrazione clandestina. La Sea Watch era arrivata davanti al porto di Lampedusa il 26 giugno: nei giorni precedenti lo sbarco, Matteo Salvini aveva ...",
+      "prerender": false,
+      "snippet_matched": [
+        "clandestina",
+        "sbarco",
+        "Salvini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:WV-Si9VbmYwJ:https://www.open.online/2019/07/04/ma-la-maggioranza-degli-italiani-e-daccordo-con-salvini-su-ong-e-migranti-si/+&cd=2&hl=it&ct=clnk&gl=it",
+      "prefix": "4 lug 2019",
+      "block_position": 2
+    },
+    {
+      "position": 3,
+      "title": "Scontro Salvini-Lamorgese: c'è o non c'è questa «invasione ...",
+      "link": "https://www.open.online/2019/11/01/scontro-salvini-lamorgese-ce-o-non-ce-questa-invasione/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/11/01 › scontro-salvini-lamorgese-...",
+      "snippet": "Botta e risposta tra Matteo Salvini e Luciana Lamorgese, attuale ministro dell'Interno, sul ... Dice che l'escalation degli sbarchi in Italia è triplicata e che a confermarlo ... Parla delle procedure accelerate per espellere i clandestini nelle zone di ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Salvini",
+        "sbarchi",
+        "clandestini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:WPFrZHmfH44J:https://www.open.online/2019/11/01/scontro-salvini-lamorgese-ce-o-non-ce-questa-invasione/+&cd=3&hl=it&ct=clnk&gl=it",
+      "date": "1 nov 2019",
+      "date_utc": "2019-11-01T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 4,
+      "title": "Nuovi invisibili e aumento dell'esclusione. Ecco gli effetti dei ...",
+      "link": "https://www.open.online/2019/10/25/nuovi-invisibili-e-aumento-dellesclusione-ecco-gli-effetti-dei-decreti-sicurezza-670mila-irregolari-entro-il-2020/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/10/25",
+      "snippet": "Gli sbarchi, la Libia e il decreto sicurezza bis ... in cui al Viminale sedeva il predecessore di Salvini, Marco Minniti – ha avuto un prezzo, secondo quanto emerge ...",
+      "prerender": false,
+      "snippet_matched": [
+        "sbarchi",
+        "Salvini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:jmRd6KyM-SYJ:https://www.open.online/2019/10/25/nuovi-invisibili-e-aumento-dellesclusione-ecco-gli-effetti-dei-decreti-sicurezza-670mila-irregolari-entro-il-2020/+&cd=4&hl=it&ct=clnk&gl=it",
+      "prefix": "25 ott 2019",
+      "block_position": 4
+    },
+    {
+      "position": 5,
+      "title": "Migranti, sbarcano in 101 a Pozzallo. Il sindaco: «Così i ...",
+      "link": "https://www.open.online/2020/04/12/migranti-sbarcano-pozzallo-sindaco-trafficanti-aggirano-porti-chiusi-coronavirus/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2020/04/12 › migranti-sbarcano-pozzallo...",
+      "snippet": "... in cui da poco si è concluso l'ultimo sbarco di 101 migranti, tutti uomini (e qualche minore). ... Nella polemica, infine, si inserisce anche il leader della Lega, Matteo Salvini, che tuona: «Italiani chiusi in casa, clandestini liberi di sbarcare.",
+      "prerender": false,
+      "snippet_matched": [
+        "sbarco",
+        "Salvini",
+        "clandestini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:xtfy7vQ5XKYJ:https://www.open.online/2020/04/12/migranti-sbarcano-pozzallo-sindaco-trafficanti-aggirano-porti-chiusi-coronavirus/+&cd=5&hl=it&ct=clnk&gl=it",
+      "date": "12 apr 2020",
+      "date_utc": "2020-04-12T12:00:00.000Z",
+      "block_position": 5
+    },
+    {
+      "position": 6,
+      "title": "Sea Watch, il Tar del Lazio dà ragione a Salvini: «Legittimo ...",
+      "link": "https://www.open.online/2019/06/18/sea-watch-salvini-nega-ingresso-lampedusa/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › sea-watch-salvini-nega-ingresso-lampedusa",
+      "snippet": "Il reato ipotizzato è favoreggiamento dell'immigrazione clandestina. L'indagine di Agrigento è legata allo sbarco a Lampedusa di 10 persone dalla nave: donne, ...",
+      "prerender": false,
+      "snippet_matched": [
+        "clandestina",
+        "sbarco"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:vZ9VTViiVZYJ:https://www.open.online/2019/06/18/sea-watch-salvini-nega-ingresso-lampedusa/+&cd=6&hl=it&ct=clnk&gl=it",
+      "prefix": "18 giu 2019",
+      "block_position": 6
+    },
+    {
+      "position": 7,
+      "title": "Dieci sbarchi in 18 giorni: gli arrivi dei migranti a Lampedusa ...",
+      "link": "https://www.open.online/2019/06/30/dieci-sbarchi-in-18-giorni-il-via-vai-di-migranti-a-lampedusa-mentre-sea-watch-era-ferma-in-mare/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/06/30 › dieci-sbarchi-in-18-giorni-i...",
+      "snippet": "In tutto, mentre la Sea Watch era bloccata al largo di Lampedusa per volere del ministro dell'Interno Matteo Salvini, 236 migranti sono sbarcati sulle nostre coste ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Salvini",
+        "sbarcati"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:KMubZ0F7uS8J:https://www.open.online/2019/06/30/dieci-sbarchi-in-18-giorni-il-via-vai-di-migranti-a-lampedusa-mentre-sea-watch-era-ferma-in-mare/+&cd=7&hl=it&ct=clnk&gl=it",
+      "prefix": "30 giu 2019",
+      "block_position": 7
+    },
+    {
+      "position": 8,
+      "title": "Salvini smentito dal giudice: ecco perché l'Italia deve ... - Open",
+      "link": "https://www.open.online/2019/08/31/salvini-smentito-dal-giudice-ecco-perche-litalia-deve-accogliere-i-migranti/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/08/31 › salvini-smentito-dal-giudic...",
+      "snippet": "Il Gip Zammuto dà una vera e propria lezione di diritto a Salvini (seppur ... in attesa dell'ok dal Viminale allo sbarco, il Gip Zammuto ha ribadito che anche in ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Salvini",
+        "sbarco"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:a2A1EKT_dEEJ:https://www.open.online/2019/08/31/salvini-smentito-dal-giudice-ecco-perche-litalia-deve-accogliere-i-migranti/+&cd=8&hl=it&ct=clnk&gl=it",
+      "date": "31 ago 2019",
+      "date_utc": "2019-08-31T12:00:00.000Z",
+      "block_position": 8
+    },
+    {
+      "position": 9,
+      "title": "Nuovi Decreti Sicurezza, Salvini non ci sta: «Li fermeremo ...",
+      "link": "https://www.open.online/2020/10/06/nuovi-decreti-sicurezza-salvini-fermeremo-meloni-campo-italia-campo-profughi-europa/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2020/10/06 › nuovi-decreti-sicurezza-sal...",
+      "snippet": "«Si torna esattamente alla mangiatoia sull'immigrazione clandestina e ai permessi regalati a chiunque cammina per strada e agli sbarchi a migliaia». Presente ...",
+      "prerender": false,
+      "snippet_matched": [
+        "clandestina",
+        "sbarchi"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:eDrVSD-K4yoJ:https://www.open.online/2020/10/06/nuovi-decreti-sicurezza-salvini-fermeremo-meloni-campo-italia-campo-profughi-europa/+&cd=9&hl=it&ct=clnk&gl=it",
+      "prefix": "6 ott 2020",
+      "block_position": 13
+    },
+    {
+      "position": 10,
+      "title": "Rabbia dei leghisti per 42 immigrati sbarcati in Umbria con ...",
+      "link": "https://www.bufale.net/rabbia-leghisti-per-42-immigrati-sbarcati-in-umbria-con-coronavirus-ma-li-non-ce-il-mare/",
+      "domain": "www.bufale.net",
+      "displayed_link": "bufale.net › Bufala",
+      "snippet": "C'è rabbia nei gruppi leghisti per 42 immigrati sbarcati in Umbria con Coronavirus, ma si ignora che la regione non abbia confini con il mare.",
+      "prerender": false,
+      "snippet_matched": [
+        "sbarcati"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:pusUz2XcNYsJ:https://www.bufale.net/rabbia-leghisti-per-42-immigrati-sbarcati-in-umbria-con-coronavirus-ma-li-non-ce-il-mare/+&cd=10&hl=it&ct=clnk&gl=it",
+      "prefix": "9 lug 2020",
+      "block_position": 14
+    },
+    {
+      "position": 11,
+      "title": "Sea Watch è sbarcata a Lampedusa dopo 17 giorni in mare ...",
+      "link": "https://www.open.online/2019/06/28/sea-watch-pronta-a-fare-rotta-su-lampedusa-e-lancia-la-raccolta-fondi-per-pagare-lassistenza-legale-alla-capitana/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/06/28 › sea-watch-pronta-a-fare-rot...",
+      "snippet": "Quindi i migranti potrebbero “sbarcare in 5 minuti” come promesso da Salvini. ... reati di favoreggiamento dell'immigrazione clandestina e di rifiuto di obbedienza a ... 7:30 – Intanto proseguono gli sbarchi di piccole imbarcazioni a Lampedusa.",
+      "prerender": false,
+      "snippet_matched": [
+        "Salvini",
+        "clandestina",
+        "sbarchi"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:hfPn0AOb5jwJ:https://www.open.online/2019/06/28/sea-watch-pronta-a-fare-rotta-su-lampedusa-e-lancia-la-raccolta-fondi-per-pagare-lassistenza-legale-alla-capitana/+&cd=11&hl=it&ct=clnk&gl=it",
+      "prefix": "28 giu 2019",
+      "block_position": 15
+    },
+    {
+      "position": 12,
+      "title": "Lampedusa, il medico Pietro Bartolo: «L'Italia paga i libici per ...",
+      "link": "https://www.open.online/2020/07/26/lampedusa-pietro-bartolo-italia-paga-libici-tenere-migranti-lager/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2020/07/26 › lampedusa-pietro-bartolo-it...",
+      "snippet": "A Lampedusa gli sbarchi ci sono sempre stati, anche quando Matteo Salvini ... si intitola: «Sbarchi di clandestini infetti, gli italiani ne hanno le scatole piene».",
+      "prerender": false,
+      "snippet_matched": [
+        "sbarchi",
+        "Salvini",
+        "Sbarchi",
+        "clandestini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:ZW6equG2vJAJ:https://www.open.online/2020/07/26/lampedusa-pietro-bartolo-italia-paga-libici-tenere-migranti-lager/+&cd=12&hl=it&ct=clnk&gl=it",
+      "prefix": "26 lug 2020",
+      "block_position": 16
+    },
+    {
+      "position": 13,
+      "title": "Denunciata la bufala di Salvini sui charter con migranti ...",
+      "link": "https://www.bufale.net/denunciata-la-bufala-di-salvini-sui-charter-con-migranti-provenienti-dalla-germania-verso-litalia/",
+      "domain": "www.bufale.net",
+      "displayed_link": "bufale.net › Bufala",
+      "snippet": "Lamorgese risponde a Salvini, parlando di bufala a proposito sui charter di ... dai media tedeschi l'ennesima fregatura del governo sbarchi, tasse e manette.",
+      "prerender": false,
+      "snippet_matched": [
+        "Salvini",
+        "sbarchi"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:3fHi8LCiLk8J:https://www.bufale.net/denunciata-la-bufala-di-salvini-sui-charter-con-migranti-provenienti-dalla-germania-verso-litalia/+&cd=13&hl=it&ct=clnk&gl=it",
+      "date": "1 nov 2019",
+      "date_utc": "2019-11-01T12:00:00.000Z",
+      "block_position": 17
+    },
+    {
+      "position": 14,
+      "title": "Caso Gregoretti, la prova della difesa di Salvini che tira in ...",
+      "link": "https://www.open.online/2020/12/12/caso-gregoretti-prova-salvini-conte-video-toninelli-trenta/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2020/12/12 › caso-gregoretti-prova-salvi...",
+      "snippet": "Tutto il governo o solo l'allora ministro dell'Interno, Matteo Salvini? ... nave Gregoretti, per sei giorni, in attesa che il ministero dell'Interno autorizzi lo sbarco. ... bloccare il traffico di esseri umani e il business dell'immigrazione clandestina».",
+      "prerender": false,
+      "snippet_matched": [
+        "Salvini",
+        "sbarco",
+        "clandestina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:5kwiZoiiKOIJ:https://www.open.online/2020/12/12/caso-gregoretti-prova-salvini-conte-video-toninelli-trenta/+&cd=14&hl=it&ct=clnk&gl=it",
+      "date": "12 dic 2020",
+      "date_utc": "2020-12-12T12:00:00.000Z",
+      "block_position": 18
+    },
+    {
+      "position": 15,
+      "title": "Open Arms, scontro Conte-Salvini: «Sleale collaborazione». Il ...",
+      "link": "https://www.open.online/2019/08/15/lettera-aperta-di-conte-a-salvini-su-open-arms-sleale-collaborazione-accusa-il-premier/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/08/15 › lettera-aperta-di-conte-a-sal...",
+      "snippet": "Su Open Arms da parte del ministro Matteo Salvini c'è stato «un chiaro esempio di ... è difficile contrastare i quotidiani, minuti sbarchi clandestini», dice a Salvini.",
+      "prerender": false,
+      "snippet_matched": [
+        "Salvini",
+        "sbarchi clandestini",
+        "Salvini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:ihGavMPF-gkJ:https://www.open.online/2019/08/15/lettera-aperta-di-conte-a-salvini-su-open-arms-sleale-collaborazione-accusa-il-premier/+&cd=15&hl=it&ct=clnk&gl=it",
+      "date": "15 ago 2019",
+      "date_utc": "2019-08-15T12:00:00.000Z",
+      "block_position": 19
+    },
+    {
+      "position": 16,
+      "title": "Gli sbarchi a Lampedusa e le foto d'epoca | Butac - Bufale Un ...",
+      "link": "https://www.butac.it/gli-sbarchi-a-lampedusa-e-le-foto-depoca/",
+      "domain": "www.butac.it",
+      "displayed_link": "butac.it › ... › Migranti › Razzismo › Xenofobia",
+      "snippet": "Articoli correlati. Bufala · Bufala · Salvini, Libero quotidiano ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Salvini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:nEYNwTENnaIJ:https://www.butac.it/gli-sbarchi-a-lampedusa-e-le-foto-depoca/+&cd=16&hl=it&ct=clnk&gl=it",
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {},
+          "extensions": [
+            "10 apr 2020 — Articoli correlati. Bufala",
+            "Bufala",
+            "Salvini, Libero quotidiano ..."
+          ]
+        }
+      },
+      "date": "10 apr 2020",
+      "date_utc": "2020-04-10T12:00:00.000Z",
+      "block_position": 20
+    },
+    {
+      "position": 17,
+      "title": "Salvini, retromarcia sul muro con la Slovenia: «Solo come ...",
+      "link": "https://www.open.online/2019/07/06/salvini-retromarcia-sul-muro-con-la-slovenia-solo-come-ultima-ipotesi/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/07/06 › salvini-retromarcia-sul-mur...",
+      "snippet": "Matteo Salvini ridimensiona la proposta di Massimiliano Fedriga, governatore ... con la Slovenia e fermare definitivamente l'ingresso di immigrati clandestini». ... Salvini invoca la Marina contro gli sbarchi: «È un attacco contro il governo».",
+      "prerender": false,
+      "snippet_matched": [
+        "Salvini",
+        "clandestini",
+        "Salvini",
+        "sbarchi"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:cLflbtvJL-YJ:https://www.open.online/2019/07/06/salvini-retromarcia-sul-muro-con-la-slovenia-solo-come-ultima-ipotesi/+&cd=17&hl=it&ct=clnk&gl=it",
+      "prefix": "6 lug 2019",
+      "block_position": 21
+    },
+    {
+      "position": 18,
+      "title": "Migranti pericolosi sulla Gregoretti | Butac - Bufale Un Tanto Al ...",
+      "link": "https://www.butac.it/migranti-pericolosi-sulla-gregoretti/",
+      "domain": "www.butac.it",
+      "displayed_link": "butac.it › ... › Populismo › Pseudo Politica › Salute",
+      "snippet": "Matteo Salvini non vuole che questi migranti tocchino il suolo in Italia e vieta il loro sbarco, sostenendo che vi siano a bordo soggetti pericolosi. Importante a ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Salvini",
+        "sbarco"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:oZadb5tLiOEJ:https://www.butac.it/migranti-pericolosi-sulla-gregoretti/+&cd=18&hl=it&ct=clnk&gl=it",
+      "date": "13 feb 2020",
+      "date_utc": "2020-02-13T12:00:00.000Z",
+      "block_position": 22
+    },
+    {
+      "position": 19,
+      "title": "Salvini ha ragione... | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/salvini-ha-ragione/",
+      "domain": "www.butac.it",
+      "displayed_link": "butac.it › ... › Politica › Unione Europea › Xenofobia",
+      "snippet": "Ovvio che i Paesi più gettonati per gli sbarchi siano Spagna, Grecia e Italia. Ma i migranti che arrivano non si fermano dove sbarcano, se sono seguiti nella ...",
+      "prerender": false,
+      "snippet_matched": [
+        "sbarchi"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:A5V1Pta99IQJ:https://www.butac.it/salvini-ha-ragione/+&cd=29&hl=it&ct=clnk&gl=it",
+      "prefix": "1 lug 2019",
+      "block_position": 24
+    },
+    {
+      "position": 20,
+      "title": "La Marina soccorre un gommone con 90 migranti a bordo ...",
+      "link": "https://www.open.online/2019/05/30/novanta-migranti-alla-deriva-nel-mediterraneo-accuse-alla-marina-italiana-li-ha-visti-e-li-ha-ignorati/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/05/30 › novanta-migranti-alla-deri...",
+      "snippet": "Dopo ore di indecisione, il Viminale ha aperto allo sbarco dei migranti e ha indicato ... A sostegno delle autorità è intervenuto anche il vicepremier Matteo Salvini, che su ... ribadisco l'indisponibilità dei porti italiani per accogliere clandestini» ...",
+      "prerender": false,
+      "snippet_matched": [
+        "sbarco",
+        "Salvini",
+        "clandestini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Gh1ehuTWseoJ:https://www.open.online/2019/05/30/novanta-migranti-alla-deriva-nel-mediterraneo-accuse-alla-marina-italiana-li-ha-visti-e-li-ha-ignorati/+&cd=30&hl=it&ct=clnk&gl=it",
+      "prefix": "30 mag 2019",
+      "block_position": 25
+    },
+    {
+      "position": 21,
+      "title": "Lampedusa, 100 migranti sbarcati in un giorno. La Procura «L ...",
+      "link": "https://www.open.online/2019/05/10/lampedusa-100-migranti-sbarcati-in-un-giorno-la-procura-lequipaggio-della-mare-jonio-non-e-indagato/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/05/10 › lampedusa-100-migranti-s...",
+      "snippet": "Altri 30 erano sbarcati dopo il salvataggio della nave ong. ... di reato per favoreggiamento dell'immigrazione clandestina nei confronti delle persone a bordo. ... Matteo Salvini ha gioito su Twitter: «Ultimo viaggio per la nave dei centri sociali ...",
+      "prerender": false,
+      "snippet_matched": [
+        "sbarcati",
+        "clandestina",
+        "Salvini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:o5v7v99l5ogJ:https://www.open.online/2019/05/10/lampedusa-100-migranti-sbarcati-in-un-giorno-la-procura-lequipaggio-della-mare-jonio-non-e-indagato/+&cd=31&hl=it&ct=clnk&gl=it",
+      "prefix": "10 mag 2019",
+      "block_position": 26
+    },
+    {
+      "position": 22,
+      "title": "Sequestro e 300mila euro di multa per la Mare Jonio. Indagati ...",
+      "link": "https://www.open.online/2019/09/03/mare-jonio-eleonore-cassiopea-e-le-altre-oltre-200-migranti-sbarcano-sulle-coste-siciliane-in-un-giorno/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/09/03 › mare-jonio-eleonore-cassio...",
+      "snippet": "Ieri, 2 settembre, sono sbarcati gli ultimi 31 migranti dalla nave. ... Mentre sono indagati per favoreggiamento dell'immigrazione clandestina il ... di ingresso in Italia siglato dai ministri uscenti Matteo Salvini, Elisabetta Trenta e Danilo Toninelli, ...",
+      "prerender": false,
+      "snippet_matched": [
+        "sbarcati",
+        "clandestina",
+        "Salvini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:KZrS5LWitUsJ:https://www.open.online/2019/09/03/mare-jonio-eleonore-cassiopea-e-le-altre-oltre-200-migranti-sbarcano-sulle-coste-siciliane-in-un-giorno/+&cd=32&hl=it&ct=clnk&gl=it",
+      "date": "3 set 2019",
+      "date_utc": "2019-09-03T12:00:00.000Z",
+      "block_position": 27
+    },
+    {
+      "position": 23,
+      "title": "Salvini, la furia il giorno dopo il voto su Open arms: «Renzi ...",
+      "link": "https://www.open.online/2020/07/31/salvini-furia-giorno-dopo-open-arms-renzi-cambia-idea-conte-accordo/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2020/07/31 › salvini-furia-giorno-dopo-...",
+      "snippet": "«Bloccare gli sbarchi, combattere gli scafisti, ridurre i morti, i dispersi, dimezzare gli arrivi di clandestini: non chiedevo una medaglia ma rischiare 15 anni di ...",
+      "prerender": false,
+      "snippet_matched": [
+        "sbarchi",
+        "clandestini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:YZOrHOG3FAsJ:https://www.open.online/2020/07/31/salvini-furia-giorno-dopo-open-arms-renzi-cambia-idea-conte-accordo/+&cd=33&hl=it&ct=clnk&gl=it",
+      "prefix": "31 lug 2020",
+      "block_position": 28
+    },
+    {
+      "position": 24,
+      "title": "Immigrati, coronavirus e acchiappalike | Butac - Bufale Un ...",
+      "link": "https://www.butac.it/immigrati-coronavirus-e-acchiappalike/",
+      "domain": "www.butac.it",
+      "displayed_link": "butac.it › ... › Xenofobia",
+      "snippet": "... ad occuparsi dei 276 clandestini sbarcati dalla Ocean Viking a Pozzallo , rivela che il Governo sta impedendo che vengano effettuati dei tamponi sui migranti.",
+      "prerender": false,
+      "snippet_matched": [
+        "clandestini sbarcati"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:09VtCPIhleQJ:https://www.butac.it/immigrati-coronavirus-e-acchiappalike/+&cd=34&hl=it&ct=clnk&gl=it",
+      "date": "13 mar 2020",
+      "date_utc": "2020-03-13T12:00:00.000Z",
+      "block_position": 29
+    },
+    {
+      "position": 25,
+      "title": "Tutte le tappe della vicenda Sea Watch - Open",
+      "link": "https://www.open.online/2019/01/30/tutte-le-tappe-della-vicenda-sea-watch/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/01/30 › tutte-le-tappe-della-vicenda...",
+      "snippet": "Matteo Salvini aveva detto che avrebbe dato l'ok allo sbarco dei 47 migranti a bordo solo ... di Sea Watch 3 per favoreggiamento dell'immigrazione clandestina.",
+      "prerender": false,
+      "snippet_matched": [
+        "Salvini",
+        "sbarco",
+        "clandestina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:_xNVa6jGhfQJ:https://www.open.online/2019/01/30/tutte-le-tappe-della-vicenda-sea-watch/+&cd=35&hl=it&ct=clnk&gl=it",
+      "prefix": "30 gen 2019",
+      "block_position": 30
+    },
+    {
+      "position": 26,
+      "title": "I migranti col barboncino sbarcati a Lampedusa avevano ...",
+      "link": "https://www.bufale.net/i-migranti-col-barboncino-sbarcati-a-lampedusa-avevano-acquistato-personalmente-il-barchino-per-il-viaggio/",
+      "domain": "www.bufale.net",
+      "displayed_link": "bufale.net › Notizia Vera",
+      "snippet": "I migranti col barboncino sbarcati a Lampedusa avevano acquistato personalmente il barchino per il viaggio. Scopri di più su Bufale, il sito contro la ...",
+      "prerender": false,
+      "snippet_matched": [
+        "sbarcati"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:sjAKTUEntqUJ:https://www.bufale.net/i-migranti-col-barboncino-sbarcati-a-lampedusa-avevano-acquistato-personalmente-il-barchino-per-il-viaggio/+&cd=36&hl=it&ct=clnk&gl=it",
+      "prefix": "27 lug 2020",
+      "block_position": 31
+    },
+    {
+      "position": 27,
+      "title": "Mare Jonio sequestrata, i migranti sbarcano. La Procura apre ...",
+      "link": "https://www.open.online/2019/03/19/mare-jonio-sequestrata-i-migranti-sbarcano-la-procura-apre-un-inchiesta-per-favoreggiamento-dell-immigrazione-clandestina-live/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/03/19 › mare-jonio-sequestrata-i-m...",
+      "snippet": "Salvini: «Ottimo, è stata sequestrata la nave dei centri sociali» ... a carico di ignoti, per favoreggiamento dell'immigrazione clandestina aperta ... del molo commerciale dove è attesa la Mare Jonio per lo sbarco dei 49 migranti, di cui 14 minori.",
+      "prerender": false,
+      "snippet_matched": [
+        "Salvini",
+        "clandestina",
+        "sbarco"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:eLGQaCJc-OUJ:https://www.open.online/2019/03/19/mare-jonio-sequestrata-i-migranti-sbarcano-la-procura-apre-un-inchiesta-per-favoreggiamento-dell-immigrazione-clandestina-live/+&cd=37&hl=it&ct=clnk&gl=it",
+      "date": "19 mar 2019",
+      "date_utc": "2019-03-19T12:00:00.000Z",
+      "block_position": 32
+    },
+    {
+      "position": 28,
+      "title": "Rivolta dei migranti in un centro di prima accoglienza a ... - Open",
+      "link": "https://www.open.online/2020/07/16/rivolta-dei-migranti-in-un-centro-di-prima-accoglienza-a-messina-30-persone-in-fuga/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2020/07/16 › rivolta-dei-migranti-in-un-...",
+      "snippet": "«Decine di clandestini in fuga a Messina, rischio illegalità e infezioni. Colpa di Conte che vuole sbarchi e sanatorie. ... i porti» · Immigrazione, la Consulta boccia (in parte) il decreto sicurezza di Salvini: «Viola l'articolo 3 della Costituzione».",
+      "prerender": false,
+      "snippet_matched": [
+        "clandestini",
+        "sbarchi",
+        "Salvini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:c7Ba6aaqq4EJ:https://www.open.online/2020/07/16/rivolta-dei-migranti-in-un-centro-di-prima-accoglienza-a-messina-30-persone-in-fuga/+&cd=38&hl=it&ct=clnk&gl=it",
+      "prefix": "16 lug 2020",
+      "block_position": 33
+    },
+    {
+      "position": 29,
+      "title": "No, Carola Rackete non ha detto che il Governo tedesco le ...",
+      "link": "https://www.open.online/2019/08/12/no-carola-rackete-non-ha-detto-che-il-governo-tedesco-le-aveva-ordinato-di-portare-i-migranti-in-italia/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/08/12 › no-carola-rackete-non-ha-...",
+      "snippet": "... «far registrare e portare tutti i clandestini a Lampedusa» [nota: questa frase è ... Salvini, nella sua lettera di risposta, nega la possibilità dello sbarco in Italia ...",
+      "prerender": false,
+      "snippet_matched": [
+        "clandestini",
+        "Salvini",
+        "sbarco"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:o2Hj5-tGg0MJ:https://www.open.online/2019/08/12/no-carola-rackete-non-ha-detto-che-il-governo-tedesco-le-aveva-ordinato-di-portare-i-migranti-in-italia/+&cd=39&hl=it&ct=clnk&gl=it",
+      "date": "12 ago 2019",
+      "date_utc": "2019-08-12T12:00:00.000Z",
+      "block_position": 34
+    },
+    {
+      "position": 30,
+      "title": "Scricchiola lo strapotere della \"Bestia\" di Salvini, il premier ...",
+      "link": "https://www.open.online/2019/08/17/crisi-di-governo-conte-batte-salvini-3-a-1-sui-social/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/08/17 › crisi-di-governo-conte-batt...",
+      "snippet": "Ma Salvini (e Morisi e il suo team) forse non avevano tenuto in dovuto conto ... è nostalgico dei 200 mila sbarchi lo dica – si legge nella risposta di Salvini – se ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Salvini",
+        "sbarchi",
+        "Salvini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:uJl1Qzbs19QJ:https://www.open.online/2019/08/17/crisi-di-governo-conte-batte-salvini-3-a-1-sui-social/+&cd=40&hl=it&ct=clnk&gl=it",
+      "date": "17 ago 2019",
+      "date_utc": "2019-08-17T12:00:00.000Z",
+      "block_position": 35
+    },
+    {
+      "position": 31,
+      "title": "Mediterranea: «La Guardia di Finanza ha confiscato il veliero ...",
+      "link": "https://www.open.online/2019/07/08/mediterranea-guardia-di-finanza-ha-confiscato-il-veliero-alex/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/07/08 › mediterranea-guardia-di-fi...",
+      "snippet": "... è indagato per favoreggiamento dell'immigrazione clandestina e per gli articoli ... «Salvini sappia che siamo disposti a salvare i migranti con qualunque mezzo, ... ministro dell'Interno Matteo Salvini aveva fermato ogni operazione di sbarco: ...",
+      "prerender": false,
+      "snippet_matched": [
+        "clandestina",
+        "Salvini",
+        "Salvini",
+        "sbarco"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:XYozDQc4qWsJ:https://www.open.online/2019/07/08/mediterranea-guardia-di-finanza-ha-confiscato-il-veliero-alex/+&cd=41&hl=it&ct=clnk&gl=it",
+      "prefix": "8 lug 2019",
+      "block_position": 36
+    },
+    {
+      "position": 32,
+      "title": "Sea Watch, la capitana Rackete ai domiciliari. Salvini ... - Open",
+      "link": "https://www.open.online/2019/06/29/la-sea-watch-e-entrata-nel-porto-di-lampedusa-il-video/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/06/29 › la-sea-watch-e-entrata-nel-...",
+      "snippet": "Salvini: «Espulsione subito» – Il video dell'arresto ... 3 era già indagata per favoreggiamento dell'immigrazione clandestina e per la ... L'annuncio dello sbarco.",
+      "prerender": false,
+      "snippet_matched": [
+        "Salvini",
+        "clandestina",
+        "sbarco"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:YQcfRLCTqMkJ:https://www.open.online/2019/06/29/la-sea-watch-e-entrata-nel-porto-di-lampedusa-il-video/+&cd=42&hl=it&ct=clnk&gl=it",
+      "prefix": "29 giu 2019",
+      "block_position": 37
+    },
+    {
+      "position": 33,
+      "title": "Il blocco navale del 1997 | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/il-blocco-navale-del-1997/",
+      "domain": "www.butac.it",
+      "displayed_link": "butac.it › ... › Populismo › Pseudo Politica › Xenofobia",
+      "snippet": "(No non è Salvini) ... Ruggiero ebbe a dire “fanno uso di armi o di altri metodi cruenti per intimidire i clandestini e indurli all' omertà” (VI RICORDA QUALCOSA?)",
+      "prerender": false,
+      "snippet_matched": [
+        "Salvini",
+        "clandestini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:pbKgtZbyVtoJ:https://www.butac.it/il-blocco-navale-del-1997/+&cd=43&hl=it&ct=clnk&gl=it",
+      "date": "7 feb 2019",
+      "date_utc": "2019-02-07T12:00:00.000Z",
+      "block_position": 38
+    },
+    {
+      "position": 34,
+      "title": "La Lega e la riforma del regolamento di Dublino | Butac ...",
+      "link": "https://www.butac.it/la-lega-e-la-riforma-del-regolamento-di-dublino/",
+      "domain": "www.butac.it",
+      "displayed_link": "butac.it › Politica › Precisazioni",
+      "snippet": "Salvini: “M5s difende il business delle coop” – “Dalla Lega nessun appoggio al Pd – la replica di Matteo Salvini – anzi è vero il contrario: sono proprio i grillini ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Salvini",
+        "Salvini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:2UaSAjLvgukJ:https://www.butac.it/la-lega-e-la-riforma-del-regolamento-di-dublino/+&cd=44&hl=it&ct=clnk&gl=it",
+      "prefix": "15 giu 2018",
+      "block_position": 39
+    },
+    {
+      "position": 35,
+      "title": "Caso Diciotti, voto in Senato su Salvini: «Continuerò a ... - Open",
+      "link": "https://www.open.online/2019/03/20/caso-diciotti-voto-in-senato-su-salvini-continuero-a-lavorare-senza-paura/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/03/20 › caso-diciotti-voto-in-senato...",
+      "snippet": "Caso Diciotti, voto in Senato su Salvini: «Continuerò a lavorare senza paura» ... Meno partenze, meno sbarchi e meno morti con noi: qualcuno invece dei porti ... al contrasto dell'immigrazione clandestina e ringrazio i colleghi 5 Stelle perché ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Salvini",
+        "sbarchi",
+        "clandestina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:06LlntL8z2UJ:https://www.open.online/2019/03/20/caso-diciotti-voto-in-senato-su-salvini-continuero-a-lavorare-senza-paura/+&cd=45&hl=it&ct=clnk&gl=it",
+      "date": "20 mar 2019",
+      "date_utc": "2019-03-20T12:00:00.000Z",
+      "block_position": 40
+    },
+    {
+      "position": 36,
+      "title": "Salvini, la resa dei conti con Asia Argento e Alba Parietti ...",
+      "link": "https://www.open.online/2019/09/23/salvini-la-resa-dei-conti-con-asia-argento-e-alba-parietti-ospiti-di-barbara-durso/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/09/23 › salvini-la-resa-dei-conti-co...",
+      "snippet": "Salvini, la resa dei conti con Asia Argento e Alba Parietti, ospiti di Barbara D'Urso ... con l'attrice e soubrette che gli intima: «Gli sbarchi non sono mai stati bloccati, ... Io ce l'ho solo con clandestini e delinquenti che sono qua per fare casino».",
+      "prerender": false,
+      "snippet_matched": [
+        "Salvini",
+        "sbarchi",
+        "clandestini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:6GJRwjhvnngJ:https://www.open.online/2019/09/23/salvini-la-resa-dei-conti-con-asia-argento-e-alba-parietti-ospiti-di-barbara-durso/+&cd=46&hl=it&ct=clnk&gl=it",
+      "date": "23 set 2019",
+      "date_utc": "2019-09-23T12:00:00.000Z",
+      "block_position": 41
+    },
+    {
+      "position": 37,
+      "title": "Sea Watch, l'avvocato di Rackete: «È stanca. Ritiene di avere ...",
+      "link": "https://www.open.online/2019/06/29/ecco-cosa-rischia-ora-la-capitana-della-sea-watch/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/06/29 › ecco-cosa-rischia-ora-la-ca...",
+      "snippet": "Al reato di immigrazione clandestina, che già ieri era stato contestato alla 31enne ... Il ministro dell'Interno Matteo Salvini ha parlato di «atto criminale», ma ... Dieci sbarchi in 18 giorni: il via vai di migranti a Lampedusa mentre Sea Watch era ...",
+      "prerender": false,
+      "snippet_matched": [
+        "clandestina",
+        "Salvini",
+        "sbarchi"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:TCHl24BesMYJ:https://www.open.online/2019/06/29/ecco-cosa-rischia-ora-la-capitana-della-sea-watch/+&cd=47&hl=it&ct=clnk&gl=it",
+      "prefix": "29 giu 2019",
+      "block_position": 42
+    },
+    {
+      "position": 38,
+      "title": "Salvini ribatte a Conte, lapsus sui migranti: «Porti chiusi ...",
+      "link": "https://www.open.online/2020/06/17/salvini-ribatte-conte-lapsus-migranti-porti-chiusi-condannano-morte-persone/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2020/06/17 › salvini-ribatte-conte-lapsus...",
+      "snippet": "Delle decine di migliaia che avremmo dovuto rimpatriati ne abbiamo rimpatriati 464 e in cambio ne sono sbarcati altri 6mila. Sull'immigrazione avete fallito. La ...",
+      "prerender": false,
+      "snippet_matched": [
+        "sbarcati"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:9imdgk4RWgsJ:https://www.open.online/2020/06/17/salvini-ribatte-conte-lapsus-migranti-porti-chiusi-condannano-morte-persone/+&cd=48&hl=it&ct=clnk&gl=it",
+      "prefix": "17 giu 2020",
+      "block_position": 43
+    },
+    {
+      "position": 39,
+      "title": "La folla dei migranti diretti a Lampedusa via Mahdia? Erano ...",
+      "link": "https://www.open.online/2020/08/01/la-folla-dei-migranti-diretti-a-mahdia-per-lampedusa-erano-tunisini-diretti-in-tunisia-dalla-libia/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2020/08/01 › la-folla-dei-migranti-diretti...",
+      "snippet": "Si parla molto dei problemi legati all'immigrazione clandestina proveniente dalla Tunisia, ma bisognerebbe utilizzare video veri come “prove”. Il 18 luglio 2020 il ...",
+      "prerender": false,
+      "snippet_matched": [
+        "clandestina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:bGvOxyNhRXwJ:https://www.open.online/2020/08/01/la-folla-dei-migranti-diretti-a-mahdia-per-lampedusa-erano-tunisini-diretti-in-tunisia-dalla-libia/+&cd=49&hl=it&ct=clnk&gl=it",
+      "date": "1 ago 2020",
+      "date_utc": "2020-08-01T12:00:00.000Z",
+      "block_position": 44
+    },
+    {
+      "position": 40,
+      "title": "Dall'Albania nel 1991 o dalla Libia nel 2014? | Butac - Bufale ...",
+      "link": "https://www.butac.it/dallalbania-nel-1991-o-dalla-libia-nel-2014/",
+      "domain": "www.butac.it",
+      "displayed_link": "butac.it › ... › Politica › Pseudo Politica › Xenofobia",
+      "snippet": "L'Italia non può più accogliere altri clandestini e diventare la terra dell'illegalità. ... Quello raffigurato nell'immagine è il più grande sbarco di clandestini mai avvenuto in Italia, non la situazione ... Salvini, Libero quotidiano e i rapper francesi…",
+      "prerender": false,
+      "snippet_matched": [
+        "clandestini",
+        "sbarco",
+        "clandestini",
+        "Salvini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:8DhF0JGkhikJ:https://www.butac.it/dallalbania-nel-1991-o-dalla-libia-nel-2014/+&cd=50&hl=it&ct=clnk&gl=it",
+      "prefix": "22 lug 2014",
+      "block_position": 45
+    },
+    {
+      "position": 41,
+      "title": "È reale la frase attribuita a Magdi Cristiano Allam sull ... - Bufale",
+      "link": "https://www.bufale.net/e-reale-la-frase-attribuita-a-magdi-cristiano-allam-sullautoinvasione-e-sui-privilegi-agli-immigrati/",
+      "domain": "www.bufale.net",
+      "displayed_link": "bufale.net › Notizia Vera",
+      "snippet": "Questi clandestini, che i giornali e le televisioni si ostinano a chiamare “migranti” come se fossero uccelli che si trasferiscono da un posto all'altro senza una ...",
+      "prerender": false,
+      "snippet_matched": [
+        "clandestini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:SWHcZQ__5aoJ:https://www.bufale.net/e-reale-la-frase-attribuita-a-magdi-cristiano-allam-sullautoinvasione-e-sui-privilegi-agli-immigrati/+&cd=51&hl=it&ct=clnk&gl=it",
+      "prefix": "14 lug 2020",
+      "block_position": 46
+    },
+    {
+      "position": 42,
+      "title": "Pasti buttati...la rivincita | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/pasti-buttati-la-rivincita/",
+      "domain": "www.butac.it",
+      "displayed_link": "butac.it › ... › Migranti › uTonti › Vergogna › Xenofobia",
+      "snippet": "... di cottura buttati nei cassonetti della spazzatura all'interno della stessa struttura che ospita i clandestini degli sbarchi. Anche la frutta fresca finisce tra i rifiuti.",
+      "prerender": false,
+      "snippet_matched": [
+        "clandestini",
+        "sbarchi"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:tzQgtU6lQasJ:https://www.butac.it/pasti-buttati-la-rivincita/+&cd=52&hl=it&ct=clnk&gl=it",
+      "prefix": "1 lug 2014",
+      "block_position": 47
+    },
+    {
+      "position": 43,
+      "title": "Lampedusa porta d'Europa. Da Fuocoammare a gelo in terra ...",
+      "link": "https://www.open.online/2019/07/09/lampedusa-porta-europa-fuocammare-gelo-terra-rabbia-arrivata-fino-qui/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/07/09 › lampedusa-porta-europa-fu...",
+      "snippet": "... siano qui solo per parlare di coloro che vengono definiti «clandestini». ... A Lampedusa gli sbarchi continuano ininterrottamente, a prescindere da ... veniamo tacciati di chissà che cosa, visto che il messaggio è che Salvini ha bloccato tutto.",
+      "prerender": false,
+      "snippet_matched": [
+        "clandestini",
+        "sbarchi",
+        "Salvini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:hVBY8rvbE6EJ:https://www.open.online/2019/07/09/lampedusa-porta-europa-fuocammare-gelo-terra-rabbia-arrivata-fino-qui/+&cd=53&hl=it&ct=clnk&gl=it",
+      "prefix": "9 lug 2019",
+      "block_position": 48
+    },
+    {
+      "position": 44,
+      "title": "La foto del migrante e del figlio della Lamorgese «che ... - Open",
+      "link": "https://www.open.online/2020/08/02/la-foto-del-migrante-e-del-figlio-della-lamorgese-che-gestisce-un-centro-di-accoglienza-ma-ce-lukaku/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2020/08/02 › la-foto-del-migrante-e-del-...",
+      "snippet": "... con un magrebino cominciamo a capire certi comportamenti sui clandestini ... Immigrazione, Lamorgese: «In forte crescita per via degli sbarchi autonomi». ... il Tg2 non c'è stata l'autorizzazione a procedere contro Salvini, poi rettificano.",
+      "prerender": false,
+      "snippet_matched": [
+        "clandestini",
+        "sbarchi",
+        "Salvini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:u_yQ3b1NOSgJ:https://www.open.online/2020/08/02/la-foto-del-migrante-e-del-figlio-della-lamorgese-che-gestisce-un-centro-di-accoglienza-ma-ce-lukaku/+&cd=54&hl=it&ct=clnk&gl=it",
+      "date": "2 ago 2020",
+      "date_utc": "2020-08-02T12:00:00.000Z",
+      "block_position": 49
+    },
+    {
+      "position": 45,
+      "title": "Bufale.net | Bufale - fake news - bufale facebook",
+      "link": "https://www.bufale.net/",
+      "domain": "www.bufale.net",
+      "displayed_link": "bufale.net",
+      "snippet": "Bufale.net è il portale italiano di fact-checking che da anni combatte la disinformazione, le bufale e l'allarmismo che dilagano su Internet.",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:OqtO20sLfcEJ:https://www.bufale.net/+&cd=55&hl=it&ct=clnk&gl=it",
+      "date": "2 giorni fa",
+      "date_utc": "2021-02-09T16:30:42.036Z",
+      "block_position": 50
+    },
+    {
+      "position": 46,
+      "title": "Sea Watch, l'autore degli insulti a Rackete: «Ero ubriaco, le ...",
+      "link": "https://www.open.online/2019/06/29/spero-ti-violentino-sti-nei-sui-social-della-lega-di-lampedusa-lodio-per-la-capitana-arrestata-il-video/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/06/29 › spero-ti-violentino-sti-nei-s...",
+      "snippet": "Le mogli vi devono stuprare questi clandestini. ... Spadafora accusa Salvini: «Le sue parole contro Carola hanno aperto la scia all'odio maschilista» ... E lei li gela – Il video · Dieci sbarchi in 18 giorni: il via vai di migranti a Lampedusa mentre ...",
+      "prerender": false,
+      "snippet_matched": [
+        "clandestini",
+        "Salvini",
+        "sbarchi"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:V_AYLI_net8J:https://www.open.online/2019/06/29/spero-ti-violentino-sti-nei-sui-social-della-lega-di-lampedusa-lodio-per-la-capitana-arrestata-il-video/+&cd=56&hl=it&ct=clnk&gl=it",
+      "prefix": "29 giu 2019",
+      "block_position": 51
+    },
+    {
+      "position": 47,
+      "title": "Cani e gatti spariti, migranti che rubano: la catena WhatsApp e ...",
+      "link": "https://www.bufale.net/cani-e-gatti-spariti-migranti-che-rubano-la-catena-whatsapp-e-fb-su-lampedusa-senza-fonti/",
+      "domain": "www.bufale.net",
+      "displayed_link": "bufale.net › Nessuna Fonte",
+      "snippet": "Lo stesso sindaco di Lampedusa, come abbiamo evidenziato nella giornata di ieri, ha smentito quanto riportato da Salvini, affermando che il numero di sbarchi ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Salvini",
+        "sbarchi"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:yqunmhlIaHkJ:https://www.bufale.net/cani-e-gatti-spariti-migranti-che-rubano-la-catena-whatsapp-e-fb-su-lampedusa-senza-fonti/+&cd=57&hl=it&ct=clnk&gl=it",
+      "date": "20 set 2019",
+      "date_utc": "2019-09-20T12:00:00.000Z",
+      "block_position": 52
+    },
+    {
+      "position": 48,
+      "title": "Italia-Slovenia, al via i pattugliamenti al confine - Open",
+      "link": "https://www.open.online/2019/07/01/italia-slovenia-al-via-i-pattugliamenti-al-confine/",
+      "domain": "www.open.online",
+      "displayed_link": "open.online › 2019/07/01 › italia-slovenia-al-via-i-patt...",
+      "snippet": "Vedremo», ha detto ieri il ministro dell'Interno Matteo Salvini durante un comizio ... il 27 giugno scorso: «Dopo aver chiuso i porti, riducendo gli sbarchi dell'85% ... con altri Paesi europei per fermare l'immigrazione clandestina è possibile.",
+      "prerender": false,
+      "snippet_matched": [
+        "Salvini",
+        "sbarchi",
+        "clandestina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:9kF-iB9zntQJ:https://www.open.online/2019/07/01/italia-slovenia-al-via-i-pattugliamenti-al-confine/+&cd=58&hl=it&ct=clnk&gl=it",
+      "prefix": "1 lug 2019",
+      "block_position": 53
+    },
+    {
+      "position": 49,
+      "title": "\"Assembramenti a Lampedusa, manca solo il DJ\", ma la foto è ...",
+      "link": "https://www.bufale.net/assembramenti-a-lampedusa-manca-solo-il-dj-ma-la-foto-e-del-marzo-2011/",
+      "domain": "www.bufale.net",
+      "displayed_link": "bufale.net › Bufala",
+      "snippet": "Gli assembramenti, valgono solo, per le manifestazioni di Salvini? Questi sono assembramenti di clandestini, quindi perfettamente legali. ... aveva pubblicato un reportage che riguardava gli sbarchi a Lampedusa e le conseguenti proteste.",
+      "prerender": false,
+      "snippet_matched": [
+        "Salvini",
+        "clandestini",
+        "sbarchi"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:OpkYI8m2QkMJ:https://www.bufale.net/assembramenti-a-lampedusa-manca-solo-il-dj-ma-la-foto-e-del-marzo-2011/+&cd=59&hl=it&ct=clnk&gl=it",
+      "date": "22 ago 2020",
+      "date_utc": "2020-08-22T12:00:00.000Z",
+      "block_position": 54
+    }
+  ]
+}

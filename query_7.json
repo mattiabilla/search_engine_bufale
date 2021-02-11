@@ -1,0 +1,526 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 11,
+    "credits_used_this_request": 1,
+    "credits_remaining": 114,
+    "credits_reset_at": "2021-03-11T14:34:14.000Z"
+  },
+  "search_metadata": {
+    "created_at": "2021-02-11T16:23:24.721Z",
+    "processed_at": "2021-02-11T16:23:28.781Z",
+    "total_time_taken": 4.06,
+    "engine_url": "https://www.google.it/search?q=asteroide+verso+la+terra(site:bufale.net+OR+site:butac.it+OR+site:open.online)&gl=it&hl=it&uule=w+CAIQICIFSXRhbHk&num=50&tbs=cdr:1,cd_min:,cd_max:02/10/2021",
+    "html_url": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=asteroide+verso+la+terra(site:bufale.net+OR+site:butac.it+OR+site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=1&num=50&engine=google&output=html",
+    "json_url": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=asteroide+verso+la+terra(site:bufale.net+OR+site:butac.it+OR+site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=1&num=50&engine=google&output=json",
+    "location_auto_message": "We have automatically set the 'google_domain', 'gl' and 'hl' parameters to match the supplied location of 'Italy'. You can stop this behaviour by setting the 'location_auto' parameter to 'false'.",
+    "timing": [
+      "global_init - 0ms (total 0ms)",
+      "auth_apikey - 25ms (total 25ms)",
+      "auth_retrieve_plan - 12ms (total 37ms)",
+      "auth_retrieve_credit_usage - 33ms (total 70ms)",
+      "processing_invoking_worker - 3ms (total 74ms)",
+      "processing_execution_complete - 4061ms (total 4136ms)",
+      "auth_credit_usage_reconcile - 52ms (total 4189ms)",
+      "global_end - 0ms (total 4189ms)"
+    ]
+  },
+  "search_parameters": {
+    "q": "asteroide verso la terra(site:bufale.net OR site:butac.it OR site:open.online)",
+    "google_domain": "google.it",
+    "location": "Italy",
+    "gl": "it",
+    "hl": "it",
+    "time_period": "custom",
+    "time_period_max": "02/10/2021",
+    "page": "1",
+    "num": "50"
+  },
+  "search_information": {
+    "original_query_yields_zero_results": false,
+    "total_results": 34,
+    "time_taken_displayed": 0.39,
+    "query_displayed": "asteroide verso la terra(site:bufale.net OR site:butac.it OR site:open.online)",
+    "detected_location": "Italia"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Un asteroide passerà \"vicino\" alla Terra il 29 aprile. Ecco ...",
+      "link": "https://www.open.online/2020/04/08/un-asteroide-passera-vicino-alla-terra-il-29-aprile-ecco-perche-non-dobbiamo-preoccuparcene/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/04/08 › un-asteroide-passera-...",
+      "snippet": "La Nasa ha spiegato che non c'è nulla di cui preoccuparsi. Ma è comunque un fenomeno astronomico molto interessante. Tutto quello che c'è da sapere su ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:HDuhUZumaeUJ:https://www.open.online/2020/04/08/un-asteroide-passera-vicino-alla-terra-il-29-aprile-ecco-perche-non-dobbiamo-preoccuparcene/+&cd=1&hl=it&ct=clnk&gl=it",
+      "date": "8 apr 2020",
+      "date_utc": "2020-04-08T12:00:00.000Z",
+      "block_position": 1
+    },
+    {
+      "position": 2,
+      "title": "Asteroide fa rotta verso la terra? | Butac - Bufale Un Tanto Al ...",
+      "link": "https://www.butac.it/asteroide-fa-rotta-verso-la-terra/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Pseudo Scienza › uTonti",
+      "snippet": "Ma non siamo qui per disquisire di cinema, bensì di asteroidi. Anzi, scusate, al singolare, asteroide: LEGGO giusto ieri ha pubblicato quest'importante allarme. UN ...",
+      "prerender": false,
+      "snippet_matched": [
+        "asteroidi",
+        "asteroide"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:_gDpeCicTzsJ:https://www.butac.it/asteroide-fa-rotta-verso-la-terra/+&cd=2&hl=it&ct=clnk&gl=it",
+      "date": "15 apr 2015",
+      "date_utc": "2015-04-15T12:00:00.000Z",
+      "block_position": 2
+    },
+    {
+      "position": 3,
+      "title": "Asteroide verso Terra: si potrebbe tornare all'età della pietra",
+      "link": "https://www.bufale.net/asteroide-verso-terra-si-potrebbe-tornare-alleta-della-pietra/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Bufala",
+      "snippet": "TecnoAndroid il 18 novembre 2019 ha pubblicato un articolo su un asteroide che minaccia la Terra, e l'impatto è previsto per il 2032 con una portata che ...",
+      "prerender": false,
+      "snippet_matched": [
+        "asteroide",
+        "Terra"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:jJj4UWUy9KYJ:https://www.bufale.net/asteroide-verso-terra-si-potrebbe-tornare-alleta-della-pietra/+&cd=3&hl=it&ct=clnk&gl=it",
+      "date": "18 nov 2019",
+      "date_utc": "2019-11-18T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 4,
+      "title": "Un asteroide si avvicina alla Terra: niente panico il nostro ...",
+      "link": "https://www.open.online/2019/06/10/un-asteroide-si-avvicina-alla-terra-niente-panico-il-nostro-pianeta-ha-visto-di-peggio/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/06/10 › un-asteroide-si-avvici...",
+      "snippet": "QV89 viene classificato come «potenzialmente pericoloso», questo perché ha un'orbita inferiore a una Unità astronomica (Ua), ovvero la distanza del Sole rispetto ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Svh3M62AylwJ:https://www.open.online/2019/06/10/un-asteroide-si-avvicina-alla-terra-niente-panico-il-nostro-pianeta-ha-visto-di-peggio/+&cd=4&hl=it&ct=clnk&gl=it",
+      "prefix": "10 giu 2019",
+      "block_position": 4
+    },
+    {
+      "position": 5,
+      "title": "Esa e Nasa unite per deviare un asteroide, ma è solo una ...",
+      "link": "https://www.open.online/2019/05/02/esa-e-nasa-unite-per-deviare-un-asteroide-ma-e-solo-una-simulazione/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/05/02 › esa-e-nasa-unite-per-...",
+      "snippet": "Se vi siete accorti dei tweet apocalittici lanciati dal profilo Esa Operation riguardo all'impatto di un asteroide sulla Terra non preoccupatevi, si tratta solo di una ...",
+      "prerender": false,
+      "snippet_matched": [
+        "asteroide",
+        "Terra"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:hFBgFrl6rrgJ:https://www.open.online/2019/05/02/esa-e-nasa-unite-per-deviare-un-asteroide-ma-e-solo-una-simulazione/+&cd=5&hl=it&ct=clnk&gl=it",
+      "prefix": "2 mag 2019",
+      "block_position": 5
+    },
+    {
+      "position": 6,
+      "title": "Non ci resta che l'asteroide... | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/non-ci-resta-che-lasteroide/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Scienza e Tecnologia › Tabloid",
+      "snippet": "Asteroid warning: NASA tracks a 4KM asteroid approach – Could end civilisation if it hits. Può far finire la civiltà se colpisce… No ma non facciamo mica ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Asteroid",
+        "asteroid"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:VBUJJGKHsWsJ:https://www.butac.it/non-ci-resta-che-lasteroide/+&cd=6&hl=it&ct=clnk&gl=it",
+      "date": "5 mar 2020",
+      "date_utc": "2020-03-05T12:00:00.000Z",
+      "block_position": 6
+    },
+    {
+      "position": 7,
+      "title": "Ancora la fine del mondo? | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/ancora-la-fine-del-mondo-2/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Scienza e Tecnologia",
+      "snippet": "L'allarme degli scienziati: “un asteroide gigantesco con la potenza di più di tre miliardi di armi nucleari si avviava verso la Terra Non siamo sicuri di quanto potrà ...",
+      "prerender": false,
+      "snippet_matched": [
+        "asteroide",
+        "verso la Terra"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:jm3fhTuWwtYJ:https://www.butac.it/ancora-la-fine-del-mondo-2/+&cd=7&hl=it&ct=clnk&gl=it",
+      "date": "26 set 2016",
+      "date_utc": "2016-09-26T12:00:00.000Z",
+      "block_position": 7
+    },
+    {
+      "position": 8,
+      "title": "ALLARMISMO La NASA avverte: la Terra si prepari all ... - Bufale",
+      "link": "https://www.bufale.net/allarmismo-la-nasa-avverte-la-terra-si-prepari-allestinzione-di-massa-bufale-net/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Allarmismo",
+      "snippet": "A svelarlo direttamente il professor Joseph Nuth del Goddard Space Flight Center della NASA che in un convegno a San Francisco ha parlato del pericolo per la ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:F5o_6HVTN-YJ:https://www.bufale.net/allarmismo-la-nasa-avverte-la-terra-si-prepari-allestinzione-di-massa-bufale-net/+&cd=8&hl=it&ct=clnk&gl=it",
+      "date": "27 dic 2016",
+      "date_utc": "2016-12-27T12:00:00.000Z",
+      "block_position": 8
+    },
+    {
+      "position": 9,
+      "title": "Ecco i piani della Nasa per l'esplorazione dello Spazio nei ...",
+      "link": "https://www.open.online/2019/08/25/ecco-i-piani-della-nasa-per-lesplorazione-dello-spazio-nei-prossimi-10-anni-dove-ci-porteranno-le-nuove-missioni/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/08/25 › ecco-i-piani-della-nas...",
+      "snippet": "Le nuove missioni lunari saranno soprattutto una tappa intermedia per il viaggio verso Marte. Si tratterebbe della prima missione umana su un pianeta vero e ...",
+      "prerender": false,
+      "snippet_matched": [
+        "verso"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:VLFobg-XlJAJ:https://www.open.online/2019/08/25/ecco-i-piani-della-nasa-per-lesplorazione-dello-spazio-nei-prossimi-10-anni-dove-ci-porteranno-le-nuove-missioni/+&cd=9&hl=it&ct=clnk&gl=it",
+      "date": "25 ago 2019",
+      "date_utc": "2019-08-25T12:00:00.000Z",
+      "block_position": 12
+    },
+    {
+      "position": 10,
+      "title": "Operazione Crew Dragon riuscita. I due astronauti sono saliti ...",
+      "link": "https://www.open.online/2020/05/31/crew-dragon-e-in-orbita-gli-stati-uniti-tornano-a-volare-nello-spazio-con-elon-musk/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/05/31 › crew-dragon-e-in-or...",
+      "snippet": "Dopo oltre 19 ore di volo, la Crew Dragon è arrivata alla Stazione spaziale internazionale (Iss). L'attracco è avvenuto verso 16.16, ora italiana. Le operazione di ...",
+      "prerender": false,
+      "snippet_matched": [
+        "verso"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:f9vHXfyNhqgJ:https://www.open.online/2020/05/31/crew-dragon-e-in-orbita-gli-stati-uniti-tornano-a-volare-nello-spazio-con-elon-musk/+&cd=10&hl=it&ct=clnk&gl=it",
+      "prefix": "31 mag 2020",
+      "block_position": 13
+    },
+    {
+      "position": 11,
+      "title": "Le foto dallo spazio e la truffa della Terra tonda | Butac ...",
+      "link": "https://www.butac.it/le-foto-della-terra/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Teorie del complotto › uTonti",
+      "snippet": "Più volte mi sono scusato per la mia assenza e mi dispiace farlo di nuovo: scusate. Cosa mi ha restituito la voglia di scrivere? A parte essere tornato da una ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:VEBM6c2UybcJ:https://www.butac.it/le-foto-della-terra/+&cd=11&hl=it&ct=clnk&gl=it",
+      "prefix": "11 giu 2016",
+      "block_position": 14
+    },
+    {
+      "position": 12,
+      "title": "Il rover Perseverance è stato lanciato con successo verso ...",
+      "link": "https://www.open.online/2020/07/30/lancio-nasa-rover-perseverance-su-marte/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/07/30 › lancio-nasa-rover-per...",
+      "snippet": "Lancio riuscito con successo. Il giorno della prima missione umana sul suolo marziano è sempre meno lontano. Incorpora video. È partita con successo la ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:DbWP0v3J9ZoJ:https://www.open.online/2020/07/30/lancio-nasa-rover-perseverance-su-marte/+&cd=12&hl=it&ct=clnk&gl=it",
+      "prefix": "30 lug 2020",
+      "block_position": 15
+    },
+    {
+      "position": 13,
+      "title": "Jeff Bezos vuole colonizzare la Luna per salvare la Terra ...",
+      "link": "https://www.open.online/2019/06/17/jeff-bezos-vuole-colonizzare-la-luna-per-salvare-la-terra-perche-la-sua-idea-conviene-a-noi-e-a-lui/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/06/17 › jeff-bezos-vuole-colo...",
+      "snippet": "Uno sguardo verso il futuro. La lungimiranza, ovvero la capacità di avere una visione ampia che non si esaurisca nel presente ma guardi ad un ideale futuro è ...",
+      "prerender": false,
+      "snippet_matched": [
+        "verso"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:TaVZpw8FqaIJ:https://www.open.online/2019/06/17/jeff-bezos-vuole-colonizzare-la-luna-per-salvare-la-terra-perche-la-sua-idea-conviene-a-noi-e-a-lui/+&cd=13&hl=it&ct=clnk&gl=it",
+      "prefix": "17 giu 2019",
+      "block_position": 16
+    },
+    {
+      "position": 14,
+      "title": "Su Marte con «Perseveranza»: così è ripartita la corsa al ...",
+      "link": "https://www.open.online/2020/07/29/su-marte-con-perseveranza-lanalisi-di-umberto-guidoni/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/07/29 › su-marte-con-perseve...",
+      "snippet": "Lo spazio sta cambiando aprendosi alle imprese private, e dopo il ritorno sulla Luna punteremo verso il Pianeta rosso. Il 30 luglio è previsto il lancio di ...",
+      "prerender": false,
+      "snippet_matched": [
+        "verso"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:niaOjl3wKEUJ:https://www.open.online/2020/07/29/su-marte-con-perseveranza-lanalisi-di-umberto-guidoni/+&cd=14&hl=it&ct=clnk&gl=it",
+      "prefix": "29 lug 2020",
+      "block_position": 17
+    },
+    {
+      "position": 15,
+      "title": "La NASA introduce il segno zodiacale Ofiuco il 28 luglio ...",
+      "link": "https://www.bufale.net/la-nasa-introduce-il-segno-zodiacale-ofiuco-il-28-luglio-oroscopo-rivoluzionato-ma-e-una-bufala/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Bufala",
+      "snippet": "Novità dalla NASA che aggiunge il segno zodiacale Ofiuco il 28 luglio con oroscopo rivoluzionato, ma si tratta di una fake news.",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:fxjPY5RsvFwJ:https://www.bufale.net/la-nasa-introduce-il-segno-zodiacale-ofiuco-il-28-luglio-oroscopo-rivoluzionato-ma-e-una-bufala/+&cd=15&hl=it&ct=clnk&gl=it",
+      "prefix": "28 lug 2019",
+      "block_position": 18
+    },
+    {
+      "position": 16,
+      "title": "Nasa: cos'è, origini, storia e missioni - Open",
+      "link": "https://www.open.online/temi/nasa/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › temi › nasa",
+      "snippet": "Nasa: scopri cos'è, storia, origini e missioni della National aeronautics and space administration con news, interviste, foto e video.",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:66D8-9ZS_EcJ:https://www.open.online/temi/nasa/+&cd=16&hl=it&ct=clnk&gl=it",
+      "prefix": "19 lug 2019",
+      "block_position": 19
+    },
+    {
+      "position": 17,
+      "title": "NASA preoccupata dall'impatto sulla Terra di un asteroide ...",
+      "link": "https://www.bufale.net/nasa-preoccupata-dall-impatto-sulla-terra-di-un-asteroide-2019-a-settembre-chiarimenti-su-apophis/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Notizia Vera",
+      "snippet": "Ci sono dichiarazioni della NASA sull'impatto sulla Terra di un asteroide 2019 il prossimo 9 settembre, ma servono chiarimenti su Apophis.",
+      "prerender": false,
+      "snippet_matched": [
+        "Terra",
+        "asteroide"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Wr_hsLLyTdYJ:https://www.bufale.net/nasa-preoccupata-dall-impatto-sulla-terra-di-un-asteroide-2019-a-settembre-chiarimenti-su-apophis/+&cd=17&hl=it&ct=clnk&gl=it",
+      "prefix": "8 giu 2019",
+      "block_position": 20
+    },
+    {
+      "position": 18,
+      "title": "«Il Sole e i falò»: la nostra «stella madre» come non l'abbiamo ...",
+      "link": "https://www.open.online/2020/07/16/foto-sole-sonda-solar-orbiter-esa-nasa/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › foto-sole-sonda-solar-orbiter-esa-nasa",
+      "snippet": "Innumerevoli eruzioni che sembrano dei falò costellano la superficie del Sole, la “stella madre” del nostro sistema, attorno cui ruotano i pianeti. Dallo spazio ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:WbiUUNUMcnsJ:https://www.open.online/2020/07/16/foto-sole-sonda-solar-orbiter-esa-nasa/+&cd=18&hl=it&ct=clnk&gl=it",
+      "prefix": "16 lug 2020",
+      "block_position": 21
+    },
+    {
+      "position": 19,
+      "title": "Con Lunar Gateway l'industria italiana vola sempre più in alto ...",
+      "link": "https://www.open.online/2020/10/17/lunar-gateway-industria-italiana/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/10/17 › lunar-gateway-indust...",
+      "snippet": "L'Italia è parte attiva nel progetto che porterà la stazione spaziale a orbitare attorno alla Luna. Uno snodo fondamentale per il futuro dell'innovazione nostrana.",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:UzgCgk0cbuwJ:https://www.open.online/2020/10/17/lunar-gateway-industria-italiana/+&cd=19&hl=it&ct=clnk&gl=it",
+      "prefix": "17 ott 2020",
+      "block_position": 22
+    },
+    {
+      "position": 20,
+      "title": "SpaceX ha rimandato il lancio del razzo a causa delle ... - Open",
+      "link": "https://www.open.online/2020/05/27/space-x-nasa-riparte-elon-musk-primo-volo-spaziale-privato-equipaggio/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/05/27 › space-x-nasa-riparte-...",
+      "snippet": "Le nuove ipotesi di decollo di SpaceX sono fissate a sabato alle 21.22 o domenica alle 21 in punto, ora italiana. Causa maltempo, il lancio di SpaceX è stato ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:djDqGYKjkgoJ:https://www.open.online/2020/05/27/space-x-nasa-riparte-elon-musk-primo-volo-spaziale-privato-equipaggio/+&cd=20&hl=it&ct=clnk&gl=it",
+      "prefix": "27 mag 2020",
+      "block_position": 23
+    },
+    {
+      "position": 21,
+      "title": "Leggo | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/tag/leggo/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › tag › leggo",
+      "snippet": "Leggo. BUTAC è il sito che lotta contro fake news, disinformazione online e inutili allarmismi.",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:vnvUSlWHa3gJ:https://www.butac.it/tag/leggo/+&cd=21&hl=it&ct=clnk&gl=it",
+      "date": "5 ago 2013",
+      "date_utc": "2013-08-05T12:00:00.000Z",
+      "block_position": 24
+    },
+    {
+      "position": 22,
+      "title": "Spazzatura spaziale e asteroidi; le minacce che arrivano dallo ...",
+      "link": "https://www.open.online/2019/01/25/spazzatura-spaziale-e-asteroidi-le-minacce-che-arrivano-dallo-spazio/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/01/25 › spazzatura-spaziale-e...",
+      "snippet": "In un incontro che si è tenuto in Germania, l'Agenzia spaziale europea affronta i pericoli provenienti dallo Spazio che potrebbero minacciare la vita sulla Terra.",
+      "prerender": false,
+      "snippet_matched": [
+        "Terra"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:zPy-DkXIkMYJ:https://www.open.online/2019/01/25/spazzatura-spaziale-e-asteroidi-le-minacce-che-arrivano-dallo-spazio/+&cd=22&hl=it&ct=clnk&gl=it",
+      "prefix": "25 gen 2019",
+      "block_position": 25
+    },
+    {
+      "position": 23,
+      "title": "Piero Angela e la sua nuova laurea: è la dodicesima per il ...",
+      "link": "https://www.open.online/2019/06/15/piero-angela-e-la-sua-nuova-laurea-e-la-dodicesima-per-il-padre-di-quark/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/06/15 › piero-angela-e-la-sua...",
+      "snippet": "Il divulgatore scientifico, negli anni, ha ottenuto riconoscimenti come nomi di asteroidi e cittadinanze onorarie. Cittadinanze onorarie, Telegatti, nomi di asteroidi ...",
+      "prerender": false,
+      "snippet_matched": [
+        "asteroidi",
+        "asteroidi"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:U5X2tk-AV2oJ:https://www.open.online/2019/06/15/piero-angela-e-la-sua-nuova-laurea-e-la-dodicesima-per-il-padre-di-quark/+&cd=23&hl=it&ct=clnk&gl=it",
+      "prefix": "15 giu 2019",
+      "block_position": 26
+    },
+    {
+      "position": 24,
+      "title": "Il giovane indovino Abhigya Anand e il giornalismo fatto coi ...",
+      "link": "https://www.butac.it/il-giovane-indovino-abhigya-anand-e-il-giornalismo-fatto-coi-piedi/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Tabloid › Vergogna",
+      "snippet": "... che interesserà la Terra fino a marzo 2021. Chissà, magari arriva l'asteroide e colpisce in un solo colpo la redazione del FQ e casa del giovane astrologo.",
+      "prerender": false,
+      "snippet_matched": [
+        "Terra",
+        "asteroide"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:LFfl_cKDm00J:https://www.butac.it/il-giovane-indovino-abhigya-anand-e-il-giornalismo-fatto-coi-piedi/+&cd=24&hl=it&ct=clnk&gl=it",
+      "prefix": "10 giu 2020",
+      "block_position": 27
+    },
+    {
+      "position": 25,
+      "title": "Fuori casa, perché “vivo per strada”. Senzatetto multato a ...",
+      "link": "https://www.bufale.net/fuori-casa-perche-vivo-per-strada-senzatetto-multato-a-roma-la-disumanita-ai-tempi-del-covid19/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Editoriale",
+      "snippet": "Fuori casa, perché “vivo per strada”. Senzatetto multato a Roma: la disumanità ai tempi del COVID19. Scopri di più su Bufale, il sito contro la disinformazione, ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:jk2SHPB6lLgJ:https://www.bufale.net/fuori-casa-perche-vivo-per-strada-senzatetto-multato-a-roma-la-disumanita-ai-tempi-del-covid19/+&cd=25&hl=it&ct=clnk&gl=it",
+      "date": "8 apr 2020",
+      "date_utc": "2020-04-08T12:00:00.000Z",
+      "block_position": 28
+    },
+    {
+      "position": 26,
+      "title": "Il distanziamento sociale è il miglior modello possibile. Chi ...",
+      "link": "https://www.open.online/2020/08/01/il-distanziamento-sociale-e-il-miglior-modello-possibile-chi-critica-dovrebbe-presentarne-uno-migliore/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/08/01 › il-distanziamento-soc...",
+      "snippet": "Forse i modelli non danno sempre proiezioni valide, ma esperti come Franco Locatelli andrebbero ascoltati. I modelli matematici SIR (Susceptible, Infectious, ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:vNgXJQgeYmAJ:https://www.open.online/2020/08/01/il-distanziamento-sociale-e-il-miglior-modello-possibile-chi-critica-dovrebbe-presentarne-uno-migliore/+&cd=26&hl=it&ct=clnk&gl=it",
+      "date": "1 ago 2020",
+      "date_utc": "2020-08-01T12:00:00.000Z",
+      "block_position": 29
+    },
+    {
+      "position": 27,
+      "title": "A cosa serve avere la più dettagliata mappa dell'Universo ai ...",
+      "link": "https://www.open.online/2020/06/20/a-cosa-serve-avere-la-piu-dettagliata-mappa-delluniverso-ai-raggi-x-lintervista/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/06/20 › a-cosa-serve-avere-la...",
+      "snippet": "Il mistero della materia e dell'energia oscura coinvolge astronomi e astrofisici di tutto il Mondo. Non conosciamo le ricadute nella vita quotidiana, ma sappiamo ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:AsuCYh1AiPsJ:https://www.open.online/2020/06/20/a-cosa-serve-avere-la-piu-dettagliata-mappa-delluniverso-ai-raggi-x-lintervista/+&cd=27&hl=it&ct=clnk&gl=it",
+      "prefix": "20 giu 2020",
+      "block_position": 30
+    },
+    {
+      "position": 28,
+      "title": "\"La grande bufala della missione Apollo 20\" | Butac - Bufale ...",
+      "link": "https://www.butac.it/la-grande-bufala-della-missione-apollo-20/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Scienza › Scienza e Tecnologia",
+      "snippet": "QUALE VETTORE. Nel 1976 la Nasa era “a terra”: in febbraio del 1974 era rientrato Skylab 4, l'ultima missione dell'omonimo programma spaziale ...",
+      "prerender": false,
+      "snippet_matched": [
+        "terra"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Be8egThsO7MJ:https://www.butac.it/la-grande-bufala-della-missione-apollo-20/+&cd=28&hl=it&ct=clnk&gl=it",
+      "prefix": "1 ott 2015",
+      "block_position": 31
+    },
+    {
+      "position": 29,
+      "title": "L'antica civiltà congelata istantaneamente | Butac - Bufale Un ...",
+      "link": "https://www.butac.it/lantica-civilta-congelata/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Scienza e Tecnologia › Ufo",
+      "snippet": "Più che una bufala sembra una storiellina per bambini con un po' di Indiana Jones… Noi siamo soliti dire “basta la parola”: ci riferiamo ai nomi inclusi nella ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:McL0SBoHHN0J:https://www.butac.it/lantica-civilta-congelata/+&cd=29&hl=it&ct=clnk&gl=it",
+      "prefix": "10 gen 2017",
+      "block_position": 32
+    },
+    {
+      "position": 30,
+      "title": "Apophis e la \"fine del mondo\" nel 2036 | Butac - Bufale Un ...",
+      "link": "https://www.butac.it/la-fine-del-mondo-nel-2036/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Internet › Pseudo Scienza › uTonti",
+      "snippet": "Tante testate fuffare per eccellenza stanno facendo girare questa storia dell'asteroide Apophis che colpirà la terra nel 2036, storia che circola perlomeno da ...",
+      "prerender": false,
+      "snippet_matched": [
+        "asteroide",
+        "terra"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:NhF2r92Fp3oJ:https://www.butac.it/la-fine-del-mondo-nel-2036/+&cd=30&hl=it&ct=clnk&gl=it",
+      "prefix": "12 giu 2014",
+      "block_position": 33
+    },
+    {
+      "position": 31,
+      "title": "La Terra sarà colpita da un asteroide a dicembre 2019: l ...",
+      "link": "https://www.bufale.net/la-terra-sara-colpita-da-un-asteroide-a-dicembre-2019-lannuncio-nasa-e-solo-una-bufala/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Bufala",
+      "snippet": "Di quelle alle quali abbiamo assistito attraverso tantissimi film americani e che, per fortuna, fino a questo momento non si sono mai tramutati in realtà. Appena ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:jbJHSPCkehQJ:https://www.bufale.net/la-terra-sara-colpita-da-un-asteroide-a-dicembre-2019-lannuncio-nasa-e-solo-una-bufala/+&cd=31&hl=it&ct=clnk&gl=it",
+      "date": "3 mar 2019",
+      "date_utc": "2019-03-03T12:00:00.000Z",
+      "block_position": 34
+    },
+    {
+      "position": 32,
+      "title": "Baba Vanga le predizioni e lo pseudogiornalismo | Butac ...",
+      "link": "https://www.butac.it/baba-vanga-le-predizioni-e-lo-pseudogiornalismo/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Misinformation › Religione",
+      "snippet": "Di solito è d'estate che le testate giornalistiche devono usare fuffa allo stato puro per riempire le pagine. E invece quest'anno sembra che ogni giorno sia buono ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:0o4UruVV9nEJ:https://www.butac.it/baba-vanga-le-predizioni-e-lo-pseudogiornalismo/+&cd=32&hl=it&ct=clnk&gl=it",
+      "date": "9 dic 2015",
+      "date_utc": "2015-12-09T12:00:00.000Z",
+      "block_position": 35
+    },
+    {
+      "position": 33,
+      "title": "Un nuovo oggetto interstellare torna a farci visita: da quando ...",
+      "link": "https://www.open.online/2019/09/15/un-nuovo-oggetto-interstellare-torna-a-farci-visita-da-quando-sara-visibile-dalla-terra/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/09/15 › un-nuovo-oggetto-in...",
+      "snippet": "Si chiama «C/2019 Q4», potremo osservarlo almeno fino al 2021 e proviene dallo Spazio interstellare. Scoperta dall'astronomo dilettante ucraino Gennady ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:fAsWtT1lbdkJ:https://www.open.online/2019/09/15/un-nuovo-oggetto-interstellare-torna-a-farci-visita-da-quando-sara-visibile-dalla-terra/+&cd=33&hl=it&ct=clnk&gl=it",
+      "date": "15 set 2019",
+      "date_utc": "2019-09-15T12:00:00.000Z",
+      "block_position": 36
+    },
+    {
+      "position": 34,
+      "title": "Marijuana nello spazio, bufale sulla Terra | Butac - Bufale Un ...",
+      "link": "https://www.butac.it/marijuana-nello-spazio-bufale-sulla-terra/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › Bufala",
+      "snippet": "Marijuana nello spazio, bufale sulla Terra. Combattiamo la false informazioni veicolate online, sui giornali e in televisione. Scopri di più su Butac.it.",
+      "prerender": false,
+      "snippet_matched": [
+        "Terra"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:M14i3DzoCn8J:https://www.butac.it/marijuana-nello-spazio-bufale-sulla-terra/+&cd=34&hl=it&ct=clnk&gl=it",
+      "prefix": "8 giu 2015",
+      "block_position": 37
+    }
+  ]
+}

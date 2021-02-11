@@ -1,0 +1,820 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1,
+    "credits_used_this_request": 1,
+    "credits_remaining": 124,
+    "credits_reset_at": "2021-03-11T14:34:14.000Z"
+  },
+  "search_metadata": {
+    "created_at": "2021-02-11T14:38:31.951Z",
+    "processed_at": "2021-02-11T14:38:34.608Z",
+    "total_time_taken": 2.66,
+    "engine_url": "https://www.google.it/search?q=infermiera+dover+vaccino+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&gl=it&hl=it&uule=w+CAIQICIFSXRhbHk&num=50&tbs=cdr:1,cd_min:,cd_max:02/10/2021",
+    "html_url": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=infermiera+dover+vaccino+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=1&num=50&engine=google&output=html",
+    "json_url": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=infermiera+dover+vaccino+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=1&num=50&engine=google&output=json",
+    "location_auto_message": "We have automatically set the 'google_domain', 'gl' and 'hl' parameters to match the supplied location of 'Italy'. You can stop this behaviour by setting the 'location_auto' parameter to 'false'.",
+    "timing": [
+      "global_init - 0ms (total 0ms)",
+      "auth_apikey - 21ms (total 21ms)",
+      "auth_retrieve_plan - 27ms (total 48ms)",
+      "auth_retrieve_credit_usage - 24ms (total 73ms)",
+      "processing_invoking_worker - 1ms (total 74ms)",
+      "processing_execution_complete - 2657ms (total 2732ms)",
+      "auth_credit_usage_reconcile - 46ms (total 2778ms)",
+      "global_end - 0ms (total 2778ms)"
+    ]
+  },
+  "search_parameters": {
+    "q": "infermiera dover vaccino (site:bufale.net OR site:butac.it OR site:open.online)",
+    "google_domain": "google.it",
+    "location": "Italy",
+    "gl": "it",
+    "hl": "it",
+    "time_period": "custom",
+    "time_period_max": "02/10/2021",
+    "page": "1",
+    "num": "50"
+  },
+  "search_information": {
+    "original_query_yields_zero_results": false,
+    "total_results": 187,
+    "time_taken_displayed": 0.31,
+    "query_displayed": "infermiera dover vaccino (site:bufale.net OR site:butac.it OR site:open.online)",
+    "detected_location": "Italia"
+  },
+  "pagination": {
+    "next": "https://www.google.it/search?q=infermiera+dover+vaccino+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=aEElYMP-JsXa-gT4wbKYCA&start=50&sa=N&ved=2ahUKEwjD0rvKh-LuAhVFrZ4KHfigDIMQ8NMDegQICRBL",
+    "other_pages": {
+      "2": "https://www.google.it/search?q=infermiera+dover+vaccino+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=aEElYMP-JsXa-gT4wbKYCA&start=50&sa=N&ved=2ahUKEwjD0rvKh-LuAhVFrZ4KHfigDIMQ8tMDegQICRBF",
+      "3": "https://www.google.it/search?q=infermiera+dover+vaccino+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=aEElYMP-JsXa-gT4wbKYCA&start=100&sa=N&ved=2ahUKEwjD0rvKh-LuAhVFrZ4KHfigDIMQ8tMDegQICRBH",
+      "4": "https://www.google.it/search?q=infermiera+dover+vaccino+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=aEElYMP-JsXa-gT4wbKYCA&start=150&sa=N&ved=2ahUKEwjD0rvKh-LuAhVFrZ4KHfigDIMQ8tMDegQICRBJ"
+    },
+    "api_pagination": {
+      "next": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=infermiera%20dover%20vaccino%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=2&num=50",
+      "other_pages": {
+        "2": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=infermiera%20dover%20vaccino%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=2&num=50",
+        "3": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=infermiera%20dover%20vaccino%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=3&num=50",
+        "4": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=infermiera%20dover%20vaccino%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=4&num=50"
+      }
+    }
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Coronavirus. Infermiera sviene per colpa del vaccino Pfizer ...",
+      "link": "https://www.open.online/2020/12/19/coronavirus-infermiera-sviene-per-colpa-del-vaccino-pfizer-alt-poteva-svenire-anche-per-altri-motivi/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/12/19 › coronavirus-infermie...",
+      "snippet": "C'è chi dubita che lo svenimento di Tiffany Dover, infermiera americana, non sia dovuto ai componenti del vaccino. Il 17 dicembre 2020 viene diffusa la notizia ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Dover",
+        "infermiera",
+        "vaccino"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:vhb_2qLi58IJ:https://www.open.online/2020/12/19/coronavirus-infermiera-sviene-per-colpa-del-vaccino-pfizer-alt-poteva-svenire-anche-per-altri-motivi/+&cd=1&hl=it&ct=clnk&gl=it",
+      "date": "19 dic 2020",
+      "date_utc": "2020-12-19T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 2,
+      "title": "Coronavirus. Le false prove usate per sostenere la «morte ...",
+      "link": "https://www.open.online/2020/12/20/coronavirus-le-false-prove-usate-per-sostenere-la-morte-dellinfermiera-svenuta-dopo-il-vaccino-pfizer/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/12/20 › coronavirus-le-false-...",
+      "snippet": "L'infermiera Tiffany Pontes Dover soffre di sincope ed era svenuta per quel motivo e non per i componenti del vaccini Pfizer. L'ospedale dove lavora ha informato, ...",
+      "prerender": false,
+      "snippet_matched": [
+        "infermiera",
+        "Dover",
+        "vaccini",
+        "dove"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:jM3fhg-RwzcJ:https://www.open.online/2020/12/20/coronavirus-le-false-prove-usate-per-sostenere-la-morte-dellinfermiera-svenuta-dopo-il-vaccino-pfizer/+&cd=2&hl=it&ct=clnk&gl=it",
+      "date": "20 dic 2020",
+      "date_utc": "2020-12-20T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 3,
+      "title": "Com'è morto Maradona: l'autopsia esclude droga o alcol ma ...",
+      "link": "https://www.open.online/2020/12/23/coronavirus-linfermiera-tiffany-dover-non-e-finita-in-terapia-intensiva-dopo-il-vaccino-pfizer/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/12/23 › coronavirus-linfermi...",
+      "snippet": "La magistratura argentina dovrà verificare se gli psicofarmaci individuati nel sangue e nelle urine del campione argentino potessero essere somministrati a un ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:tpj9W3RbNpEJ:https://www.open.online/2020/12/23/coronavirus-linfermiera-tiffany-dover-non-e-finita-in-terapia-intensiva-dopo-il-vaccino-pfizer/+&cd=3&hl=it&ct=clnk&gl=it",
+      "date": "23 dic 2020",
+      "date_utc": "2020-12-23T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 4,
+      "title": "L'infermiera che sviene per il vaccino | Butac - Bufale Un ...",
+      "link": "https://www.butac.it/linfermiera-che-sviene-per-il-vaccino/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Speciale CoronaVirus - CoVid-19",
+      "snippet": "Oggi ho letto un po' di notizie e ho collegato a cosa si stesse facendo riferimento. La notizia riguardava l'infermiera Tiffany Pontes Dover, che il 19 dicembre 2020 ...",
+      "prerender": false,
+      "snippet_matched": [
+        "infermiera",
+        "Dover"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:qYD7Z-h7CqoJ:https://www.butac.it/linfermiera-che-sviene-per-il-vaccino/+&cd=4&hl=it&ct=clnk&gl=it",
+      "date": "21 dic 2020",
+      "date_utc": "2020-12-21T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 5,
+      "title": "Gli auguri di morte contro l'infermiera dello Spallanzani erano ...",
+      "link": "https://www.open.online/2021/01/02/coronavirus-auguri-morte-novax-no-fake-news-claudia-alivernini/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2021/01/02 › coronavirus-auguri-...",
+      "snippet": "Le frasi minacciose contro le infermiere sono pubbliche e riscontrabili online da giorni, eppure qualcuno sostiene che siano «fake news». Le «minacce di ...",
+      "prerender": false,
+      "snippet_matched": [
+        "infermiere"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:B9xlRy9idKUJ:https://www.open.online/2021/01/02/coronavirus-auguri-morte-novax-no-fake-news-claudia-alivernini/+&cd=5&hl=it&ct=clnk&gl=it",
+      "prefix": "2 gen 2021",
+      "block_position": 3
+    },
+    {
+      "position": 6,
+      "title": "Un'infermiera, un operatore socio sanitario, una ricercatrice ...",
+      "link": "https://www.open.online/2020/12/22/covid-19-chi-sono-i-primi-vaccinati-allo-spallanzani/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/12/22 › covid-19-chi-sono-i-...",
+      "snippet": "Un'infermiera, un operatore socio sanitario, una ricercatrice, due medici: ecco chi saranno i primi vaccinati contro il Covid allo Spallanzani. 22 Dicembre 2020 - 12: ...",
+      "prerender": false,
+      "snippet_matched": [
+        "infermiera",
+        "vaccinati"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:6VrjyPFRV_MJ:https://www.open.online/2020/12/22/covid-19-chi-sono-i-primi-vaccinati-allo-spallanzani/+&cd=6&hl=it&ct=clnk&gl=it",
+      "date": "22 dic 2020",
+      "date_utc": "2020-12-22T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 7,
+      "title": "Parte dalla Lombardia la beffa per medici e infermieri ... - Open",
+      "link": "https://www.open.online/2021/02/04/covid-19-lombardia-vaccini-bando-medici-infermieri/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2021/02/04 › covid-19-lombardia-...",
+      "snippet": "Le Ats lombarde si giustificano: «La campagna vaccinale ha una portata storica, tutte le strade sono percorribili». Era marzo 2020 quando il ministro per gli Affari ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:m4gmrnb8i5oJ:https://www.open.online/2021/02/04/covid-19-lombardia-vaccini-bando-medici-infermieri/+&cd=7&hl=it&ct=clnk&gl=it",
+      "date": "4 feb 2021",
+      "date_utc": "2021-02-04T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 8,
+      "title": "Inarrestabile bufala su Tiffany Dover morta per vaccino Covid ...",
+      "link": "https://www.bufale.net/inarrestabile-bufala-su-tiffany-dover-morta-per-vaccino-covid-replica-del-chi-memorial-hospital/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Editoriale",
+      "snippet": "Non si ferma la bufala su Tiffany Dover morta per vaccino Covid, con risposta del Chi Memorial Hospital per chi la ricerca con \"dead\"",
+      "prerender": false,
+      "snippet_matched": [
+        "Dover",
+        "vaccino"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:_g9aULMbWYkJ:https://www.bufale.net/inarrestabile-bufala-su-tiffany-dover-morta-per-vaccino-covid-replica-del-chi-memorial-hospital/+&cd=8&hl=it&ct=clnk&gl=it",
+      "date": "20 dic 2020",
+      "date_utc": "2020-12-20T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 9,
+      "title": "Altro che Tiffany Pontes Dover morta: lei ed il Chi Memorial ...",
+      "link": "https://www.bufale.net/altro-che-tiffany-pontes-dover-morta-lei-ed-il-chi-memorial-contro-voci-sul-vaccino-dellinfermiera/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Notizia Vera",
+      "snippet": "Da giorni i no vax, coadiuvati dai negazionisti, affermano che l'infermiera sia deceduta dopo essersi sottoposta al vaccino per il Covid. Nonostante le prime ...",
+      "prerender": false,
+      "snippet_matched": [
+        "infermiera",
+        "vaccino"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:CMJMYp43UmQJ:https://www.bufale.net/altro-che-tiffany-pontes-dover-morta-lei-ed-il-chi-memorial-contro-voci-sul-vaccino-dellinfermiera/+&cd=9&hl=it&ct=clnk&gl=it",
+      "date": "21 dic 2020",
+      "date_utc": "2020-12-21T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 10,
+      "title": "I complottisti inventano la morte dell'infermiera svenuta dopo il ...",
+      "link": "https://www.bufale.net/i-complottisti-inventano-la-morte-dellinfermiera-svenuta-dopo-il-vaccino-ma-non-esistono-fonti/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Nessuna Fonte",
+      "snippet": "La storia di Tiffany Dover è stata il carburante dei complottisti e degli anti-vax per ore, dopo la comparsa del video in cui l'infermiera sveniva pochi minuti dopo ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Dover",
+        "infermiera"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:JutWDA-BOqgJ:https://www.bufale.net/i-complottisti-inventano-la-morte-dellinfermiera-svenuta-dopo-il-vaccino-ma-non-esistono-fonti/+&cd=10&hl=it&ct=clnk&gl=it",
+      "date": "20 dic 2020",
+      "date_utc": "2020-12-20T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 11,
+      "title": "Infermiera vaccinata sviene, due bufale in Italia: il Chi ...",
+      "link": "https://www.bufale.net/infermiera-vaccinata-sviene-due-bufale-in-italia-il-chi-memorial-chiarisce-su-tiffany-dover/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Disinformazione",
+      "snippet": "Infermiera vaccinata sviene il 19 dicembre, ma abbiamo già due bufale in Italia secondo il Chi Memorial che precisa su Tiffany Dover.",
+      "prerender": false,
+      "snippet_matched": [
+        "Infermiera",
+        "Dover"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:8ZHrKSqUdgEJ:https://www.bufale.net/infermiera-vaccinata-sviene-due-bufale-in-italia-il-chi-memorial-chiarisce-su-tiffany-dover/+&cd=11&hl=it&ct=clnk&gl=it",
+      "date": "19 dic 2020",
+      "date_utc": "2020-12-19T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 12,
+      "title": "Dalla Valle d'Aosta alla Sardegna, ecco le voci di chi riceverà ...",
+      "link": "https://www.open.online/2020/12/23/covid-19-chi-ricevera-prime-dosi-del-vaccino-in-ogni-regione/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/12/23 › covid-19-chi-ricever...",
+      "snippet": "Le primissime dosi di vaccino contro il Coronavirus saranno somministrate a medici e infermieri, tra i primi della lista anche gli ospiti e i lavoratori impiegati nelle ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccino",
+        "infermieri"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:bwc8qbh9PjoJ:https://www.open.online/2020/12/23/covid-19-chi-ricevera-prime-dosi-del-vaccino-in-ogni-regione/+&cd=12&hl=it&ct=clnk&gl=it",
+      "date": "23 dic 2020",
+      "date_utc": "2020-12-23T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 13,
+      "title": "Coronavirus. È morta Elisa Granato, la prima volontaria per il ...",
+      "link": "https://www.open.online/2020/04/26/coronavirus-e-morta-elena-granato-la-prima-volontaria-per-il-vaccino-no-la-bufala-diffusa-dal-sito-macedone/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/04/26 › coronavirus-e-morta-...",
+      "snippet": "Coronavirus. È morta Elisa Granato, la prima volontaria per il vaccino? No! La bufala diffusa dal sito “macedone”. 26 Aprile 2020 - 11 ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccino"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:GAyS5s6_trYJ:https://www.open.online/2020/04/26/coronavirus-e-morta-elena-granato-la-prima-volontaria-per-il-vaccino-no-la-bufala-diffusa-dal-sito-macedone/+&cd=13&hl=it&ct=clnk&gl=it",
+      "date": "26 apr 2020",
+      "date_utc": "2020-04-26T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 14,
+      "title": "Vaccino anti Covid, avanti piano: perché per somministrarlo a ...",
+      "link": "https://www.open.online/2020/11/15/covid-19-vaccino-criticita-piano-nazionale-italia/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/11/15 › covid-19-vaccino-cri...",
+      "snippet": "Le 3,5 milioni di dosi in arrivo a gennaio basteranno soltanto per operatori sanitari e anziani nelle Rsa. Malati cronici e categorie vulnerabili rischiano di dover ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dover"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:7C662i257OkJ:https://www.open.online/2020/11/15/covid-19-vaccino-criticita-piano-nazionale-italia/+&cd=14&hl=it&ct=clnk&gl=it",
+      "date": "15 nov 2020",
+      "date_utc": "2020-11-15T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 15,
+      "title": "Infermiera Khalila Mitchell con paralisi di Bell dopo il vaccino ...",
+      "link": "https://www.bufale.net/infermiera-khalila-mitchell-con-paralisi-di-bell-dopo-il-vaccino-covid-scarseggiano-le-fonti/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Nessuna Fonte",
+      "snippet": "Fa discutere il caso dell'infermiera Khalila Mitchell con paralisi di Bell dopo il vaccino Covid, ma le fonti sono nulle il 27 dicembre.",
+      "prerender": false,
+      "snippet_matched": [
+        "infermiera",
+        "vaccino"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:lTtvkjgHv58J:https://www.bufale.net/infermiera-khalila-mitchell-con-paralisi-di-bell-dopo-il-vaccino-covid-scarseggiano-le-fonti/+&cd=15&hl=it&ct=clnk&gl=it",
+      "date": "27 dic 2020",
+      "date_utc": "2020-12-27T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 16,
+      "title": "L'audio Whastapp dell'infermiera dell'Amedeo di Saovia di ...",
+      "link": "https://www.open.online/2020/03/10/laudio-whastapp-dellinfermiera-dellamedeo-di-saovia-di-torino-doveva-spaventare-un-17enne/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/03/10 › laudio-whastapp-delli...",
+      "snippet": "Da lunedì 9 marzo 2020 circola un audio Whatsapp dove un'infermiera dell'ospedale Amedeo di Savoia di Torino racconta la situazione nel contrasto al nuovo ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dove",
+        "infermiera"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:4O0-ASGy7RkJ:https://www.open.online/2020/03/10/laudio-whastapp-dellinfermiera-dellamedeo-di-saovia-di-torino-doveva-spaventare-un-17enne/+&cd=16&hl=it&ct=clnk&gl=it",
+      "date": "10 mar 2020",
+      "date_utc": "2020-03-10T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 17,
+      "title": "«Nessuno sa come preparare le dosi»: i medici denunciano il ...",
+      "link": "https://www.open.online/2020/12/23/vaccino-anti-covid-formazione-medici-ritardo-regioni/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/12/23 › vaccino-anti-covid-f...",
+      "snippet": "Secondo i responsabili del sindacato Anaao, in tanti casi il personale non ha ricevuto la formazione necessaria. E in mezza Italia mancano ancora i frigoriferi ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:zGbmWggZfl8J:https://www.open.online/2020/12/23/vaccino-anti-covid-formazione-medici-ritardo-regioni/+&cd=17&hl=it&ct=clnk&gl=it",
+      "date": "23 dic 2020",
+      "date_utc": "2020-12-23T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 18,
+      "title": "Coronavirus. Le tre strane dichiarazioni di Giulio Tarro sul ...",
+      "link": "https://www.open.online/2020/04/23/coronavirus-le-tre-strane-dichiarazioni-di-giulio-tarro-sul-covid-19-e-le-vaccinazioni-antinfluenzali/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/04/23 › coronavirus-le-tre-str...",
+      "snippet": "Secondo il Virologo ci sarebbe un collegamento tra vaccini contro l'influenza e Covid-19. Ma non esistono studi che lo dimostrano. Circola in Rete un breve ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Hzzml9CSJxUJ:https://www.open.online/2020/04/23/coronavirus-le-tre-strane-dichiarazioni-di-giulio-tarro-sul-covid-19-e-le-vaccinazioni-antinfluenzali/+&cd=18&hl=it&ct=clnk&gl=it",
+      "date": "23 apr 2020",
+      "date_utc": "2020-04-23T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 19,
+      "title": "Covid 19, over 80 vaccinati già a inizio febbraio? Il governo ...",
+      "link": "https://www.open.online/2021/01/19/covid-19-italia-piano-vaccini-over-80/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2021/01/19 › covid-19-italia-piano...",
+      "snippet": "La piattaforma per prenotarsi è ancora “in fase di elaborazione”, l'ordine di precedenza non è stato stabilito e le Regioni cominciano a fare da sé. A due ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:zErvgKsAasEJ:https://www.open.online/2021/01/19/covid-19-italia-piano-vaccini-over-80/+&cd=19&hl=it&ct=clnk&gl=it",
+      "prefix": "19 gen 2021",
+      "block_position": 3
+    },
+    {
+      "position": 20,
+      "title": "Coronavirus. Lo schema del nanochip 5G del vaccino Pfizer ...",
+      "link": "https://www.open.online/2020/12/28/coronavirus-lo-schema-del-nanochip-5g-del-vaccino-pfizer-scoperto-dai-russi-i-complottisti-se-le-suonano/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/12/28 › coronavirus-lo-sche...",
+      "snippet": "Lo schema del nanochip 5G del vaccino Pfizer scoperto dai russi? I complottisti se le suonano. 28 Dicembre 2020 - 17:10. di David Puente. Probabilmente una ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccino"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:n_Rx3nkEX18J:https://www.open.online/2020/12/28/coronavirus-lo-schema-del-nanochip-5g-del-vaccino-pfizer-scoperto-dai-russi-i-complottisti-se-le-suonano/+&cd=20&hl=it&ct=clnk&gl=it",
+      "date": "28 dic 2020",
+      "date_utc": "2020-12-28T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 21,
+      "title": "Coronavirus, mai così tanti ricoveri negli Usa. Messico, al via ...",
+      "link": "https://www.open.online/2020/12/24/coronavirus-notizie-24-dicembre/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › coronavirus-notizie-24-dicembre",
+      "snippet": "Gli Stati Uniti hanno superato i 325 mila decessi per Covid. Arrivate a Città del Messico 3 mila dosi di Pfizer: oggi le prime somministrazioni ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:YfblgKHYogkJ:https://www.open.online/2020/12/24/coronavirus-notizie-24-dicembre/+&cd=21&hl=it&ct=clnk&gl=it",
+      "date": "24 dic 2020",
+      "date_utc": "2020-12-24T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 22,
+      "title": "Dal tempo di copertura alle allergie: il vaccino di Pfizer ai ...",
+      "link": "https://www.open.online/2020/12/23/coronavirus-ema-efficacia-vaccino-pfizer/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/12/23 › coronavirus-ema-effi...",
+      "snippet": "Parla Marco Cavaleri, dell'Agenzia europea per il farmaco: «Il processo di valutazione è stato estremamente rigoroso. Moderna? Sono ottimista, i dati sono ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:GWH3yj6FT7EJ:https://www.open.online/2020/12/23/coronavirus-ema-efficacia-vaccino-pfizer/+&cd=22&hl=it&ct=clnk&gl=it",
+      "date": "23 dic 2020",
+      "date_utc": "2020-12-23T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 23,
+      "title": "Il Capo della Pfize, Albert Bourla ha dichiarato che non farà il ...",
+      "link": "https://www.bufale.net/il-capo-della-pfize-albert-bourla-ha-dichiarato-che-non-fara-il-vaccino-sic-dopo-che-una-dipendente-e-finita-in-terapia-intensiva-combo-infodemica/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Bufala",
+      "snippet": "Il Capo della Pfize, Albert Bourla ha dichiarato che non farà il vaccino (sic!) dopo che una dipendente è finita in terapia intensiva - combo infodemica. Scopri di ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccino"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:GSl_T1UGGx8J:https://www.bufale.net/il-capo-della-pfize-albert-bourla-ha-dichiarato-che-non-fara-il-vaccino-sic-dopo-che-una-dipendente-e-finita-in-terapia-intensiva-combo-infodemica/+&cd=23&hl=it&ct=clnk&gl=it",
+      "date": "20 dic 2020",
+      "date_utc": "2020-12-20T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 24,
+      "title": "Coronavirus, l'Agenzia italiana del farmaco autorizza il ... - Open",
+      "link": "https://www.open.online/2020/12/22/coronavirus-aifa-approva-vaccino-pfizer/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/12/22 › coronavirus-aifa-app...",
+      "snippet": "Coronavirus, l'Agenzia italiana del farmaco autorizza il vaccino Pfizer. «Nessuna controindicazione. Pronti anche alle possibili varianti». 22 Dicembre 2020 - 17: ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccino"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:LoWhW5flStEJ:https://www.open.online/2020/12/22/coronavirus-aifa-approva-vaccino-pfizer/+&cd=24&hl=it&ct=clnk&gl=it",
+      "date": "22 dic 2020",
+      "date_utc": "2020-12-22T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 25,
+      "title": "Coronavirus. Il volontario deceduto in Brasile non aveva ...",
+      "link": "https://www.open.online/2020/10/22/coronavirus-il-volontario-deceduto-in-brasile-non-aveva-ricevuto-il-vaccino-ma-fate-attenzione/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/10/22 › coronavirus-il-volont...",
+      "snippet": "Il volontario deceduto in Brasile non aveva ricevuto il vaccino, ma fate attenzione! 22 Ottobre 2020 - 11:28. di David Puente. In molti si sono lanciati a capofitto ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccino"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:XlMsHwOb4q8J:https://www.open.online/2020/10/22/coronavirus-il-volontario-deceduto-in-brasile-non-aveva-ricevuto-il-vaccino-ma-fate-attenzione/+&cd=25&hl=it&ct=clnk&gl=it",
+      "prefix": "22 ott 2020",
+      "block_position": 3
+    },
+    {
+      "position": 26,
+      "title": "Coronavirus, il parco divertimenti Disneyland in California si ...",
+      "link": "https://www.open.online/2021/01/12/coronavirus-usa-california-disneyland-si-trasforma-in-centro-vaccinazioni/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2021/01/12 › coronavirus-usa-calif...",
+      "snippet": "Disneyland diventerà un enorme centro per le vaccinazioni contro il Coronavirus. Il Disneyland Resort a Anaheim, nella contea di Orange, in California, ha ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccinazioni"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:K5EPkMD3RP0J:https://www.open.online/2021/01/12/coronavirus-usa-california-disneyland-si-trasforma-in-centro-vaccinazioni/+&cd=26&hl=it&ct=clnk&gl=it",
+      "prefix": "12 gen 2021",
+      "block_position": 3
+    },
+    {
+      "position": 27,
+      "title": "Primule? No grazie. I padiglioni di Arcuri rifiutati dalle Regioni ...",
+      "link": "https://www.open.online/2021/02/07/covid-19-vaccini-primule-no-grazie-i-padiglioni-di-arcuri-rifiutati-dalle-regioni/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2021/02/07 › covid-19-vaccini-pri...",
+      "snippet": "Nelle sale d'attesa 20 persone sosteranno in 40 mq stando a una distanza pericolosa per le norme anti Covid. 1 unico bagno per 18 operatori sanitari e un ritmo ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:GncJGuI1qYYJ:https://www.open.online/2021/02/07/covid-19-vaccini-primule-no-grazie-i-padiglioni-di-arcuri-rifiutati-dalle-regioni/+&cd=27&hl=it&ct=clnk&gl=it",
+      "date": "4 giorni fa",
+      "date_utc": "2021-02-07T14:38:34.459Z",
+      "block_position": 3
+    },
+    {
+      "position": 28,
+      "title": "vaccino Archivi - Bufale",
+      "link": "https://www.bufale.net/tag/vaccino/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › tag › vaccino",
+      "snippet": "Era inevitabile che in un periodo di pandemia come questo, in cui si parla quasi esclusivamente di vaccini, il video dell'operatrice sanitaria Shawn Skelton ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:VEUU7UfDPKoJ:https://www.bufale.net/tag/vaccino/+&cd=28&hl=it&ct=clnk&gl=it",
+      "date": "18 apr 2014",
+      "date_utc": "2014-04-18T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 29,
+      "title": "Heather Parisi non si fida dei vaccini anti-Covid: «In Italia sarò ...",
+      "link": "https://www.open.online/2020/12/24/coronavirus-heather-parisi-no-vaccini/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/12/24 › coronavirus-heather-...",
+      "snippet": "L'icona televisiva degli anni Ottanta ha reso noto di aver deciso di non vaccinarsi perché «non si è avuto modo di vedere gli effetti nel breve, nel medio e nel ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Dr7rHHSnGuQJ:https://www.open.online/2020/12/24/coronavirus-heather-parisi-no-vaccini/+&cd=29&hl=it&ct=clnk&gl=it",
+      "date": "24 dic 2020",
+      "date_utc": "2020-12-24T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 30,
+      "title": "Covid-19. I vaccini antinfluenzali sono contaminati con i ...",
+      "link": "https://www.open.online/2020/05/22/covid-19-i-vaccini-antinfluenzali-sono-contaminati-con-i-coronavirus-dei-cani-la-bufala-dellimmunologa-no-vax/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/05/22 › covid-19-i-vaccini-a...",
+      "snippet": "Indice: Sintesi; Chi è Dolores Cahill; Tanto uccide soprattutto gli ottantenni; Le mirabolanti proprietà antivirali delle Vitamine; La correlazione coi vaccini ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:aHRIzgkBEEsJ:https://www.open.online/2020/05/22/covid-19-i-vaccini-antinfluenzali-sono-contaminati-con-i-coronavirus-dei-cani-la-bufala-dellimmunologa-no-vax/+&cd=30&hl=it&ct=clnk&gl=it",
+      "prefix": "22 mag 2020",
+      "block_position": 3
+    },
+    {
+      "position": 31,
+      "title": "Vaccino: muoiono tantissimi operatori sanitari? | Butac ...",
+      "link": "https://www.butac.it/vaccino-muoiono-tantissimi-operatori-sanitari/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Teorie del complotto",
+      "snippet": "Vaccino: muoiono tantissimi operatori sanitari?. Combattiamo la false informazioni veicolate online, sui giornali e in televisione. Scopri di più su Butac.it.",
+      "prerender": false,
+      "snippet_matched": [
+        "Vaccino"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:eWYHOhCQIrwJ:https://www.butac.it/vaccino-muoiono-tantissimi-operatori-sanitari/+&cd=31&hl=it&ct=clnk&gl=it",
+      "date": "1 giorno fa",
+      "date_utc": "2021-02-10T14:38:34.475Z",
+      "block_position": 3
+    },
+    {
+      "position": 32,
+      "title": "Caos vaccini per l'influenza in Lombardia, la rabbia dei medici ...",
+      "link": "https://www.open.online/2020/10/06/vaccini-influenza-lombardia-medici-scegliere-chi-proteggere-intervista/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/10/06 › vaccini-influenza-lo...",
+      "snippet": "«Allora dottore quando arriva il vaccino?», il presidente dell'Ordine dei Medici di Milano, dott. Roberto Rossi, racconta il caos che in questi giorni in Lombardia ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccino"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:QTl_YGGdOAcJ:https://www.open.online/2020/10/06/vaccini-influenza-lombardia-medici-scegliere-chi-proteggere-intervista/+&cd=32&hl=it&ct=clnk&gl=it",
+      "prefix": "6 ott 2020",
+      "block_position": 3
+    },
+    {
+      "position": 33,
+      "title": "Vaccino COVID-19: dai, diteci che state scherzando | Butac ...",
+      "link": "https://www.butac.it/vaccino-covid-19-dai-diteci-che-state-scherzando/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Vaccini",
+      "snippet": "L'hanno vista praticamente in tutto il mondo la nonnina novantunenne Margaret Keenan che ha ricevuto il primo vaccino Pfizer-BionTech ieri mattina alle ore ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccino"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:8OM-mU5S0FYJ:https://www.butac.it/vaccino-covid-19-dai-diteci-che-state-scherzando/+&cd=33&hl=it&ct=clnk&gl=it",
+      "date": "10 dic 2020",
+      "date_utc": "2020-12-10T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 34,
+      "title": "Vaccino anti-Covid, dopo gli intoppi di Astrazeneca e Sanofi ...",
+      "link": "https://www.open.online/2020/12/13/coronavirus-vaccino-astrazeneca-sanofi-italia-vero-piano-b/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/12/13 › coronavirus-vaccino-...",
+      "snippet": "Vaccino anti-Covid, dopo gli intoppi di Astrazeneca e Sanofi all'Italia non servono ipotesi ma un vero piano B. 13 Dicembre 2020 - 06:54. di Giada Giorgi.",
+      "prerender": false,
+      "snippet_matched": [
+        "Vaccino"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:JypJU_h0sBUJ:https://www.open.online/2020/12/13/coronavirus-vaccino-astrazeneca-sanofi-italia-vero-piano-b/+&cd=34&hl=it&ct=clnk&gl=it",
+      "date": "13 dic 2020",
+      "date_utc": "2020-12-13T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 35,
+      "title": "In arrivo il sì dell'Ema al vaccino Astrazeneca: dai tagli delle ...",
+      "link": "https://www.open.online/2021/01/28/covid-19-problemi-piano-vaccinale-italia/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2021/01/28 › covid-19-problemi-p...",
+      "snippet": "Appare sempre più lontano quell'accordo del giugno 2020 in cui Astrazeneca era sembrata la speranza del piano vaccinale italiano. Dai limiti per gli over 65 ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:93p53JpcI-IJ:https://www.open.online/2021/01/28/covid-19-problemi-piano-vaccinale-italia/+&cd=35&hl=it&ct=clnk&gl=it",
+      "prefix": "28 gen 2021",
+      "block_position": 3
+    },
+    {
+      "position": 36,
+      "title": "Il video di «Il vaso di Pandora» e la tesi di complotto del ...",
+      "link": "https://www.open.online/2020/02/24/il-video-di-il-vaso-di-pandora-e-la-tesi-di-complotto-del-coronavirus-come-arma-biologica-il-video/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/02/24 › il-video-di-il-vaso-di...",
+      "snippet": "Alcuni dei punti da lui citati sono stati già trattati da Open e cercheremo di riassumere tutto in questo articolo. L'articolo di Nature sul laboratorio di Wuhan. Si ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:F2AhC35gCiAJ:https://www.open.online/2020/02/24/il-video-di-il-vaso-di-pandora-e-la-tesi-di-complotto-del-coronavirus-come-arma-biologica-il-video/+&cd=36&hl=it&ct=clnk&gl=it",
+      "date": "24 feb 2020",
+      "date_utc": "2020-02-24T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 37,
+      "title": "Dallo spillover alla corsa ai vaccini, un anno di guerra globale ...",
+      "link": "https://www.open.online/2020/12/31/dallo-spillover-alla-corsa-ai-vaccini-un-anno-di-guerra-globale-contro-il-nuovo-coronavirus/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/12/31 › dallo-spillover-alla-c...",
+      "snippet": "«E se fosse tornata la Sars?». L'interessante discussione non avrà seguito, perché intercettata dalle autorità cinesi. I poliziotti gli avrebbero intimato dopo un ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:ZJ36i-AIuyEJ:https://www.open.online/2020/12/31/dallo-spillover-alla-corsa-ai-vaccini-un-anno-di-guerra-globale-contro-il-nuovo-coronavirus/+&cd=37&hl=it&ct=clnk&gl=it",
+      "date": "31 dic 2020",
+      "date_utc": "2020-12-31T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 38,
+      "title": "Coronavirus, domani in Italia le prime dosi di Moderna: ipotesi ...",
+      "link": "https://www.open.online/2021/01/11/coronavirus-domani-in-italia-le-prime-dosi-di-vaccino-moderna/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2021/01/11 › coronavirus-domani-...",
+      "snippet": "Le 47mila dosi del vaccino Moderna consegnate oggi in Europa, arriveranno domani in Italia, probabilmente soltanto ai territori in grado di poterle smaltire.",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccino"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:psHD_bVy5FEJ:https://www.open.online/2021/01/11/coronavirus-domani-in-italia-le-prime-dosi-di-vaccino-moderna/+&cd=38&hl=it&ct=clnk&gl=it",
+      "prefix": "11 gen 2021",
+      "block_position": 3
+    },
+    {
+      "position": 39,
+      "title": "La paralisi di Bell e il vaccino Pfizer | Butac - Bufale Un Tanto ...",
+      "link": "https://www.butac.it/la-paralisi-di-bell-e-il-vaccino-pfizer/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Teorie del complotto",
+      "snippet": "QUESTI NON AVRANNO CERTAMENTE BISOGNO DEL PATENTINO DA COVIDIOTA VACCINALE PERCHE' CE L'HANNO STAMPATO IN FACCIA IL LATO ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Uweg0JuLIs8J:https://www.butac.it/la-paralisi-di-bell-e-il-vaccino-pfizer/+&cd=39&hl=it&ct=clnk&gl=it",
+      "date": "15 dic 2020",
+      "date_utc": "2020-12-15T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 40,
+      "title": "Coronavirus. Anche il kiwi positivo alla Covid19? Lo strano ...",
+      "link": "https://www.open.online/2020/12/29/coronavirus-kiwi-positivo-esperimento-tamponi-rapidi-disinforma/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/12/29 › coronavirus-kiwi-pos...",
+      "snippet": "Attraverso uno strano esperimento si cerca di dimostrare l'inattendibilità dei tamponi rapidi, ma fate attenzione: non sono i test considerati dai bollettini.",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:y3YBKXxxlvUJ:https://www.open.online/2020/12/29/coronavirus-kiwi-positivo-esperimento-tamponi-rapidi-disinforma/+&cd=40&hl=it&ct=clnk&gl=it",
+      "date": "29 dic 2020",
+      "date_utc": "2020-12-29T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 41,
+      "title": "Niente da fare: i complottisti hanno deciso che Tiffany Dover è ...",
+      "link": "https://www.bufale.net/niente-da-fare-i-complottisti-hanno-deciso-che-tiffany-dover-e-morta-perche-lo-hanno-imparato-a-memoria-sui-social/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Editoriale",
+      "snippet": "Niente da fare: i complottisti hanno deciso che Tiffany Dover è morta perché lo hanno imparato a memoria sui social. Scopri di più su Bufale, il sito contro la ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Dover"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:6amqH6Hz2fcJ:https://www.bufale.net/niente-da-fare-i-complottisti-hanno-deciso-che-tiffany-dover-e-morta-perche-lo-hanno-imparato-a-memoria-sui-social/+&cd=41&hl=it&ct=clnk&gl=it",
+      "date": "22 dic 2020",
+      "date_utc": "2020-12-22T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 42,
+      "title": "Coronavirus, la realtà vista dall'interno di un reparto Covid a ...",
+      "link": "https://www.open.online/2020/10/30/coronavirus-reparto-covid-varese/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/10/30 › coronavirus-reparto-...",
+      "snippet": "L'esempio lampante è quello del video del Sacco che ha fatto infuriare gli infermieri e i medici in prima linea che in questi giorni stanno rivivendo, all'interno della ...",
+      "prerender": false,
+      "snippet_matched": [
+        "infermieri"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:ffD5-DhESrUJ:https://www.open.online/2020/10/30/coronavirus-reparto-covid-varese/+&cd=42&hl=it&ct=clnk&gl=it",
+      "prefix": "30 ott 2020",
+      "block_position": 3
+    },
+    {
+      "position": 43,
+      "title": "Coronavirus. Se sviluppiamo gli anticorpi, perché qualcuno si ...",
+      "link": "https://www.open.online/2020/05/01/coronavirus-se-sviluppiamo-gli-anticorpi-perche-qualcuno-si-ammala-di-nuovo-facciamo-chiarezza/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/05/01 › coronavirus-se-svilup...",
+      "snippet": "Generalmente le IgM agiscono subito nel riconoscere gli antigeni virali, ma sono di breve durata; arrivano poi le IgG che permangono a lungo. I vaccini fanno ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:PJDVjhwc6p0J:https://www.open.online/2020/05/01/coronavirus-se-sviluppiamo-gli-anticorpi-perche-qualcuno-si-ammala-di-nuovo-facciamo-chiarezza/+&cd=43&hl=it&ct=clnk&gl=it",
+      "prefix": "1 mag 2020",
+      "block_position": 3
+    },
+    {
+      "position": 44,
+      "title": "Disinformazione - Open",
+      "link": "https://www.open.online/temi/disinformazione/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › temi › disinformazione",
+      "snippet": "Leggi su Open tutte le ultime notizie in tempo reale su Disinformazione con news, approfondimenti, interviste, gallerie fotografiche e video.",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:KusZLMI9EJQJ:https://www.open.online/temi/disinformazione/+&cd=44&hl=it&ct=clnk&gl=it",
+      "date": "3 giorni fa",
+      "date_utc": "2021-02-08T14:38:34.544Z",
+      "block_position": 3
+    },
+    {
+      "position": 45,
+      "title": "Coronavirus. L'intervento della deputata Sara Cunial e i ...",
+      "link": "https://www.open.online/2020/05/15/coronavirus-lintervento-della-deputata-sara-cunial-e-i-numerosi-complotti-sul-covid-19-e-non-solo/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/05/15 › coronavirus-linterven...",
+      "snippet": "Bill Gates cacciato dall'India? Monsanto e gli OGM sterilizzanti; Il «tatuaggio quantico»; Vaccini a mRNA che riprogrammano il sistema immunitario; L' ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Vaccini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:cqkNZHvZsA8J:https://www.open.online/2020/05/15/coronavirus-lintervento-della-deputata-sara-cunial-e-i-numerosi-complotti-sul-covid-19-e-non-solo/+&cd=45&hl=it&ct=clnk&gl=it",
+      "prefix": "15 mag 2020",
+      "block_position": 3
+    },
+    {
+      "position": 46,
+      "title": "Coronavirus, il medico di Bergamo: «Dobbiamo scegliere chi ...",
+      "link": "https://www.open.online/2020/03/09/coronavirus-il-medico-di-bergamo-dobbiamo-scegliere-chi-curare-e-chi-no-come-in-guerra-ho-visto-infermieri-piangere/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/03/09 › coronavirus-il-medic...",
+      "snippet": "Ho visto infermieri piangere». 9 Marzo 2020 - 16:43. di Redazione. Una situazione che molti ...",
+      "prerender": false,
+      "snippet_matched": [
+        "infermieri"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:KV3XkmM603oJ:https://www.open.online/2020/03/09/coronavirus-il-medico-di-bergamo-dobbiamo-scegliere-chi-curare-e-chi-no-come-in-guerra-ho-visto-infermieri-piangere/+&cd=46&hl=it&ct=clnk&gl=it",
+      "date": "9 mar 2020",
+      "date_utc": "2020-03-09T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 47,
+      "title": "100 morti per vaccino a Belfast? | Butac - Bufale Un Tanto Al ...",
+      "link": "https://www.butac.it/100-morti-vaccino-belfast/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Vaccini",
+      "snippet": "Sono vaccinata e pure le mie figlie. Ma su questo vaccino ormai ho le idee chiare. Non sono stati fatti studi approfonditi sugli effetti collaterali. Io e mio marito ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccino"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:gLTNeIp0YNsJ:https://www.butac.it/100-morti-vaccino-belfast/+&cd=47&hl=it&ct=clnk&gl=it",
+      "date": "22 dic 2020",
+      "date_utc": "2020-12-22T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 48,
+      "title": "Coronavirus, lo scontro tra professori: perché Burioni ha ...",
+      "link": "https://www.open.online/2020/02/24/coronavirus-scontro-tra-virologi-roberto-burioni-e-maria-rita-gismondo-ospedale-sacco-milano/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/02/24 › coronavirus-scontro-t...",
+      "snippet": "Sono due le ragioni per cui è necessario impedire che il virus si diffonda: Per gli altri virus endemici in Italia esistono vaccini, oppure terapie antivirali;; Se SARS- ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Yvm1uDzZNrcJ:https://www.open.online/2020/02/24/coronavirus-scontro-tra-virologi-roberto-burioni-e-maria-rita-gismondo-ospedale-sacco-milano/+&cd=48&hl=it&ct=clnk&gl=it",
+      "date": "24 feb 2020",
+      "date_utc": "2020-02-24T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 49,
+      "title": "Il decreto sull'obbligatorietà dei vaccini NON è incostituzionale ...",
+      "link": "https://www.butac.it/decreto-sullobbligatorieta-dei-vaccini-non-incostituzionale/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Medicina › Pseudo Politica › Vaccini",
+      "snippet": "[message_box title=”NOTIZIA” color=”red”]Secondo alcuni blog antivaccinisti il Decreto Legge che rende le vaccinazioni obbligatorie per accedere a scuola è ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccinazioni"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:cR3ntRgJw2sJ:https://www.butac.it/decreto-sullobbligatorieta-dei-vaccini-non-incostituzionale/+&cd=49&hl=it&ct=clnk&gl=it",
+      "prefix": "14 giu 2017",
+      "block_position": 3
+    },
+    {
+      "position": 50,
+      "title": "morta Archivi - Bufale",
+      "link": "https://www.bufale.net/tag/morta/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › tag › morta",
+      "snippet": "Il Garante Privacy dispone il blocco di TikTok è la notizia del momento. Un delle concause, ancorché non il motivo primario della sanzione credo sia a ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:T4vE3c9keYYJ:https://www.bufale.net/tag/morta/+&cd=50&hl=it&ct=clnk&gl=it",
+      "prefix": "23 lug 2014",
+      "block_position": 3
+    }
+  ]
+}

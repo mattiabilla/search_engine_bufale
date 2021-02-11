@@ -1,0 +1,785 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 5,
+    "credits_used_this_request": 1,
+    "credits_remaining": 120,
+    "credits_reset_at": "2021-03-11T14:34:14.000Z"
+  },
+  "search_metadata": {
+    "created_at": "2021-02-11T15:36:53.429Z",
+    "processed_at": "2021-02-11T15:37:01.662Z",
+    "total_time_taken": 8.23,
+    "engine_url": "https://www.google.it/search?q=scie+chimiche+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&gl=it&hl=it&uule=w+CAIQICIFSXRhbHk&num=50&tbs=cdr:1,cd_min:,cd_max:02/10/2021",
+    "html_url": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=scie+chimiche+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=1&num=50&engine=google&output=html",
+    "json_url": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=scie+chimiche+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=1&num=50&engine=google&output=json",
+    "location_auto_message": "We have automatically set the 'google_domain', 'gl' and 'hl' parameters to match the supplied location of 'Italy'. You can stop this behaviour by setting the 'location_auto' parameter to 'false'.",
+    "timing": [
+      "global_init - 0ms (total 0ms)",
+      "auth_apikey - 35ms (total 35ms)",
+      "auth_retrieve_plan - 14ms (total 50ms)",
+      "auth_retrieve_credit_usage - 23ms (total 74ms)",
+      "processing_invoking_worker - 1ms (total 75ms)",
+      "processing_execution_complete - 8233ms (total 8308ms)",
+      "auth_credit_usage_reconcile - 39ms (total 8347ms)",
+      "global_end - 0ms (total 8347ms)"
+    ]
+  },
+  "search_parameters": {
+    "q": "scie chimiche (site:bufale.net OR site:butac.it OR site:open.online)",
+    "google_domain": "google.it",
+    "location": "Italy",
+    "gl": "it",
+    "hl": "it",
+    "time_period": "custom",
+    "time_period_max": "02/10/2021",
+    "page": "1",
+    "num": "50"
+  },
+  "search_information": {
+    "original_query_yields_zero_results": false,
+    "total_results": 372,
+    "time_taken_displayed": 0.32,
+    "query_displayed": "scie chimiche (site:bufale.net OR site:butac.it OR site:open.online)",
+    "detected_location": "Italia"
+  },
+  "pagination": {
+    "next": "https://www.google.it/search?q=scie+chimiche+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=G08lYPqdN5Gd-gTbl5yIAQ&start=50&sa=N&ved=2ahUKEwi6l-7SlOLuAhWRjp4KHdsLBxEQ8NMDegQICRBQ",
+    "other_pages": {
+      "2": "https://www.google.it/search?q=scie+chimiche+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=G08lYPqdN5Gd-gTbl5yIAQ&start=50&sa=N&ved=2ahUKEwi6l-7SlOLuAhWRjp4KHdsLBxEQ8tMDegQICRBG",
+      "3": "https://www.google.it/search?q=scie+chimiche+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=G08lYPqdN5Gd-gTbl5yIAQ&start=100&sa=N&ved=2ahUKEwi6l-7SlOLuAhWRjp4KHdsLBxEQ8tMDegQICRBI",
+      "4": "https://www.google.it/search?q=scie+chimiche+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=G08lYPqdN5Gd-gTbl5yIAQ&start=150&sa=N&ved=2ahUKEwi6l-7SlOLuAhWRjp4KHdsLBxEQ8tMDegQICRBK",
+      "5": "https://www.google.it/search?q=scie+chimiche+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=G08lYPqdN5Gd-gTbl5yIAQ&start=200&sa=N&ved=2ahUKEwi6l-7SlOLuAhWRjp4KHdsLBxEQ8tMDegQICRBM",
+      "6": "https://www.google.it/search?q=scie+chimiche+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=G08lYPqdN5Gd-gTbl5yIAQ&start=250&sa=N&ved=2ahUKEwi6l-7SlOLuAhWRjp4KHdsLBxEQ8tMDegQICRBO"
+    },
+    "api_pagination": {
+      "next": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=scie%20chimiche%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=2&num=50",
+      "other_pages": {
+        "2": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=scie%20chimiche%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=2&num=50",
+        "3": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=scie%20chimiche%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=3&num=50",
+        "4": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=scie%20chimiche%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=4&num=50",
+        "5": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=scie%20chimiche%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=5&num=50",
+        "6": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=scie%20chimiche%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=6&num=50"
+      }
+    }
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "GUIDA UTILE Vogliono avvelenarci con le scie chimiche ...",
+      "link": "https://www.bufale.net/bufala-vogliono-avvelenarci-con-le-scie-chimiche-bufale-net/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Guide Utili",
+      "snippet": "Le scie chimiche sono fenomeni spiegati dalle leggi Fisiche e Chimiche meglio definite scie di condensazione (contrail).",
+      "prerender": false,
+      "snippet_matched": [
+        "scie chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:nuSFZc3h06oJ:https://www.bufale.net/bufala-vogliono-avvelenarci-con-le-scie-chimiche-bufale-net/+&cd=1&hl=it&ct=clnk&gl=it",
+      "prefix": "18 mag 2015",
+      "block_position": 3
+    },
+    {
+      "position": 2,
+      "title": "Le scie chimiche in parlamento 3: la vendetta | Butac - Bufale ...",
+      "link": "https://www.butac.it/le-scie-chimiche-in-parlamento-vol-3/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Pseudo Politica › uTonti › Vergogna",
+      "snippet": "Mi era sfuggita questa notizia (che è della fine di marzo):. l'Onorevole Scilipoti interroga il Presidente del Consiglio dei Ministri sulle scie chimiche!",
+      "prerender": false,
+      "snippet_matched": [
+        "scie chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:u85fEuZ2uW4J:https://www.butac.it/le-scie-chimiche-in-parlamento-vol-3/+&cd=2&hl=it&ct=clnk&gl=it",
+      "date": "24 apr 2014",
+      "date_utc": "2014-04-24T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 3,
+      "title": "Chi ci sta bucando le nuvole? - Open",
+      "link": "https://www.open.online/2019/03/20/chi-ci-sta-bucando-le-nuvole/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/03/20 › chi-ci-sta-bucando-le...",
+      "snippet": "Da anni in giro per il Mondo vengono pubblicate foto di nuvole col buco, recentemente circola in rete un video che alcuni affermano essere stato girato negli ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:yAidh0QlFGYJ:https://www.open.online/2019/03/20/chi-ci-sta-bucando-le-nuvole/+&cd=3&hl=it&ct=clnk&gl=it",
+      "date": "20 mar 2019",
+      "date_utc": "2019-03-20T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 4,
+      "title": "La prova delle scie chimiche? | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/la-prova-delle-scie-chimiche/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Complottismi",
+      "snippet": "La prova delle scie chimiche?. Combattiamo la false informazioni veicolate online, sui giornali e in televisione. Scopri di più su Butac.it.",
+      "prerender": false,
+      "snippet_matched": [
+        "scie chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:dWoOOg_6WXoJ:https://www.butac.it/la-prova-delle-scie-chimiche/+&cd=4&hl=it&ct=clnk&gl=it",
+      "date": "5 apr 2014",
+      "date_utc": "2014-04-05T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 5,
+      "title": "Scie chimiche, il complotto che non c'è | Butac - Bufale Un ...",
+      "link": "https://www.butac.it/scie-chimiche-complotto/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Teorie del complotto",
+      "snippet": "Scie chimiche, il complotto che non c'è. Combattiamo la false informazioni veicolate online, sui giornali e in televisione. Scopri di più su Butac.it.",
+      "prerender": false,
+      "snippet_matched": [
+        "Scie chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:CGIAbdNXy_4J:https://www.butac.it/scie-chimiche-complotto/+&cd=5&hl=it&ct=clnk&gl=it",
+      "prefix": "16 giu 2014",
+      "block_position": 3
+    },
+    {
+      "position": 6,
+      "title": "Le scie chimiche a SuperQuark | Butac - Bufale Un Tanto Al ...",
+      "link": "https://www.butac.it/le-scie-chimiche-a-superquark/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Teorie del complotto",
+      "snippet": "Piero Angela, coadiuvato magistralmente dal giornalista e divulgatore scientifico Massimo Polidoro, ha semplicemente confermato ciò che è lapalissiano: le ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:avwougb1NKgJ:https://www.butac.it/le-scie-chimiche-a-superquark/+&cd=6&hl=it&ct=clnk&gl=it",
+      "prefix": "24 lug 2018",
+      "block_position": 3
+    },
+    {
+      "position": 7,
+      "title": "BASTA BUFALE, Senato e scie chimiche | Butac - Bufale Un ...",
+      "link": "https://www.butac.it/bastabufale-senato-scie-chimiche/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Teorie del complotto",
+      "snippet": "Mentre la presidenza della Camera da ormai qualche mese lotta per sensibilizzare sul problema delle bufale, a pochi passi dalla Camera ecco che altri soggetti ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:g_tUIifjKgwJ:https://www.butac.it/bastabufale-senato-scie-chimiche/+&cd=7&hl=it&ct=clnk&gl=it",
+      "date": "13 mar 2017",
+      "date_utc": "2017-03-13T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 8,
+      "title": "Gianini: \"Tutti sanno delle scie chimiche\"... | Butac - Bufale Un ...",
+      "link": "https://www.butac.it/gianini-tutti-sanno-delle-scie-chimiche/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Teorie del complotto",
+      "snippet": "…E sanno che si tratta di una sciocchezza. Questo Gianini non lo dice, ma, se leggete BUTAC da tempo, sull'argomento scie chimiche abbiamo onestamente ...",
+      "prerender": false,
+      "snippet_matched": [
+        "scie chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:enWm_M-HwWYJ:https://www.butac.it/gianini-tutti-sanno-delle-scie-chimiche/+&cd=8&hl=it&ct=clnk&gl=it",
+      "date": "5 nov 2018",
+      "date_utc": "2018-11-05T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 9,
+      "title": "L'interruttore per le scie chimiche | Butac - Bufale Un Tanto Al ...",
+      "link": "https://www.butac.it/linterruttore-per-le-scie-chimiche/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Teorie del complotto",
+      "snippet": "Abbiamo parlato spesso di scie chimiche e vi posso assicurare che non ci dà alcun piacere continuare a parlarne – giusto pochi giorni ne hanno parlato ...",
+      "prerender": false,
+      "snippet_matched": [
+        "scie chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:2vltw-ZVrfMJ:https://www.butac.it/linterruttore-per-le-scie-chimiche/+&cd=9&hl=it&ct=clnk&gl=it",
+      "date": "3 feb 2016",
+      "date_utc": "2016-02-03T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 10,
+      "title": "Scie chimiche, litio e condivisioni non verificate | Butac ...",
+      "link": "https://www.butac.it/scie-chimiche-litio-condivisioni-non-verificate/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Salute › Teorie del complotto",
+      "snippet": "Il presidente di un'associazione consumatori, dalla sua pagina social, rilancia un vecchio articolo di Sputnik News, utilizzando queste parole: ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:J9wCHYXf1WIJ:https://www.butac.it/scie-chimiche-litio-condivisioni-non-verificate/+&cd=10&hl=it&ct=clnk&gl=it",
+      "date": "14 set 2017",
+      "date_utc": "2017-09-14T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 11,
+      "title": "scie chimiche Archivi - Bufale",
+      "link": "https://www.bufale.net/tag/scie-chimiche-2/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › tag › scie-chimiche-2",
+      "snippet": "Sì, sul Covid causato dalle scie chimiche per infettare il mondo intero ne abbiamo sentite tante ma a questo giro, dalla Russia, arriva la teoria della polmonite ...",
+      "prerender": false,
+      "snippet_matched": [
+        "scie chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:6ZT5E8kjgJIJ:https://www.bufale.net/tag/scie-chimiche-2/+&cd=11&hl=it&ct=clnk&gl=it",
+      "date": "19 apr 2014",
+      "date_utc": "2014-04-19T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 12,
+      "title": "Scie chimiche in parlamento | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/scie-chimiche-in-parlamento/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Teorie del complotto",
+      "snippet": "Scie chimiche in parlamento. Combattiamo la false informazioni veicolate online, sui giornali e in televisione. Scopri di più su Butac.it.",
+      "prerender": false,
+      "snippet_matched": [
+        "Scie chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:zmnMw0TLjfYJ:https://www.butac.it/scie-chimiche-in-parlamento/+&cd=12&hl=it&ct=clnk&gl=it",
+      "prefix": "19 gen 2014",
+      "block_position": 3
+    },
+    {
+      "position": 13,
+      "title": "Chi è Vito Crimi del Movimento 5 Stelle? - Open",
+      "link": "https://www.open.online/2020/01/22/chi-e-vito-crimi-movimento-5-stelle/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/01/22 › chi-e-vito-crimi-mov...",
+      "snippet": "Dallo streaming con Bersani al ministero dell'Interno, passando per le scie chimiche e il tentativo di chiusura di Radio Radicale: ecco chi è il nuovo capo ad ...",
+      "prerender": false,
+      "snippet_matched": [
+        "scie chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:qlUUdqvgpb4J:https://www.open.online/2020/01/22/chi-e-vito-crimi-movimento-5-stelle/+&cd=13&hl=it&ct=clnk&gl=it",
+      "prefix": "22 gen 2020",
+      "block_position": 3
+    },
+    {
+      "position": 14,
+      "title": "Scie chimiche o ragni? | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/scie-chimiche-o-ragni/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Social network › uTonti",
+      "snippet": "Questo è lo scenario di questa mattina in Puglia. Questa notte gli aerei del nuovo ordine mondiale hanno spruzzato ettolitri di scie kimike ( PALPABILI CON MANO ) ...",
+      "prerender": false,
+      "snippet_matched": [
+        "scie"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:6cq8-7SkcvcJ:https://www.butac.it/scie-chimiche-o-ragni/+&cd=14&hl=it&ct=clnk&gl=it",
+      "date": "17 apr 2018",
+      "date_utc": "2018-04-17T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 15,
+      "title": "Le scie chimiche e la \"scienza\"? | Butac - Bufale Un Tanto Al ...",
+      "link": "https://www.butac.it/sciechimiche-opportunismo/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Disinformazione › Internet › uTonti",
+      "snippet": "Tanto per informazione, il 30 maggio prossimo l'Accademia delle Scienze dell'Istituto di Bologna (su cui mi esimo dall'esprimere pareri) metterà in scena un ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:joWp3KRNG9MJ:https://www.butac.it/sciechimiche-opportunismo/+&cd=15&hl=it&ct=clnk&gl=it",
+      "prefix": "21 mag 2014",
+      "block_position": 3
+    },
+    {
+      "position": 16,
+      "title": "Chemtrails - Scie Chimiche | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/chemtrails-scie-chimiche/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › chemtrails-scie-chimiche",
+      "snippet": "Benvenuto nella sezione Chemtrails - Scie Chimiche di Butac - Bufale Un Tanto Al Chilo, il sito che lotta contro fake news e disinformazione online e non solo.",
+      "prerender": false,
+      "snippet_matched": [
+        "Scie Chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:W4soZeQ7798J:https://www.butac.it/chemtrails-scie-chimiche/+&cd=16&hl=it&ct=clnk&gl=it",
+      "date": "5 ago 2013",
+      "date_utc": "2013-08-05T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 17,
+      "title": "Il capo della CIA e le scie chimiche | Butac - Bufale Un Tanto ...",
+      "link": "https://www.butac.it/capo-della-cia-le-scie-chimiche/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Teorie del complotto › uTonti",
+      "snippet": "Il video che circola sul web italiano con sottotitoli riprende alcune parti di un altro discorso di un'ora fatto al Council on Foreign Relations, tagliandole ad arte per ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:e32ZDMR00oIJ:https://www.butac.it/capo-della-cia-le-scie-chimiche/+&cd=17&hl=it&ct=clnk&gl=it",
+      "prefix": "21 lug 2016",
+      "block_position": 3
+    },
+    {
+      "position": 18,
+      "title": "Alluminio? Scie chimiche? Malattie neurodegenerative ...",
+      "link": "https://www.butac.it/alluminio-scie-chimiche-malattie-neurodegenerative/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Salute › Teorie del complotto",
+      "snippet": "Alluminio? Scie chimiche? Malattie neurodegenerative?. Combattiamo la false informazioni veicolate online, sui giornali e in televisione. Scopri di più su ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Scie chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:qgglxeXC4scJ:https://www.butac.it/alluminio-scie-chimiche-malattie-neurodegenerative/+&cd=18&hl=it&ct=clnk&gl=it",
+      "date": "9 dic 2013",
+      "date_utc": "2013-12-09T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 19,
+      "title": "Scie chimiche e controllo del clima for dummies. | Butac ...",
+      "link": "https://www.butac.it/scie-chimiche-e-controllo-del-clima-for-dummies/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Teorie del complotto",
+      "snippet": "Ovvero se ascolti i TG sei uno schiavo del sistema, ma se dicono quello che vuoi sentirti dire è vangelo! C'è un video che gira su Facebook e altre piattaforme, ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Gzn25vXN7_QJ:https://www.butac.it/scie-chimiche-e-controllo-del-clima-for-dummies/+&cd=19&hl=it&ct=clnk&gl=it",
+      "date": "5 set 2014",
+      "date_utc": "2014-09-05T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 20,
+      "title": "Scie Chimiche - La Guerra Segreta | Butac - Bufale Un Tanto ...",
+      "link": "https://www.butac.it/tanker-enemy-guerra-segreta/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Pseudo Scienza › uTonti",
+      "snippet": "Scie Chimiche - La Guerra Segreta. Combattiamo la false informazioni veicolate online, sui giornali e in televisione. Scopri di più su Butac.it.",
+      "prerender": false,
+      "snippet_matched": [
+        "Scie Chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:yzL6firo0CgJ:https://www.butac.it/tanker-enemy-guerra-segreta/+&cd=20&hl=it&ct=clnk&gl=it",
+      "date": "25 ago 2014",
+      "date_utc": "2014-08-25T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 21,
+      "title": "Aereo dimentica di spegnere le scie chimiche in fase di ...",
+      "link": "https://www.bufale.net/aereo-dimentica-spegnere-scie-chimiche-in-fase-atterraggio-bufala-bufale-net/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Complottisti",
+      "snippet": "è un BUFALA quello è un fuel dump. e' il volo 777 della united/continental. Anche a voler sostenere l'esistenza delle scie chimiche si dovrebbe quantomeno ...",
+      "prerender": false,
+      "snippet_matched": [
+        "scie chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:YpMNOrYs7Y4J:https://www.bufale.net/aereo-dimentica-spegnere-scie-chimiche-in-fase-atterraggio-bufala-bufale-net/+&cd=21&hl=it&ct=clnk&gl=it",
+      "prefix": "20 giu 2014",
+      "block_position": 3
+    },
+    {
+      "position": 22,
+      "title": "Scie chimiche: ancora, e sempre peggio | Butac - Bufale Un ...",
+      "link": "https://www.butac.it/scie-chimiche-ancora-e-sempre-peggio/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Teorie del complotto",
+      "snippet": "La perseveranza è una dote molto positiva, ma sarebbe bello vederla applicata a questioni più utili alla comunità. Il mitico “giornalista” Gianni Lannes ha scritto ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:bFHgwoTIocwJ:https://www.butac.it/scie-chimiche-ancora-e-sempre-peggio/+&cd=22&hl=it&ct=clnk&gl=it",
+      "prefix": "5 mag 2014",
+      "block_position": 3
+    },
+    {
+      "position": 23,
+      "title": "\"Pilota confessa di aver spruzzato scie chimiche\": ritorna la ...",
+      "link": "https://www.bufale.net/pilota-confessa-di-aver-spruzzato-scie-chimiche-ritorna-la-bufala-del-2015/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Bufala",
+      "snippet": "\"Pilota confessa di aver spruzzato scie chimiche\": ritorna la bufala del 2015. Scopri di più su Bufale, il sito contro la disinformazione, le bufale e l'allarmismo che ...",
+      "prerender": false,
+      "snippet_matched": [
+        "scie chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:MXKbQLwmeIAJ:https://www.bufale.net/pilota-confessa-di-aver-spruzzato-scie-chimiche-ritorna-la-bufala-del-2015/+&cd=23&hl=it&ct=clnk&gl=it",
+      "prefix": "20 lug 2020",
+      "block_position": 3
+    },
+    {
+      "position": 24,
+      "title": "BUFALA Pilota confessa: \"Per anni ho spruzzato scie ...",
+      "link": "https://www.bufale.net/bufala-pilota-confessa-per-anni-ho-spruzzato-scie-chimiche-nei-cieli-italiani/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Bufala",
+      "snippet": "BUFALA Pilota confessa: \"Per anni ho spruzzato scie chimiche nei cieli italiani\". Scopri di più su Bufale, il sito contro la disinformazione, le bufale e l'allarmismo ...",
+      "prerender": false,
+      "snippet_matched": [
+        "scie chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:isrhOL2VNekJ:https://www.bufale.net/bufala-pilota-confessa-per-anni-ho-spruzzato-scie-chimiche-nei-cieli-italiani/+&cd=24&hl=it&ct=clnk&gl=it",
+      "prefix": "9 ott 2018",
+      "block_position": 3
+    },
+    {
+      "position": 25,
+      "title": "Il rubinetto delle scie chimiche | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/il-rubinetto-delle-scie-chimiche/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Complottismi › Teorie del complotto",
+      "snippet": "Attivo.TV, da poco inserita nella nostra Lista Nera, ha pubblicato un video che mostra un aereo passeggeri in fase d'atterraggio che lascia immense scie in cielo. Il ...",
+      "prerender": false,
+      "snippet_matched": [
+        "scie"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:CDUrkIIfLdoJ:https://www.butac.it/il-rubinetto-delle-scie-chimiche/+&cd=25&hl=it&ct=clnk&gl=it",
+      "date": "22 apr 2014",
+      "date_utc": "2014-04-22T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 26,
+      "title": "\"Il TG2 RAI: scie chimiche, entro il 2022 tutti i cieli saranno ...",
+      "link": "https://www.bufale.net/il-tg2-rai-scie-chimiche-entro-il-2022-tutti-i-cieli-saranno-irrorati-con-particelle-di-alluminio/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Complottismo",
+      "snippet": "\"Il TG2 RAI: scie chimiche, entro il 2022 tutti i cieli saranno irrorati con particelle di alluminio\". Scopri di più su Bufale, il sito contro la disinformazione, le bufale e ...",
+      "prerender": false,
+      "snippet_matched": [
+        "scie chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Ja5oQ4qczC8J:https://www.bufale.net/il-tg2-rai-scie-chimiche-entro-il-2022-tutti-i-cieli-saranno-irrorati-con-particelle-di-alluminio/+&cd=26&hl=it&ct=clnk&gl=it",
+      "date": "1 set 2019",
+      "date_utc": "2019-09-01T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 27,
+      "title": "Rosalind Peterson denuncia le scie chimiche? | Butac - Bufale ...",
+      "link": "https://www.butac.it/rosalind-peterson-scie-chimiche/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Complottismi › Teorie del complotto",
+      "snippet": "Quando diciamo che certe bufale sono dure a morire, abbiamo degli esempi ben chiari in mente. Fra questi annoveriamo l'ennesimo, presunto video-verità che ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:OjxSJcW0B-sJ:https://www.butac.it/rosalind-peterson-scie-chimiche/+&cd=27&hl=it&ct=clnk&gl=it",
+      "prefix": "4 mag 2016",
+      "block_position": 3
+    },
+    {
+      "position": 28,
+      "title": "BUFALA Pilota confessa di irrorare Scie Chimiche - Bufale.net ...",
+      "link": "https://www.bufale.net/bufala-pilota-confessa-di-irrorare-scie-chimiche-bufale-net/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Bufala",
+      "snippet": "Misteri & Controinformazione riporta una rivelazione che i teorici delle scie chimiche aspettavano da tempo: Un pilota confessa di irrorare scie chimiche.",
+      "prerender": false,
+      "snippet_matched": [
+        "scie chimiche",
+        "scie chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:_bl64n_egGIJ:https://www.bufale.net/bufala-pilota-confessa-di-irrorare-scie-chimiche-bufale-net/+&cd=28&hl=it&ct=clnk&gl=it",
+      "prefix": "20 mag 2015",
+      "block_position": 3
+    },
+    {
+      "position": 29,
+      "title": "Documenti segreti sulle scie chimiche | Butac - Bufale Un ...",
+      "link": "https://www.butac.it/scottanti-documenti-sulle-scie-chimiche/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Teorie del complotto › uTonti",
+      "snippet": "Si come no, peccato che a me sembrino normalissimi NoTAM, ovvero dei Notice to AirMen. Da nessuna parte in tutto il documento si menzionano mai scie ...",
+      "prerender": false,
+      "snippet_matched": [
+        "scie"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Geb9GYgDODUJ:https://www.butac.it/scottanti-documenti-sulle-scie-chimiche/+&cd=29&hl=it&ct=clnk&gl=it",
+      "prefix": "3 mag 2014",
+      "block_position": 3
+    },
+    {
+      "position": 30,
+      "title": "BUFALA La Legge sulle scie chimiche - bufale.net - Bufale",
+      "link": "https://www.bufale.net/non-esiste-decreto-per-scie-chimiche/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Bufala",
+      "snippet": "È giunta all'attenzione della nostra redazione una serie di testi secondo cui sarebbe stata invenuta nella Legge 36 del 5 Gennaio 1994, non solo la prova, ma ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:rpmREfLQXIcJ:https://www.bufale.net/non-esiste-decreto-per-scie-chimiche/+&cd=30&hl=it&ct=clnk&gl=it",
+      "prefix": "21 ott 2014",
+      "block_position": 3
+    },
+    {
+      "position": 31,
+      "title": "Il \"dottore\" delle scie chimiche | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/il-dottore-delle-scie-chimiche/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Metodo Stamina › Salute",
+      "snippet": "Il \"dottore\" delle scie chimiche. Combattiamo la false informazioni veicolate online, sui giornali e in televisione. Scopri di più su Butac.it.",
+      "prerender": false,
+      "snippet_matched": [
+        "scie chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Rjmx7LUbKc0J:https://www.butac.it/il-dottore-delle-scie-chimiche/+&cd=31&hl=it&ct=clnk&gl=it",
+      "date": "22 set 2014",
+      "date_utc": "2014-09-22T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 32,
+      "title": "Scie chimiche al Senato, la vendetta | Butac - Bufale Un Tanto ...",
+      "link": "https://www.butac.it/scie-chimiche-al-senato-2-la-vendetta/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Teorie del complotto › Vergogna",
+      "snippet": "Il problema è che esiste un documento del Senato che afferma le stesse identiche tesi dei “teorici del complotto”: si tratta dell'Atto n. 3-00452 pubblicato il 14 ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:NspFEv2z9EcJ:https://www.butac.it/scie-chimiche-al-senato-2-la-vendetta/+&cd=32&hl=it&ct=clnk&gl=it",
+      "date": "17 apr 2014",
+      "date_utc": "2014-04-17T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 33,
+      "title": "Coronavirus prodotto col Dna dalle onde del 5G? Lo dice uno ...",
+      "link": "https://www.open.online/2020/07/25/coronavirus-dna-onde-5g-studio-luminari-omeopatia/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/07/25",
+      "snippet": "Secondo alcuni omeopati e sciachimisti le radiazioni elettromagnetiche generano i virus nelle nostre cellule, provocando la Covid-19. Un editoriale presentato ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:jjYpmERM_1AJ:https://www.open.online/2020/07/25/coronavirus-dna-onde-5g-studio-luminari-omeopatia/+&cd=33&hl=it&ct=clnk&gl=it",
+      "prefix": "25 lug 2020",
+      "block_position": 3
+    },
+    {
+      "position": 34,
+      "title": "Le scie chimiche in Cilento | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/le-scie-chimiche-cilento/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Teorie del complotto",
+      "snippet": "Lo strano caso della base sul Monte Stella. L'autore ha notato spesso delle scie tossiche incrociarsi poco al di sopra della vetta, ad un'altitudine dunque del ...",
+      "prerender": false,
+      "snippet_matched": [
+        "scie"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:KR1JI1USK6UJ:https://www.butac.it/le-scie-chimiche-cilento/+&cd=34&hl=it&ct=clnk&gl=it",
+      "date": "13 ago 2016",
+      "date_utc": "2016-08-13T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 35,
+      "title": "Sequestrati gli account social di Rosario Marcianò: incitava a ...",
+      "link": "https://www.open.online/2020/03/24/sequestrati-gli-account-social-di-rosario-marciano-incitava-a-destabilizzare-litalia-negando-il-coronavirus/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/03/24 › sequestrati-gli-accou...",
+      "snippet": "Il 23 marzo 2020 la Polizia Postale di Imperia ha posto sotto sequestro gli account social del complottista Rosario Marcianò per aver diffuso un video nel quale ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:dJAzSnf34D0J:https://www.open.online/2020/03/24/sequestrati-gli-account-social-di-rosario-marciano-incitava-a-destabilizzare-litalia-negando-il-coronavirus/+&cd=35&hl=it&ct=clnk&gl=it",
+      "date": "24 mar 2020",
+      "date_utc": "2020-03-24T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 36,
+      "title": "Il Coronavirus non esiste, è RNA DIGITIZZATO - Bufale",
+      "link": "https://www.bufale.net/il-coronavirus-non-esiste-e-rna-digitizzato/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Complottismo",
+      "snippet": "Esiste nella medicina alternativa e nel complottisimo un'intera branca dedicata al negazionismo. Accede con ogni malattia infettiva e pericolosa: il primo ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:1JOiED2lKmIJ:https://www.bufale.net/il-coronavirus-non-esiste-e-rna-digitizzato/+&cd=36&hl=it&ct=clnk&gl=it",
+      "date": "1 mar 2020",
+      "date_utc": "2020-03-01T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 37,
+      "title": "BUFALA Testo scolastico per bambini che parla di Scie ...",
+      "link": "https://www.bufale.net/bufala-testo-scolastico-per-bambini-che-parla-di-scie-chimiche-bufale-net/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Bufala",
+      "snippet": "Libro di testo per bambini, la cui prima edizione risale al 1999, parla di Scie Chimiche.",
+      "prerender": false,
+      "snippet_matched": [
+        "Scie Chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:2FL05ks4vbMJ:https://www.bufale.net/bufala-testo-scolastico-per-bambini-che-parla-di-scie-chimiche-bufale-net/+&cd=37&hl=it&ct=clnk&gl=it",
+      "prefix": "22 mag 2015",
+      "block_position": 3
+    },
+    {
+      "position": 38,
+      "title": "ACCHIAPPACLICK Serve più acqua: e la Cina si affida alle ...",
+      "link": "https://www.bufale.net/acchiappaclick-serve-piu-acqua-e-la-cina-si-affida-alle-scie-chimiche-per-provocare-la-pioggia/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Acchiappaclick",
+      "snippet": "ACCHIAPPACLICK Serve più acqua: e la Cina si affida alle scie chimiche per provocare la pioggia. Scopri di più su Bufale, il sito contro la disinformazione, ...",
+      "prerender": false,
+      "snippet_matched": [
+        "scie chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:VD4UJ4aEuOEJ:https://www.bufale.net/acchiappaclick-serve-piu-acqua-e-la-cina-si-affida-alle-scie-chimiche-per-provocare-la-pioggia/+&cd=38&hl=it&ct=clnk&gl=it",
+      "date": "24 apr 2018",
+      "date_utc": "2018-04-24T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 39,
+      "title": "BUFALA - Neve che brucia e le scie chimiche - Bufale.net ...",
+      "link": "https://www.bufale.net/bufala-neve-brucia-scie-chimiche-bufale-net/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Complottisti",
+      "snippet": "Circola luglio un video, registrato a Piancavallo (PN), legato al tema delle scie chimiche in cui si tenta di far sciogliere la neve con l'accendino, ma questa ...",
+      "prerender": false,
+      "snippet_matched": [
+        "scie chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:NutJF2BpAAgJ:https://www.bufale.net/bufala-neve-brucia-scie-chimiche-bufale-net/+&cd=39&hl=it&ct=clnk&gl=it",
+      "date": "19 ago 2014",
+      "date_utc": "2014-08-19T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 40,
+      "title": "Coronavirus. Il vaccino e il fantomatico microchip sottocutaneo ...",
+      "link": "https://www.open.online/2020/04/10/coronavirus-il-vaccino-e-il-fantomatico-microchip-sottocutaneo-dei-complottisti/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/04/10 › coronavirus-il-vaccin...",
+      "snippet": "La nuova teoria di complotto riciclata: il vaccino contro il Coronavirus servirebbe a “chippare” la popolazione con “tatuaggi quantici”. Visto che la pandemia ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:_JOdAokkeqwJ:https://www.open.online/2020/04/10/coronavirus-il-vaccino-e-il-fantomatico-microchip-sottocutaneo-dei-complottisti/+&cd=40&hl=it&ct=clnk&gl=it",
+      "date": "10 apr 2020",
+      "date_utc": "2020-04-10T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 41,
+      "title": "«Il Covid? Arriva da Wuhan. Il vaccino? Piuttosto divento ...",
+      "link": "https://www.open.online/2020/10/10/no-mask-negazionisti-coronavirus-wuhan-reportage/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/10/10 › no-mask-negazionisti...",
+      "snippet": "Altro che scienza, i negazionisti danno il meglio con decine di teorie strampalate. E guai a parlare di vaccino. Ecco le voci dalla piazza di Roma. Incorpora video.",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:WCk9DTkSA-EJ:https://www.open.online/2020/10/10/no-mask-negazionisti-coronavirus-wuhan-reportage/+&cd=41&hl=it&ct=clnk&gl=it",
+      "prefix": "10 ott 2020",
+      "block_position": 3
+    },
+    {
+      "position": 42,
+      "title": "BUFALA La NASA ammette: sta spruzzando LITIO nella nostra ...",
+      "link": "https://www.bufale.net/bufala-la-nasa-ammette-sta-spruzzando-litio-nella-nostra-atmosfera-bufale-net/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Bufala",
+      "snippet": "BUFALA La NASA ammette: sta spruzzando LITIO nella nostra atmosfera! - bufale.net. Scopri di più su Bufale, il sito contro la disinformazione, le bufale e ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:RzHgaXkc6N4J:https://www.bufale.net/bufala-la-nasa-ammette-sta-spruzzando-litio-nella-nostra-atmosfera-bufale-net/+&cd=42&hl=it&ct=clnk&gl=it",
+      "date": "16 mar 2017",
+      "date_utc": "2017-03-16T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 43,
+      "title": "\"I piloti spruzzano sostanze per creare polmonite chimica\", il ...",
+      "link": "https://www.bufale.net/i-piloti-spruzzano-sostanze-per-creare-polmonite-chimica-il-nuovo-delirio-dei-complottisti/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Bufala",
+      "snippet": "Sì, sul Covid causato dalle scie chimiche per infettare il mondo intero ne abbiamo sentite tante ma a questo giro, dalla Russia, arriva la teoria della polmonite ...",
+      "prerender": false,
+      "snippet_matched": [
+        "scie chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:K1SinvoyRKwJ:https://www.bufale.net/i-piloti-spruzzano-sostanze-per-creare-polmonite-chimica-il-nuovo-delirio-dei-complottisti/+&cd=43&hl=it&ct=clnk&gl=it",
+      "prefix": "8 gen 2021",
+      "block_position": 3
+    },
+    {
+      "position": 44,
+      "title": "\"Siamo riusciti a fotografare l'interno di un Boeing 765 pronto ...",
+      "link": "https://www.bufale.net/siamo-riusciti-a-fotografare-linterno-di-un-boeing-765-pronto-a-spruzzare-scie-kimike/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Bufala",
+      "snippet": "\"Siamo riusciti a fotografare l'interno di un Boeing 765 pronto a spruzzare scie kimike\". Scopri di più su Bufale, il sito contro la disinformazione, le bufale e ...",
+      "prerender": false,
+      "snippet_matched": [
+        "scie"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:v1jJm7YYIN0J:https://www.bufale.net/siamo-riusciti-a-fotografare-linterno-di-un-boeing-765-pronto-a-spruzzare-scie-kimike/+&cd=44&hl=it&ct=clnk&gl=it",
+      "date": "22 nov 2018",
+      "date_utc": "2018-11-22T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 45,
+      "title": "Gli scii kimiki a scuola | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/gli-scii-kimiki-a-scuola/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Teorie del complotto",
+      "snippet": "Le scie chimiche sono una bufala, ok. – di Daniele Di Luciano – Se non si vuole passare per visionari bisogna dire così. E quando qualcuno ne parla come se ...",
+      "prerender": false,
+      "snippet_matched": [
+        "scie chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Z6c3vrmoGcAJ:https://www.butac.it/gli-scii-kimiki-a-scuola/+&cd=45&hl=it&ct=clnk&gl=it",
+      "prefix": "22 mag 2015",
+      "block_position": 3
+    },
+    {
+      "position": 46,
+      "title": "Scie chimiche Archivi - Bufale",
+      "link": "https://www.bufale.net/scie-chimiche/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › scie-chimiche",
+      "snippet": "Benvenuto nella sezione Scie chimiche di Bufale, il portale che combatte la disinformazione, le bufale e l'allarmismo che dilaga in rete.",
+      "prerender": false,
+      "snippet_matched": [
+        "Scie chimiche"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:5rLwVBzV53sJ:https://www.bufale.net/scie-chimiche/+&cd=46&hl=it&ct=clnk&gl=it",
+      "date": "6 set 2014",
+      "date_utc": "2014-09-06T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 47,
+      "title": "ALLARMISMO e DISINFORMAZIONE Allarme in tutta Italia ...",
+      "link": "https://www.bufale.net/allarmismo-e-disinformazione-allarme-in-tutta-italia-stanno-cadendo-strani-filamenti-dal-cielo-bufale-net/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Disinformazione",
+      "snippet": "ALLARMISMO e DISINFORMAZIONE Allarme in tutta Italia, stanno cadendo strani filamenti dal cielo - Bufale.net. Scopri di più su Bufale, il sito contro la ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:G877UGvJUckJ:https://www.bufale.net/allarmismo-e-disinformazione-allarme-in-tutta-italia-stanno-cadendo-strani-filamenti-dal-cielo-bufale-net/+&cd=47&hl=it&ct=clnk&gl=it",
+      "date": "10 nov 2015",
+      "date_utc": "2015-11-10T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 48,
+      "title": "Il complotto della Ricerca scientifica sui Coronavirus dei ...",
+      "link": "https://www.open.online/2020/04/14/il-complotto-della-ricerca-scientifica-sui-coronavirus-dei-pipistrelli-secondo-zerohedge/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/04/14 › il-complotto-della-ric...",
+      "snippet": "Ecco quanto è facile usare la Ricerca sui Coronavirus per diffondere l'odio verso la Scienza: l'unico strumento che potrà farci uscire dalla pandemia.",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:osaCoeqfiAMJ:https://www.open.online/2020/04/14/il-complotto-della-ricerca-scientifica-sui-coronavirus-dei-pipistrelli-secondo-zerohedge/+&cd=48&hl=it&ct=clnk&gl=it",
+      "date": "14 apr 2020",
+      "date_utc": "2020-04-14T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 49,
+      "title": "Il video complottista che accusa gli americani: «Coronavirus: è ...",
+      "link": "https://www.open.online/2020/03/22/il-video-complottista-coronavirus-e-stato-il-pipistrello-che-accusa-gli-stati-uniti-di-aver-diffuso-il-virus/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/03/22 › il-video-complottista-...",
+      "snippet": "Una lunga serie di “coincidenze”, alcune traballanti e bizzarre, che non dimostrano nulla. Il 18 marzo 2020 sul canale Youtube luogocomune2 è stato pubblicato ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:OH-ID4wQ4bIJ:https://www.open.online/2020/03/22/il-video-complottista-coronavirus-e-stato-il-pipistrello-che-accusa-gli-stati-uniti-di-aver-diffuso-il-virus/+&cd=49&hl=it&ct=clnk&gl=it",
+      "date": "22 mar 2020",
+      "date_utc": "2020-03-22T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 50,
+      "title": "scie chimiche italia Archivi - Bufale",
+      "link": "https://www.bufale.net/tag/scie-chimiche-italia/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › tag › scie-chimiche-italia",
+      "snippet": "Signori e signore ci troviamo davanti all'ennesimo articolo allarmistico della settimana! Immagine satellitare NASA di questo pomeriggio sull'Italia.Si evince una ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:OE8jsCC-R2MJ:https://www.bufale.net/tag/scie-chimiche-italia/+&cd=50&hl=it&ct=clnk&gl=it",
+      "prefix": "27 mag 2016",
+      "block_position": 3
+    }
+  ]
+}

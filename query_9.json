@@ -1,0 +1,855 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 13,
+    "credits_used_this_request": 1,
+    "credits_remaining": 112,
+    "credits_reset_at": "2021-03-11T14:34:14.000Z"
+  },
+  "search_metadata": {
+    "created_at": "2021-02-11T16:54:48.128Z",
+    "processed_at": "2021-02-11T16:54:50.657Z",
+    "total_time_taken": 2.53,
+    "engine_url": "https://www.google.it/search?q=dieta+vegana+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&gl=it&hl=it&uule=w+CAIQICIFSXRhbHk&num=50&tbs=cdr:1,cd_min:,cd_max:02/10/2021",
+    "html_url": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=dieta+vegana+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=1&num=50&engine=google&output=html",
+    "json_url": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=dieta+vegana+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=1&num=50&engine=google&output=json",
+    "location_auto_message": "We have automatically set the 'google_domain', 'gl' and 'hl' parameters to match the supplied location of 'Italy'. You can stop this behaviour by setting the 'location_auto' parameter to 'false'.",
+    "timing": [
+      "global_init - 0ms (total 0ms)",
+      "auth_apikey - 27ms (total 27ms)",
+      "auth_retrieve_plan - 17ms (total 44ms)",
+      "auth_retrieve_credit_usage - 30ms (total 75ms)",
+      "processing_invoking_worker - 1ms (total 76ms)",
+      "processing_execution_complete - 2528ms (total 2605ms)",
+      "auth_credit_usage_reconcile - 62ms (total 2668ms)",
+      "global_end - 0ms (total 2668ms)"
+    ]
+  },
+  "search_parameters": {
+    "q": "dieta vegana (site:bufale.net OR site:butac.it OR site:open.online)",
+    "google_domain": "google.it",
+    "location": "Italy",
+    "gl": "it",
+    "hl": "it",
+    "time_period": "custom",
+    "time_period_max": "02/10/2021",
+    "page": "1",
+    "num": "50"
+  },
+  "search_information": {
+    "original_query_yields_zero_results": false,
+    "total_results": 71,
+    "time_taken_displayed": 0.37,
+    "query_displayed": "dieta vegana (site:bufale.net OR site:butac.it OR site:open.online)",
+    "detected_location": "Italia"
+  },
+  "inline_images": [
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyC7AXZbku3ymhuVcS9ge5AxosQbkFh7WdSkB7daSFLw&s",
+      "link": "https://www.open.online/2019/05/04/la-dieta-vegana-e-sostenibile-si-ma-bisogna-integrare-quattro-sostanze-dice-uno-studio/",
+      "title": "Risultati immagini per dieta vegana (site:bufale.net OR site:butac.it OR site:open.online)",
+      "block_position": 2
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS71vnnZtegCMojOTv1z2cFjBapJsRBW-IKN9NAeWrbhg&s",
+      "link": "https://www.butac.it/8-milioni-morti-meno-la-dieta-vegan/",
+      "title": "Risultati immagini per dieta vegana (site:bufale.net OR site:butac.it OR site:open.online)",
+      "block_position": 2
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ94Jz4KSXYMcymt_f1lQkSh5h2VBU1CnNUNm8eSgxS4g&s",
+      "link": "https://www.butac.it/impatto-ecologico-onnivori-vegetariani/",
+      "title": "Risultati immagini per dieta vegana (site:bufale.net OR site:butac.it OR site:open.online)",
+      "block_position": 2
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgMSzzBoGy0L2HzYMe-jxPtWmnyoEOcvW3CcDkATFLyQ&s",
+      "link": "https://www.bufale.net/bufala-belle-gibon-la-blogger-che-cura-il-cancro-con-la-dieta-vegetariana-bufale-net/",
+      "title": "Risultati immagini per dieta vegana (site:bufale.net OR site:butac.it OR site:open.online)",
+      "block_position": 2
+    }
+  ],
+  "pagination": {
+    "next": "https://www.google.it/search?q=dieta+vegana+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=WGElYKiPJtbK-gTEx724BQ&start=50&sa=N&ved=2ahUKEwiom4qFpuLuAhVWpZ4KHcRjD1cQ8NMDegQICRBI",
+    "other_pages": {
+      "2": "https://www.google.it/search?q=dieta+vegana+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=WGElYKiPJtbK-gTEx724BQ&start=50&sa=N&ved=2ahUKEwiom4qFpuLuAhVWpZ4KHcRjD1cQ8tMDegQICRBG"
+    },
+    "api_pagination": {
+      "next": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=dieta%20vegana%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=2&num=50",
+      "other_pages": {
+        "2": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=dieta%20vegana%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=2&num=50"
+      }
+    }
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "La dieta vegana è sostenibile? Sì, ma bisogna integrare ...",
+      "link": "https://www.open.online/2019/05/04/la-dieta-vegana-e-sostenibile-si-ma-bisogna-integrare-quattro-sostanze-dice-uno-studio/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2019/05/04 › la-dieta-vegan...",
+      "snippet": "Clollins mette in guardia soprattutto sulla carenza di vitamina B12, calcio, iodio e ferro. Ci sono molte ragioni per cui le persone diventano vegane, dal voler ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vegane"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:xHxklDh7_lsJ:https://www.open.online/2019/05/04/la-dieta-vegana-e-sostenibile-si-ma-bisogna-integrare-quattro-sostanze-dice-uno-studio/+&cd=1&hl=it&ct=clnk&gl=it",
+      "prefix": "4 mag 2019",
+      "block_position": 3
+    },
+    {
+      "position": 2,
+      "title": "8 milioni di morti in meno con la dieta vegan? | Butac - Bufale ...",
+      "link": "https://www.butac.it/8-milioni-morti-meno-la-dieta-vegan/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › Disinformazione › Salute",
+      "snippet": "Avrete sicuramente letto questa notizia. ansa_vegan. Con dieta vegan in tutto mondo 8,1 mln morti meno nel 2050. Se tutto il mondo adottasse una dieta ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegan"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:ccGHpVt7oIkJ:https://www.butac.it/8-milioni-morti-meno-la-dieta-vegan/+&cd=2&hl=it&ct=clnk&gl=it",
+      "date": "25 mar 2016",
+      "date_utc": "2016-03-25T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 3,
+      "title": "Influencer crudista pizzicata a mangiare pesce fritto: «La dieta ...",
+      "link": "https://www.open.online/2019/03/26/influencer-crudista-pizzicata-a-mangiare-pesce-fritto-la-dieta-vegana-fa-male/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2019/03/26 › influencer-cru...",
+      "snippet": "Influencer crudista pizzicata a mangiare pesce fritto: «La dieta vegana fa male» ... consigli e vendendo ai suoi follower pacchetti detox e diete vegano – crudiste.",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegana",
+        "diete vegano"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:jBfamsjH7M8J:https://www.open.online/2019/03/26/influencer-crudista-pizzicata-a-mangiare-pesce-fritto-la-dieta-vegana-fa-male/+&cd=3&hl=it&ct=clnk&gl=it",
+      "date": "26 mar 2019",
+      "date_utc": "2019-03-26T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 4,
+      "title": "La dieta vegana che cura i tumori | Butac - Bufale Un Tanto Al ...",
+      "link": "https://www.butac.it/la-dieta-vegana-che-cura-i-tumori/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › Medicina › Salute › Tumore",
+      "snippet": "Quale dieta specifica ha seguito? È una nota, oppure una scoperta dalla de Petris? In che ospedale o istituto si sono svolte le sedute di radioterapia? Qui, mi si ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:fPWGHqqCozUJ:https://www.butac.it/la-dieta-vegana-che-cura-i-tumori/+&cd=4&hl=it&ct=clnk&gl=it",
+      "date": "7 mar 2014",
+      "date_utc": "2014-03-07T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 5,
+      "title": "Quanto costa vivere come Greta Thunberg? - Open",
+      "link": "https://www.open.online/2019/03/16/quanto-costa-vivere-come-greta-thunberg/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2019/03/16 › quanto-costa-v...",
+      "snippet": "Bimbo vegano? Una dieta vegetariana o vegana (la cui sostenibilità ambientaleè anche stata messa in discussione) è, per la scienza,adatta anche a i più piccoli ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegetariana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:xweKyzOheH4J:https://www.open.online/2019/03/16/quanto-costa-vivere-come-greta-thunberg/+&cd=5&hl=it&ct=clnk&gl=it",
+      "date": "16 mar 2019",
+      "date_utc": "2019-03-16T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 6,
+      "title": "Impatto ecologico tra onnivori e vegetariani | Butac - Bufale Un ...",
+      "link": "https://www.butac.it/impatto-ecologico-onnivori-vegetariani/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › Disinformazione › Salute",
+      "snippet": "La discussione che vede la dieta vegetariana più attenta al pianeta rispetto a quella carnivora è inequivocabile: se nutriamo gli animali con le piante e poi ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegetariana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:3XgvSTsR2CIJ:https://www.butac.it/impatto-ecologico-onnivori-vegetariani/+&cd=6&hl=it&ct=clnk&gl=it",
+      "date": "23 dic 2014",
+      "date_utc": "2014-12-23T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 7,
+      "title": "PRECISAZIONI Le 9 cose sorprendenti che potrebbero non ...",
+      "link": "https://www.bufale.net/precisazioni-le-9-cose-sorprendenti-che-potrebbero-non-essere-vegetariane-bufale-net/",
+      "domain": "www.bufale.net",
+      "displayed_link": "https://www.bufale.net › Precisazioni",
+      "snippet": "Coloro che hanno scelto una dieta vegetariana non devono farsi prende dal ... quali sono le birre o i vini adatti per chi sceglie una dieta vegetariana o vegana?",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegetariana",
+        "dieta vegetariana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Vgxy9Q29AWoJ:https://www.bufale.net/precisazioni-le-9-cose-sorprendenti-che-potrebbero-non-essere-vegetariane-bufale-net/+&cd=7&hl=it&ct=clnk&gl=it",
+      "prefix": "3 gen 2015",
+      "block_position": 3
+    },
+    {
+      "position": 8,
+      "title": "Bramble il cane vegano | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/bramble-il-cane-vegano/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › Disinformazione",
+      "snippet": "... momento Bramble è l'unico cane vegano ad avere raggiunto uno dei primi 10 posti in classifica, spacciare la notizia come dimostrazione che la dieta vegana ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:o6-M1yjgM98J:https://www.butac.it/bramble-il-cane-vegano/+&cd=8&hl=it&ct=clnk&gl=it",
+      "date": "21 feb 2014",
+      "date_utc": "2014-02-21T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 9,
+      "title": "La citazione di Margherita Hack e i vegani | Butac - Bufale Un ...",
+      "link": "https://www.butac.it/margherita-hack-e-i-vegani/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › Citazioni e Leggende Urbane",
+      "snippet": "È buffo come i vegan continuino ad usare la Hack come manifesto! Come lei stessa dichiarava in quest'intervista, che ho il dubbio sia in realtà la vera fonte della ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vegan"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:4sAHeB-f0sUJ:https://www.butac.it/margherita-hack-e-i-vegani/+&cd=9&hl=it&ct=clnk&gl=it",
+      "date": "19 ago 2014",
+      "date_utc": "2014-08-19T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 10,
+      "title": "BUFALA La pagina Facebook Vegani Uniti in Rete e i joystick ...",
+      "link": "https://www.bufale.net/bufala-la-pagina-facebook-vegani-uniti-in-rete-e-i-joystick-fatti-con-nasi-di-cani-bufale-net/",
+      "domain": "www.bufale.net",
+      "displayed_link": "https://www.bufale.net › Bufala",
+      "snippet": "Nello stesso post si parla addirittura dell'inesistente “Legge Italia Vegan” che entrerebbe in vigore nel 2017, di cui la stessa pagina aveva diffuso la notizia ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Vegan"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:NUFHBhu9QCgJ:https://www.bufale.net/bufala-la-pagina-facebook-vegani-uniti-in-rete-e-i-joystick-fatti-con-nasi-di-cani-bufale-net/+&cd=10&hl=it&ct=clnk&gl=it",
+      "prefix": "24 ott 2015",
+      "block_position": 3
+    },
+    {
+      "position": 11,
+      "title": "DISINFORMAZIONE Le percentuali di proteine nelle verdure ...",
+      "link": "https://www.bufale.net/disinformazione-le-percentuali-di-proteine-nelle-verdure-bufale-net/",
+      "domain": "www.bufale.net",
+      "displayed_link": "https://www.bufale.net › Disinformazione",
+      "snippet": "Circola in alcuni siti a favore della dieta vegana un'immagine con dei dati alquanto scorretti. Partiamo dalla vignetta. A sinistra notiamo 3 personaggi snelli, ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:yMGI52o6TwwJ:https://www.bufale.net/disinformazione-le-percentuali-di-proteine-nelle-verdure-bufale-net/+&cd=11&hl=it&ct=clnk&gl=it",
+      "date": "21 dic 2014",
+      "date_utc": "2014-12-21T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 12,
+      "title": "BUFALA Vendola: I vegani? Sono ambigui e pervertiti - Bufale ...",
+      "link": "https://www.bufale.net/bufala-vendola-i-vegani-ambigui-pervertiti-bufale-net/",
+      "domain": "www.bufale.net",
+      "displayed_link": "https://www.bufale.net › Bufala",
+      "snippet": "La dieta vegetariana fa male alla salute, non capisco questa perversione a rovinarsi la salute. Non sanno cosa ci sia di più buono nel mangiare una bella ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegetariana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:3qKNWgZt7q0J:https://www.bufale.net/bufala-vendola-i-vegani-ambigui-pervertiti-bufale-net/+&cd=12&hl=it&ct=clnk&gl=it",
+      "prefix": "14 ott 2014",
+      "block_position": 3
+    },
+    {
+      "position": 13,
+      "title": "L'insalame tra mito e realtà | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/linsalame-mito-realta/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › Social network",
+      "snippet": "DALLE MARCHE, IL “SALAME” 100% VEGANO. l'Insalame. A base di cicoria, lattuga, rucola, scarola, radicchio, valeriana, tarassaco, e aglio, questo piatto è ...",
+      "prerender": false,
+      "snippet_matched": [
+        "VEGANO"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:ffgHfNE2bU8J:https://www.butac.it/linsalame-mito-realta/+&cd=13&hl=it&ct=clnk&gl=it",
+      "date": "19 feb 2018",
+      "date_utc": "2018-02-19T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 14,
+      "title": "Quando la menzogna si tinge di vegan | Butac - Bufale Un ...",
+      "link": "https://www.butac.it/quando-la-menzogna-si-tinge-di-vegan/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › Pseudo Scienza › Salute",
+      "snippet": "Si moltiplicano su web le tabelle nutrizionali comparative (farlocche) fra vegetali e derivati animali. La trappola ai danni dei lettori sta nel modo ingannevole di ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:1pzO33-bItIJ:https://www.butac.it/quando-la-menzogna-si-tinge-di-vegan/+&cd=14&hl=it&ct=clnk&gl=it",
+      "prefix": "24 giu 2014",
+      "block_position": 3
+    },
+    {
+      "position": 15,
+      "title": "PRECISAZIONI Il bambino vegano che si suicida dopo che i ...",
+      "link": "https://www.bufale.net/precisazioni-il-bambino-vegano-che-si-suicida-dopo-che-i-compagni-di-scuola-gli-avevano-lanciato-la-carne/",
+      "domain": "www.bufale.net",
+      "displayed_link": "https://www.bufale.net › Precisazioni",
+      "snippet": "Il ragazzino era stato vittima di continui episodi di bullismo a scuola semplicemente per il fatto che aveva deciso di seguire una dieta vegana. I compagni di ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:SkRAg_1MlEcJ:https://www.bufale.net/precisazioni-il-bambino-vegano-che-si-suicida-dopo-che-i-compagni-di-scuola-gli-avevano-lanciato-la-carne/+&cd=15&hl=it&ct=clnk&gl=it",
+      "prefix": "9 ott 2017",
+      "block_position": 3
+    },
+    {
+      "position": 16,
+      "title": "BUFALA Belle Gibon, la blogger che cura il cancro con la ...",
+      "link": "https://www.bufale.net/bufala-belle-gibon-la-blogger-che-cura-il-cancro-con-la-dieta-vegetariana-bufale-net/",
+      "domain": "www.bufale.net",
+      "displayed_link": "https://www.bufale.net › Bufala",
+      "snippet": "La blogger aveva detto di essere affetta da un cancro allo stadio terminale, affermando di curare anche questo tramite una dieta vegetariana. Ciò non ostante, la ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegetariana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:iRO2pGshw3IJ:https://www.bufale.net/bufala-belle-gibon-la-blogger-che-cura-il-cancro-con-la-dieta-vegetariana-bufale-net/+&cd=16&hl=it&ct=clnk&gl=it",
+      "date": "23 apr 2015",
+      "date_utc": "2015-04-23T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 17,
+      "title": "Vittorio Feltri spara a zero sui vegani: «Più scemi di loro ...",
+      "link": "https://www.open.online/2019/09/23/vittorio-feltri-spara-a-zero-sui-vegani-piu-scemi-di-loro-neppure-i-marziani/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2019/09/23 › vittorio-feltri-s...",
+      "snippet": "La dieta vegana è sostenibile? Sì, ma bisogna integrare quattro sostanze, dice uno studio · Redazione.",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:rDxGl4NyHv0J:https://www.open.online/2019/09/23/vittorio-feltri-spara-a-zero-sui-vegani-piu-scemi-di-loro-neppure-i-marziani/+&cd=17&hl=it&ct=clnk&gl=it",
+      "date": "23 set 2019",
+      "date_utc": "2019-09-23T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 18,
+      "title": "DISINFORMAZIONE Adam Richman è diventato vegano ...",
+      "link": "https://www.bufale.net/disinformazione-adam-richman-e-diventato-vegano-bufale-net/",
+      "domain": "www.bufale.net",
+      "displayed_link": "https://www.bufale.net › Disinformazione",
+      "snippet": "La dieta vegana per lui è utile in determinati periodi (“OCCASIONALLY”), ma come potete vedere nella foto sotto riportata, e pubblicata il 9 aprile 2015 su ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:cVf7uRp617UJ:https://www.bufale.net/disinformazione-adam-richman-e-diventato-vegano-bufale-net/+&cd=18&hl=it&ct=clnk&gl=it",
+      "date": "11 apr 2015",
+      "date_utc": "2015-04-11T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 19,
+      "title": "Michela de Petris \"licenziata in tronco\" per l'intervista con Le ...",
+      "link": "https://www.bufale.net/michela-de-petris-licenziata-tronco-per-lintervista-con-le-iene-bufala/",
+      "domain": "www.bufale.net",
+      "displayed_link": "https://www.bufale.net › CIbi e Bevande",
+      "snippet": "Sta girando su Facebook, soprattutto nelle pagine vegane e animaliste, ... Le Iene nel quale dichiarava che la dieta vegana sarebbe in grado di guarire i tumori.",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:QqY93JixN4YJ:https://www.bufale.net/michela-de-petris-licenziata-tronco-per-lintervista-con-le-iene-bufala/+&cd=19&hl=it&ct=clnk&gl=it",
+      "date": "30 mar 2014",
+      "date_utc": "2014-03-30T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 20,
+      "title": "La dieta fruttariana nell'uomo primitivo | Butac - Bufale Un ...",
+      "link": "https://www.butac.it/la-dieta-fruttariana-nelluomo-primitivo/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › Pseudo Scienza › Salute",
+      "snippet": "Volete seguire una dieta vegana, vegetariana, fruttariana o addirittura melariana? Fatelo, ma che ve frega cosa mangiavano gli Australopitechi? Cosa cambia?",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Jo_BOgFF1FoJ:https://www.butac.it/la-dieta-fruttariana-nelluomo-primitivo/+&cd=20&hl=it&ct=clnk&gl=it",
+      "prefix": "11 gen 2016",
+      "block_position": 3
+    },
+    {
+      "position": 21,
+      "title": "Le iene, The China Study e le diete | Butac - Bufale Un Tanto ...",
+      "link": "https://www.butac.it/iene-the-china-study-diete/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › Medicina Alternativa › Salute",
+      "snippet": "Ogni supporter di Campbell parte dallo stesso presupposto: siccome la signorina Minger è solo un'appassionata di nutrizionismo ex-vegetariana, le sue parole ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vegetariana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:pvAKep_e2g8J:https://www.butac.it/iene-the-china-study-diete/+&cd=21&hl=it&ct=clnk&gl=it",
+      "prefix": "23 ott 2014",
+      "block_position": 3
+    },
+    {
+      "position": 22,
+      "title": "Umberto Veronesi e la carne | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/umberto-veronesi-e-la-carne/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › Salute › Tumore › uTonti",
+      "snippet": "LinkedIn. TAGS. 10 segni che ti stai svegliando · carne · carne rossa · Dieta Vegetariana ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Dieta Vegetariana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:k5RPVpW2WOwJ:https://www.butac.it/umberto-veronesi-e-la-carne/+&cd=22&hl=it&ct=clnk&gl=it",
+      "date": "8 nov 2013",
+      "date_utc": "2013-11-08T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 23,
+      "title": "La dieta del gruppo sanguigno | Butac - Bufale Un Tanto Al ...",
+      "link": "https://www.butac.it/la-dieta-del-gruppo-sanguigno/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › Medicina › Medicina Alternativa",
+      "snippet": "Il gruppo A segue una dieta simile a quella vegetariana. Il gruppo B, oltre a carne e vegetali, può assumere anche latticini. Il gruppo AB segue con moderazione ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta",
+        "vegetariana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Ui8LbNS5Y3MJ:https://www.butac.it/la-dieta-del-gruppo-sanguigno/+&cd=23&hl=it&ct=clnk&gl=it",
+      "prefix": "16 giu 2015",
+      "block_position": 3
+    },
+    {
+      "position": 24,
+      "title": "Perché l'ordine dei medici di Roma ha denunciato Panzironi e ...",
+      "link": "https://www.open.online/2019/07/04/perche-lordine-dei-medici-di-roma-ha-denunciato-panzironi-e-la-sua-dieta-lintervista/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2019/07/04 › perche-lordine...",
+      "snippet": "Foto di copertina: Italia 1/Le Iene/Andrea Agresti cerca di intervistare Adriano Panzironi. Sullo stesso tema: La dieta vegana è sostenibile? Sì, ma bisogna ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:UiK2GIeOCMsJ:https://www.open.online/2019/07/04/perche-lordine-dei-medici-di-roma-ha-denunciato-panzironi-e-la-sua-dieta-lintervista/+&cd=24&hl=it&ct=clnk&gl=it",
+      "prefix": "4 lug 2019",
+      "block_position": 3
+    },
+    {
+      "position": 25,
+      "title": "Gerson e altre truffe per \"curare il cancro\" | Butac - Bufale Un ...",
+      "link": "https://www.butac.it/gerson-truffe-curare-cancro/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › Salute › Tumore › uTonti",
+      "snippet": "Chris fu anche definito “pazzo” dai medici perché decise di non sottoporsi alla chemio e di iniziare una dieta vegana. I risultati sembrano dargli ragione: da 8 ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:aUo9vuYJ4mEJ:https://www.butac.it/gerson-truffe-curare-cancro/+&cd=25&hl=it&ct=clnk&gl=it",
+      "date": "29 ago 2014",
+      "date_utc": "2014-08-29T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 26,
+      "title": "L'evento di Panzironi a Roma sulla dieta Life120 nonostante ...",
+      "link": "https://www.open.online/2019/07/01/panzironi-a-roma-con-la-dieta-life120-nonostante-la-multa-dellantitrust/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2019/07/01 › panzironi-a-ro...",
+      "snippet": "L'evento di Panzironi a Roma sulla dieta Life120 nonostante la multa dell'Antitrust ... Influencer crudista pizzicata a mangiare pesce fritto: «La dieta vegana fa ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:agjfS5_L4_MJ:https://www.open.online/2019/07/01/panzironi-a-roma-con-la-dieta-life120-nonostante-la-multa-dellantitrust/+&cd=26&hl=it&ct=clnk&gl=it",
+      "prefix": "1 lug 2019",
+      "block_position": 3
+    },
+    {
+      "position": 27,
+      "title": "Knorr non lascia l'Italia e non chiude lo stabilimento di Verona ...",
+      "link": "https://www.open.online/2019/06/06/knorr-lascia-litalia-le-famiglie-preferiscono-piatti-pronti-senza-additivi-e-conservanti/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2019/06/06 › knorr-lascia-lit...",
+      "snippet": "... dell'Osservatorio Immagino Nielsen GS1 Italy. Nell'acquisto incide anche la dicitura «biologico», «adatto a una dieta vegana/vegetariana» e «prodotto made ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:VLkVQP-ZKacJ:https://www.open.online/2019/06/06/knorr-lascia-litalia-le-famiglie-preferiscono-piatti-pronti-senza-additivi-e-conservanti/+&cd=27&hl=it&ct=clnk&gl=it",
+      "prefix": "6 giu 2019",
+      "block_position": 3
+    },
+    {
+      "position": 28,
+      "title": "PRECISAZIONI Birre e vini contengono vesciche di pesce ...",
+      "link": "https://www.bufale.net/precisazioni-birre-e-vini-contengono-vesciche-di-pesce-bufale-net/",
+      "domain": "www.bufale.net",
+      "displayed_link": "https://www.bufale.net › Precisazioni",
+      "snippet": "... in questa fase che possono entrare in gioco alcuni prodotti “non vegetali”, e quindi sconsigliati per chi segue una dieta vegetariana o addirittura vegana.",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegetariana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:6dGC83C2Kf8J:https://www.bufale.net/precisazioni-birre-e-vini-contengono-vesciche-di-pesce-bufale-net/+&cd=28&hl=it&ct=clnk&gl=it",
+      "prefix": "27 mag 2015",
+      "block_position": 3
+    },
+    {
+      "position": 29,
+      "title": "Sanità - Pagina 490 di 495 - Open",
+      "link": "https://www.open.online/temi/sanita/page/490/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › temi › sanita › page",
+      "snippet": "La dieta vegana è sostenibile? Sì, ma bisogna integrare quattro sostanze, dice uno studio. 4 Maggio 2019 - 07:17. Juanne Pili.",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:zE_OTRUyyIQJ:https://www.open.online/temi/sanita/page/490/+&cd=29&hl=it&ct=clnk&gl=it",
+      "prefix": "26 mag 2019",
+      "block_position": 3
+    },
+    {
+      "position": 30,
+      "title": "Le Iene, la dieta mima-digiuno e le non scoperte | Butac ...",
+      "link": "https://www.butac.it/prontotoffa-diete-miracolose-e-non-scoperte/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › Giornalismo › Salute",
+      "snippet": "La dieta. download-53. L'autore dello studio su cui si basa il servizio delle Iene è Valter Longo, che risulta insegni all'università ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:_jteIrOiHAoJ:https://www.butac.it/prontotoffa-diete-miracolose-e-non-scoperte/+&cd=30&hl=it&ct=clnk&gl=it",
+      "date": "15 nov 2016",
+      "date_utc": "2016-11-15T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 31,
+      "title": "L'oltrevegan: i melariani | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/loltrevegan-i-melariani/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › Truffa › Tumore",
+      "snippet": "Ora, basare la propria dieta sulle proprietà di un cibo è cosa intelligente, ... frangia forse molto ridotta degli estremisti vegan, ma come per tutti gli estremismi non ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta",
+        "vegan"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:g5BObiiPdPkJ:https://www.butac.it/loltrevegan-i-melariani/+&cd=31&hl=it&ct=clnk&gl=it",
+      "prefix": "26 giu 2014",
+      "block_position": 3
+    },
+    {
+      "position": 32,
+      "title": "Nessun complotto UE contro i prodotti Made in Italy. Che cos'è ...",
+      "link": "https://www.open.online/2019/12/05/nessun-complotto-ue-contro-i-prodotti-made-in-italy-che-cose-il-nutri-score-e-come-funziona/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2019/12/05 › nessun-compl...",
+      "snippet": "Seguire una dieta – come quella mediterranea – significa tener conto ... Il video allarmista condiviso dal presidente dei biologi su Facebook · La dieta vegana è ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:xrGEyfF5x7EJ:https://www.open.online/2019/12/05/nessun-complotto-ue-contro-i-prodotti-made-in-italy-che-cose-il-nutri-score-e-come-funziona/+&cd=42&hl=it&ct=clnk&gl=it",
+      "date": "5 dic 2019",
+      "date_utc": "2019-12-05T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 33,
+      "title": "Naturopatia: ancora disinformazione | Butac - Bufale Un Tanto ...",
+      "link": "https://www.butac.it/naturopatia-ancora-disinformazione/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › Salute › Vaccini",
+      "snippet": "Ma andiamo avanti a vedere che altri post “scientifici” ci regala la nostra guru della dieta vegana… wustel. Ah beh, allora se spaccia il video su come si fanno i ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:3BiIF9ooNrEJ:https://www.butac.it/naturopatia-ancora-disinformazione/+&cd=43&hl=it&ct=clnk&gl=it",
+      "date": "5 ago 2014",
+      "date_utc": "2014-08-05T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 34,
+      "title": "Il latte fa diventare autistici? | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/il-latte-fa-diventare-autistici/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › Salute › uTonti",
+      "snippet": "Non c'è nulla di male nel dire che la dieta vegetariana o vegana sia migliore o più etica, ognuno può crederlo, pretendere di farlo “su basi scientifiche”, come ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegetariana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:fq0Zaq_cqV4J:https://www.butac.it/il-latte-fa-diventare-autistici/+&cd=44&hl=it&ct=clnk&gl=it",
+      "prefix": "9 lug 2015",
+      "block_position": 3
+    },
+    {
+      "position": 35,
+      "title": "Vietato mangiare cani e gatti: la proposta di legge del M5s ...",
+      "link": "https://www.open.online/2019/05/13/vietato-mangiare-cani-e-gatti-la-proposta-di-legge-del-m5s/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2019/05/13",
+      "snippet": "... tornano gli animali, il disastro nucleare non ferma la biodiversità · Attivisti vegani violenti, la paura dei macellai francesi · La dieta vegana è sostenibile? Sì, ma ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:B_NKTmu2H3AJ:https://www.open.online/2019/05/13/vietato-mangiare-cani-e-gatti-la-proposta-di-legge-del-m5s/+&cd=45&hl=it&ct=clnk&gl=it",
+      "prefix": "13 mag 2019",
+      "block_position": 3
+    },
+    {
+      "position": 36,
+      "title": "George Clooney è dimagrito troppo in fretta per il suo nuovo ...",
+      "link": "https://www.open.online/2020/12/10/george-clooney-e-dimagrito-troppo-in-fretta-per-il-suo-nuovo-film/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/12/10 › george-cloone...",
+      "snippet": "... La dieta vegana è sostenibile? Sì, ma bisogna integrare quattro sostanze, dice uno studio · Combatte la fame e i cambiamenti climatici: ecco la dieta di salute ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:RkQ_aamexa0J:https://www.open.online/2020/12/10/george-clooney-e-dimagrito-troppo-in-fretta-per-il-suo-nuovo-film/+&cd=46&hl=it&ct=clnk&gl=it",
+      "date": "10 dic 2020",
+      "date_utc": "2020-12-10T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 37,
+      "title": "Carcinoma Epatico vol. 4: Il protocollo terapeutico | Butac ...",
+      "link": "https://www.butac.it/carcinoma-epatico-protocollo/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › Salute › Tumore",
+      "snippet": "Questo prevede una dieta quasi esclusivamente vegana, orientata al crudismo, con qualche piccola concessione onnivora – il pesce ogni tanto. Frutta e verdura ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta",
+        "vegana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:mB02bL-Kxx8J:https://www.butac.it/carcinoma-epatico-protocollo/+&cd=47&hl=it&ct=clnk&gl=it",
+      "prefix": "11 mag 2015",
+      "block_position": 3
+    },
+    {
+      "position": 38,
+      "title": "Quelli che... un omaggio a Jannacci | Butac - Bufale Un Tanto ...",
+      "link": "https://www.butac.it/quelli-che-butac-style/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › Bufala",
+      "snippet": "Quelli che credono che la dieta vegana e l'acqua alcalina curino i tumori solo perchè lo ha sentito dire alle “Iene” in tv oh yeah ! Quelli che sono vegetariano mi ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:UttkkUzb3OQJ:https://www.butac.it/quelli-che-butac-style/+&cd=48&hl=it&ct=clnk&gl=it",
+      "date": "30 mar 2014",
+      "date_utc": "2014-03-30T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 39,
+      "title": "2 giugno: dietro le quinte del Quirinale con influencer e ... - Open",
+      "link": "https://www.open.online/2019/06/01/2-giugno-dietro-le-quinte-del-quirinale-con-influencer-e-youtuber/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2019/06/01 › 2-giugno-dietr...",
+      "snippet": "L'esperto: «Poca trasparenza non favorisce la sicurezza» · Influencer crudista pizzicata a mangiare pesce fritto: «La dieta vegana fa male» · «Chi controlla i dati, ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:xuqxFChizwEJ:https://www.open.online/2019/06/01/2-giugno-dietro-le-quinte-del-quirinale-con-influencer-e-youtuber/+&cd=49&hl=it&ct=clnk&gl=it",
+      "prefix": "1 giu 2019",
+      "block_position": 3
+    },
+    {
+      "position": 40,
+      "title": "BUFALA I quattro veleni bianchi - bufale.net - Bufale",
+      "link": "https://www.bufale.net/bufala-i-veleni-bianchi/",
+      "domain": "www.bufale.net",
+      "displayed_link": "https://www.bufale.net › Allarmismo",
+      "snippet": "In realtà anche l'iperidratazione può provocare gravi e fatali danni all'organismo, ma non per questo nessuno consiglierebbe di bandire l'acqua dalla dieta.",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:ReOUSX7nZ_QJ:https://www.bufale.net/bufala-i-veleni-bianchi/+&cd=50&hl=it&ct=clnk&gl=it",
+      "date": "20 nov 2014",
+      "date_utc": "2014-11-20T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 41,
+      "title": "Le iene il morbillo e la disinformazione medica! | Butac ...",
+      "link": "https://www.butac.it/le-iene-il-morbillo-e-la-disinformazione-medica/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › uTonti › Vaccini › Vergogna",
+      "snippet": "Settimana scorsa \"la dieta vegana cura il cancro\" Stasera \"i vaccini causano l'autismo\" Meno male che è l'ultima puntata, sennò settimana prossima un servizio ...",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:fGwWGkmHIbsJ:https://www.butac.it/le-iene-il-morbillo-e-la-disinformazione-medica/+&cd=51&hl=it&ct=clnk&gl=it",
+      "prefix": "29 mag 2014",
+      "block_position": 3
+    },
+    {
+      "position": 42,
+      "title": "I 4 veleni bianchi che rovinano la tua salute? | Butac - Bufale ...",
+      "link": "https://www.butac.it/i-4-veleni-bianchi-rovinano-tua-salute/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › Disinformazione › Salute",
+      "snippet": "... era in diretta risposta ad un pezzo apparso su un sito vegano ad Ottobre 2014! ... esser moderati, variare la dieta, mangiare un po' di tutto per essere al riparo!",
+      "prerender": false,
+      "snippet_matched": [
+        "vegano",
+        "dieta"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:z8e4rd98S2oJ:https://www.butac.it/i-4-veleni-bianchi-rovinano-tua-salute/+&cd=52&hl=it&ct=clnk&gl=it",
+      "prefix": "17 ott 2014",
+      "block_position": 3
+    },
+    {
+      "position": 43,
+      "title": "Licenziata dopo il servizio delle Iene | Butac - Bufale Un Tanto ...",
+      "link": "https://www.butac.it/licenziata-dopo-il-servizio-delle-iene/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › Attenzione › Disinformazione",
+      "snippet": "... anche all'introduzione di una alimentazione vegana, in gran parte crudista. ... esiste alcuna dimostrazione del valore della dieta come terapia oncologica…",
+      "prerender": false,
+      "snippet_matched": [
+        "vegana",
+        "dieta"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:KeioSykpIaMJ:https://www.butac.it/licenziata-dopo-il-servizio-delle-iene/+&cd=53&hl=it&ct=clnk&gl=it",
+      "date": "24 mar 2014",
+      "date_utc": "2014-03-24T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 44,
+      "title": "Attualmente Vaccini 8 - Il Signor Wakefield | Butac - Bufale Un ...",
+      "link": "https://www.butac.it/attualmente-vaccini-8-il-signor-wakefield/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › Bufala",
+      "snippet": "... di nutrienti essenziali, correzione della dieta, terapia iperbarica, stanare i metalli pesanti e le tossine dal corpo, ecc, sono state disapprovati e scoraggiati.",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:z2rArnP9iPMJ:https://www.butac.it/attualmente-vaccini-8-il-signor-wakefield/+&cd=54&hl=it&ct=clnk&gl=it",
+      "date": "24 feb 2015",
+      "date_utc": "2015-02-24T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 45,
+      "title": "La tabella comparativa tra lenticchie e carne | Butac - Bufale ...",
+      "link": "https://www.butac.it/la-tabella-comparativa-tra-lenticchie-e-carne/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › Misinformation › Salute",
+      "snippet": "... diffusione sono soprattutto i siti e le pagine Facebook di stampo vegano. ... Pensate solo che nelle diete ipocaloriche dove la porzione di pasta oscilla tra i 70 ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vegano",
+        "diete"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:eypPuMQ-DzcJ:https://www.butac.it/la-tabella-comparativa-tra-lenticchie-e-carne/+&cd=55&hl=it&ct=clnk&gl=it",
+      "date": "28 dic 2015",
+      "date_utc": "2015-12-28T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 46,
+      "title": "Robert Cohen, il latte e l'etica | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/robert-cohen-il-latte-e-letica/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › Pseudo Scienza › uTonti",
+      "snippet": "... nel latte una delle principali cause di male nel mondo, lo fa in quanto vegano? ... La stessa etica che ci porta ad una dieta vegetalista richiede di mostrare ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vegano",
+        "dieta"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:F1oHS_mnSzwJ:https://www.butac.it/robert-cohen-il-latte-e-letica/+&cd=56&hl=it&ct=clnk&gl=it",
+      "prefix": "23 giu 2014",
+      "block_position": 3
+    },
+    {
+      "position": 47,
+      "title": "Pierluigi, allergie e intolleranze | Butac - Bufale Un Tanto Al ...",
+      "link": "https://www.butac.it/pierluigi-allergie-e-intolleranze/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › Unione Europea › uTonti",
+      "snippet": "... il lamento allergico e post-carnivoro: “non posso mangiarli, sono vegano”, dice uno; ... celiaca è l'esclusione totale dalla dieta degli alimenti contenenti glutine.",
+      "prerender": false,
+      "snippet_matched": [
+        "vegano",
+        "dieta"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:OFjGcwPI96UJ:https://www.butac.it/pierluigi-allergie-e-intolleranze/+&cd=57&hl=it&ct=clnk&gl=it",
+      "date": "30 mar 2015",
+      "date_utc": "2015-03-30T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 48,
+      "title": "Latte e sai cosa bevi... | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/latte-e-sai-cosa-bevi/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › Bufala › Disinformazione",
+      "snippet": "E non è successo proprio perché la loro dieta ne è sempre stata storicamente ... in realta' e' disinformazione vegana perche' i vegetariani mangiano latticini.",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta",
+        "vegana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:dArBYLDe2X0J:https://www.butac.it/latte-e-sai-cosa-bevi/+&cd=58&hl=it&ct=clnk&gl=it",
+      "date": "12 set 2013",
+      "date_utc": "2013-09-12T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 49,
+      "title": "Io sono vaccinato, quindi non sono antivaccinista | Butac ...",
+      "link": "https://www.butac.it/vaccinato-quindi-non-antivaccinista/",
+      "domain": "www.butac.it",
+      "displayed_link": "https://www.butac.it › ... › Medicina › Salute › Vaccini",
+      "snippet": "continuo a pensare che la dieta vegana abbia delle ripercussioni non ancora dimostrate sul cervello... ma non funzionali, strutturali.. azza • 3 anni fa.",
+      "prerender": false,
+      "snippet_matched": [
+        "dieta vegana"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:KDeOHUzCoDMJ:https://www.butac.it/vaccinato-quindi-non-antivaccinista/+&cd=59&hl=it&ct=clnk&gl=it",
+      "prefix": "24 giu 2017",
+      "block_position": 3
+    }
+  ]
+}

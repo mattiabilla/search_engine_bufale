@@ -1,0 +1,869 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 14,
+    "credits_used_this_request": 1,
+    "credits_remaining": 111,
+    "credits_reset_at": "2021-03-11T14:34:14.000Z"
+  },
+  "search_metadata": {
+    "created_at": "2021-02-11T17:04:20.556Z",
+    "processed_at": "2021-02-11T17:04:40.197Z",
+    "total_time_taken": 19.64,
+    "engine_url": "https://www.google.it/search?q=indossare+la+mascherina+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&gl=it&hl=it&uule=w+CAIQICIFSXRhbHk&num=50&tbs=cdr:1,cd_min:,cd_max:02/10/2021",
+    "html_url": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=indossare+la+mascherina+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=1&num=50&engine=google&output=html",
+    "json_url": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=indossare+la+mascherina+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=1&num=50&engine=google&output=json",
+    "location_auto_message": "We have automatically set the 'google_domain', 'gl' and 'hl' parameters to match the supplied location of 'Italy'. You can stop this behaviour by setting the 'location_auto' parameter to 'false'.",
+    "timing": [
+      "global_init - 0ms (total 0ms)",
+      "auth_apikey - 29ms (total 29ms)",
+      "auth_retrieve_plan - 18ms (total 48ms)",
+      "auth_retrieve_credit_usage - 24ms (total 73ms)",
+      "processing_invoking_worker - 1ms (total 75ms)",
+      "processing_execution_complete - 19640ms (total 19716ms)",
+      "auth_credit_usage_reconcile - 228ms (total 19944ms)",
+      "global_end - 0ms (total 19944ms)"
+    ]
+  },
+  "search_parameters": {
+    "q": "indossare la mascherina (site:bufale.net OR site:butac.it OR site:open.online)",
+    "google_domain": "google.it",
+    "location": "Italy",
+    "gl": "it",
+    "hl": "it",
+    "time_period": "custom",
+    "time_period_max": "02/10/2021",
+    "page": "1",
+    "num": "50"
+  },
+  "search_information": {
+    "original_query_yields_zero_results": false,
+    "total_results": 885,
+    "time_taken_displayed": 0.25,
+    "query_displayed": "indossare la mascherina (site:bufale.net OR site:butac.it OR site:open.online)",
+    "detected_location": "Italia"
+  },
+  "pagination": {
+    "next": "https://www.google.it/search?q=indossare+la+mascherina+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=mGMlYMqNDvqi5NoPpdeL4Ak&start=50&sa=N&ved=2ahUKEwjKucaXqOLuAhV6EVkFHaXrApwQ8NMDegQICRBS",
+    "other_pages": {
+      "2": "https://www.google.it/search?q=indossare+la+mascherina+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=mGMlYMqNDvqi5NoPpdeL4Ak&start=50&sa=N&ved=2ahUKEwjKucaXqOLuAhV6EVkFHaXrApwQ8tMDegQICRBG",
+      "3": "https://www.google.it/search?q=indossare+la+mascherina+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=mGMlYMqNDvqi5NoPpdeL4Ak&start=100&sa=N&ved=2ahUKEwjKucaXqOLuAhV6EVkFHaXrApwQ8tMDegQICRBI",
+      "4": "https://www.google.it/search?q=indossare+la+mascherina+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=mGMlYMqNDvqi5NoPpdeL4Ak&start=150&sa=N&ved=2ahUKEwjKucaXqOLuAhV6EVkFHaXrApwQ8tMDegQICRBK",
+      "5": "https://www.google.it/search?q=indossare+la+mascherina+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=mGMlYMqNDvqi5NoPpdeL4Ak&start=200&sa=N&ved=2ahUKEwjKucaXqOLuAhV6EVkFHaXrApwQ8tMDegQICRBM",
+      "6": "https://www.google.it/search?q=indossare+la+mascherina+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=mGMlYMqNDvqi5NoPpdeL4Ak&start=250&sa=N&ved=2ahUKEwjKucaXqOLuAhV6EVkFHaXrApwQ8tMDegQICRBO",
+      "7": "https://www.google.it/search?q=indossare+la+mascherina+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=mGMlYMqNDvqi5NoPpdeL4Ak&start=300&sa=N&ved=2ahUKEwjKucaXqOLuAhV6EVkFHaXrApwQ8tMDegQICRBQ"
+    },
+    "api_pagination": {
+      "next": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=indossare%20la%20mascherina%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=2&num=50",
+      "other_pages": {
+        "2": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=indossare%20la%20mascherina%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=2&num=50",
+        "3": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=indossare%20la%20mascherina%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=3&num=50",
+        "4": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=indossare%20la%20mascherina%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=4&num=50",
+        "5": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=indossare%20la%20mascherina%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=5&num=50",
+        "6": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=indossare%20la%20mascherina%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=6&num=50",
+        "7": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=indossare%20la%20mascherina%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=7&num=50"
+      }
+    }
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Il turista si rifiuta di indossare la mascherina, rissa sul ... - Open",
+      "link": "https://www.open.online/2020/08/22/turista-rifiuta-mascherina-rissa-vaporetto-venezia-cacciato-passeggeri/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/08/22 › turista-rifiuta-masche...",
+      "snippet": "Sul vaporetto è scoppiata la rivolta dei passeggeri, mentre il turista scherniva il capitano e un marinaio che lo invitavano a indossare la mascherina. Alla fine è ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:-sbdS0ORXPAJ:https://www.open.online/2020/08/22/turista-rifiuta-mascherina-rissa-vaporetto-venezia-cacciato-passeggeri/+&cd=1&hl=it&ct=clnk&gl=it",
+      "date": "22 ago 2020",
+      "date_utc": "2020-08-22T12:00:00.000Z",
+      "block_position": 1
+    },
+    {
+      "position": 2,
+      "title": "Coronavirus. Il certificato medico contro l'uso delle ... - Open",
+      "link": "https://www.open.online/2020/11/30/coronavirus-certificato-medico-contro-uso-mascherine-disinformazione/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/11/30 › coronavirus-certificat...",
+      "snippet": "Il certificato medico contro l'uso delle mascherine ricco di disinformazione ... Un medico ha rilasciato un certificato per non far indossare la mascherina a una ...",
+      "prerender": false,
+      "snippet_matched": [
+        "mascherine",
+        "indossare la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Fi2CHJdPXQ4J:https://www.open.online/2020/11/30/coronavirus-certificato-medico-contro-uso-mascherine-disinformazione/+&cd=2&hl=it&ct=clnk&gl=it",
+      "date": "30 nov 2020",
+      "date_utc": "2020-11-30T12:00:00.000Z",
+      "block_position": 2
+    },
+    {
+      "position": 3,
+      "title": "Isola d'Elba, commerciante si rifiuta di indossare la ... - Open",
+      "link": "https://www.open.online/2020/08/27/isola-elba-commerciante-si-rifiuta-di-indossare-mascherina-denunciato-complottista/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/08/27 › isola-elba-commercia...",
+      "snippet": "La sanzione arriva dopo che Mauro Morosi, questo il nome dell'uomo, si è rifiutato di indossare la mascherina contro il Coronavirus. «Pubblico questo post per ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:8aNdCe31pnUJ:https://www.open.online/2020/08/27/isola-elba-commerciante-si-rifiuta-di-indossare-mascherina-denunciato-complottista/+&cd=3&hl=it&ct=clnk&gl=it",
+      "date": "27 ago 2020",
+      "date_utc": "2020-08-27T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 4,
+      "title": "Mascherina: un italiano su quattro non la indossa. Coldiretti ...",
+      "link": "https://www.open.online/2020/08/02/mascherina-un-italiano-su-quattro-non-la-indossa-coldiretti/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/08/02 › mascherina-un-italian...",
+      "snippet": "Mascherina: un italiano su quattro non la indossa. Coldiretti: «Tendenza ad abbandonare buone abitudini». 2 Agosto 2020 - 22:50. di Redazione.",
+      "prerender": false,
+      "snippet_matched": [
+        "Mascherina",
+        "indossa"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:zCoiqtXLUPIJ:https://www.open.online/2020/08/02/mascherina-un-italiano-su-quattro-non-la-indossa-coldiretti/+&cd=4&hl=it&ct=clnk&gl=it",
+      "date": "2 ago 2020",
+      "date_utc": "2020-08-02T12:00:00.000Z",
+      "block_position": 4
+    },
+    {
+      "position": 5,
+      "title": "Le mascherine chirurgiche sono una cosa seria, non si ... - Open",
+      "link": "https://www.open.online/2020/03/15/le-mascherine-chirurgiche-sono-una-cosa-seria-non-si-possono-ordinare-dal-sarto-come-capi-dabbigliamento/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/03/15 › le-mascherine-chirur...",
+      "snippet": "«Sono capi d'abbigliamento da indossare sul viso – spiega Ravizza evidenziando che comunque non si tratta di atti illegittimi, quanto inutili – le mascherine per ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare",
+        "mascherine"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:EoKtvHHX06sJ:https://www.open.online/2020/03/15/le-mascherine-chirurgiche-sono-una-cosa-seria-non-si-possono-ordinare-dal-sarto-come-capi-dabbigliamento/+&cd=5&hl=it&ct=clnk&gl=it",
+      "date": "15 mar 2020",
+      "date_utc": "2020-03-15T12:00:00.000Z",
+      "block_position": 5
+    },
+    {
+      "position": 6,
+      "title": "Coronavirus, il dilemma delle mascherine, servono o no ...",
+      "link": "https://www.open.online/2020/04/02/coronavirus-il-dilemma-delle-mascherine-servono-o-no-cosa-sappiamo-finora/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/04/02 › coronavirus-il-dilem...",
+      "snippet": "Non è utile indossare più mascherine sovrapposte. Inoltre, la mascherina non è necessaria per la popolazione generale in assenza di sintomi di malattie ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare",
+        "mascherine",
+        "mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:9VeiV_HPt6wJ:https://www.open.online/2020/04/02/coronavirus-il-dilemma-delle-mascherine-servono-o-no-cosa-sappiamo-finora/+&cd=6&hl=it&ct=clnk&gl=it",
+      "date": "2 apr 2020",
+      "date_utc": "2020-04-02T12:00:00.000Z",
+      "block_position": 6
+    },
+    {
+      "position": 7,
+      "title": "Multe fino a 3 mila euro per chi non indossa la mascherina. Il ...",
+      "link": "https://www.open.online/2020/10/05/multe-mascherina-nuovo-dpcm-regioni-discoteche/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/10/05 › multe-mascherina-nu...",
+      "snippet": "Multe fino a 3 mila euro per chi non indossa la mascherina. Il nuovo Dpcm frena le Regioni dopo il caos discoteche: dai governatori solo regole più rigide.",
+      "prerender": false,
+      "snippet_matched": [
+        "indossa la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:AWE5EWL02zcJ:https://www.open.online/2020/10/05/multe-mascherina-nuovo-dpcm-regioni-discoteche/+&cd=7&hl=it&ct=clnk&gl=it",
+      "prefix": "5 ott 2020",
+      "block_position": 7
+    },
+    {
+      "position": 8,
+      "title": "Mascherine: un esperimento a basso costo mostra come i ...",
+      "link": "https://www.open.online/2020/08/10/mascherine-esperimento-a-basso-costo-mostra-come-i-rimedi-fai-da-te-possano-essere-controproducenti/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/08/10 › mascherine-esperime...",
+      "snippet": "«La premessa della protezione dalle persone infette che indossano una maschera è semplice – spiegano i ricercatori – indossare una maschera facciale ridurrà ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossano",
+        "maschera",
+        "indossare",
+        "maschera"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:OKVkhIVXqXgJ:https://www.open.online/2020/08/10/mascherine-esperimento-a-basso-costo-mostra-come-i-rimedi-fai-da-te-possano-essere-controproducenti/+&cd=8&hl=it&ct=clnk&gl=it",
+      "date": "10 ago 2020",
+      "date_utc": "2020-08-10T12:00:00.000Z",
+      "block_position": 8
+    },
+    {
+      "position": 9,
+      "title": "A cosa serve la mascherina? L'esperimento virale di un ...",
+      "link": "https://www.open.online/2020/06/28/medico-usa-mostra-cosa-serve-mascherine-virale/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/06/28 › medico-usa-mostra-c...",
+      "snippet": "I risultati migliori si ottengono indossando la mascherina e rispettando il distanziamento fisico di almeno un metro. A cosa serve indossare la mascherina?",
+      "prerender": false,
+      "snippet_matched": [
+        "mascherina",
+        "indossare la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:AQmlz-5Jv84J:https://www.open.online/2020/06/28/medico-usa-mostra-cosa-serve-mascherine-virale/+&cd=9&hl=it&ct=clnk&gl=it",
+      "prefix": "28 giu 2020",
+      "block_position": 12
+    },
+    {
+      "position": 10,
+      "title": "Francia, morto l'autista di bus picchiato per aver chiesto di ...",
+      "link": "https://www.open.online/2020/07/11/francia-morto-autista-bus-picchiato-indossare-mascherina/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/07/11 › francia-morto-autista...",
+      "snippet": "Mentre lavorava è stato picchiato selvaggiamente da una banda di giovani, fra cui due pregiudicati, che si rifiutavano di indossare le mascherine – misura ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare",
+        "mascherine"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:_fYg5UHcUwgJ:https://www.open.online/2020/07/11/francia-morto-autista-bus-picchiato-indossare-mascherina/+&cd=10&hl=it&ct=clnk&gl=it",
+      "prefix": "11 lug 2020",
+      "block_position": 13
+    },
+    {
+      "position": 11,
+      "title": "Se proprio vogliamo usare le mascherine... | Butac - Bufale Un ...",
+      "link": "https://www.butac.it/se-proprio-vogliamo-usare-le-mascherine/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Speciale CoronaVirus - CoVid-19",
+      "snippet": "Nell'immagine viene riportato quello che si sostiene essere il modo corretto d'indossare una mascherina chirurgica. Ci dicono: Lato bianco fuori quando non sei ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare",
+        "mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:pRy2b1caAXcJ:https://www.butac.it/se-proprio-vogliamo-usare-le-mascherine/+&cd=11&hl=it&ct=clnk&gl=it",
+      "date": "13 feb 2020",
+      "date_utc": "2020-02-13T12:00:00.000Z",
+      "block_position": 14
+    },
+    {
+      "position": 12,
+      "title": "Coronavirus. La propaganda contro le mascherine parlando ...",
+      "link": "https://www.open.online/2020/05/27/coronavirus-la-propaganda-contro-le-mascherine-parlando-di-cancro-e-giovani-morti-in-cina/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/05/27 › coronavirus-la-propa...",
+      "snippet": "I due ragazzi morti in Cina; Virus, batteri e parassiti vari; I perché delle mascherine; Perché usare la mascherina se non protegge chi la indossa? L'infografica del ...",
+      "prerender": false,
+      "snippet_matched": [
+        "mascherine",
+        "mascherina",
+        "indossa"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:pGYmdDfkT_cJ:https://www.open.online/2020/05/27/coronavirus-la-propaganda-contro-le-mascherine-parlando-di-cancro-e-giovani-morti-in-cina/+&cd=12&hl=it&ct=clnk&gl=it",
+      "prefix": "27 mag 2020",
+      "block_position": 15
+    },
+    {
+      "position": 13,
+      "title": "La distanza sociale riduce fino all'85% il rischio contagio ...",
+      "link": "https://www.open.online/2020/09/28/covid-19-studio-mahidol-university-bangkok-oxford/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/09/28 › covid-19-studio-mah...",
+      "snippet": "Indossare la mascherina, lavare continuamente le mani e mantenersi a una distanza di almeno un metro aiuta a contenere la diffusione del Coronavirus quando ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Indossare la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:hQoe92-stcIJ:https://www.open.online/2020/09/28/covid-19-studio-mahidol-university-bangkok-oxford/+&cd=13&hl=it&ct=clnk&gl=it",
+      "date": "28 set 2020",
+      "date_utc": "2020-09-28T12:00:00.000Z",
+      "block_position": 16
+    },
+    {
+      "position": 14,
+      "title": "\"OMS: Non è necessario indossare la mascherina\", l ... - Bufale",
+      "link": "https://www.bufale.net/oms-non-e-necessario-indossare-la-mascherina-lennesima-bufala-pubblicata-su-telegraph/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Bufala",
+      "snippet": "\"OMS: Non è necessario indossare la mascherina\", l'ennesima bufala pubblicata su Telegraph. Scopri di più su Bufale, il sito contro la disinformazione, le bufale ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:gC6lq0ioqKQJ:https://www.bufale.net/oms-non-e-necessario-indossare-la-mascherina-lennesima-bufala-pubblicata-su-telegraph/+&cd=14&hl=it&ct=clnk&gl=it",
+      "prefix": "29 gen 2021",
+      "block_position": 17
+    },
+    {
+      "position": 15,
+      "title": "«Sii un eroe, indossa la mascherina»: il divertente appello di ...",
+      "link": "https://www.open.online/2020/07/18/divertente-appello-di-jack-black-eroe-mascherina-il-video/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/07/18 › divertente-appello-di...",
+      "snippet": "«Sii un eroe, indossa una mascherina». Anche Hollywood si muove per sensibilizzare la popolazione sull'uso dei dispositivi di protezione. Questa volta ci ha ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossa",
+        "mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:dHIS2htgkPwJ:https://www.open.online/2020/07/18/divertente-appello-di-jack-black-eroe-mascherina-il-video/+&cd=15&hl=it&ct=clnk&gl=it",
+      "prefix": "18 lug 2020",
+      "block_position": 18
+    },
+    {
+      "position": 16,
+      "title": "Coronavirus. Le mascherine fanno male? Le risposte alle ...",
+      "link": "https://www.open.online/2020/10/23/coronavirus-mascherine-fanno-male-risposte-contro-la-disinformazione/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/10/23 › coronavirus-mascheri...",
+      "snippet": "Ecco perché è importante indossare la mascherina, perché potreste essere positivi al virus senza saperlo rischiando di fare del male a qualcuno.",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:6exwmlqjFBYJ:https://www.open.online/2020/10/23/coronavirus-mascherine-fanno-male-risposte-contro-la-disinformazione/+&cd=16&hl=it&ct=clnk&gl=it",
+      "prefix": "23 ott 2020",
+      "block_position": 19
+    },
+    {
+      "position": 17,
+      "title": "Il ritorno della bufala \"Indossare le mascherine è reato ... - Bufale",
+      "link": "https://www.bufale.net/il-ritorno-della-bufala-indossare-le-mascherine-e-reato-smettete-di-inventare-reati-a-caso/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Bufala",
+      "snippet": "Il ritorno della bufala \"Indossare le mascherine è reato\": smettete di inventare reati a caso!. Scopri di più su Bufale, il sito contro la disinformazione, le bufale e ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Indossare",
+        "mascherine"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:ExHdS1nmlSQJ:https://www.bufale.net/il-ritorno-della-bufala-indossare-le-mascherine-e-reato-smettete-di-inventare-reati-a-caso/+&cd=17&hl=it&ct=clnk&gl=it",
+      "date": "27 set 2020",
+      "date_utc": "2020-09-27T12:00:00.000Z",
+      "block_position": 20
+    },
+    {
+      "position": 18,
+      "title": "In Lombardia non è più obbligatorio indossare la mascherina ...",
+      "link": "https://www.open.online/2020/07/15/lombardia-non-obbligatorio-mascherina-aperto-tornano-giornali-bar/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/07/15 › lombardia-non-obbli...",
+      "snippet": "In Lombardia non è più obbligatorio indossare la mascherina all'aperto: tornano anche i giornali nei bar. 15 Luglio 2020 - 08:56. di Giovanni Ruggiero. Sarà ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Vya_3t6Iv2oJ:https://www.open.online/2020/07/15/lombardia-non-obbligatorio-mascherina-aperto-tornano-giornali-bar/+&cd=18&hl=it&ct=clnk&gl=it",
+      "prefix": "15 lug 2020",
+      "block_position": 21
+    },
+    {
+      "position": 19,
+      "title": "Salvini e il rifiuto della mascherina, il virologo Crisanti: «Mi ...",
+      "link": "https://www.open.online/2020/07/28/salvini-rifiuto-mascherina-virologo-crisanti-dissocio-contro-regole-virus/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/07/28 › salvini-rifiuto-masch...",
+      "snippet": "Il virologo Crisanti non parla di politica ma davanti al rifiuto di Matteo Salvini di indossare la mascherina non può fare altro che dissociarsi. Così Andrea Crisanti ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:O6OCbwpagkwJ:https://www.open.online/2020/07/28/salvini-rifiuto-mascherina-virologo-crisanti-dissocio-contro-regole-virus/+&cd=19&hl=it&ct=clnk&gl=it",
+      "prefix": "28 lug 2020",
+      "block_position": 22
+    },
+    {
+      "position": 20,
+      "title": "Il video choc di Madrid per incentivare l'uso della mascherina ...",
+      "link": "https://www.open.online/2020/08/07/coronavirus-spagna-video-choc-madrid-per-incentivare-uso-mascherina/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/08/07 › coronavirus-spagna-...",
+      "snippet": "L'obiettivo è far capire alle persone che, anche se indossare una mascherina per contrastare il Coronavirus è un piccolo sacrificio, ci sono conseguenze ben ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare",
+        "mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:BM0uHZ2_fy4J:https://www.open.online/2020/08/07/coronavirus-spagna-video-choc-madrid-per-incentivare-uso-mascherina/+&cd=20&hl=it&ct=clnk&gl=it",
+      "date": "7 ago 2020",
+      "date_utc": "2020-08-07T12:00:00.000Z",
+      "block_position": 23
+    },
+    {
+      "position": 21,
+      "title": "Coronavirus, in Aula la prima deputata con la mascherina - Il ...",
+      "link": "https://www.open.online/2020/02/24/coronavirus-camera-deputata-maria-teresa-baldini-con-mascherina-video/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/02/24 › coronavirus-camera-...",
+      "snippet": "... straordinarie adottate in diversi punti d'Italia, però, gli esperti hanno più volte ribadito che indossare una mascherina quando si è sani non protegge dai rischi.",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare",
+        "mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:6y41rczksDcJ:https://www.open.online/2020/02/24/coronavirus-camera-deputata-maria-teresa-baldini-con-mascherina-video/+&cd=21&hl=it&ct=clnk&gl=it",
+      "date": "24 feb 2020",
+      "date_utc": "2020-02-24T12:00:00.000Z",
+      "block_position": 24
+    },
+    {
+      "position": 22,
+      "title": "Coronavirus, De Luca l'implacabile: mille euro di multa a chi ...",
+      "link": "https://www.open.online/2020/07/24/de-luca-implacabile-mille-euro-di-multa-per-chi-non-indossa-la-mascherina/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/07/24 › de-luca-implacabile-...",
+      "snippet": "Coronavirus, De Luca l'implacabile: mille euro di multa a chi non indossa la mascherina. 24 Luglio 2020 - 20:12. di Redazione. Secondo le anticipazioni de “Il ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossa la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:ToEZesmt43EJ:https://www.open.online/2020/07/24/de-luca-implacabile-mille-euro-di-multa-per-chi-non-indossa-la-mascherina/+&cd=22&hl=it&ct=clnk&gl=it",
+      "prefix": "24 lug 2020",
+      "block_position": 25
+    },
+    {
+      "position": 23,
+      "title": "Coronavirus, Trump: «Obbligo sulle mascherine? C'è chi ...",
+      "link": "https://www.open.online/2020/09/16/coronavirus-notizie-notte-16-settembre/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/09/16 › coronavirus-notizie-n...",
+      "snippet": "A una elettrice che gli ha chiesto perché non ha imposto l'obbligo di indossare la mascherina a livello nazionale, come raccomandato dalla stessa task force ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:9ruJuRkKnFcJ:https://www.open.online/2020/09/16/coronavirus-notizie-notte-16-settembre/+&cd=23&hl=it&ct=clnk&gl=it",
+      "date": "16 set 2020",
+      "date_utc": "2020-09-16T12:00:00.000Z",
+      "block_position": 26
+    },
+    {
+      "position": 24,
+      "title": "Coronavirus. Occhio alle mascherine perché rischiate l ... - Open",
+      "link": "https://www.open.online/2020/04/28/coronavirus-occhio-alle-mascherine-perche-rischiate-lalcalosi-e-lo-svenimento-il-post-social-che-disinforma/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/04/28 › coronavirus-occhio-a...",
+      "snippet": "Se, per esempio, la si indossa durante un test da sforzo, io medico sono protetto da eventuali vaporizzazioni. Ma chi si sottopone a sforzo, con la mascherina ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossa",
+        "mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:4PJ5g0u5JJ0J:https://www.open.online/2020/04/28/coronavirus-occhio-alle-mascherine-perche-rischiate-lalcalosi-e-lo-svenimento-il-post-social-che-disinforma/+&cd=24&hl=it&ct=clnk&gl=it",
+      "date": "28 apr 2020",
+      "date_utc": "2020-04-28T12:00:00.000Z",
+      "block_position": 27
+    },
+    {
+      "position": 25,
+      "title": "Coronavirus. Bambini morti a causa della mascherina? Sono ...",
+      "link": "https://www.open.online/2020/10/06/coronavirus-bambini-morti-per-la-mascherina-fake-nomask-tedeschi/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/10/06 › coronavirus-bambini...",
+      "snippet": "Il bimbo muore per mancanza di ossigeno ed eccesso di anidride carbonica. Dal 7 ottobre dobbiamo incentivare indossare la mascherina anche all'aperto!!!!",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:QDbVCyDU_boJ:https://www.open.online/2020/10/06/coronavirus-bambini-morti-per-la-mascherina-fake-nomask-tedeschi/+&cd=25&hl=it&ct=clnk&gl=it",
+      "prefix": "6 ott 2020",
+      "block_position": 28
+    },
+    {
+      "position": 26,
+      "title": "Carfagna zittisce Sgarbi: «Metta la mascherina, non siamo ...",
+      "link": "https://www.open.online/2020/06/12/carfagna-zittisce-sgarbi-metta-la-mascherina-non-siamo-629-imbecilli-video/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/06/12 › carfagna-zittisce-sgar...",
+      "snippet": "Dopo lo show di Vittorio Sgarbi in Commissione Cultura alla Camera che non ha voluto indossare la mascherina, a “convincere” il critico d'arte ci ha pensato la ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:JoqjyT8_apAJ:https://www.open.online/2020/06/12/carfagna-zittisce-sgarbi-metta-la-mascherina-non-siamo-629-imbecilli-video/+&cd=26&hl=it&ct=clnk&gl=it",
+      "prefix": "12 giu 2020",
+      "block_position": 29
+    },
+    {
+      "position": 27,
+      "title": "Coronavirus, Musumeci viola la sua stessa ordinanza ... - Open",
+      "link": "https://www.open.online/2020/10/05/coronavirus-musumeci-viola-ordinanza-senza-mascherina/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/10/05 › coronavirus-musume...",
+      "snippet": "Così il governatore siciliano si mostra nel corso di un evento, dimenticando, forse, di aver firmato un'ordinanza che obbliga tutti a indossare la mascherina all' ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:qanlzBNeumwJ:https://www.open.online/2020/10/05/coronavirus-musumeci-viola-ordinanza-senza-mascherina/+&cd=27&hl=it&ct=clnk&gl=it",
+      "prefix": "5 ott 2020",
+      "block_position": 30
+    },
+    {
+      "position": 28,
+      "title": "Coronavirus, il Lazio corre ai ripari: con le mascherine ... - Open",
+      "link": "https://www.open.online/2020/10/01/coronavirus-il-lazio-corre-ai-ripari-con-le-mascherine-obbligatorie-allaperto-arriva-maxi-campagna-per-la-vaccinazione-antinfluenzale/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/10/01 › coronavirus-il-lazio-c...",
+      "snippet": "Attesa nelle prossime ore un'ordinanza della Regione Lazio che introdurrebbe l'obbligo di indossare la mascherina all'aperto. All'interno del testo, allo studio ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:EHIjvGyQD3UJ:https://www.open.online/2020/10/01/coronavirus-il-lazio-corre-ai-ripari-con-le-mascherine-obbligatorie-allaperto-arriva-maxi-campagna-per-la-vaccinazione-antinfluenzale/+&cd=28&hl=it&ct=clnk&gl=it",
+      "prefix": "1 ott 2020",
+      "block_position": 31
+    },
+    {
+      "position": 29,
+      "title": "Coronavirus, Tom Hanks: «Non ho rispetto per voi se non ...",
+      "link": "https://www.open.online/2020/07/08/coronavirus-usa-tom-hanks-contro-chi-non-usa-mascherina-e-non-rispetta-distanziamento-sociale/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/07/08 › coronavirus-usa-tom-...",
+      "snippet": "«Se non puoi indossare una mascherina e lavarti le mani e tenere il distanziamento sociale, allora non ho rispetto per te, amico», ha detto Hanks durante ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare",
+        "mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:-_CfDpQHzy0J:https://www.open.online/2020/07/08/coronavirus-usa-tom-hanks-contro-chi-non-usa-mascherina-e-non-rispetta-distanziamento-sociale/+&cd=29&hl=it&ct=clnk&gl=it",
+      "prefix": "8 lug 2020",
+      "block_position": 32
+    },
+    {
+      "position": 30,
+      "title": "Vincenzo De Luca all'attacco: «Mettetevi queste benedette ...",
+      "link": "https://www.open.online/2020/07/11/vincenzo-de-luca-allattacco-mettetevi-queste-benedette-mascherine-io-lo-faro-anche-al-mare/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/07/11 › vincenzo-de-luca-alla...",
+      "snippet": "... di indossare sempre la mascherina protettiva, per contrastare il diffondersi del Coronavirus. De Luca spiega: «Vi rinnovo l'appello ad aiutarci, mettetevi queste ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare",
+        "mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Wn7vOktxwbsJ:https://www.open.online/2020/07/11/vincenzo-de-luca-allattacco-mettetevi-queste-benedette-mascherine-io-lo-faro-anche-al-mare/+&cd=30&hl=it&ct=clnk&gl=it",
+      "prefix": "11 lug 2020",
+      "block_position": 33
+    },
+    {
+      "position": 31,
+      "title": "Dichiarazione sostitutiva: \"Non indosso la mascherina perché ...",
+      "link": "https://www.bufale.net/dichiarazione-sostitutiva-non-indosso-la-mascherina-perche-lesiva-della-mia-intelligenza-e-altre-cose-poco-acute/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Bufala",
+      "snippet": "Dichiarazione sostitutiva: \"Non indosso la mascherina perché lesiva della mia ... per finire questo filotto di levità, se indossare la mascherina offende la dignità e ...",
+      "prerender": false,
+      "snippet_matched": [
+        "mascherina",
+        "indossare la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:gqXoi_k41QUJ:https://www.bufale.net/dichiarazione-sostitutiva-non-indosso-la-mascherina-perche-lesiva-della-mia-intelligenza-e-altre-cose-poco-acute/+&cd=31&hl=it&ct=clnk&gl=it",
+      "prefix": "25 mag 2020",
+      "block_position": 34
+    },
+    {
+      "position": 32,
+      "title": "La pistola spara-mascherina dello youtuber Allen Pan: la ...",
+      "link": "https://www.open.online/2020/08/19/pistola-spara-mascherina-youtuber-allen-pan-soluzione-drastica-no-mask-video/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/08/19 › pistola-spara-mascher...",
+      "snippet": "Allen Pan ha ideato e realizzato una nuova pistola che lancia mascherine sui volti delle persone che non le indossano, affinché si evitino risse nei luoghi pubblici.",
+      "prerender": false,
+      "snippet_matched": [
+        "mascherine",
+        "indossano"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:4cWBFvu13rUJ:https://www.open.online/2020/08/19/pistola-spara-mascherina-youtuber-allen-pan-soluzione-drastica-no-mask-video/+&cd=32&hl=it&ct=clnk&gl=it",
+      "date": "19 ago 2020",
+      "date_utc": "2020-08-19T12:00:00.000Z",
+      "block_position": 35
+    },
+    {
+      "position": 33,
+      "title": "Coronavirus, Conte: «La mascherina va sempre indossata ...",
+      "link": "https://www.open.online/2020/10/07/coronavirus-conte-mascherina-sempre-indossata-cautela-in-famiglia-video/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/10/07 › coronavirus-conte-m...",
+      "snippet": "La raccomandazione del governo è dunque quella di indossare la «mascherina e mantenere le regole di distanza» anche quando si ricevono ospiti a casa, ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare",
+        "mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:cojalLw1LwMJ:https://www.open.online/2020/10/07/coronavirus-conte-mascherina-sempre-indossata-cautela-in-famiglia-video/+&cd=33&hl=it&ct=clnk&gl=it",
+      "prefix": "7 ott 2020",
+      "block_position": 36
+    },
+    {
+      "position": 34,
+      "title": "In Veneto c'è un sindaco (e medico) che si ribella alle ... - Open",
+      "link": "https://www.open.online/2020/10/09/veneto-sindaco-medico-ribella-mascherine-obbligatorie-museruola/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/10/09 › veneto-sindaco-medi...",
+      "snippet": "... (e medico) che si ribella alle mascherine obbligatorie: «Non serve indossare la ... Il sindaco di Santa Lucia di Piave chiama così la mascherina anti-Covid e ...",
+      "prerender": false,
+      "snippet_matched": [
+        "mascherine",
+        "indossare",
+        "mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:mrdcmKUho5gJ:https://www.open.online/2020/10/09/veneto-sindaco-medico-ribella-mascherine-obbligatorie-museruola/+&cd=34&hl=it&ct=clnk&gl=it",
+      "prefix": "9 ott 2020",
+      "block_position": 37
+    },
+    {
+      "position": 35,
+      "title": "Coronavirus, anche in Toscana sarà obbligatoria la ... - Open",
+      "link": "https://www.open.online/2020/04/05/coronavirus-toscana-obbligo-mascherina-governatore-ordinanza/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/04/05 › coronavirus-toscana-...",
+      "snippet": "Coronavirus, anche in Toscana sarà obbligatoria la mascherina. ... Lega: anche la “rossa” Toscana ha deciso di introdurre l'obbligo di indossare la mascherina ...",
+      "prerender": false,
+      "snippet_matched": [
+        "mascherina",
+        "indossare la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:MGS6VN_WGqIJ:https://www.open.online/2020/04/05/coronavirus-toscana-obbligo-mascherina-governatore-ordinanza/+&cd=35&hl=it&ct=clnk&gl=it",
+      "date": "5 apr 2020",
+      "date_utc": "2020-04-05T12:00:00.000Z",
+      "block_position": 38
+    },
+    {
+      "position": 36,
+      "title": "Marcia della liberazione, tra i manifestanti anche i vigili urbani ...",
+      "link": "https://www.open.online/2020/10/10/alla-marcia-della-liberazione-partecipano-anche-vigili-urbani-mascherine-diciamo-no-alla-multa-incondizionata-la-covid-19-influenza-aggressiva-lintervista/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/10/10 › alla-marcia-della-libe...",
+      "snippet": "Perché dobbiamo multarlo se è isolato o se rispetta il distanziamento e non indossa la mascherina? Ci basta già la crisi, 600 mila persone, ricordiamocelo, ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossa la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:ewR64IP0E-QJ:https://www.open.online/2020/10/10/alla-marcia-della-liberazione-partecipano-anche-vigili-urbani-mascherine-diciamo-no-alla-multa-incondizionata-la-covid-19-influenza-aggressiva-lintervista/+&cd=36&hl=it&ct=clnk&gl=it",
+      "prefix": "10 ott 2020",
+      "block_position": 39
+    },
+    {
+      "position": 37,
+      "title": "Sesso e Coronavirus: \"Purtroppo ma necessario indossare la ...",
+      "link": "https://www.bufale.net/sesso-e-coronavirus-purtroppo-ma-necessario-indossare-la-mascherina/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Notizia Vera",
+      "snippet": "Sesso e Coronavirus: \"Purtroppo ma necessario indossare la mascherina\". Scopri di più su Bufale, il sito contro la disinformazione, le bufale e l'allarmismo che ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:RZC7TTlHiqIJ:https://www.bufale.net/sesso-e-coronavirus-purtroppo-ma-necessario-indossare-la-mascherina/+&cd=37&hl=it&ct=clnk&gl=it",
+      "prefix": "20 ott 2020",
+      "block_position": 40
+    },
+    {
+      "position": 38,
+      "title": "Show di Sgarbi alla Camera: «Non indosso la mascherina ...",
+      "link": "https://www.open.online/2020/06/11/show-di-sgarbi-alla-camera-no-mascherina-seduta-sospesa-video/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/06/11 › show-di-sgarbi-alla-c...",
+      "snippet": "Tanto che la seduta è stata sospesa per qualche minuto. A scatenare la rabbia del critico d'arte, l'invito a indossare la mascherina. «Non voglio essere ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:CC49bjeTumkJ:https://www.open.online/2020/06/11/show-di-sgarbi-alla-camera-no-mascherina-seduta-sospesa-video/+&cd=38&hl=it&ct=clnk&gl=it",
+      "prefix": "11 giu 2020",
+      "block_position": 41
+    },
+    {
+      "position": 39,
+      "title": "In treno senza mascherina, minacce e rissa sfiorata sul Roma ...",
+      "link": "https://www.open.online/2020/06/04/treno-senza-mascherina-minacce-rissa-sfiorata-roma-lecce/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/06/04 › treno-senza-mascheri...",
+      "snippet": "Le regole per il contenimento dei contagi da Coronavirus impongono di indossare la mascherina a bordo dei treni, per quanto un testimone che viaggiava nello ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:nUxCD83eL1EJ:https://www.open.online/2020/06/04/treno-senza-mascherina-minacce-rissa-sfiorata-roma-lecce/+&cd=39&hl=it&ct=clnk&gl=it",
+      "prefix": "4 giu 2020",
+      "block_position": 42
+    },
+    {
+      "position": 40,
+      "title": "«Le mascherine non portano ossigeno al cervello», Facebook ...",
+      "link": "https://www.open.online/2020/07/21/mascherine-non-portano-ossigeno-cervello-facebook-chiude-gruppo-no-mask-stati-uniti/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/07/21 › mascherine-non-port...",
+      "snippet": "Sul social ci sono ancora decine di gruppi che protestano sull'obbligo di indossare le mascherine negli Stati Uniti, dove la pandemia viaggia a ritmi di 60 mila ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare",
+        "mascherine"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:febtpRY8DjsJ:https://www.open.online/2020/07/21/mascherine-non-portano-ossigeno-cervello-facebook-chiude-gruppo-no-mask-stati-uniti/+&cd=40&hl=it&ct=clnk&gl=it",
+      "prefix": "21 lug 2020",
+      "block_position": 43
+    },
+    {
+      "position": 41,
+      "title": "Derby leghista al Senato, Salvini si toglie la mascherina per ...",
+      "link": "https://www.open.online/2020/10/28/senato-salvini-mascherina-protesta-calderoli-video/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/10/28 › senato-salvini-masch...",
+      "snippet": "Il leader della Lega è stato richiamato all'ordine dal vice presidente di Palazzo Madama. Il nuovo regolamento impone infatti di indossare i dispositivi di ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:3s5tZCGTXbAJ:https://www.open.online/2020/10/28/senato-salvini-mascherina-protesta-calderoli-video/+&cd=41&hl=it&ct=clnk&gl=it",
+      "prefix": "28 ott 2020",
+      "block_position": 44
+    },
+    {
+      "position": 42,
+      "title": "L'uso della mascherina in luogo pubblico è reato | Butac ...",
+      "link": "https://www.butac.it/luso-della-mascherina-in-luogo-pubblico-e-reato/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Speciale CoronaVirus - CoVid-19",
+      "snippet": "CHIUNQUE INTIMIDI AD INDOSSARE MASCHERINE, RISCHIA UNA DENUNCIA per: Istigaziane a Delinquere Art 4141 cpp,; Procurato Allarme Art 658 cpp, ...",
+      "prerender": false,
+      "snippet_matched": [
+        "INDOSSARE MASCHERINE"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:_o0SHuPuiKAJ:https://www.butac.it/luso-della-mascherina-in-luogo-pubblico-e-reato/+&cd=42&hl=it&ct=clnk&gl=it",
+      "prefix": "23 ott 2020",
+      "block_position": 45
+    },
+    {
+      "position": 43,
+      "title": "Nessuno può obbligare all'uso della mascherina - ancora ...",
+      "link": "https://www.bufale.net/nessuno-puo-obbligare-alluso-della-mascherina-ancora-bufale-sulle-mascherine/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Bufala",
+      "snippet": "Nessuno può obbligare all'uso della mascherina - ancora bufale sulle ... già in tempi pre-pandemici doveva indossare mascherina e altri presidi per evitare di ...",
+      "prerender": false,
+      "snippet_matched": [
+        "mascherina",
+        "indossare mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:KFXOyHdod6IJ:https://www.bufale.net/nessuno-puo-obbligare-alluso-della-mascherina-ancora-bufale-sulle-mascherine/+&cd=43&hl=it&ct=clnk&gl=it",
+      "prefix": "18 mag 2020",
+      "block_position": 46
+    },
+    {
+      "position": 44,
+      "title": "Il rimprovero a due clienti: «Mettete la mascherina»: scoppia ...",
+      "link": "https://www.open.online/2020/09/28/rimprovero-clienti-mascherina-rissa-supermercato-crema/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/09/28 › rimprovero-clienti-m...",
+      "snippet": "Due uomini si rifiutano di indossare la mascherina per proteggere se stessi e gli altri dal Coronavirus e in un supermercato di Crema scoppia una rissa senza ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:QeL_bPLjRJYJ:https://www.open.online/2020/09/28/rimprovero-clienti-mascherina-rissa-supermercato-crema/+&cd=44&hl=it&ct=clnk&gl=it",
+      "date": "28 set 2020",
+      "date_utc": "2020-09-28T12:00:00.000Z",
+      "block_position": 47
+    },
+    {
+      "position": 45,
+      "title": "Le mascherine sono uno strumento di morte? Il video del ...",
+      "link": "https://www.open.online/2020/07/28/le-mascherine-sono-uno-strumento-di-morte-il-video-del-complottista-e-il-misuratore-di-anidride-carbonica/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/07/28 › le-mascherine-sono-u...",
+      "snippet": "Ennesimo tentativo dei complottisti per sostenere che le mascherine sono un ... Ecco perché possiamo indossare la mascherina anche tutto il giorno senza ...",
+      "prerender": false,
+      "snippet_matched": [
+        "mascherine",
+        "indossare la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:vYkfVZG-rxUJ:https://www.open.online/2020/07/28/le-mascherine-sono-uno-strumento-di-morte-il-video-del-complottista-e-il-misuratore-di-anidride-carbonica/+&cd=45&hl=it&ct=clnk&gl=it",
+      "prefix": "28 lug 2020",
+      "block_position": 48
+    },
+    {
+      "position": 46,
+      "title": "Coronavirus, in Cina il drone parlante che mette in guardia ...",
+      "link": "https://www.open.online/2020/01/31/coronavirus-in-cina-il-drone-parlante-che-mette-in-guardia-indossa-la-mascherina-e-lava-le-mani/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/01/31 › coronavirus-in-cina-i...",
+      "snippet": "Coronavirus, in Cina il drone parlante che mette in guardia: «Indossa la mascherina e lava le mani» – Il video. 31 Gennaio 2020 - 17:36. di Redazione.",
+      "prerender": false,
+      "snippet_matched": [
+        "Indossa la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:3iLJntUI_K0J:https://www.open.online/2020/01/31/coronavirus-in-cina-il-drone-parlante-che-mette-in-guardia-indossa-la-mascherina-e-lava-le-mani/+&cd=46&hl=it&ct=clnk&gl=it",
+      "prefix": "31 gen 2020",
+      "block_position": 49
+    },
+    {
+      "position": 47,
+      "title": "\"A Lugano tutti senza mascherina\", alcune precisazioni - Bufale",
+      "link": "https://www.bufale.net/a-lugano-in-svizzera-tutti-senza-mascherina-alcune-precisazioni-sono-doverose/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Precisazioni",
+      "snippet": "Attualmente non prevediamo l'obbligo di indossare la mascherina nello spazio pubblico. I contagi in Svizzera e l'obbligo delle mascherine in Italia. La riapertura di ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare la mascherina",
+        "mascherine"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:vD7QQKeMKNEJ:https://www.bufale.net/a-lugano-in-svizzera-tutti-senza-mascherina-alcune-precisazioni-sono-doverose/+&cd=47&hl=it&ct=clnk&gl=it",
+      "prefix": "17 mag 2020",
+      "block_position": 50
+    },
+    {
+      "position": 48,
+      "title": "L'immunologo Le Foche: «Il virus c'è, ma basta paura: in ...",
+      "link": "https://www.open.online/2020/06/08/immunologo-le-foche-basta-paura-spiaggia-mascherina-bar/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/06/08 › immunologo-le-foch...",
+      "snippet": "... Le Foche invita al buonsenso: «In spiaggia lettini e ombrelloni sono organizzati in sicurezza – dice l'immunologo – Non c'è motivo di indossare la mascherina ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare la mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:4PT5-Wsl3_4J:https://www.open.online/2020/06/08/immunologo-le-foche-basta-paura-spiaggia-mascherina-bar/+&cd=48&hl=it&ct=clnk&gl=it",
+      "prefix": "8 giu 2020",
+      "block_position": 51
+    },
+    {
+      "position": 49,
+      "title": "Coronavirus, il Consiglio dei ministri proroga lo stato di ... - Open",
+      "link": "https://www.open.online/2020/10/07/nuovo-dpcm-cdm-obbligo-mascherina/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/10/07 › nuovo-dpcm-cdm-ob...",
+      "snippet": "Unica novità, come noto già da qualche giorno, l'obbligo a partire da domani di indossare le mascherine anche all'aperto, nel caso in cui si fosse in prossimità ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare",
+        "mascherine"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:sxgbB791MjsJ:https://www.open.online/2020/10/07/nuovo-dpcm-cdm-obbligo-mascherina/+&cd=49&hl=it&ct=clnk&gl=it",
+      "prefix": "7 ott 2020",
+      "block_position": 52
+    },
+    {
+      "position": 50,
+      "title": "Coronavirus, il Viminale: mascherina all'aperto obbligatoria ...",
+      "link": "https://www.open.online/2020/10/11/coronavirus-viminale-mascherina-circolare-sport-riunione-cts/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/10/11 › coronavirus-viminale...",
+      "snippet": "Secondo questi criteri dunque anche chi va a fare una corsetta al parco dovrà indossare una mascherina. Nel pomeriggio però è arrivato un ulteriore ...",
+      "prerender": false,
+      "snippet_matched": [
+        "indossare",
+        "mascherina"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:PFgxXidrifUJ:https://www.open.online/2020/10/11/coronavirus-viminale-mascherina-circolare-sport-riunione-cts/+&cd=50&hl=it&ct=clnk&gl=it",
+      "prefix": "11 ott 2020",
+      "block_position": 53
+    }
+  ]
+}

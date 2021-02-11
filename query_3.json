@@ -1,0 +1,796 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 4,
+    "credits_used_this_request": 1,
+    "credits_remaining": 121,
+    "credits_reset_at": "2021-03-11T14:34:14.000Z"
+  },
+  "search_metadata": {
+    "created_at": "2021-02-11T15:32:18.575Z",
+    "processed_at": "2021-02-11T15:32:30.016Z",
+    "total_time_taken": 11.44,
+    "engine_url": "https://www.google.it/search?q=elezioni+usa+morti+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&gl=it&hl=it&uule=w+CAIQICIFSXRhbHk&num=50&tbs=cdr:1,cd_min:,cd_max:02/10/2021",
+    "html_url": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=elezioni+usa+morti+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=1&num=50&engine=google&output=html",
+    "json_url": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=elezioni+usa+morti+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=1&num=50&engine=google&output=json",
+    "location_auto_message": "We have automatically set the 'google_domain', 'gl' and 'hl' parameters to match the supplied location of 'Italy'. You can stop this behaviour by setting the 'location_auto' parameter to 'false'.",
+    "timing": [
+      "global_init - 0ms (total 0ms)",
+      "auth_apikey - 71ms (total 71ms)",
+      "auth_retrieve_plan - 16ms (total 88ms)",
+      "auth_retrieve_credit_usage - 36ms (total 125ms)",
+      "processing_invoking_worker - 1ms (total 127ms)",
+      "processing_execution_complete - 11442ms (total 11569ms)",
+      "auth_credit_usage_reconcile - 134ms (total 11703ms)",
+      "global_end - 0ms (total 11703ms)"
+    ]
+  },
+  "search_parameters": {
+    "q": "elezioni usa morti (site:bufale.net OR site:butac.it OR site:open.online)",
+    "google_domain": "google.it",
+    "location": "Italy",
+    "gl": "it",
+    "hl": "it",
+    "time_period": "custom",
+    "time_period_max": "02/10/2021",
+    "page": "1",
+    "num": "50"
+  },
+  "search_information": {
+    "original_query_yields_zero_results": false,
+    "total_results": 447,
+    "time_taken_displayed": 0.42,
+    "query_displayed": "elezioni usa morti (site:bufale.net OR site:butac.it OR site:open.online)",
+    "detected_location": "Italia"
+  },
+  "pagination": {
+    "next": "https://www.google.it/search?q=elezioni+usa+morti+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=Ck4lYPX3Gon2-gTw-4_4AQ&start=50&sa=N&ved=2ahUKEwj1pLvQk-LuAhUJu54KHfD9Ax8Q8NMDegQICRBQ",
+    "other_pages": {
+      "2": "https://www.google.it/search?q=elezioni+usa+morti+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=Ck4lYPX3Gon2-gTw-4_4AQ&start=50&sa=N&ved=2ahUKEwj1pLvQk-LuAhUJu54KHfD9Ax8Q8tMDegQICRBG",
+      "3": "https://www.google.it/search?q=elezioni+usa+morti+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=Ck4lYPX3Gon2-gTw-4_4AQ&start=100&sa=N&ved=2ahUKEwj1pLvQk-LuAhUJu54KHfD9Ax8Q8tMDegQICRBI",
+      "4": "https://www.google.it/search?q=elezioni+usa+morti+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=Ck4lYPX3Gon2-gTw-4_4AQ&start=150&sa=N&ved=2ahUKEwj1pLvQk-LuAhUJu54KHfD9Ax8Q8tMDegQICRBK",
+      "5": "https://www.google.it/search?q=elezioni+usa+morti+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=Ck4lYPX3Gon2-gTw-4_4AQ&start=200&sa=N&ved=2ahUKEwj1pLvQk-LuAhUJu54KHfD9Ax8Q8tMDegQICRBM",
+      "6": "https://www.google.it/search?q=elezioni+usa+morti+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=Ck4lYPX3Gon2-gTw-4_4AQ&start=250&sa=N&ved=2ahUKEwj1pLvQk-LuAhUJu54KHfD9Ax8Q8tMDegQICRBO"
+    },
+    "api_pagination": {
+      "next": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=elezioni%20usa%20morti%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=2&num=50",
+      "other_pages": {
+        "2": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=elezioni%20usa%20morti%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=2&num=50",
+        "3": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=elezioni%20usa%20morti%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=3&num=50",
+        "4": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=elezioni%20usa%20morti%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=4&num=50",
+        "5": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=elezioni%20usa%20morti%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=5&num=50",
+        "6": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=elezioni%20usa%20morti%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=6&num=50"
+      }
+    }
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Elezioni USA: \"2503 morti hanno votato per Biden\" - Fake ...",
+      "link": "https://www.bufale.net/elezioni-usa-2503-morti-hanno-votato-per-biden-fake-news-da-foto-fuori-contesto/",
+      "domain": "www.bufale.net",
+      "displayed_link": "https://www.bufale.net › Bufala",
+      "snippet": "Elezioni USA: \"2503 morti hanno votato per Biden\" - Fake News da foto fuori contesto. Scopri di più su Bufale, il sito contro la disinformazione, le bufale e ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Elezioni USA",
+        "morti"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:fdsAetmrXNIJ:https://www.bufale.net/elezioni-usa-2503-morti-hanno-votato-per-biden-fake-news-da-foto-fuori-contesto/+&cd=1&hl=it&ct=clnk&gl=it",
+      "date": "6 nov 2020",
+      "date_utc": "2020-11-06T12:00:00.000Z",
+      "block_position": 1
+    },
+    {
+      "position": 2,
+      "title": "Usa 2020. Trovano a Detroit un elettore nato nel 1829? I ...",
+      "link": "https://www.open.online/2020/11/06/usa-2020-trovano-a-detroit-un-elettore-nato-nel-1829-i-qanon-cercano-prove-ma-trovano-bufale/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/11/06 › usa-2020-trov...",
+      "snippet": "Usa 2020. Trovano a Detroit un elettore nato nel 1829? I QAnon cercano prove, ma trovano bufale. 6 Novembre 2020 - 10:40. di ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Usa"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:d9wRVrWBjhIJ:https://www.open.online/2020/11/06/usa-2020-trovano-a-detroit-un-elettore-nato-nel-1829-i-qanon-cercano-prove-ma-trovano-bufale/+&cd=2&hl=it&ct=clnk&gl=it",
+      "date": "6 nov 2020",
+      "date_utc": "2020-11-06T12:00:00.000Z",
+      "block_position": 2
+    },
+    {
+      "position": 3,
+      "title": "\"In Pennsylvania i morti votano Biden!\" - Bufale ispirate dai ...",
+      "link": "https://www.bufale.net/in-pennsylvania-i-morti-votano-biden-bufale-ispirate-dai-simpsons/",
+      "domain": "www.bufale.net",
+      "displayed_link": "https://www.bufale.net › Disinformazione",
+      "snippet": "Ci segnalano i nostri contatti una serie di post relativi alle liste elettorali di alcuni stati Americani “disputati”, tra cui la Pennsylvania, dove per la propaganda ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:WChCa8IOXmoJ:https://www.bufale.net/in-pennsylvania-i-morti-votano-biden-bufale-ispirate-dai-simpsons/+&cd=3&hl=it&ct=clnk&gl=it",
+      "date": "8 nov 2020",
+      "date_utc": "2020-11-08T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 4,
+      "title": "Usa 2020, attacco finale sul Covid. Trump: «I medici gonfiano i ...",
+      "link": "https://www.open.online/2020/11/01/usa-2020-attacco-coronavirus-trump-medici-gonfiano-numeri-soldi/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/11/01 › usa-2020-attac...",
+      "snippet": "La dichiarazione di Trump è arrivata lo stesso giorno in cui gli Usa hanno registrato un nuovo record di positivi: almeno 94 mila in 24 ore. E un nuovo studio ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Usa"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:jrn4HkvFSXQJ:https://www.open.online/2020/11/01/usa-2020-attacco-coronavirus-trump-medici-gonfiano-numeri-soldi/+&cd=4&hl=it&ct=clnk&gl=it",
+      "date": "1 nov 2020",
+      "date_utc": "2020-11-01T12:00:00.000Z",
+      "block_position": 4
+    },
+    {
+      "position": 5,
+      "title": "Dopo l'assalto al Parlamento Usa, il congresso conferma la ...",
+      "link": "https://www.open.online/2021/01/07/usa-2020-assalto-congresso-certificazione-risultato-elezioni/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2021/01/07 › usa-2020-assal...",
+      "snippet": "Camera e Senato hanno certificato con 306 voti la vittoria di Biden. È di 4 morti, 13 feriti e 52 arresti il bilancio dell'attacco a Capitol Hill. Adesso il presidente ...",
+      "prerender": false,
+      "snippet_matched": [
+        "morti"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:zaGjxjcjvXYJ:https://www.open.online/2021/01/07/usa-2020-assalto-congresso-certificazione-risultato-elezioni/+&cd=5&hl=it&ct=clnk&gl=it",
+      "prefix": "7 gen 2021",
+      "block_position": 5
+    },
+    {
+      "position": 6,
+      "title": "Trump: «I veterani morti in guerra sono dei perdenti». La ...",
+      "link": "https://www.open.online/2020/09/05/trump-veterani-morti-guerra-perdenti-biden-figlio-volontario-idiota/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/09/05 › trump-veterani...",
+      "snippet": "Il candidato dem alla Casa Bianca ha perso suo figlio Beau – volontario in Kosovo e Iraq – nel 2015 per un tumore al cervello: «Le parole di Trump sono una ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:jQEzHvSjuMAJ:https://www.open.online/2020/09/05/trump-veterani-morti-guerra-perdenti-biden-figlio-volontario-idiota/+&cd=6&hl=it&ct=clnk&gl=it",
+      "date": "5 set 2020",
+      "date_utc": "2020-09-05T12:00:00.000Z",
+      "block_position": 6
+    },
+    {
+      "position": 7,
+      "title": "Coronavirus, effetto elezioni sulla curva dei contagi negli Usa ...",
+      "link": "https://www.open.online/2020/11/05/coronavirus-notizie-notte-5-novembre/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/11/05 › coronavirus-n...",
+      "snippet": "Con la fine della campagna elettorale per le elezioni Presidenziali, gli Stati Uniti registrano la cifra più alta di contagi giornalieri dall'inizio della pandemia.",
+      "prerender": false,
+      "snippet_matched": [
+        "elezioni"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:bnUz8DnXvf8J:https://www.open.online/2020/11/05/coronavirus-notizie-notte-5-novembre/+&cd=7&hl=it&ct=clnk&gl=it",
+      "date": "5 nov 2020",
+      "date_utc": "2020-11-05T12:00:00.000Z",
+      "block_position": 7
+    },
+    {
+      "position": 8,
+      "title": "Trump all'Onu torna all'attacco: «La Cina ha infettato il mondo ...",
+      "link": "https://www.open.online/2020/09/22/onu-il-discorso-di-donald-trump-contro-la-cina/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/09/22 › onu-il-discors...",
+      "snippet": "L'ultimo affondo nei confronti di Pechino arriva in un momento particolare per gli Stati Uniti, dove si avvicinano le nuove elezioni e con la pandemia di ...",
+      "prerender": false,
+      "snippet_matched": [
+        "elezioni"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:asaRqG3xad0J:https://www.open.online/2020/09/22/onu-il-discorso-di-donald-trump-contro-la-cina/+&cd=8&hl=it&ct=clnk&gl=it",
+      "date": "22 set 2020",
+      "date_utc": "2020-09-22T12:00:00.000Z",
+      "block_position": 8
+    },
+    {
+      "position": 9,
+      "title": "morti Archivi - Bufale",
+      "link": "https://www.bufale.net/tag/morti/",
+      "domain": "www.bufale.net",
+      "displayed_link": "https://www.bufale.net › tag › morti",
+      "snippet": "Ci segnalano i nostri contatti vari dubbi sul COVID19, a volte collazionati in fonte unica, a volte suddivisi. Il dubbio è legittimo, la soluzione però va data con ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:lZJ6ekb1v10J:https://www.bufale.net/tag/morti/+&cd=9&hl=it&ct=clnk&gl=it",
+      "prefix": "24 gen 2019",
+      "block_position": 12
+    },
+    {
+      "position": 10,
+      "title": "Coronavirus, più di 100mila morti negli Stati Uniti. Regno ...",
+      "link": "https://www.open.online/2020/05/27/coronavirus-news-mondo-27-maggio/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/05/27 › coronavirus-n...",
+      "snippet": "Lagarde (Bce): «Il Pil dell'Eurozona potrebbe contrarsi del 10%». Twitter smentisce Trump. +8.338 casi in Russia in 24 ore, a Mosca test sierologico gratis per ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:eTusolKBa14J:https://www.open.online/2020/05/27/coronavirus-news-mondo-27-maggio/+&cd=10&hl=it&ct=clnk&gl=it",
+      "prefix": "27 mag 2020",
+      "block_position": 13
+    },
+    {
+      "position": 11,
+      "title": "Coronavirus, Trump torna alla Casa Bianca e toglie la ... - Open",
+      "link": "https://www.open.online/2020/10/06/coronavirus-notizie-notte-6-ottobre/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/10/06 › coronavirus-n...",
+      "snippet": "Nuovo video: «Uscite, non fatevi dominare dal virus». In Messico 80mila morti dall'inizio della pandemia. 6 Ottobre 2020 - 06:26. di Redazione.",
+      "prerender": false,
+      "snippet_matched": [
+        "morti"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:pM3rOyEAShEJ:https://www.open.online/2020/10/06/coronavirus-notizie-notte-6-ottobre/+&cd=11&hl=it&ct=clnk&gl=it",
+      "prefix": "6 ott 2020",
+      "block_position": 14
+    },
+    {
+      "position": 12,
+      "title": "Biden verso la presidenza, ma il record di consensi non dice ...",
+      "link": "https://www.open.online/2020/11/07/usa2020-biden-verso-la-presidenza-analisi-del-voto/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/11/07 › usa2020-biden...",
+      "snippet": "I repubblicani continueranno probabilmente a detenere il controllo del Senato. E il populismo di Trump non si è indebolito: «È qui per rimanere», avvertono da ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:J_dv5Jn5XBUJ:https://www.open.online/2020/11/07/usa2020-biden-verso-la-presidenza-analisi-del-voto/+&cd=12&hl=it&ct=clnk&gl=it",
+      "date": "7 nov 2020",
+      "date_utc": "2020-11-07T12:00:00.000Z",
+      "block_position": 15
+    },
+    {
+      "position": 13,
+      "title": "Coronavirus, speranze da studi preliminari Usa: immunità ...",
+      "link": "https://www.open.online/2020/08/17/coronavirus-notizie-notte-17-agosto/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/08/17 › coronavirus-n...",
+      "snippet": "Sono oltre 5,4 milioni i casi di Coronavirus nel mondo, secondo la Johns Hopkins University, con il bilancio delle vittime salito a 774 mila. Gli Stati Uniti restano il ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:NIny7rbLYi0J:https://www.open.online/2020/08/17/coronavirus-notizie-notte-17-agosto/+&cd=13&hl=it&ct=clnk&gl=it",
+      "date": "17 ago 2020",
+      "date_utc": "2020-08-17T12:00:00.000Z",
+      "block_position": 16
+    },
+    {
+      "position": 14,
+      "title": "Coronavirus, secondo il New York Times negli Usa i morti ...",
+      "link": "https://www.open.online/2020/08/13/coronavirus-new-york-times-usa-morti-200mila-stati-indietro-conteggi/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/08/13 › coronavirus-n...",
+      "snippet": "Stando al quotidiano newyorkese, si tratterebbe di diverse decine di migliaia di morti in più. A causare il “buco” sarebbe il ritardo con cui i decessi vengono ...",
+      "prerender": false,
+      "snippet_matched": [
+        "morti"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:aVXuMlhC2kwJ:https://www.open.online/2020/08/13/coronavirus-new-york-times-usa-morti-200mila-stati-indietro-conteggi/+&cd=14&hl=it&ct=clnk&gl=it",
+      "date": "13 ago 2020",
+      "date_utc": "2020-08-13T12:00:00.000Z",
+      "block_position": 17
+    },
+    {
+      "position": 15,
+      "title": "Coronavirus, negli Usa 72 mila nuovi casi, Trump: «Non ci ...",
+      "link": "https://www.open.online/2020/07/31/coronavirus-notizie-notte-31-luglio/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/07/31 › coronavirus-n...",
+      "snippet": "Sono oltre 17 milioni i contagi nel mondo di Coronavirus, mentre le vittime sono salite a 672 mila. Secondo la Johns Hopkins University, gli Stati Uniti guidano la ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:0RHOswZo4VcJ:https://www.open.online/2020/07/31/coronavirus-notizie-notte-31-luglio/+&cd=15&hl=it&ct=clnk&gl=it",
+      "prefix": "31 lug 2020",
+      "block_position": 18
+    },
+    {
+      "position": 16,
+      "title": "Usa 2020, l'ultimo dibattito presidenziale. Trump: «Ho fatto più ...",
+      "link": "https://www.open.online/2020/10/23/usa-2020-ultimo-dibattito-presidenziale/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/10/23 › usa-2020-ulti...",
+      "snippet": "Usa 2020, l'ultimo dibattito presidenziale. Trump: «Ho fatto più io per gli afroamericani di tutti». Biden attacca: «Sei uno dei presidenti più razzisti di sempre».",
+      "prerender": false,
+      "snippet_matched": [
+        "Usa"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:kyJJlpqxCQAJ:https://www.open.online/2020/10/23/usa-2020-ultimo-dibattito-presidenziale/+&cd=16&hl=it&ct=clnk&gl=it",
+      "prefix": "23 ott 2020",
+      "block_position": 19
+    },
+    {
+      "position": 17,
+      "title": "Coronavirus, quasi 300mila casi negli Stati Uniti. In Europa i ...",
+      "link": "https://www.open.online/2020/04/04/coronavirus-news-mondo-4-aprile/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/04/04 › coronavirus-n...",
+      "snippet": "In Spagna prorogato il lockdown fino al 26 aprile. Negli Usa superati gli 8mila morti. E Trump avverte la popolazione e invia mille militari a New York: «Ci ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Usa",
+        "morti"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:skTZmwDWkgoJ:https://www.open.online/2020/04/04/coronavirus-news-mondo-4-aprile/+&cd=17&hl=it&ct=clnk&gl=it",
+      "date": "4 apr 2020",
+      "date_utc": "2020-04-04T12:00:00.000Z",
+      "block_position": 20
+    },
+    {
+      "position": 18,
+      "title": "Coronavirus, oltre 10 mila morti nel Regno Unito. Boris ... - Open",
+      "link": "https://www.open.online/2020/04/12/coronavirus-news-mondo-12-aprile/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/04/12 › coronavirus-n...",
+      "snippet": "Boris Johnson dimesso dall'ospedale: «Non tornerà subito a lavoro». Tornano ad aumentare i morti in Spagna: 619 in 24 ore. Von der Leyen: «Anziani a casa fino ...",
+      "prerender": false,
+      "snippet_matched": [
+        "morti"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Fg8kU464vosJ:https://www.open.online/2020/04/12/coronavirus-news-mondo-12-aprile/+&cd=18&hl=it&ct=clnk&gl=it",
+      "date": "12 apr 2020",
+      "date_utc": "2020-04-12T12:00:00.000Z",
+      "block_position": 21
+    },
+    {
+      "position": 19,
+      "title": "Il difficile rapporto di Trump con il Coronavirus: come il ... - Open",
+      "link": "https://www.open.online/2020/10/02/covid-19-come-donald-trump-ha-cambiato-idea-sulla-pandemia-da-febbraio-a-oggi/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/10/02 › covid-19-com...",
+      "snippet": "Il difficile rapporto di Trump con il Coronavirus: come il presidente Usa ha cambiato idea sulla pandemia da febbraio a oggi. 2 Ottobre 2020 - 11:24. di Giada ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Usa"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:0AQMrwtcd0gJ:https://www.open.online/2020/10/02/covid-19-come-donald-trump-ha-cambiato-idea-sulla-pandemia-da-febbraio-a-oggi/+&cd=19&hl=it&ct=clnk&gl=it",
+      "prefix": "2 ott 2020",
+      "block_position": 22
+    },
+    {
+      "position": 20,
+      "title": "Usa 2020. Arrestato il responsabile della campagna di Joe ...",
+      "link": "https://www.open.online/2020/11/23/usa-2020-arrestato-il-responsabile-della-campagna-di-joe-biden-per-frode-elettorale-falso/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/11/23 › usa-2020-arres...",
+      "snippet": "Usa 2020. Arrestato il responsabile della campagna di Joe Biden per frode elettorale? Falso! 23 Novembre 2020 - 02:21. di David Puente. Sui social circola la ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Usa"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:IwavREe9-kMJ:https://www.open.online/2020/11/23/usa-2020-arrestato-il-responsabile-della-campagna-di-joe-biden-per-frode-elettorale-falso/+&cd=20&hl=it&ct=clnk&gl=it",
+      "date": "23 nov 2020",
+      "date_utc": "2020-11-23T12:00:00.000Z",
+      "block_position": 23
+    },
+    {
+      "position": 21,
+      "title": "Elezioni Usa, Biden avanti di 9 punti nei sondaggi. E Trump ...",
+      "link": "https://www.open.online/2020/08/16/elezioni-usa-biden-avanti-9-punti-sondaggi-trump-incontro-putin-voto/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/08/16 › elezioni-usa-bi...",
+      "snippet": "A meno di tre mesi dalle elezioni presidenziali degli Stati Uniti d'America, un sondaggio di Wall Street Journal e Nbc rileva che il candidato democratico, al ...",
+      "prerender": false,
+      "snippet_matched": [
+        "elezioni"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:NHeayrKpMhEJ:https://www.open.online/2020/08/16/elezioni-usa-biden-avanti-9-punti-sondaggi-trump-incontro-putin-voto/+&cd=21&hl=it&ct=clnk&gl=it",
+      "date": "16 ago 2020",
+      "date_utc": "2020-08-16T12:00:00.000Z",
+      "block_position": 24
+    },
+    {
+      "position": 22,
+      "title": "Coronavirus, negli Usa a rischio 47 milioni di posti di lavoro. A ...",
+      "link": "https://www.open.online/2020/03/30/coronavirus-news-mondo-30-marzo/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/03/30 › coronavirus-n...",
+      "snippet": "Fissate le date per le Olimpiadi di Tokyo. 30 Marzo 2020 - 23:00. di Redazione. Quasi 3mila morti negli ...",
+      "prerender": false,
+      "snippet_matched": [
+        "morti"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:851jYoIgcAoJ:https://www.open.online/2020/03/30/coronavirus-news-mondo-30-marzo/+&cd=22&hl=it&ct=clnk&gl=it",
+      "date": "30 mar 2020",
+      "date_utc": "2020-03-30T12:00:00.000Z",
+      "block_position": 25
+    },
+    {
+      "position": 23,
+      "title": "Usa, assalto al Congresso: il momento in cui i supporter di ...",
+      "link": "https://www.open.online/2021/01/07/usa-assalto-al-congresso-manifestanti-irruzione-capitol-hill-video/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2021/01/07 › usa-assalto-al-...",
+      "snippet": "Un poliziotto scende le scale correndo, da lontano si sentono le urla dei manifestanti, gira l'angolo e li vede: non può fare nulla, loro si fanno strada, ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:gV1VcD7NjQ0J:https://www.open.online/2021/01/07/usa-assalto-al-congresso-manifestanti-irruzione-capitol-hill-video/+&cd=23&hl=it&ct=clnk&gl=it",
+      "prefix": "7 gen 2021",
+      "block_position": 26
+    },
+    {
+      "position": 24,
+      "title": "Coronavirus, nuovo allarme a Wuhan. Le autorità cinesi ...",
+      "link": "https://www.open.online/2020/04/03/coronavirus-news-mondo-3-aprile/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/04/03 › coronavirus-n...",
+      "snippet": "Sono oltre un milione i positivi in tutto il mondo, quasi 4 miliardi le persone costrette a vivere in quarantena. Perù in lockdown. Superati i 1.000 morti in Germania ...",
+      "prerender": false,
+      "snippet_matched": [
+        "morti"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:noNHHJnU4osJ:https://www.open.online/2020/04/03/coronavirus-news-mondo-3-aprile/+&cd=24&hl=it&ct=clnk&gl=it",
+      "date": "3 apr 2020",
+      "date_utc": "2020-04-03T12:00:00.000Z",
+      "block_position": 27
+    },
+    {
+      "position": 25,
+      "title": "Dalle menzogne sulla Covid19 ai QAnon fino all'esplosione di ...",
+      "link": "https://www.open.online/2020/12/31/dalle-bufale-sulla-covid19-ai-qanon-fino-allesplosione-di-beirut-il-meglio-del-fact-checking-2020-di-open/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/12/31 › dalle-bufale-su...",
+      "snippet": "Il team del progetto ha coperto altri avvenimenti chiave del 2020, come le elezioni americane tra disinformazione e teorie del complotto QAnon, mentre potrebbe ...",
+      "prerender": false,
+      "snippet_matched": [
+        "elezioni"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:I6uglU9LdcYJ:https://www.open.online/2020/12/31/dalle-bufale-sulla-covid19-ai-qanon-fino-allesplosione-di-beirut-il-meglio-del-fact-checking-2020-di-open/+&cd=25&hl=it&ct=clnk&gl=it",
+      "date": "31 dic 2020",
+      "date_utc": "2020-12-31T12:00:00.000Z",
+      "block_position": 28
+    },
+    {
+      "position": 26,
+      "title": "Coronavirus, Trump ci ricasca: «È meno letale dell'influenza ...",
+      "link": "https://www.open.online/2020/10/06/trump-coronavirus-come-influenza/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/10/06 › trump-corona...",
+      "snippet": "Il presidente statunitense sui social: «Ogni anno l'influenza fa anche 100 mila morti, non per questo chiudiamo il Paese». Donald Trump torna a paragonare il ...",
+      "prerender": false,
+      "snippet_matched": [
+        "morti"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:75mOR1ATjaUJ:https://www.open.online/2020/10/06/trump-coronavirus-come-influenza/+&cd=26&hl=it&ct=clnk&gl=it",
+      "prefix": "6 ott 2020",
+      "block_position": 29
+    },
+    {
+      "position": 27,
+      "title": "Coronavirus, il consulente della Casa Bianca Fauci: «Per ora ...",
+      "link": "https://www.open.online/2020/04/12/coronavirus-fauci-prime-riaperture-maggio-voto-presidenziali-non-si-puo-garantire/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/04/12 › coronavirus-fa...",
+      "snippet": "A rischio le elezioni presidenziali Usa del prossimo autunno, per le quali al momento il virologo non vede le condizioni perché si svolgano come è sempre ...",
+      "prerender": false,
+      "snippet_matched": [
+        "elezioni",
+        "Usa"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:hhCuMVD82GEJ:https://www.open.online/2020/04/12/coronavirus-fauci-prime-riaperture-maggio-voto-presidenziali-non-si-puo-garantire/+&cd=27&hl=it&ct=clnk&gl=it",
+      "date": "12 apr 2020",
+      "date_utc": "2020-04-12T12:00:00.000Z",
+      "block_position": 30
+    },
+    {
+      "position": 28,
+      "title": "Coronavirus, oltre 820mila casi nel mondo. Negli Stati Uniti ha ...",
+      "link": "https://www.open.online/2020/03/31/coronavirus-news-mondo-31-marzo/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/03/31 › coronavirus-n...",
+      "snippet": "Negli Stati Uniti ha causato più vittime dell'attentato alle Torri Gemelle. Nel Regno Unito muore un ragazzo di 13 anni. 31 Marzo 2020 - 22:26. di Redazione.",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:7y_dyI1W9rEJ:https://www.open.online/2020/03/31/coronavirus-news-mondo-31-marzo/+&cd=28&hl=it&ct=clnk&gl=it",
+      "date": "31 mar 2020",
+      "date_utc": "2020-03-31T12:00:00.000Z",
+      "block_position": 31
+    },
+    {
+      "position": 29,
+      "title": "Coronavirus, il medico di Trump: «Domani può tenere un ...",
+      "link": "https://www.open.online/2020/10/09/coronavirus-notizie-notte-9-ottobre/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/10/09 › coronavirus-n...",
+      "snippet": "Appena 10 giorni fa, il presidente americano è risultato positivo al Coronavirus. Oggi dopo il via libera del suo medico, annuncia due nuovi comizi nel fine ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:6MXgXX7I7uAJ:https://www.open.online/2020/10/09/coronavirus-notizie-notte-9-ottobre/+&cd=29&hl=it&ct=clnk&gl=it",
+      "prefix": "9 ott 2020",
+      "block_position": 32
+    },
+    {
+      "position": 30,
+      "title": "Coronavirus, oltre 3mila positivi negli Usa: a rischio la ... - Open",
+      "link": "https://www.open.online/2020/03/15/coronavirus-news-mondo-15-marzo/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/03/15 › coronavirus-n...",
+      "snippet": "In Francia 5.400 casi e 120 morti. La Germania chiude i confini. 15 Marzo 2020 - 20:56. di Redazione.",
+      "prerender": false,
+      "snippet_matched": [
+        "morti"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:WGwkkyjU-68J:https://www.open.online/2020/03/15/coronavirus-news-mondo-15-marzo/+&cd=30&hl=it&ct=clnk&gl=it",
+      "date": "15 mar 2020",
+      "date_utc": "2020-03-15T12:00:00.000Z",
+      "block_position": 33
+    },
+    {
+      "position": 31,
+      "title": "Coronavirus, più di 5 milioni di casi negli Stati Uniti. In Brasile ...",
+      "link": "https://www.open.online/2020/08/09/coronavirus-notizie-notte-9-agosto/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/08/09 › coronavirus-n...",
+      "snippet": "In Brasile oltre 100mila morti. 9 Agosto 2020 - 06:46. di Olga Bibus. Trump bypassa il ...",
+      "prerender": false,
+      "snippet_matched": [
+        "morti"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:-NNaeFU7T8sJ:https://www.open.online/2020/08/09/coronavirus-notizie-notte-9-agosto/+&cd=31&hl=it&ct=clnk&gl=it",
+      "date": "9 ago 2020",
+      "date_utc": "2020-08-09T12:00:00.000Z",
+      "block_position": 34
+    },
+    {
+      "position": 32,
+      "title": "Anche in Italia rabbia per brogli elettorali USA in Wisconsin: l ...",
+      "link": "https://www.bufale.net/ennesima-bufala-sui-brogli-elettorali-usa-in-wisconsin-da-sovranisti-e-sostenitori-trump/",
+      "domain": "www.bufale.net",
+      "displayed_link": "https://www.bufale.net › Bufala",
+      "snippet": "Abbiamo ancora una volta una bufala sui brogli elettorali USA in Wisconsin da sovranisti ed elettori che sostengono Donald Trump.",
+      "prerender": false,
+      "snippet_matched": [
+        "USA",
+        "elettori"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:2NoikVncr5QJ:https://www.bufale.net/ennesima-bufala-sui-brogli-elettorali-usa-in-wisconsin-da-sovranisti-e-sostenitori-trump/+&cd=32&hl=it&ct=clnk&gl=it",
+      "date": "4 nov 2020",
+      "date_utc": "2020-11-04T12:00:00.000Z",
+      "block_position": 35
+    },
+    {
+      "position": 33,
+      "title": "32519 Archivi - Bufale",
+      "link": "https://www.bufale.net/tag/32519/",
+      "domain": "www.bufale.net",
+      "displayed_link": "https://www.bufale.net › tag",
+      "snippet": "Ci segnalano i nostri contatti, a corollario del lungo elenco di bufale elettorali nate da questa complicata campagna elettorale, la bufala per cui “2503 morti ...",
+      "prerender": false,
+      "snippet_matched": [
+        "morti"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:R7DCWcRk5FoJ:https://www.bufale.net/tag/32519/+&cd=33&hl=it&ct=clnk&gl=it",
+      "date": "6 nov 2020",
+      "date_utc": "2020-11-06T12:00:00.000Z",
+      "block_position": 36
+    },
+    {
+      "position": 34,
+      "title": "Assalto a Capitol Hill, il quinto morto è un agente ferito negli ...",
+      "link": "https://www.open.online/2021/01/08/assalto-capitol-hill-morto-agente-dimissioni-capo-polizia/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2021/01/08 › assalto-capitol-...",
+      "snippet": "Dal Dipartimento di Giustizia e da quello alla Difesa era stato offerto il sostegno degli uomini della Guardia Nazionale e dell'Fbi, ma i vertici della polizia di ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:mWrmd2wo-w0J:https://www.open.online/2021/01/08/assalto-capitol-hill-morto-agente-dimissioni-capo-polizia/+&cd=34&hl=it&ct=clnk&gl=it",
+      "prefix": "8 gen 2021",
+      "block_position": 37
+    },
+    {
+      "position": 35,
+      "title": "Usa 2020. I 138 mila voti dati a Biden nel Michigan sono la ...",
+      "link": "https://www.open.online/2020/11/05/usa-2020-i-138-mila-voti-dati-a-biden-nel-michigan-sono-la-prova-di-brogli-no-un-errore-di-battitura/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/11/05 › usa-2020-i-13...",
+      "snippet": "Le elezioni americane nello Stato del Michigan sono state vinte da Joe Biden con il 50,6% dei voti contro i 48,1% di Donald Trump e il distacco, in termini ...",
+      "prerender": false,
+      "snippet_matched": [
+        "elezioni"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:wwoNs7QFrJ0J:https://www.open.online/2020/11/05/usa-2020-i-138-mila-voti-dati-a-biden-nel-michigan-sono-la-prova-di-brogli-no-un-errore-di-battitura/+&cd=35&hl=it&ct=clnk&gl=it",
+      "date": "5 nov 2020",
+      "date_utc": "2020-11-05T12:00:00.000Z",
+      "block_position": 38
+    },
+    {
+      "position": 36,
+      "title": "Coronavirus nel mondo: le notizie in tempo reale (25 maggio ...",
+      "link": "https://www.open.online/2020/05/25/coronavirus-news-mondo-25-maggio/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/05/25 › coronavirus-n...",
+      "snippet": "A Wuhan 6,5 milioni di tamponi in 10 giorni. La Spagna allenta il lockdown. Svezia: più di 4mila morti. 25 Maggio 2020 - 23:30. di Redazione.",
+      "prerender": false,
+      "snippet_matched": [
+        "morti"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:zMoYW90kWG8J:https://www.open.online/2020/05/25/coronavirus-news-mondo-25-maggio/+&cd=36&hl=it&ct=clnk&gl=it",
+      "prefix": "25 mag 2020",
+      "block_position": 39
+    },
+    {
+      "position": 37,
+      "title": "Coronavirus, polemiche sul comizio di Trump: 6 mila persone ...",
+      "link": "https://www.open.online/2020/09/14/coronavirus-notizie-notte-14-settembre/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/09/14 › coronavirus-n...",
+      "snippet": "Sono quasi 29 milioni i casi nel mondo di Coronavirus, mentre le vittime sono salite a 922 mila secondo la Johns Hopkins University. Gli Stati Uniti guidano la ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:vrLGWu2enxcJ:https://www.open.online/2020/09/14/coronavirus-notizie-notte-14-settembre/+&cd=37&hl=it&ct=clnk&gl=it",
+      "date": "14 set 2020",
+      "date_utc": "2020-09-14T12:00:00.000Z",
+      "block_position": 40
+    },
+    {
+      "position": 38,
+      "title": "Usa, il primo dibattito presidenziale tra insulti e offese. Trump ...",
+      "link": "https://www.open.online/2020/09/30/usa-il-primo-dibattito-presidenziale-tra-insulti-e-offese-trump-non-hai-niente-di-intelligente-biden-sei-un-bugiardo-e-un-clown/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/09/30 › usa-il-primo-d...",
+      "snippet": "A poco più di un mese dal voto del 3 novembre i due candidati si sono confrontati per la prima volta sul palco della Case Western Reserve University di ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:C1MyKM9XPf0J:https://www.open.online/2020/09/30/usa-il-primo-dibattito-presidenziale-tra-insulti-e-offese-trump-non-hai-niente-di-intelligente-biden-sei-un-bugiardo-e-un-clown/+&cd=38&hl=it&ct=clnk&gl=it",
+      "date": "30 set 2020",
+      "date_utc": "2020-09-30T12:00:00.000Z",
+      "block_position": 41
+    },
+    {
+      "position": 39,
+      "title": "Usa 2020, dal Covid al clima fino alla relazione con l'Iran ...",
+      "link": "https://www.open.online/2020/11/08/usa-2020-dal-covid-al-clima-fino-alla-relazione-con-liran-cosa-ce-nellagenda-di-joe-biden/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/11/08 › usa-2020-dal-...",
+      "snippet": "Meno morbido di Obama nei confronti dei giganti del tech, ma vicino a Trump nei rapporti con la Cina. Ecco cosa aspettarsi dall'America del nuovo presidente.",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:0fu7qBlytSMJ:https://www.open.online/2020/11/08/usa-2020-dal-covid-al-clima-fino-alla-relazione-con-liran-cosa-ce-nellagenda-di-joe-biden/+&cd=39&hl=it&ct=clnk&gl=it",
+      "date": "8 nov 2020",
+      "date_utc": "2020-11-08T12:00:00.000Z",
+      "block_position": 42
+    },
+    {
+      "position": 40,
+      "title": "biden Archivi - Pagina 6 di 6 - Bufale",
+      "link": "https://www.bufale.net/tag/biden/page/6/",
+      "domain": "www.bufale.net",
+      "displayed_link": "https://www.bufale.net › biden",
+      "snippet": "Fastidiose accuse su Biden pedofilo dai fan di Trump: tutto spiegato con il funerale del figlio. Da un paio di giorni a questa parte si parla anche in Italia di Biden ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:JrrnTQW8xAEJ:https://www.bufale.net/tag/biden/page/6/+&cd=40&hl=it&ct=clnk&gl=it",
+      "prefix": "24 gen 2021",
+      "block_position": 43
+    },
+    {
+      "position": 41,
+      "title": "\"Questi sono i cinque eroi morti per ottenere il Server in ...",
+      "link": "https://www.bufale.net/questi-sono-i-cinque-eroi-morti-per-ottenere-il-server-in-germania-ancora-fake-news-ancora-foto-senza-contesto/",
+      "domain": "www.bufale.net",
+      "displayed_link": "https://www.bufale.net › Bufala",
+      "snippet": "\"Questi sono i cinque eroi morti per ottenere il Server in Germania\" - Ancora fake news, ancora foto senza contesto. Scopri di più su Bufale, il sito contro la ...",
+      "prerender": false,
+      "snippet_matched": [
+        "morti"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:MR10olHADt4J:https://www.bufale.net/questi-sono-i-cinque-eroi-morti-per-ottenere-il-server-in-germania-ancora-fake-news-ancora-foto-senza-contesto/+&cd=41&hl=it&ct=clnk&gl=it",
+      "date": "3 dic 2020",
+      "date_utc": "2020-12-03T12:00:00.000Z",
+      "block_position": 44
+    },
+    {
+      "position": 42,
+      "title": "Coronavirus, per il Financial Times le vittime globali ... - Open",
+      "link": "https://www.open.online/2020/04/26/coronavirus-news-mondo-26-aprile/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/04/26 › coronavirus-n...",
+      "snippet": "A Wuhan zero casi negli ospedali. 26 Aprile 2020 - 23:50. di Redazione. Gli Stati Uniti hanno ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:lUklP6fSzgYJ:https://www.open.online/2020/04/26/coronavirus-news-mondo-26-aprile/+&cd=42&hl=it&ct=clnk&gl=it",
+      "date": "26 apr 2020",
+      "date_utc": "2020-04-26T12:00:00.000Z",
+      "block_position": 45
+    },
+    {
+      "position": 43,
+      "title": "Record di donne alle elezioni americane: il numero di elette ...",
+      "link": "https://www.open.online/2020/08/16/elezioni-usa-donne-candidate-camera/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/08/16 › elezioni-usa-d...",
+      "snippet": "Nel 2018 erano state 102 le donne a vincere la loro corsa per la House of Representatives, un record che – a 24 mesi di distanza – pare sul punto di essere ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:BCG4dc1bvsoJ:https://www.open.online/2020/08/16/elezioni-usa-donne-candidate-camera/+&cd=43&hl=it&ct=clnk&gl=it",
+      "date": "16 ago 2020",
+      "date_utc": "2020-08-16T12:00:00.000Z",
+      "block_position": 46
+    },
+    {
+      "position": 44,
+      "title": "Coronavirus, tutte le notizie della notte: in Brasile più di 2 ...",
+      "link": "https://www.open.online/2020/07/17/coronavirus-notizie-notte-17-luglio/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/07/17 › coronavirus-n...",
+      "snippet": "Negli Usa 68mila contagi in 24 ore, mai così tanti. 17 Luglio 2020 - 06:37. di Redazione. Scontro in Georgia sulle ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Usa"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:OdEwKIIf82YJ:https://www.open.online/2020/07/17/coronavirus-notizie-notte-17-luglio/+&cd=44&hl=it&ct=clnk&gl=it",
+      "prefix": "17 lug 2020",
+      "block_position": 47
+    },
+    {
+      "position": 45,
+      "title": "Gli Stati Uniti piangono la morte di Greg Zanis, «l'uomo croce ...",
+      "link": "https://www.open.online/2020/05/05/stati-uniti-piangono-morte-greg-zanis-uomo-croce-memoriali-vittime-sparatorie-massa/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/05/05 › stati-uniti-pian...",
+      "snippet": "Soprattutto i morti “scomodi”, come le vittime delle sparatorie nelle scuole, che una parte del Paese avrebbe preferito dimenticare, relegandone il ricordo a un ...",
+      "prerender": false,
+      "snippet_matched": [
+        "morti"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:ey4XJ2K8Jz0J:https://www.open.online/2020/05/05/stati-uniti-piangono-morte-greg-zanis-uomo-croce-memoriali-vittime-sparatorie-massa/+&cd=45&hl=it&ct=clnk&gl=it",
+      "prefix": "5 mag 2020",
+      "block_position": 48
+    },
+    {
+      "position": 46,
+      "title": "Il rapporto (difficile) di Trump con l'esercito. L'ex ufficiale del ...",
+      "link": "https://www.open.online/2020/09/11/trump-esercito-ex-ufficiale-pentagono-nessuna-strategia/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/09/11 › trump-esercito...",
+      "snippet": "Michael Rubin, consigliere del Segretario della Difesa tra il 2002 e il 2004, spiega i recenti attacchi del capo della Casa Bianca alle forze armate. Era stato il ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:3NTj8rqjR1MJ:https://www.open.online/2020/09/11/trump-esercito-ex-ufficiale-pentagono-nessuna-strategia/+&cd=46&hl=it&ct=clnk&gl=it",
+      "date": "11 set 2020",
+      "date_utc": "2020-09-11T12:00:00.000Z",
+      "block_position": 49
+    },
+    {
+      "position": 47,
+      "title": "In Bielorussia vince Lukashenko, scontri nel Paese: ucciso un ...",
+      "link": "https://www.open.online/2020/08/10/elezioni-presidenziali-2020-bielorussia/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/08/10 › elezioni-presid...",
+      "snippet": "«Non riconosciamo i risultati delle elezioni. Abbiamo visto i dati reali degli spogli. Chiediamo a coloro che credono che la loro voce sia stata rubata di non tacere», ...",
+      "prerender": false,
+      "snippet_matched": [
+        "elezioni"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:fj6hwHeRslcJ:https://www.open.online/2020/08/10/elezioni-presidenziali-2020-bielorussia/+&cd=47&hl=it&ct=clnk&gl=it",
+      "date": "10 ago 2020",
+      "date_utc": "2020-08-10T12:00:00.000Z",
+      "block_position": 50
+    },
+    {
+      "position": 48,
+      "title": "Coronavirus, Oms: «Il Sud America nuovo epicentro della ...",
+      "link": "https://www.open.online/2020/05/22/coronavirus-news-mondo-22-maggio/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/05/22 › coronavirus-n...",
+      "snippet": "Sono oltre 5.1 milioni i contagi di Coronavirus a livello globale, secondo l'ultimo aggiornamento della Johns Hopkins University, mentre le vittime sono quasi ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:L-BJoK_6hxIJ:https://www.open.online/2020/05/22/coronavirus-news-mondo-22-maggio/+&cd=48&hl=it&ct=clnk&gl=it",
+      "prefix": "22 mag 2020",
+      "block_position": 51
+    },
+    {
+      "position": 49,
+      "title": "Coronavirus, negli Usa via libera alla cura con il plasma ...",
+      "link": "https://www.open.online/2020/08/24/coronavirus-notizie-notte-24-agosto/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/08/24 › coronavirus-n...",
+      "snippet": "Sono 23,4 milioni i casi di Coronavirus nel mondo, secondo la Johns Hopkins University, mentre le vittime sono salite a 807 mila. Gli Stati Uniti sono il Paese più ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:H60nNzxlb18J:https://www.open.online/2020/08/24/coronavirus-notizie-notte-24-agosto/+&cd=49&hl=it&ct=clnk&gl=it",
+      "date": "24 ago 2020",
+      "date_utc": "2020-08-24T12:00:00.000Z",
+      "block_position": 52
+    },
+    {
+      "position": 50,
+      "title": "Usa 2020, Obama su Biden: «Mi ha reso un presidente ... - Open",
+      "link": "https://www.open.online/2020/08/20/usa-2020-obama-biden-hillary-clinton-trump-votiamo-non-rubi-elezioni/",
+      "domain": "www.open.online",
+      "displayed_link": "https://www.open.online › 2020/08/20 › usa-2020-oba...",
+      "snippet": "Hillary Clinton contro Trump: «Votiamo perché non rubi anche queste elezioni». 20 Agosto 2020 - 07:26. di Cristin Cappelletti. L'ex ...",
+      "prerender": false,
+      "snippet_matched": [
+        "elezioni"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:wUO9TUHE_kQJ:https://www.open.online/2020/08/20/usa-2020-obama-biden-hillary-clinton-trump-votiamo-non-rubi-elezioni/+&cd=50&hl=it&ct=clnk&gl=it",
+      "date": "20 ago 2020",
+      "date_utc": "2020-08-20T12:00:00.000Z",
+      "block_position": 53
+    }
+  ]
+}

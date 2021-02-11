@@ -1,0 +1,791 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 3,
+    "credits_used_this_request": 1,
+    "credits_remaining": 122,
+    "credits_reset_at": "2021-03-11T14:34:14.000Z"
+  },
+  "search_metadata": {
+    "created_at": "2021-02-11T15:24:40.312Z",
+    "processed_at": "2021-02-11T15:24:48.503Z",
+    "total_time_taken": 8.19,
+    "engine_url": "https://www.google.it/search?q=covid+5g+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&gl=it&hl=it&uule=w+CAIQICIFSXRhbHk&num=50&tbs=cdr:1,cd_min:,cd_max:02/10/2021",
+    "html_url": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=covid+5g+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=1&num=50&engine=google&output=html",
+    "json_url": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=covid+5g+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=1&num=50&engine=google&output=json",
+    "location_auto_message": "We have automatically set the 'google_domain', 'gl' and 'hl' parameters to match the supplied location of 'Italy'. You can stop this behaviour by setting the 'location_auto' parameter to 'false'.",
+    "timing": [
+      "global_init - 0ms (total 0ms)",
+      "auth_apikey - 34ms (total 34ms)",
+      "auth_retrieve_plan - 25ms (total 60ms)",
+      "auth_retrieve_credit_usage - 35ms (total 95ms)",
+      "processing_invoking_worker - 1ms (total 97ms)",
+      "processing_execution_complete - 8191ms (total 8289ms)",
+      "auth_credit_usage_reconcile - 72ms (total 8361ms)",
+      "global_end - 0ms (total 8361ms)"
+    ]
+  },
+  "search_parameters": {
+    "q": "covid 5g (site:bufale.net OR site:butac.it OR site:open.online)",
+    "google_domain": "google.it",
+    "location": "Italy",
+    "gl": "it",
+    "hl": "it",
+    "time_period": "custom",
+    "time_period_max": "02/10/2021",
+    "page": "1",
+    "num": "50"
+  },
+  "search_information": {
+    "original_query_yields_zero_results": false,
+    "total_results": 995,
+    "time_taken_displayed": 0.32,
+    "query_displayed": "covid 5g (site:bufale.net OR site:butac.it OR site:open.online)",
+    "detected_location": "Italia"
+  },
+  "pagination": {
+    "next": "https://www.google.it/search?q=covid+5g+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=OkwlYMisA9C4-gTgtr3oDg&start=50&sa=N&ved=2ahUKEwjIsYPzkeLuAhVQnJ4KHWBbD-0Q8NMDegQICRBP",
+    "other_pages": {
+      "2": "https://www.google.it/search?q=covid+5g+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=OkwlYMisA9C4-gTgtr3oDg&start=50&sa=N&ved=2ahUKEwjIsYPzkeLuAhVQnJ4KHWBbD-0Q8tMDegQICRBF",
+      "3": "https://www.google.it/search?q=covid+5g+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=OkwlYMisA9C4-gTgtr3oDg&start=100&sa=N&ved=2ahUKEwjIsYPzkeLuAhVQnJ4KHWBbD-0Q8tMDegQICRBH",
+      "4": "https://www.google.it/search?q=covid+5g+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=OkwlYMisA9C4-gTgtr3oDg&start=150&sa=N&ved=2ahUKEwjIsYPzkeLuAhVQnJ4KHWBbD-0Q8tMDegQICRBJ",
+      "5": "https://www.google.it/search?q=covid+5g+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=OkwlYMisA9C4-gTgtr3oDg&start=200&sa=N&ved=2ahUKEwjIsYPzkeLuAhVQnJ4KHWBbD-0Q8tMDegQICRBL",
+      "6": "https://www.google.it/search?q=covid+5g+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=OkwlYMisA9C4-gTgtr3oDg&start=250&sa=N&ved=2ahUKEwjIsYPzkeLuAhVQnJ4KHWBbD-0Q8tMDegQICRBN"
+    },
+    "api_pagination": {
+      "next": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=covid%205g%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=2&num=50",
+      "other_pages": {
+        "2": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=covid%205g%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=2&num=50",
+        "3": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=covid%205g%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=3&num=50",
+        "4": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=covid%205g%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=4&num=50",
+        "5": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=covid%205g%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=5&num=50",
+        "6": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=covid%205g%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=6&num=50"
+      }
+    }
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Coronavirus e 5G. Le teorie, gli studi e il dibattito scientifico ...",
+      "link": "https://www.open.online/2020/04/08/coronavirus-e-5g-le-teorie-gli-studi-e-il-dibattito-scientifico-che-non-ce/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/04/08 › coronavirus-e-5g-le-t...",
+      "snippet": "Guida utile alle tesi sui presunti pericoli della rete 5G, dai cellulari che fanno venire il cancro al Covid-19. Visto che continuano ad arrivarci segnalazioni su ...",
+      "prerender": false,
+      "snippet_matched": [
+        "5G",
+        "Covid"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:mz3mahMMuqcJ:https://www.open.online/2020/04/08/coronavirus-e-5g-le-teorie-gli-studi-e-il-dibattito-scientifico-che-non-ce/+&cd=1&hl=it&ct=clnk&gl=it",
+      "date": "8 apr 2020",
+      "date_utc": "2020-04-08T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 2,
+      "title": "Coronavirus. Il 5G penetra nelle cellule indebolendo il sistema ...",
+      "link": "https://www.open.online/2020/03/30/coronavirus-il-5g-penetra-nelle-cellule-indebolendo-il-sistema-immunitario-no/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/03/30 › coronavirus-il-5g-pe...",
+      "snippet": "Secondo i complottisti esistono studi che collegano le onde elettromagnetiche al Covid-19. Leggiamo cosa dicono davvero. Delle ragioni per cui la rete 5G non ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Covid",
+        "5G"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:VzN0Rcc_fawJ:https://www.open.online/2020/03/30/coronavirus-il-5g-penetra-nelle-cellule-indebolendo-il-sistema-immunitario-no/+&cd=2&hl=it&ct=clnk&gl=it",
+      "date": "30 mar 2020",
+      "date_utc": "2020-03-30T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 3,
+      "title": "Coronavirus. Lo schema del nanochip 5G del vaccino Pfizer ...",
+      "link": "https://www.open.online/2020/12/28/coronavirus-lo-schema-del-nanochip-5g-del-vaccino-pfizer-scoperto-dai-russi-i-complottisti-se-le-suonano/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/12/28 › coronavirus-lo-sche...",
+      "snippet": "Coronavirus. Lo schema del nanochip 5G del vaccino Pfizer scoperto dai russi? I complottisti se le suonano. 28 Dicembre 2020 - 17:10. di David Puente.",
+      "prerender": false,
+      "snippet_matched": [
+        "Coronavirus",
+        "5G"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:n_Rx3nkEX18J:https://www.open.online/2020/12/28/coronavirus-lo-schema-del-nanochip-5g-del-vaccino-pfizer-scoperto-dai-russi-i-complottisti-se-le-suonano/+&cd=3&hl=it&ct=clnk&gl=it",
+      "date": "28 dic 2020",
+      "date_utc": "2020-12-28T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 4,
+      "title": "Coronavirus prodotto col Dna dalle onde del 5G? Lo dice uno ...",
+      "link": "https://www.open.online/2020/07/25/coronavirus-dna-onde-5g-studio-luminari-omeopatia/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/07/25 › coronavirus-dna-ond...",
+      "snippet": "Secondo alcuni omeopati e sciachimisti le radiazioni elettromagnetiche generano i virus nelle nostre cellule, provocando la Covid-19. Un editoriale presentato ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Covid"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:jjYpmERM_1AJ:https://www.open.online/2020/07/25/coronavirus-dna-onde-5g-studio-luminari-omeopatia/+&cd=4&hl=it&ct=clnk&gl=it",
+      "prefix": "25 lug 2020",
+      "block_position": 3
+    },
+    {
+      "position": 5,
+      "title": "Coronavirus. L'articolo che collega il 5G al Covid19 riportato ...",
+      "link": "https://www.open.online/2020/04/07/coronavirus-larticolo-che-collega-il-5g-al-covid19-riportato-da-diverse-testate-italiane/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/04/07 › coronavirus-larticolo...",
+      "snippet": "Diverse testate giornalistiche pubblicano lo stesso articolo che sostiene il rapporto pseudoscientifico tra 5G e il coronavirus. Il 6 aprile 2020 diverse testate ...",
+      "prerender": false,
+      "snippet_matched": [
+        "5G",
+        "coronavirus"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:32-BYkjRw4cJ:https://www.open.online/2020/04/07/coronavirus-larticolo-che-collega-il-5g-al-covid19-riportato-da-diverse-testate-italiane/+&cd=5&hl=it&ct=clnk&gl=it",
+      "date": "7 apr 2020",
+      "date_utc": "2020-04-07T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 6,
+      "title": "No, nessun Istituto prestigioso sostiene un collegamento tra ...",
+      "link": "https://www.open.online/2020/04/06/no-nessun-istituto-prestigioso-sostiene-un-collegamento-tra-5g-e-covid-19/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/04/06 › no-nessun-istituto-pr...",
+      "snippet": "Ronald Neil Kostoff che firma il documento, presenterebbe evidenze di un collegamento tra rete Wireless ed effetti avversi sulla salute, arrivando a sostenere che ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:i9JdyHSqdB4J:https://www.open.online/2020/04/06/no-nessun-istituto-prestigioso-sostiene-un-collegamento-tra-5g-e-covid-19/+&cd=6&hl=it&ct=clnk&gl=it",
+      "date": "6 apr 2020",
+      "date_utc": "2020-04-06T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 7,
+      "title": "Il braccialetto anti Covid-19 e 5G da 649 euro che sfrutta le ...",
+      "link": "https://www.open.online/2020/05/28/trasmission-plus-braccialetto-anti-covid-19-5g-fake-news-coronavirus/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/05/28 › trasmission-plus-brac...",
+      "snippet": "Nessuna. Come è possibile credere a una cosa del genere? Traendo sostegno in quelle che sono state le «fake news» riguardo il fantomatico legame ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:pGOEAI5_pZ4J:https://www.open.online/2020/05/28/trasmission-plus-braccialetto-anti-covid-19-5g-fake-news-coronavirus/+&cd=7&hl=it&ct=clnk&gl=it",
+      "prefix": "28 mag 2020",
+      "block_position": 3
+    },
+    {
+      "position": 8,
+      "title": "Coronavirus. La teoria di complotto del virus che non esiste ...",
+      "link": "https://www.open.online/2020/03/28/coronavirus-la-teoria-di-complotto-del-virus-che-non-esiste-perche-e-colpa-della-rete-5g/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/03/28 › coronavirus-la-teoria...",
+      "snippet": "Purtroppo le affermazioni di Pauli non sono affatto logicamente scientifiche, spiegheremo a breve perché. La correlazione tra 5G e l'epidemia secondo Gunter ...",
+      "prerender": false,
+      "snippet_matched": [
+        "5G"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:ec2DYPiym88J:https://www.open.online/2020/03/28/coronavirus-la-teoria-di-complotto-del-virus-che-non-esiste-perche-e-colpa-della-rete-5g/+&cd=8&hl=it&ct=clnk&gl=it",
+      "date": "28 mar 2020",
+      "date_utc": "2020-03-28T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 9,
+      "title": "Coronavirus, YouTube potrebbe prendere presto ... - Open",
+      "link": "https://www.open.online/2020/04/08/coronavirus-youtube-potrebbe-prendere-presto-provvedimenti-mirati-contro-i-video-che-collegano-5g-e-covid-19/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/04/08 › coronavirus-youtube...",
+      "snippet": "La principale piattaforma di video deve far fronte al dilagare di fake news che collegano la telefonia mobile al Coronavirus. Non solo il 5G, ma tutto ciò che ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Coronavirus",
+        "5G"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:fodE7NNq_eUJ:https://www.open.online/2020/04/08/coronavirus-youtube-potrebbe-prendere-presto-provvedimenti-mirati-contro-i-video-che-collegano-5g-e-covid-19/+&cd=9&hl=it&ct=clnk&gl=it",
+      "date": "8 apr 2020",
+      "date_utc": "2020-04-08T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 10,
+      "title": "Coronavirus. Il vaccino e il fantomatico microchip sottocutaneo ...",
+      "link": "https://www.open.online/2020/04/10/coronavirus-il-vaccino-e-il-fantomatico-microchip-sottocutaneo-dei-complottisti/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/04/10 › coronavirus-il-vaccin...",
+      "snippet": "La nuova teoria di complotto riciclata: il vaccino contro il Coronavirus servirebbe a “chippare” la popolazione con “tatuaggi quantici”. Visto che la pandemia ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Coronavirus"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:_JOdAokkeqwJ:https://www.open.online/2020/04/10/coronavirus-il-vaccino-e-il-fantomatico-microchip-sottocutaneo-dei-complottisti/+&cd=10&hl=it&ct=clnk&gl=it",
+      "date": "10 apr 2020",
+      "date_utc": "2020-04-10T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 11,
+      "title": "Coronavirus, così le teorie del complotto alimentano razzismo ...",
+      "link": "https://www.open.online/2020/04/27/coronavirus-cosi-le-teorie-del-complotto-alimentano-razzismo-antisemitismo-e-oscurantismo/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/04/27 › coronavirus-cosi-le-t...",
+      "snippet": "Anche in questo caso, purtroppo, si fa leva anche sull'antisemitismo e l'odio verso gli stranieri. Il 5G. Come per la ricerca «Nuovo Ordine Mondiale», anche le ...",
+      "prerender": false,
+      "snippet_matched": [
+        "5G"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:zohajI4WK_kJ:https://www.open.online/2020/04/27/coronavirus-cosi-le-teorie-del-complotto-alimentano-razzismo-antisemitismo-e-oscurantismo/+&cd=11&hl=it&ct=clnk&gl=it",
+      "date": "27 apr 2020",
+      "date_utc": "2020-04-27T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 12,
+      "title": "Coronavirus. Le fonti del movimento sovversivo Nuova ... - Open",
+      "link": "https://www.open.online/2020/03/30/coronavirus-le-fonti-del-movimento-sovversivo-nuova-resistenza-italiana-che-incita-a-violare-la-quarantena/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/03/30 › coronavirus-le-fonti-...",
+      "snippet": "L'intervista a Byoblu di Stefano Montanari, colui che ha definito il coronavirus un “virus fasullo” e sostiene che il vaccino sarà una truffa colossale per “iniettarci ...",
+      "prerender": false,
+      "snippet_matched": [
+        "coronavirus"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:3l97_rSnfNQJ:https://www.open.online/2020/03/30/coronavirus-le-fonti-del-movimento-sovversivo-nuova-resistenza-italiana-che-incita-a-violare-la-quarantena/+&cd=12&hl=it&ct=clnk&gl=it",
+      "date": "30 mar 2020",
+      "date_utc": "2020-03-30T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 13,
+      "title": "Gli Stati Generali alle prese con la rete 5G. L'Italia ne ha ...",
+      "link": "https://www.open.online/2020/06/15/stati-generali-rete-5g-italia-bisogno-non-bastera/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/06/15 › stati-generali-rete-5g-...",
+      "snippet": "Era nel piano della task force di Colao, era nel masterplan di Conte per la convention di Villa Pamphili. Il ruolo, vero, della nuova rete nella ripartenza. 25 su 28.",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:pMuEe5vAT74J:https://www.open.online/2020/06/15/stati-generali-rete-5g-italia-bisogno-non-bastera/+&cd=13&hl=it&ct=clnk&gl=it",
+      "prefix": "15 giu 2020",
+      "block_position": 3
+    },
+    {
+      "position": 14,
+      "title": "La storia di Brian: convinto che il Coronavirus fosse una ...",
+      "link": "https://www.open.online/2020/05/29/storia-brian-convinto-coronavirus-bufala-ricoverato-terapia-intensiva/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/05/29 › storia-brian-convinto...",
+      "snippet": "La sua è una storia come quella di molti altri che dall'inizio della pandemia hanno dato adito alle più incredibili storie e teorie complottiste sul Covid, come ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Covid"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:0TF0E4s9JhwJ:https://www.open.online/2020/05/29/storia-brian-convinto-coronavirus-bufala-ricoverato-terapia-intensiva/+&cd=14&hl=it&ct=clnk&gl=it",
+      "prefix": "29 mag 2020",
+      "block_position": 3
+    },
+    {
+      "position": 15,
+      "title": "5g - Open",
+      "link": "https://www.open.online/temi/5g/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › temi › 5g",
+      "snippet": "Leggi su Open tutte le ultime notizie in tempo reale su 5g con news, approfondimenti, interviste, gallerie fotografiche e video.",
+      "prerender": false,
+      "snippet_matched": [
+        "5g"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:7Uh4MlfULREJ:https://www.open.online/temi/5g/+&cd=15&hl=it&ct=clnk&gl=it",
+      "date": "29 dic 2020",
+      "date_utc": "2020-12-29T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 16,
+      "title": "5G e coronavirus | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/5g-e-coronavirus/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Speciale CoronaVirus - CoVid-19",
+      "snippet": "... › Speciale CoronaVirus - CoVid-19",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:eJUKgb0xaMkJ:https://www.butac.it/5g-e-coronavirus/+&cd=16&hl=it&ct=clnk&gl=it",
+      "block_position": 3
+    },
+    {
+      "position": 17,
+      "title": "Speciale coronavirus: come difenderti dalle bufale e i falsi miti ...",
+      "link": "https://www.open.online/2020/04/10/speciale-coronavirus-come-difenderti-dalle-bufale-e-i-falsi-miti-sul-covid-19/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/04/10 › speciale-coronavirus-...",
+      "snippet": "Navigazione veloce sui temi trattati: Guide utili; Covid-19 e SARS-CoV2 come sinonimi; Il confronto con l'influenza; Le mascherine; Se vedo svenire qualcuno ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Covid"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:VohgANpk4g4J:https://www.open.online/2020/04/10/speciale-coronavirus-come-difenderti-dalle-bufale-e-i-falsi-miti-sul-covid-19/+&cd=17&hl=it&ct=clnk&gl=it",
+      "date": "10 apr 2020",
+      "date_utc": "2020-04-10T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 18,
+      "title": "5G, COVID-19, editoriali e peer review | Butac - Bufale Un ...",
+      "link": "https://www.butac.it/5g-covid-19-editoriali-e-peer-review/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Speciale CoronaVirus - CoVid-19",
+      "snippet": "5G, COVID-19, editoriali e peer review. Combattiamo la false informazioni veicolate online, sui giornali e in televisione. Scopri di più su Butac.it.",
+      "prerender": false,
+      "snippet_matched": [
+        "5G",
+        "COVID"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:USmQmP17LXUJ:https://www.butac.it/5g-covid-19-editoriali-e-peer-review/+&cd=18&hl=it&ct=clnk&gl=it",
+      "prefix": "24 lug 2020",
+      "block_position": 3
+    },
+    {
+      "position": 19,
+      "title": "Coronavirus e complottisti: ecco chi sono gli squadristi digitali ...",
+      "link": "https://www.open.online/2020/05/19/coronavirus-e-complottisti-ecco-chi-sono-gli-squadristi-digitali-che-attaccano-le-iene-mentana-lucarelli-barbascura-e-open/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/05/19 › coronavirus-e-compl...",
+      "snippet": "Attacchi mirati, coordinati, lanciati da influencer o gruppi Facebook con centinaia di iscritti. L'obiettivo è intimidire. Avete mai sentito parlare di «shitstorm»?",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:tTJ1gc9htJUJ:https://www.open.online/2020/05/19/coronavirus-e-complottisti-ecco-chi-sono-gli-squadristi-digitali-che-attaccano-le-iene-mentana-lucarelli-barbascura-e-open/+&cd=19&hl=it&ct=clnk&gl=it",
+      "prefix": "19 mag 2020",
+      "block_position": 3
+    },
+    {
+      "position": 20,
+      "title": "Coronavirus. Il virus dei fake dietro la piazza arancione del 30 ...",
+      "link": "https://www.open.online/2020/05/31/coronavirus-il-virus-dei-fake-dietro-la-piazza-arancione-del-30-maggio/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/05/31 › coronavirus-il-virus-...",
+      "snippet": "In piazza c'erano uomini e donne, giovani e meno giovani, con le mascherine abbassate e senza alcun rispetto delle distanze. Dove? Soprattutto a Milano, in ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:ZimwDLtOHR4J:https://www.open.online/2020/05/31/coronavirus-il-virus-dei-fake-dietro-la-piazza-arancione-del-30-maggio/+&cd=20&hl=it&ct=clnk&gl=it",
+      "prefix": "31 mag 2020",
+      "block_position": 3
+    },
+    {
+      "position": 21,
+      "title": "Perché continuiamo a prendere sul serio le proteste ... - Open",
+      "link": "https://www.open.online/2019/08/06/perche-continuiamo-a-prendere-sul-serio-le-proteste-pseudoscientifiche-contro-la-rete-5g/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/08/06 › perche-continuiamo-...",
+      "snippet": "Perché continuiamo a prendere sul serio le proteste pseudoscientifiche contro la rete 5G? 6 Agosto 2019 - 06:57. di Juanne Pili. I controlli sono stati già fatti: la ...",
+      "prerender": false,
+      "snippet_matched": [
+        "5G"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:MiCBrjZy_VoJ:https://www.open.online/2019/08/06/perche-continuiamo-a-prendere-sul-serio-le-proteste-pseudoscientifiche-contro-la-rete-5g/+&cd=21&hl=it&ct=clnk&gl=it",
+      "date": "6 ago 2019",
+      "date_utc": "2019-08-06T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 22,
+      "title": "Dalle menzogne sulla Covid19 ai QAnon fino all'esplosione di ...",
+      "link": "https://www.open.online/2020/12/31/dalle-bufale-sulla-covid19-ai-qanon-fino-allesplosione-di-beirut-il-meglio-del-fact-checking-2020-di-open/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/12/31 › dalle-bufale-sulla-co...",
+      "snippet": "Non ci siamo occupati soltanto di Covid19. Il team del progetto ha coperto altri avvenimenti chiave del 2020, come le elezioni americane tra disinformazione e ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Covid19"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:I6uglU9LdcYJ:https://www.open.online/2020/12/31/dalle-bufale-sulla-covid19-ai-qanon-fino-allesplosione-di-beirut-il-meglio-del-fact-checking-2020-di-open/+&cd=22&hl=it&ct=clnk&gl=it",
+      "date": "31 dic 2020",
+      "date_utc": "2020-12-31T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 23,
+      "title": "Rete 5G e le bufale di quinta generazione - Open",
+      "link": "https://www.open.online/2019/03/27/rete-5g-e-le-bufale-di-quinta-generazione/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/03/27 › rete-5g-e-le-bufale-di...",
+      "snippet": "Secondo altri invece sarebbe soprattutto un pericolo per la nostra salute, esisterebbero infatti già studi che ne attesterebbero la responsabilità nell'insorgenza dei ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:pYvxSwC3K78J:https://www.open.online/2019/03/27/rete-5g-e-le-bufale-di-quinta-generazione/+&cd=23&hl=it&ct=clnk&gl=it",
+      "date": "27 mar 2019",
+      "date_utc": "2019-03-27T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 24,
+      "title": "La teoria di complotto del vaccino che modificherà il nostro ...",
+      "link": "https://www.open.online/2020/08/14/teoria-complotto-vaccino-modifichera-nostro-dna-canale-tv-antisemita-svizzero/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/08/14 › teoria-complotto-vac...",
+      "snippet": "2020/08/14 › teoria-complotto-vac...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:KByo0B9pj34J:https://www.open.online/2020/08/14/teoria-complotto-vaccino-modifichera-nostro-dna-canale-tv-antisemita-svizzero/+&cd=24&hl=it&ct=clnk&gl=it",
+      "block_position": 3
+    },
+    {
+      "position": 25,
+      "title": "Coronavirus. Inchiodato Bill Gates: brevetto del vaccino pronto ...",
+      "link": "https://www.open.online/2020/05/11/coronavirus-inchiodato-bill-gates-brevetto-del-vaccino-pronto-dal-2014-facciamo-chiarezza/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/05/11 › coronavirus-inchioda...",
+      "snippet": "L'idea è che tanto a chi si beve questo genere di storie sia sufficiente confezionare una storia suggestiva. Parliamo ovviamente del business attorno alle tesi di ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:MiA21WgTYhIJ:https://www.open.online/2020/05/11/coronavirus-inchiodato-bill-gates-brevetto-del-vaccino-pronto-dal-2014-facciamo-chiarezza/+&cd=25&hl=it&ct=clnk&gl=it",
+      "prefix": "11 mag 2020",
+      "block_position": 3
+    },
+    {
+      "position": 26,
+      "title": "Chi era Anthony Quinn Warner, il complottista ossessionato ...",
+      "link": "https://www.open.online/2020/12/29/chi-era-anthony-quinn-warner-complottista-kamikaze-nashville-5g-camper/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/12/29 › chi-era-anthony-quin...",
+      "snippet": "L'attentatore non è stato definito ancora un terrorista dalle autorità locali, poiché «non ci sono prove di un collegamento tra il gesto e un'ideologia». Downtown ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:SmhcnvbSTLEJ:https://www.open.online/2020/12/29/chi-era-anthony-quinn-warner-complottista-kamikaze-nashville-5g-camper/+&cd=26&hl=it&ct=clnk&gl=it",
+      "date": "29 dic 2020",
+      "date_utc": "2020-12-29T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 27,
+      "title": "Psicosi 5G: il video complottista del cellulare che brucia la ...",
+      "link": "https://www.open.online/2020/01/18/psicosi-5g-il-video-complottista-del-cellulare-che-brucia-la-lana-dacciaio/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/01/18 › psicosi-5g-il-video-c...",
+      "snippet": "Nei giorni della sentenza della Corte d'Appello di Torino sui cellulari è circolato un video che alimenta la psicosi. Incorpora video. Di recente la Corte d'Appello ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:YjOmq70N5wkJ:https://www.open.online/2020/01/18/psicosi-5g-il-video-complottista-del-cellulare-che-brucia-la-lana-dacciaio/+&cd=27&hl=it&ct=clnk&gl=it",
+      "prefix": "18 gen 2020",
+      "block_position": 3
+    },
+    {
+      "position": 28,
+      "title": "I russi hanno trovato 5G e microchip nel vaccino Covid di ...",
+      "link": "https://www.bufale.net/i-russi-hanno-trovato-5g-e-microchip-nel-vaccino-covid-di-pfizer-ma-e-il-pedale-di-una-chitarra/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Bufala",
+      "snippet": "A furia di indignarsi, si rischiano figuracce come quella relativa alla presunta scoperta del 5G e di un microchip nel vaccino più chiacchierato del secolo.",
+      "prerender": false,
+      "snippet_matched": [
+        "5G"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:2aZWsQ_8W5oJ:https://www.bufale.net/i-russi-hanno-trovato-5g-e-microchip-nel-vaccino-covid-di-pfizer-ma-e-il-pedale-di-una-chitarra/+&cd=28&hl=it&ct=clnk&gl=it",
+      "date": "29 dic 2020",
+      "date_utc": "2020-12-29T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 29,
+      "title": "La copertura del 5G e la diffusione dei contagi da COVID-19 ...",
+      "link": "https://www.butac.it/la-copertura-del-5g-e-la-diffusione-dei-contagi-da-covid-19/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Speciale CoronaVirus - CoVid-19",
+      "snippet": "Ho appena finito di ricaricare su YouTube il video che trovate alla fine di quest'articolo, l'ho dovuto ricaricare perché l'audio era venuto una ciofeca. L'audio è ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:GDpdOPQylfMJ:https://www.butac.it/la-copertura-del-5g-e-la-diffusione-dei-contagi-da-covid-19/+&cd=29&hl=it&ct=clnk&gl=it",
+      "date": "9 apr 2020",
+      "date_utc": "2020-04-09T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 30,
+      "title": "Rete 5G, Telecom esclude i cinesi di Huawei dalla gara per la ...",
+      "link": "https://www.open.online/2020/07/10/rete-5g-telecom-esclude-cinesi-huawei-gara-italia-brasile/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/07/10 › rete-5g-telecom-esclu...",
+      "snippet": "Il timore è che la rete 5G possa aprire alla Cina la strada per spiare le principali reti di telecomunicazione del mondo occidentale, con gravi conseguenze per la ...",
+      "prerender": false,
+      "snippet_matched": [
+        "5G"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:anDAKoqv3k8J:https://www.open.online/2020/07/10/rete-5g-telecom-esclude-cinesi-huawei-gara-italia-brasile/+&cd=30&hl=it&ct=clnk&gl=it",
+      "prefix": "10 lug 2020",
+      "block_position": 3
+    },
+    {
+      "position": 31,
+      "title": "Coronavirus. L'intervento della deputata Sara Cunial e i ...",
+      "link": "https://www.open.online/2020/05/15/coronavirus-lintervento-della-deputata-sara-cunial-e-i-numerosi-complotti-sul-covid-19-e-non-solo/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/05/15 › coronavirus-linterven...",
+      "snippet": "Il 14 maggio 2020 la deputata Sara Cunial, ex Movimento 5 Stelle già nota No-Vax che definì con il termine «genocidio» le vaccinazioni, interviene presso l'aula ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:cqkNZHvZsA8J:https://www.open.online/2020/05/15/coronavirus-lintervento-della-deputata-sara-cunial-e-i-numerosi-complotti-sul-covid-19-e-non-solo/+&cd=31&hl=it&ct=clnk&gl=it",
+      "prefix": "15 mag 2020",
+      "block_position": 3
+    },
+    {
+      "position": 32,
+      "title": "Coronavirus. \"Nuova Resistenza Italiana\", il movimento ...",
+      "link": "https://www.open.online/2020/03/28/coronavirus-nuova-resistenza-italiana-il-movimento-sovversivo-complottista-che-incita-a-violare-la-quarantena/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/03/28 › coronavirus-nuova-r...",
+      "snippet": "Coronavirus. “Nuova Resistenza Italiana”, il movimento sovversivo complottista che incita a violare la quarantena. 28 Marzo 2020 - 19:08. di David Puente.",
+      "prerender": false,
+      "snippet_matched": [
+        "Coronavirus"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:HGHfoWtQz4oJ:https://www.open.online/2020/03/28/coronavirus-nuova-resistenza-italiana-il-movimento-sovversivo-complottista-che-incita-a-violare-la-quarantena/+&cd=32&hl=it&ct=clnk&gl=it",
+      "date": "28 mar 2020",
+      "date_utc": "2020-03-28T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 33,
+      "title": "Chi è Gunter Pauli, l'imprenditore che pubblica bufale sul ...",
+      "link": "https://www.open.online/2020/04/03/coronavirus-gunter-pauli-chi-e-consulente-governo-conte-2-economia-palazzo-chigi/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/04/03 › coronavirus-gunter-p...",
+      "snippet": "L'incarico, dicono da palazzo Chigi, non c'è stato e non ci sarà «Ci sono molti capi di stato e di governo che chiedono il mio consiglio. Sono consultato dai ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:wnC4nI5ZOG8J:https://www.open.online/2020/04/03/coronavirus-gunter-pauli-chi-e-consulente-governo-conte-2-economia-palazzo-chigi/+&cd=33&hl=it&ct=clnk&gl=it",
+      "date": "3 apr 2020",
+      "date_utc": "2020-04-03T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 34,
+      "title": "No, il Parlamento Europeo non ha detto che il 5G accelera la ...",
+      "link": "https://www.bufale.net/no-il-parlamento-europeo-non-ha-detto-che-il-5g-accelera-la-pandemia-del-covid-19/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Disinformazione",
+      "snippet": "Gli autori attribuiscono tale teoria a Klaus Buchner, fisico e parlamentare del gruppo Verdi/Alleanza Libera Europea. In poche parole Wuhan, città dalla quale è ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:4rC3W9ZBFGQJ:https://www.bufale.net/no-il-parlamento-europeo-non-ha-detto-che-il-5g-accelera-la-pandemia-del-covid-19/+&cd=34&hl=it&ct=clnk&gl=it",
+      "prefix": "25 giu 2020",
+      "block_position": 3
+    },
+    {
+      "position": 35,
+      "title": "Coronavirus, audio di un italiano bloccato in Cina: teorie di ...",
+      "link": "https://www.open.online/2020/01/30/audio-di-un-italiano-bloccato-in-cina-teorie-di-complotto-e-cattiva-informazione/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/01/30 › audio-di-un-italiano-...",
+      "snippet": "Nell'audio l'uomo ritiene che il virus attualmente in circolazione sia quello della SARS potenziato, ma si tratta dell'ennesima bufala siccome il ceppo in questione ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:MZK5tbw9JwoJ:https://www.open.online/2020/01/30/audio-di-un-italiano-bloccato-in-cina-teorie-di-complotto-e-cattiva-informazione/+&cd=35&hl=it&ct=clnk&gl=it",
+      "prefix": "30 gen 2020",
+      "block_position": 3
+    },
+    {
+      "position": 36,
+      "title": "«Bill Gates ci vuole tutti morti», le teorie del complotto dell'ex ...",
+      "link": "https://www.open.online/2021/01/14/coronavirus-teorie-complotto-ex-m5s-francesca-benevento-novax-fan-trump/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2021/01/14 › coronavirus-teorie-co...",
+      "snippet": "Tra questi troviamo Francesca Benevento, consigliera nel XII municipio a Roma fuoriuscita dal Movimento nel 2019, che non si è certo risparmiata nel pubblicare ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:hzRlHhblhbAJ:https://www.open.online/2021/01/14/coronavirus-teorie-complotto-ex-m5s-francesca-benevento-novax-fan-trump/+&cd=36&hl=it&ct=clnk&gl=it",
+      "prefix": "14 gen 2021",
+      "block_position": 3
+    },
+    {
+      "position": 37,
+      "title": "Riflessioni sul Comune di Bugliano che disattiva reti 4G e 5G ...",
+      "link": "https://www.bufale.net/riflessioni-sul-comune-di-bugliano-che-disattiva-reti-4g-e-5g-per-il-vaccino-covid-ma-non-esiste/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Bufala",
+      "snippet": "Una bufala nella quale stanno cascando tanti italiani, prevalentemente no vax stando al modo in cui il post in questione viene ricondiviso oggi 27 dicembre, ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:3yhTkbfCvEwJ:https://www.bufale.net/riflessioni-sul-comune-di-bugliano-che-disattiva-reti-4g-e-5g-per-il-vaccino-covid-ma-non-esiste/+&cd=37&hl=it&ct=clnk&gl=it",
+      "date": "27 dic 2020",
+      "date_utc": "2020-12-27T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 38,
+      "title": "Torna lo spauracchio del 5G al Consiglio regionale pugliese ...",
+      "link": "https://www.open.online/2019/09/11/torna-lo-spauracchio-del-5g-al-consiglio-regionale-pugliese-ma-fa-davvero-male-alla-salute/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/09/11 › torna-lo-spauracchio-...",
+      "snippet": "Ad oggi nessun microonde si è rivelato nocivo, tanto meno le precedenti generazioni di reti per la telefonia mobile, come il 3 o il 4G. Recenti polemiche sugli effetti ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:dnEyUWDZpQkJ:https://www.open.online/2019/09/11/torna-lo-spauracchio-del-5g-al-consiglio-regionale-pugliese-ma-fa-davvero-male-alla-salute/+&cd=38&hl=it&ct=clnk&gl=it",
+      "date": "11 set 2019",
+      "date_utc": "2019-09-11T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 39,
+      "title": "La decisione di Tim ha chiuso le porte a Huawei per il 5G in ...",
+      "link": "https://www.open.online/2020/07/11/decisione-tim-huawei-5g-italia/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/07/11 › decisione-tim-huawei...",
+      "snippet": "La gara da cui l'operatore telefonico italiano ha escluso Huawei è solo una di tutte quelle che serviranno per costruire la Rete 5G in Italia. La sera di giovedì 9 ...",
+      "prerender": false,
+      "snippet_matched": [
+        "5G"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:KoQOWVaW1DYJ:https://www.open.online/2020/07/11/decisione-tim-huawei-5g-italia/+&cd=39&hl=it&ct=clnk&gl=it",
+      "prefix": "11 lug 2020",
+      "block_position": 3
+    },
+    {
+      "position": 40,
+      "title": "Segnale forte da Youtube sulle bufale riguardanti 5G e ...",
+      "link": "https://www.bufale.net/segnale-forte-da-youtube-sulle-bufale-riguardanti-5g-e-coronavirus-contenuti-nascosti/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Notizia Vera",
+      "snippet": "Sono giorni che si parla del presunte legame tra 5G e Coronavirus. Questione che, ad oggi, non ha alcuna evidenza scientifica, con tutti i test condotti sul campo ...",
+      "prerender": false,
+      "snippet_matched": [
+        "5G",
+        "Coronavirus"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:9M-jkrPTKfkJ:https://www.bufale.net/segnale-forte-da-youtube-sulle-bufale-riguardanti-5g-e-coronavirus-contenuti-nascosti/+&cd=40&hl=it&ct=clnk&gl=it",
+      "date": "6 apr 2020",
+      "date_utc": "2020-04-06T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 41,
+      "title": "\"Coronavirus e 5G: c'è correlazione?\" - Bufale",
+      "link": "https://www.bufale.net/coronavirus-e-5g-ce-correlazione/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Complottismo",
+      "snippet": "\"Coronavirus e 5G: c'è correlazione?\". Scopri di più su Bufale, il sito contro la disinformazione, le bufale e l'allarmismo che dilaga in rete.",
+      "prerender": false,
+      "snippet_matched": [
+        "Coronavirus",
+        "5G"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:-s7P6MZ62mQJ:https://www.bufale.net/coronavirus-e-5g-ce-correlazione/+&cd=41&hl=it&ct=clnk&gl=it",
+      "date": "26 feb 2020",
+      "date_utc": "2020-02-26T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 42,
+      "title": "Coronavirus. Le tre strane dichiarazioni di Giulio Tarro sul ...",
+      "link": "https://www.open.online/2020/04/23/coronavirus-le-tre-strane-dichiarazioni-di-giulio-tarro-sul-covid-19-e-le-vaccinazioni-antinfluenzali/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/04/23 › coronavirus-le-tre-str...",
+      "snippet": "Secondo il Virologo ci sarebbe un collegamento tra vaccini contro l'influenza e Covid-19. Ma non esistono studi che lo dimostrano. Circola in Rete un breve ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Covid"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Hzzml9CSJxUJ:https://www.open.online/2020/04/23/coronavirus-le-tre-strane-dichiarazioni-di-giulio-tarro-sul-covid-19-e-le-vaccinazioni-antinfluenzali/+&cd=42&hl=it&ct=clnk&gl=it",
+      "date": "23 apr 2020",
+      "date_utc": "2020-04-23T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 43,
+      "title": "Il nuovo Coronavirus è stato creato in laboratorio per trovare ...",
+      "link": "https://www.open.online/2020/04/17/il-nuovo-coronavirus-e-stato-creato-in-laboratorio-per-trovare-un-vaccino-contro-lhiv-lo-dice-montagnier-ma-non-e-cosi/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/04/17 › il-nuovo-coronavirus...",
+      "snippet": "Un premio nobel torna a parlare di Coronavirus e Hiv senza uno studio validato e su una teoria già smentita. I grandi sforzi compiuti per tenere a freno ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Coronavirus"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:VUpMgrMOs4oJ:https://www.open.online/2020/04/17/il-nuovo-coronavirus-e-stato-creato-in-laboratorio-per-trovare-un-vaccino-contro-lhiv-lo-dice-montagnier-ma-non-e-cosi/+&cd=43&hl=it&ct=clnk&gl=it",
+      "date": "17 apr 2020",
+      "date_utc": "2020-04-17T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 44,
+      "title": "La lettera dell'infermiera di 30 anni malata di Covid ai ... - Open",
+      "link": "https://www.open.online/2020/06/05/la-lettera-di-infermiera-malata-di-covid-ai-maledetti-complottisti/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/06/05 › la-lettera-di-infermier...",
+      "snippet": "Lo stesso odio presente nei commenti sul post pubblicato da Giulia Oriani, infermiera 30enne di Torino, malata di Covid, che ha voluto condividere la sua storia ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Covid"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:d9b4n0NyUSkJ:https://www.open.online/2020/06/05/la-lettera-di-infermiera-malata-di-covid-ai-maledetti-complottisti/+&cd=44&hl=it&ct=clnk&gl=it",
+      "prefix": "5 giu 2020",
+      "block_position": 3
+    },
+    {
+      "position": 45,
+      "title": "Coronavirus, negazionisti in piazza a Roma: disordini con la ...",
+      "link": "https://www.open.online/2020/10/10/negazionisti-e-no-mask-in-piazza-a-roma-contro-la-dittatura-sanitaria-video-e-foto/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/10/10 › negazionisti-e-no-ma...",
+      "snippet": "Antieuropeisti, contro il 5G e anti-vaccinisti: ecco i protagonisti della marcia della liberazione in corso a Piazza San Giovanni. Un uomo è stato fermato per ...",
+      "prerender": false,
+      "snippet_matched": [
+        "5G"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:UKsZHvVAgKEJ:https://www.open.online/2020/10/10/negazionisti-e-no-mask-in-piazza-a-roma-contro-la-dittatura-sanitaria-video-e-foto/+&cd=45&hl=it&ct=clnk&gl=it",
+      "prefix": "10 ott 2020",
+      "block_position": 3
+    },
+    {
+      "position": 46,
+      "title": "Bill e Melinda Gates vogliono ridurre la popolazione ... - Open",
+      "link": "https://www.open.online/2020/01/26/bill-e-melinda-gates-vogliono-ridurre-la-popolazione-attraverso-il-nuovo-coronavirus/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/01/26 › bill-e-melinda-gates-...",
+      "snippet": "Dunque qualcuno già sapeva quel che sarebbe successo a Wuhan in Cina? Il coronavirus in realtà era già noto e qualcuno ne possiede il vaccino? Prima di ...",
+      "prerender": false,
+      "snippet_matched": [
+        "coronavirus"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:rZOSZ62iX_gJ:https://www.open.online/2020/01/26/bill-e-melinda-gates-vogliono-ridurre-la-popolazione-attraverso-il-nuovo-coronavirus/+&cd=46&hl=it&ct=clnk&gl=it",
+      "prefix": "26 gen 2020",
+      "block_position": 3
+    },
+    {
+      "position": 47,
+      "title": "Il nanochip 5G del vaccino Pfizer | Butac - Bufale Un Tanto Al ...",
+      "link": "https://www.butac.it/il-nanochip-5g-del-vaccino-pfizer/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Vergogna",
+      "snippet": "Dal 24 dicembre ci state segnalando su alcuni profili social un'immagine con la seguente didascalia: “schema elettrico di un Microchip all'interno del Vaccino ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:AwHTovaTOEkJ:https://www.butac.it/il-nanochip-5g-del-vaccino-pfizer/+&cd=47&hl=it&ct=clnk&gl=it",
+      "date": "28 dic 2020",
+      "date_utc": "2020-12-28T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 48,
+      "title": "Coronavirus. Le teorie di complotto negazioniste e ... - Open",
+      "link": "https://www.open.online/2020/04/18/coronavirus-le-teorie-di-complotto-negazioniste-e-antivacciniste-del-fantomatico-dr-ayyadurai-shiva/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/04/18 › coronavirus-le-teorie...",
+      "snippet": "Il nuovo guru del complottismo sul Coronavirus è un tal Shiva, ma chi è e cosa dice? Chi lo intervista? Da qualche giorno ci chiedevate di parlare del «Dr.» ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Coronavirus"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:5x1dqy89YDsJ:https://www.open.online/2020/04/18/coronavirus-le-teorie-di-complotto-negazioniste-e-antivacciniste-del-fantomatico-dr-ayyadurai-shiva/+&cd=48&hl=it&ct=clnk&gl=it",
+      "date": "18 apr 2020",
+      "date_utc": "2020-04-18T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 49,
+      "title": "Coronavirus. I video delle persone che svengono per strada in ...",
+      "link": "https://www.open.online/2020/03/05/coronavirus-i-video-delle-persone-che-svengono-per-strada-in-cina-un-esempio-di-psicosi-social/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/03/05 › coronavirus-i-video-...",
+      "snippet": "Sono circolati prepotentemente nei social e nei media senza alcuna prova, alcuni erano falsi e decontestualizzati. Nel mese di gennaio 2020 erano circolati ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:O6_9Wljyi7sJ:https://www.open.online/2020/03/05/coronavirus-i-video-delle-persone-che-svengono-per-strada-in-cina-un-esempio-di-psicosi-social/+&cd=49&hl=it&ct=clnk&gl=it",
+      "date": "5 mar 2020",
+      "date_utc": "2020-03-05T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 50,
+      "title": "Coronavirus. Vittorio Sgarbi contro la quarantena, e gli ... - Open",
+      "link": "https://www.open.online/2020/03/16/coronavirus-vittorio-sgarbi-contro-la-quarantena-e-gli-scienziati-lo-denunciano/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/03/16 › coronavirus-vittorio-...",
+      "snippet": "Coronavirus. Vittorio Sgarbi contro la quarantena, e gli scienziati lo denunciano. 16 Marzo 2020 - 09:26. di Juanne Pili. Perché le affermazioni di Sgarbi su ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Coronavirus"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:MfCr2kwGL-MJ:https://www.open.online/2020/03/16/coronavirus-vittorio-sgarbi-contro-la-quarantena-e-gli-scienziati-lo-denunciano/+&cd=50&hl=it&ct=clnk&gl=it",
+      "date": "16 mar 2020",
+      "date_utc": "2020-03-16T12:00:00.000Z",
+      "block_position": 3
+    }
+  ]
+}

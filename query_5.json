@@ -1,0 +1,817 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 6,
+    "credits_used_this_request": 1,
+    "credits_remaining": 119,
+    "credits_reset_at": "2021-03-11T14:34:14.000Z"
+  },
+  "search_metadata": {
+    "created_at": "2021-02-11T15:41:03.959Z",
+    "processed_at": "2021-02-11T15:41:09.327Z",
+    "total_time_taken": 5.37,
+    "engine_url": "https://www.google.it/search?q=vaccino+autismo+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&gl=it&hl=it&uule=w+CAIQICIFSXRhbHk&num=50&tbs=cdr:1,cd_min:,cd_max:02/10/2021",
+    "html_url": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=vaccino+autismo+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=1&num=50&engine=google&output=html",
+    "json_url": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=vaccino+autismo+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=1&num=50&engine=google&output=json",
+    "location_auto_message": "We have automatically set the 'google_domain', 'gl' and 'hl' parameters to match the supplied location of 'Italy'. You can stop this behaviour by setting the 'location_auto' parameter to 'false'.",
+    "timing": [
+      "global_init - 0ms (total 0ms)",
+      "auth_apikey - 28ms (total 28ms)",
+      "auth_retrieve_plan - 18ms (total 46ms)",
+      "auth_retrieve_credit_usage - 44ms (total 90ms)",
+      "processing_invoking_worker - 1ms (total 92ms)",
+      "processing_execution_complete - 5368ms (total 5460ms)",
+      "auth_credit_usage_reconcile - 605ms (total 6065ms)",
+      "global_end - 0ms (total 6065ms)"
+    ]
+  },
+  "search_parameters": {
+    "q": "vaccino autismo (site:bufale.net OR site:butac.it OR site:open.online)",
+    "google_domain": "google.it",
+    "location": "Italy",
+    "gl": "it",
+    "hl": "it",
+    "time_period": "custom",
+    "time_period_max": "02/10/2021",
+    "page": "1",
+    "num": "50"
+  },
+  "search_information": {
+    "original_query_yields_zero_results": false,
+    "total_results": 592,
+    "time_taken_displayed": 0.38,
+    "query_displayed": "vaccino autismo (site:bufale.net OR site:butac.it OR site:open.online)",
+    "detected_location": "Italia"
+  },
+  "pagination": {
+    "next": "https://www.google.it/search?q=vaccino+autismo+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=EFAlYKjrO9TY-wTtuKr4CA&start=50&sa=N&ved=2ahUKEwios9zHleLuAhVU7J4KHW2cCo8Q8NMDegQICRBP",
+    "other_pages": {
+      "2": "https://www.google.it/search?q=vaccino+autismo+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=EFAlYKjrO9TY-wTtuKr4CA&start=50&sa=N&ved=2ahUKEwios9zHleLuAhVU7J4KHW2cCo8Q8tMDegQICRBF",
+      "3": "https://www.google.it/search?q=vaccino+autismo+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=EFAlYKjrO9TY-wTtuKr4CA&start=100&sa=N&ved=2ahUKEwios9zHleLuAhVU7J4KHW2cCo8Q8tMDegQICRBH",
+      "4": "https://www.google.it/search?q=vaccino+autismo+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=EFAlYKjrO9TY-wTtuKr4CA&start=150&sa=N&ved=2ahUKEwios9zHleLuAhVU7J4KHW2cCo8Q8tMDegQICRBJ",
+      "5": "https://www.google.it/search?q=vaccino+autismo+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=EFAlYKjrO9TY-wTtuKr4CA&start=200&sa=N&ved=2ahUKEwios9zHleLuAhVU7J4KHW2cCo8Q8tMDegQICRBL",
+      "6": "https://www.google.it/search?q=vaccino+autismo+(site:bufale.net+OR+site:butac.it+OR+site:open.online)&num=50&gl=it&hl=it&tbs=cdr:1,cd_max:02/10/2021&ei=EFAlYKjrO9TY-wTtuKr4CA&start=250&sa=N&ved=2ahUKEwios9zHleLuAhVU7J4KHW2cCo8Q8tMDegQICRBN"
+    },
+    "api_pagination": {
+      "next": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=vaccino%20autismo%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=2&num=50",
+      "other_pages": {
+        "2": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=vaccino%20autismo%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=2&num=50",
+        "3": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=vaccino%20autismo%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=3&num=50",
+        "4": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=vaccino%20autismo%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=4&num=50",
+        "5": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=vaccino%20autismo%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=5&num=50",
+        "6": "https://api.scaleserp.com/search?api_key=AC1ED3457D0F44E29C575949FF46E483&q=vaccino%20autismo%20(site:bufale.net%20OR%20site:butac.it%20OR%20site:open.online)&google_domain=google.it&location=Italy&gl=it&hl=it&time_period=custom&time_period_max=02/10/2021&page=6&num=50"
+      }
+    }
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "«Nessuna relazione tra vaccini e autismo». Lo studio su ...",
+      "link": "https://www.open.online/2019/03/05/nessuna-relazione-tra-vaccini-e-autismo-lo-studio-su-mezzo-milione-di-bambini-danesi/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/03/05 › nessuna-relazione-tra...",
+      "snippet": "La vaccinazione Mpr contro il morbillo, parotite e rosolia non causa un disturbo dello spettro autistico. Nonostante l'ennesima evidenza scientifica, alcune ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccinazione",
+        "autistico"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:WfcVOyEQayIJ:https://www.open.online/2019/03/05/nessuna-relazione-tra-vaccini-e-autismo-lo-studio-su-mezzo-milione-di-bambini-danesi/+&cd=1&hl=it&ct=clnk&gl=it",
+      "date": "5 mar 2019",
+      "date_utc": "2019-03-05T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 2,
+      "title": "Cosa si inventeranno i no-vax dopo il nuovo studio che ... - Open",
+      "link": "https://www.open.online/2019/03/06/cosa-si-inventeranno-i-no-vax-dopo-il-nuovo-studio-che-esclude-definitivamente-la-correlazione-vaccini-e-autismo/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/03/06 › cosa-si-inventeranno-...",
+      "snippet": "... il nuovo studio che esclude definitivamente la correlazione vaccini e autismo? ... vaccino trivalente MPR (morbillo, parotite, rosolia) e la comparsa di autismo.",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccini",
+        "autismo",
+        "vaccino",
+        "autismo"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:o_w1kJyY-bEJ:https://www.open.online/2019/03/06/cosa-si-inventeranno-i-no-vax-dopo-il-nuovo-studio-che-esclude-definitivamente-la-correlazione-vaccini-e-autismo/+&cd=2&hl=it&ct=clnk&gl=it",
+      "date": "6 mar 2019",
+      "date_utc": "2019-03-06T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 3,
+      "title": "Perché esistono sentenze sui danni da vaccini? - Open",
+      "link": "https://www.open.online/2019/03/11/perche-esistono-sentenze-sui-danni-da-vaccini/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/03/11 › perche-esistono-sente...",
+      "snippet": "Se non esistono prove scientifiche sui presunti danni da vaccino, perché certi tribunali hanno dato ragione ai NoVax? C'è un problema di comunicazione tra ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccino"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:_X0dR6fSbEUJ:https://www.open.online/2019/03/11/perche-esistono-sentenze-sui-danni-da-vaccini/+&cd=3&hl=it&ct=clnk&gl=it",
+      "date": "11 mar 2019",
+      "date_utc": "2019-03-11T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 4,
+      "title": "Cosa c'è dietro gli effetti avversi elencati nel bugiardino di un ...",
+      "link": "https://www.open.online/2019/03/07/cosa-ce-dietro-gli-effetti-avversi-elencati-nel-bugiardino-di-un-vaccino/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/03/07 › cosa-ce-dietro-gli-eff...",
+      "snippet": "La meningite sarebbe stata inserita ufficialmente tra le reazioni avverse al vaccino contro la varicella, a dimostrarlo un documento della Food and drug ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccino"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:AA6DRKUqR6gJ:https://www.open.online/2019/03/07/cosa-ce-dietro-gli-effetti-avversi-elencati-nel-bugiardino-di-un-vaccino/+&cd=4&hl=it&ct=clnk&gl=it",
+      "date": "7 mar 2019",
+      "date_utc": "2019-03-07T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 5,
+      "title": "In Italia il medico della bufala vaccini-autismo. Burioni ... - Open",
+      "link": "https://www.open.online/2019/06/08/vaccini-e-autismo-in-italia-il-medico-che-li-correlo-burioni-un-propugnatore-della-menzogna/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/06/08 › vaccini-e-autismo-in-...",
+      "snippet": "Wakefield è in Italia dove lo scorso 6 giugno, invitato da Corvelva, il Coordinamento Regionale Veneto per la Libertà delle Vaccinazioni, ha tenuto una conferenza ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Vaccinazioni"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:4k7-Vao5cXkJ:https://www.open.online/2019/06/08/vaccini-e-autismo-in-italia-il-medico-che-li-correlo-burioni-un-propugnatore-della-menzogna/+&cd=5&hl=it&ct=clnk&gl=it",
+      "prefix": "8 giu 2019",
+      "block_position": 3
+    },
+    {
+      "position": 6,
+      "title": "Coronavirus. Dietro ai vaccini Covid-19 ci sono i feti abortiti ...",
+      "link": "https://www.open.online/2020/12/10/coronavirus-dietro-ai-vaccini-covid-19-ci-sono-i-feti-abortiti-facciamo-il-punto-sulla-disinformazione/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/12/10 › coronavirus-dietro-ai...",
+      "snippet": "In questo contesto specifico si usano linee cellulari per isolare i virus, per tanto è molto improbabile trovare contaminazioni rilevanti di DNA umano nei vaccini; ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:CRsqYjcrhQEJ:https://www.open.online/2020/12/10/coronavirus-dietro-ai-vaccini-covid-19-ci-sono-i-feti-abortiti-facciamo-il-punto-sulla-disinformazione/+&cd=6&hl=it&ct=clnk&gl=it",
+      "date": "10 dic 2020",
+      "date_utc": "2020-12-10T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 7,
+      "title": "Nuovo «processo per stregoneria» contro i vaccini ad ... - Open",
+      "link": "https://www.open.online/2020/07/10/nuovo-processo-per-stregoneria-contro-i-vaccini-ad-avezzano/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/07/10 › nuovo-processo-per-...",
+      "snippet": "Il presunto collegamento causale sarebbe dovuto a un avvelenamento da metalli pesanti derivato dal vaccino esavalente, somministrato al bimbo nel 2014, dopo ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccino"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:iXG7lk9D-h4J:https://www.open.online/2020/07/10/nuovo-processo-per-stregoneria-contro-i-vaccini-ad-avezzano/+&cd=7&hl=it&ct=clnk&gl=it",
+      "prefix": "10 lug 2020",
+      "block_position": 3
+    },
+    {
+      "position": 8,
+      "title": "La teoria di complotto del vaccino che modificherà il nostro ...",
+      "link": "https://www.open.online/2020/08/14/teoria-complotto-vaccino-modifichera-nostro-dna-canale-tv-antisemita-svizzero/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/08/14 › teoria-complotto-vac...",
+      "snippet": "2020/08/14 › teoria-complotto-vac...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:KByo0B9pj34J:https://www.open.online/2020/08/14/teoria-complotto-vaccino-modifichera-nostro-dna-canale-tv-antisemita-svizzero/+&cd=8&hl=it&ct=clnk&gl=it",
+      "block_position": 3
+    },
+    {
+      "position": 9,
+      "title": "Oms: riluttanza ai vaccini tra le principali minacce per la salute ...",
+      "link": "https://www.open.online/2019/01/15/oms-riluttanza-ai-vaccini-tra-le-principali-minacce-per-la-salute-nel-2019/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/01/15 › oms-riluttanza-ai-vac...",
+      "snippet": "Secondo l'Oms il rifiuto delle vaccinazioni rappresenta un pericolo anche in ragione di tutti i progressi fatti fino a oggi rispetto alle malattie prevenibili. Con l'aiuto ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccinazioni"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:B_GHB7bgcqcJ:https://www.open.online/2019/01/15/oms-riluttanza-ai-vaccini-tra-le-principali-minacce-per-la-salute-nel-2019/+&cd=9&hl=it&ct=clnk&gl=it",
+      "prefix": "15 gen 2019",
+      "block_position": 3
+    },
+    {
+      "position": 10,
+      "title": "Vaccini e autismo | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/vaccini-e-autismo-2/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Disinformazione › uTonti › Vaccini",
+      "snippet": "Questa volta oltretutto la disinformazione è messa in atto da una testata online che si chiama “Pianeta mamma” che dovrebbe quantomeno TUTELARE MAMME ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:4l6dz-507LIJ:https://www.butac.it/vaccini-e-autismo-2/+&cd=10&hl=it&ct=clnk&gl=it",
+      "date": "23 nov 2013",
+      "date_utc": "2013-11-23T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 11,
+      "title": "Vaccini e autismo... | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/vaccini-e-autismo/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Disinformazione › uTonti › Vaccini",
+      "snippet": "…per la prima volta nel 2011 compaiono nel bugiardino del vaccino Tripedia DTaP (antidifterite-tetano-pertosse) della Sanofi Pasteur Msd le seguenti reazioni ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccino"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:XNYPLkxp4dsJ:https://www.butac.it/vaccini-e-autismo/+&cd=11&hl=it&ct=clnk&gl=it",
+      "date": "7 dic 2013",
+      "date_utc": "2013-12-07T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 12,
+      "title": "Il farmaco che cura l'autismo e i danni da vaccino... | Butac ...",
+      "link": "https://www.butac.it/il-farmaco-che-cura-lautismo-e-i-danni-da-vaccino/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Salute › Social network › Vaccini",
+      "snippet": "Non facciamo nomi che non sono importanti, ma un soggetto pseudo-medico che per qualche anno ai tempi di Stamina ha imperversato sui social italiani sta ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Xd_tzY6nV2IJ:https://www.butac.it/il-farmaco-che-cura-lautismo-e-i-danni-da-vaccino/+&cd=12&hl=it&ct=clnk&gl=it",
+      "date": "27 nov 2019",
+      "date_utc": "2019-11-27T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 13,
+      "title": "«Siamo fatti così». L'episodio della serie sbarcata su Netflix ...",
+      "link": "https://www.open.online/2019/11/11/siamo-fatti-cosi-arriva-su-netflix-la-vaccinazione-spiegata-ai-bambini/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/11/11 › siamo-fatti-cosi-arriv...",
+      "snippet": "La serie è nata nel 1987. A quel tempo l'Organizzazione mondiale della sanità aveva ke sue cose a cui pensare ma non si doveva preoccupare di inserire i ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:8j-eUFxzNQkJ:https://www.open.online/2019/11/11/siamo-fatti-cosi-arriva-su-netflix-la-vaccinazione-spiegata-ai-bambini/+&cd=13&hl=it&ct=clnk&gl=it",
+      "date": "11 nov 2019",
+      "date_utc": "2019-11-11T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 14,
+      "title": "Un gruppo di mamme ebree di New York ha diffuso opuscoli ...",
+      "link": "https://www.open.online/2019/04/15/un-gruppo-di-mamme-ebree-di-new-york-ha-diffuso-opuscoli-contro-i-vaccini/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/04/15 › un-gruppo-di-mamm...",
+      "snippet": "Il tutto arricchito da storie – ovviamente anonime – di esperienze di bambini danneggiati. Se l'emergenza non è il morbillo, ma l'autismo. Questo gruppo di « ...",
+      "prerender": false,
+      "snippet_matched": [
+        "autismo"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:WzebUgLl-WsJ:https://www.open.online/2019/04/15/un-gruppo-di-mamme-ebree-di-new-york-ha-diffuso-opuscoli-contro-i-vaccini/+&cd=14&hl=it&ct=clnk&gl=it",
+      "date": "15 apr 2019",
+      "date_utc": "2019-04-15T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 15,
+      "title": "Il discorso di Sara Cunial e la disinformazione sul vaccino anti ...",
+      "link": "https://www.open.online/2020/12/29/il-discorso-di-sara-cunial-e-la-disinformazione-sul-vaccino-anti-covid-19/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/12/29 › il-discorso-di-sara-cu...",
+      "snippet": "L'intervento non è l'unico nel suo genere. In passato la deputata Cunial aveva tenuto un lungo discorso dai contenuti complottisti, relativi alla Covid-19 e ai vaccini ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:y7ABYWGdxeEJ:https://www.open.online/2020/12/29/il-discorso-di-sara-cunial-e-la-disinformazione-sul-vaccino-anti-covid-19/+&cd=15&hl=it&ct=clnk&gl=it",
+      "date": "29 dic 2020",
+      "date_utc": "2020-12-29T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 16,
+      "title": "Assassinato il giornalista che indagava sul legame vaccini ...",
+      "link": "https://www.butac.it/assassinato-il-giornalista-che-indagava-sul-legame-vaccini-autismo/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › uTonti › Vaccini",
+      "snippet": "“Dove sono gli autistici tra gli Amish? Qui nella contea di Lancaster, cuore della Pennsylvania olandese, ci dovrebbero essere ben più di 100 casi con una ...",
+      "prerender": false,
+      "snippet_matched": [
+        "autistici"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:bdxA5r3h2c4J:https://www.butac.it/assassinato-il-giornalista-che-indagava-sul-legame-vaccini-autismo/+&cd=16&hl=it&ct=clnk&gl=it",
+      "prefix": "26 mag 2017",
+      "block_position": 3
+    },
+    {
+      "position": 17,
+      "title": "Coronavirus, il medico inglese Ben Janaway fa a pezzi una ad ...",
+      "link": "https://www.open.online/2020/12/07/coronavirus-il-medico-inglese-ben-janaway-fa-a-pezzi-le-teorie-no-vax-video/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/12/07 › coronavirus-il-medic...",
+      "snippet": "Un video che dura meno di un minuto, postato sui social media, smonta i luoghi comuni degli anti-vaccinisti. Ha raccolto centinaia di migliaia di visualizzazioni e ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:1JaYGWntb8kJ:https://www.open.online/2020/12/07/coronavirus-il-medico-inglese-ben-janaway-fa-a-pezzi-le-teorie-no-vax-video/+&cd=17&hl=it&ct=clnk&gl=it",
+      "date": "7 dic 2020",
+      "date_utc": "2020-12-07T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 18,
+      "title": "Coronavirus. Così i No Vax preparano le nuove campagne ...",
+      "link": "https://www.open.online/2020/03/20/coronavirus-cosi-i-no-vax-preparano-le-nuove-campagne-mediatiche-contro-il-prossimo-vaccino/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/03/20 › coronavirus-cosi-i-no...",
+      "snippet": "Così i No Vax preparano le nuove campagne mediatiche contro il prossimo vaccino. 20 Marzo 2020 - 16:53. di Juanne Pili. Pensavamo che l ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccino"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:1bNz_ZDf-8wJ:https://www.open.online/2020/03/20/coronavirus-cosi-i-no-vax-preparano-le-nuove-campagne-mediatiche-contro-il-prossimo-vaccino/+&cd=18&hl=it&ct=clnk&gl=it",
+      "date": "20 mar 2020",
+      "date_utc": "2020-03-20T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 19,
+      "title": "Coronavirus. Le tre strane dichiarazioni di Giulio Tarro sul ...",
+      "link": "https://www.open.online/2020/04/23/coronavirus-le-tre-strane-dichiarazioni-di-giulio-tarro-sul-covid-19-e-le-vaccinazioni-antinfluenzali/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/04/23 › coronavirus-le-tre-str...",
+      "snippet": "Secondo il Virologo ci sarebbe un collegamento tra vaccini contro l'influenza e Covid-19. Ma non esistono studi che lo dimostrano. Circola in Rete un breve ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Hzzml9CSJxUJ:https://www.open.online/2020/04/23/coronavirus-le-tre-strane-dichiarazioni-di-giulio-tarro-sul-covid-19-e-le-vaccinazioni-antinfluenzali/+&cd=19&hl=it&ct=clnk&gl=it",
+      "date": "23 apr 2020",
+      "date_utc": "2020-04-23T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 20,
+      "title": "Autismo per colpa di nove vaccini? | Butac - Bufale Un Tanto ...",
+      "link": "https://www.butac.it/autismo-per-colpa-di-nove-vaccini/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Salute › uTonti › Vaccini",
+      "snippet": "“Nove vaccini in una volta poi sette mesi di febbre. Infine la diagnosi: autismo”. Così titola La Nazione, un titolo di quelli che noi di BUTAC reputiamo davvero ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccini",
+        "autismo"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:E1hQ9oYrMqMJ:https://www.butac.it/autismo-per-colpa-di-nove-vaccini/+&cd=20&hl=it&ct=clnk&gl=it",
+      "prefix": "27 lug 2015",
+      "block_position": 3
+    },
+    {
+      "position": 21,
+      "title": "Insulti, minacce e \"visite di cortesia\": così i no-vax cercano di ...",
+      "link": "https://www.open.online/2019/03/26/insulti-minacce-e-visite-di-cortesia-cosi-i-no-vax-cercano-di-zittire-medici-e-genitori/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/03/26 › insulti-minacce-e-visi...",
+      "snippet": "Un complesso sistema di organizzazioni dedite a diffondere la propaganda contro i vaccini si è rivelato particolarmente efficiente in rete nell'organizzare vere e ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:huabPKP-i14J:https://www.open.online/2019/03/26/insulti-minacce-e-visite-di-cortesia-cosi-i-no-vax-cercano-di-zittire-medici-e-genitori/+&cd=21&hl=it&ct=clnk&gl=it",
+      "date": "26 mar 2019",
+      "date_utc": "2019-03-26T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 22,
+      "title": "Elezioni in Emilia, tra i partiti c'è il \"Movimento Vaccini ... - Open",
+      "link": "https://www.open.online/2019/03/27/elezioni-in-emilia-tra-i-partiti-ce-il-movimento-vaccini-vogliamo-la-verita-ecco-il-programma/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/03/27 › elezioni-in-emilia-tra...",
+      "snippet": "Un movimento politico di nuova formazione, che fa dell'abolizione dell'obbligo vaccinale la propria bandiera, si prepara alle elezioni di novembre in Emilia ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:jQDyJhNHx9sJ:https://www.open.online/2019/03/27/elezioni-in-emilia-tra-i-partiti-ce-il-movimento-vaccini-vogliamo-la-verita-ecco-il-programma/+&cd=22&hl=it&ct=clnk&gl=it",
+      "date": "27 mar 2019",
+      "date_utc": "2019-03-27T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 23,
+      "title": "GUIDA UTILE Il pericolo delle bufale: il caso dei vaccini e l ...",
+      "link": "https://www.bufale.net/guida-utile-il-pericolo-delle-bufale-il-caso-dei-vaccini-e-lautismo-bufale-net/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Guide Utili",
+      "snippet": "In questi giorni si parla tanto di vaccinazioni, ma per capirne le origini della corrente “antivaccinista” è doveroso conoscere la storia di questa corrente di ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccinazioni"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:goAhPyr97gwJ:https://www.bufale.net/guida-utile-il-pericolo-delle-bufale-il-caso-dei-vaccini-e-lautismo-bufale-net/+&cd=23&hl=it&ct=clnk&gl=it",
+      "prefix": "22 ott 2015",
+      "block_position": 3
+    },
+    {
+      "position": 24,
+      "title": "Coronavirus. Sono calate le vaccinazioni e i morti in culla? I ...",
+      "link": "https://www.open.online/2020/06/23/coronavirus-calate-vaccinazione-morti-culla-novax-ci-provano/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/06/23 › coronavirus-calate-va...",
+      "snippet": "Secondo i No vax i vaccini potrebbero causare la morte dei neonati. La tesi ovviamente è priva di fondamento. Uno degli argomenti più spesi dai No vax contro ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:XKpFZ5qhpUsJ:https://www.open.online/2020/06/23/coronavirus-calate-vaccinazione-morti-culla-novax-ci-provano/+&cd=24&hl=it&ct=clnk&gl=it",
+      "prefix": "23 giu 2020",
+      "block_position": 3
+    },
+    {
+      "position": 25,
+      "title": "Il Nobel Luc Montagnier e le «basi scientifiche» dell ... - Open",
+      "link": "https://www.open.online/2019/10/30/le-ultime-affermazioni-di-luc-montagnier-sulle-basi-scientifiche-dellomeopatia/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/10/30 › le-ultime-affermazio...",
+      "snippet": "«Dalla Papaya che cura il Parkinson e la Sars ai vaccini che provocherebbero l'autismo, fino alla conversione all'omeopatia. Un premio Nobel in confusione o ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccini",
+        "autismo"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:GIMiZCKEZWUJ:https://www.open.online/2019/10/30/le-ultime-affermazioni-di-luc-montagnier-sulle-basi-scientifiche-dellomeopatia/+&cd=25&hl=it&ct=clnk&gl=it",
+      "prefix": "30 ott 2019",
+      "block_position": 3
+    },
+    {
+      "position": 26,
+      "title": "Vaccini, autismo, prove scientifiche e Gianni Lannes | Butac ...",
+      "link": "https://www.butac.it/prove-scientifiche-gianni-lannes-e-i-vaccini/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Pseudo Scienza › Salute › Vaccini",
+      "snippet": "Tanto per dire: circa 570 articoli, tutti con chiave di ricerca Autism and Childhood Vaccination. Lannes evita con attenzione di spiegare che su Pubmed si trovano ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Autism"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Nuw6bZzU9CoJ:https://www.butac.it/prove-scientifiche-gianni-lannes-e-i-vaccini/+&cd=26&hl=it&ct=clnk&gl=it",
+      "prefix": "25 lug 2017",
+      "block_position": 3
+    },
+    {
+      "position": 27,
+      "title": "Armando Lippolis e i vaccini «che fanno venire malattie ...",
+      "link": "https://www.open.online/2019/03/28/armando-lippolis-e-i-vaccini-che-fanno-venire-malattie-autoimmuni/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/03/28 › armando-lippolis-e-i-...",
+      "snippet": "Tornano a circolare le tesi su una presunta correlazione tra vaccini e malattie autoimmuni. Uno dei sostenitori è il dottor Armando Lippolis che si definisce un ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:PMjqeslnjskJ:https://www.open.online/2019/03/28/armando-lippolis-e-i-vaccini-che-fanno-venire-malattie-autoimmuni/+&cd=27&hl=it&ct=clnk&gl=it",
+      "date": "28 mar 2019",
+      "date_utc": "2019-03-28T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 28,
+      "title": "Attualmente Vaccini 7 - Autismo e sterilità | Butac - Bufale Un ...",
+      "link": "https://www.butac.it/attualmente-vaccini-7-autismo-e-sterilita/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Salute › Vaccini › Vergogna",
+      "snippet": "Distrugge anche il sistema immunitario. La maggior parte dei sintomi mostrati dai bambini autistici corrispondono ai sintomi di avvelenamento da metalli pesanti.",
+      "prerender": false,
+      "snippet_matched": [
+        "autistici"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Udv-ThFjqaUJ:https://www.butac.it/attualmente-vaccini-7-autismo-e-sterilita/+&cd=28&hl=it&ct=clnk&gl=it",
+      "date": "19 dic 2014",
+      "date_utc": "2014-12-19T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 29,
+      "title": "Le 5 bufale più assurde sui vaccini nel 2018: autismo, metalli ...",
+      "link": "https://www.bufale.net/le-5-bufale-piu-assurde-sui-vaccini-nel-2018-autismo-metalli-e-non-solo/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Bufala",
+      "snippet": "In questo periodo sta tornando prepotentemente di moda un argomento estremamente delicato come quello dei vaccini obbligatori in Europa e, ovviamente, ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:WGeF2bKuN6UJ:https://www.bufale.net/le-5-bufale-piu-assurde-sui-vaccini-nel-2018-autismo-metalli-e-non-solo/+&cd=29&hl=it&ct=clnk&gl=it",
+      "date": "31 dic 2018",
+      "date_utc": "2018-12-31T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 30,
+      "title": "«Le fate hanno rubato i nostri bambini»: il viaggio di Open nell ...",
+      "link": "https://www.open.online/2019/04/02/le-fate-hanno-rubato-i-nostri-bambini-il-viaggio-di-open-nellautismo-con-chiara-giada-e-roberto/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/04/02 › le-fate-hanno-rubato-...",
+      "snippet": "Oggi è la giornata mondiale della consapevolezza dell'autismo. A festeggiarla, un bambino su 77 in Italia, e più dell'1% dell'intera popolazione mondiale.",
+      "prerender": false,
+      "snippet_matched": [
+        "autismo"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:l1ninXKdaVIJ:https://www.open.online/2019/04/02/le-fate-hanno-rubato-i-nostri-bambini-il-viaggio-di-open-nellautismo-con-chiara-giada-e-roberto/+&cd=30&hl=it&ct=clnk&gl=it",
+      "date": "2 apr 2019",
+      "date_utc": "2019-04-02T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 31,
+      "title": "ALLARMISMO Sentenza Autismo e vaccini - bufale.net - Bufale",
+      "link": "https://www.bufale.net/autismo-vaccini/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Allarmismo",
+      "snippet": "Lo stabilisce una sentenza del Tribunale del Lavoro di Milano, firmata dal giudice Nicola Di Leo, secondo cui sarebbe “acclarata la sussistenza del nesso causale ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:tDHRj97gLMwJ:https://www.bufale.net/autismo-vaccini/+&cd=31&hl=it&ct=clnk&gl=it",
+      "date": "25 nov 2014",
+      "date_utc": "2014-11-25T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 32,
+      "title": "La malainformazione antivaccinista | Butac - Bufale Un Tanto ...",
+      "link": "https://www.butac.it/la-malainformazione-antivaccinista/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Misinformation › Salute › Vaccini",
+      "snippet": "Il filmato riprende una trasmissione del 2014 in cui veniva intervistato Franco Antonello, papà di un ragazzo autistico. Viene condiviso oggi in questa maniera: “ ...",
+      "prerender": false,
+      "snippet_matched": [
+        "autistico"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:r1D3zygI_lgJ:https://www.butac.it/la-malainformazione-antivaccinista/+&cd=32&hl=it&ct=clnk&gl=it",
+      "prefix": "1 lug 2020",
+      "block_position": 3
+    },
+    {
+      "position": 33,
+      "title": "Coronavirus. Bill Gates prevede e accetta 700 mila morti a ...",
+      "link": "https://www.open.online/2020/07/17/coronavirus-bill-gates-prevede-e-accetta-700-mila-morti-a-causa-del-vaccino-falso/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/07/17 › coronavirus-bill-gate...",
+      "snippet": "Si aspetta 700.000 vittime. Ed è lui che sta promuovendo in modo massiccio questa vaccinazione, per cui “promuovere” è estremamente eufemistico. Se il ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccinazione"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:TWET9BO689MJ:https://www.open.online/2020/07/17/coronavirus-bill-gates-prevede-e-accetta-700-mila-morti-a-causa-del-vaccino-falso/+&cd=33&hl=it&ct=clnk&gl=it",
+      "prefix": "17 lug 2020",
+      "block_position": 3
+    },
+    {
+      "position": 34,
+      "title": "Cosa dovete sapere sui feti «sacrificati» per creare vaccini ...",
+      "link": "https://www.open.online/2019/04/02/cosa-dovete-sapere-sui-feti-sacrificati-per-creare-vaccini/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/04/02 › cosa-dovete-sapere-s...",
+      "snippet": "Contestano l'uso di cellule provenienti da feti abortiti per la creazione di una serie di vaccini, ma non raccontano tutto. «La legge 194 non é in discussione, non si ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:FgtE42pbGUwJ:https://www.open.online/2019/04/02/cosa-dovete-sapere-sui-feti-sacrificati-per-creare-vaccini/+&cd=34&hl=it&ct=clnk&gl=it",
+      "date": "2 apr 2019",
+      "date_utc": "2019-04-02T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 35,
+      "title": "ACCHIAPPACLICK E DISINFORMAZIONE Vaccini ... - Bufale",
+      "link": "https://www.bufale.net/acchiappaclick-disinformazione-vaccini-dichiarazione-shock-nel-2032-50-della-popolazione-sara-autistica/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Acchiappaclick",
+      "snippet": "ACCHIAPPACLICK E DISINFORMAZIONE Vaccini dichiarazione shock: «Nel 2032 il 50% della popolazione sarà autistica». Scopri di più su Bufale, il sito contro ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Vaccini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:nTg-2pYxuYcJ:https://www.bufale.net/acchiappaclick-disinformazione-vaccini-dichiarazione-shock-nel-2032-50-della-popolazione-sara-autistica/+&cd=35&hl=it&ct=clnk&gl=it",
+      "date": "16 mar 2018",
+      "date_utc": "2018-03-16T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 36,
+      "title": "Vaccini e informazione corretta | Butac - Bufale Un Tanto Al ...",
+      "link": "https://www.butac.it/vaccini-e-informazione-corretta/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › vaccini-e-informazione-corretta",
+      "snippet": "Sono troppe le pagine che disinformano sull'argomento, e questo ha costretto tutta la redazione a doppio turno: le bufale e le notizie mal riportate dai quotidiani ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:U8dN0y5IbdcJ:https://www.butac.it/vaccini-e-informazione-corretta/+&cd=36&hl=it&ct=clnk&gl=it",
+      "date": "5 ago 2014",
+      "date_utc": "2014-08-05T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 37,
+      "title": "Usa, la polizia spara a un 13enne autistico: il ragazzo stava ...",
+      "link": "https://www.open.online/2020/09/09/usa-polizia-spara-13enne-autistico-crisi-madre-soccorsi/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/09/09 › usa-polizia-spara-13e...",
+      "snippet": "La donna ha raccontato che i poliziotti arrivati a casa sua le hanno chiesto di aspettare fuori: «Ho sentito gridare a mio figlio “buttati a terra!” poi ho udito diversi ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:3Rsb01B-prkJ:https://www.open.online/2020/09/09/usa-polizia-spara-13enne-autistico-crisi-madre-soccorsi/+&cd=37&hl=it&ct=clnk&gl=it",
+      "date": "9 set 2020",
+      "date_utc": "2020-09-09T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 38,
+      "title": "COMPLOTTISMO Assassinato il giornalista che indagava sul ...",
+      "link": "https://www.bufale.net/complottismo-assassinato-giornalista-indagava-sul-legame-vaccini-autismo-bufale-net/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Complottismo",
+      "snippet": "UCCISIONE DEL GIORNALISTA INVESTIGATIVO DAN OLMSTED DA PARTE DELLA CIA, E SOLIDARIETÀ DI ROBERT DE NIRO INSIEME CON DONALD ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:dlmBpPDY9pcJ:https://www.bufale.net/complottismo-assassinato-giornalista-indagava-sul-legame-vaccini-autismo-bufale-net/+&cd=38&hl=it&ct=clnk&gl=it",
+      "date": "27 mar 2018",
+      "date_utc": "2018-03-27T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 39,
+      "title": "Vaccini e tribunali Vol.1987000 | Butac - Bufale Un Tanto Al ...",
+      "link": "https://www.butac.it/vaccini-tribunali-vol-1987000/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Salute › Vaccini › Vergogna",
+      "snippet": "Il ministero alla Salute dovrà risarcire la famiglia di un ragazzo autistico siciliano per danni da vaccino. E se non lo farà entro due mesi, sarà commissariato. Lo ha ...",
+      "prerender": false,
+      "snippet_matched": [
+        "autistico",
+        "vaccino"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:wHWg2Ou8J6wJ:https://www.butac.it/vaccini-tribunali-vol-1987000/+&cd=39&hl=it&ct=clnk&gl=it",
+      "prefix": "30 giu 2016",
+      "block_position": 3
+    },
+    {
+      "position": 40,
+      "title": "La verità sui presunti danni del «Clorpirifos» al cervello dei ...",
+      "link": "https://www.open.online/2019/06/27/verita-presunti-danni-clorpirifos-cervello-bambini-fact-checking/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/06/27 › verita-presunti-danni...",
+      "snippet": "In un articolo comparso nell'inserto ecologista «ExtraTerrestre» de Il Manifesto del 27 giugno 2019 si parla di «chlorpyrifos», un insetticida prodotto dalla ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Nxw5wvWmbDsJ:https://www.open.online/2019/06/27/verita-presunti-danni-clorpirifos-cervello-bambini-fact-checking/+&cd=40&hl=it&ct=clnk&gl=it",
+      "prefix": "27 giu 2019",
+      "block_position": 3
+    },
+    {
+      "position": 41,
+      "title": "Perché gli Asperger non sono malati - Open",
+      "link": "https://www.open.online/2019/03/16/perche-gli-asperger-non-sono-malati/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/03/16 › perche-gli-asperger-n...",
+      "snippet": "Essere Asperger non è mai stato facile, specialmente oggi nell'epoca dei social e della disinformazione dilagante, come dimostra la recente gaffe di Rita ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:L5GBdY2ngAoJ:https://www.open.online/2019/03/16/perche-gli-asperger-non-sono-malati/+&cd=41&hl=it&ct=clnk&gl=it",
+      "date": "16 mar 2019",
+      "date_utc": "2019-03-16T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 42,
+      "title": "Coronavirus, la fake news del «come rifiutare legalmente un ...",
+      "link": "https://www.open.online/2020/05/28/coronavirus-la-fake-news-come-rifiutare-legalmente-un-vaccino-abbiamo-tracciato-la-sua-origine/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2020/05/28 › coronavirus-la-fake-...",
+      "snippet": "Il testo che circola online; Cellule di feti abortiti nei vaccini; Cos'è una reazione iatrogena; Il tracciamento della fake news; Da QAnon alla Mistica polacca ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:s53Kms5hF6EJ:https://www.open.online/2020/05/28/coronavirus-la-fake-news-come-rifiutare-legalmente-un-vaccino-abbiamo-tracciato-la-sua-origine/+&cd=42&hl=it&ct=clnk&gl=it",
+      "prefix": "28 mag 2020",
+      "block_position": 3
+    },
+    {
+      "position": 43,
+      "title": "Beppe Grillo contro la pseudoscienza? Ecco cosa diceva su ...",
+      "link": "https://www.open.online/2019/01/11/beppe-grillo-contro-la-pseudoscienza-ecco-cosa-diceva-su-vaccini-cancro-e-farmaci/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/01/11 › beppe-grillo-contro-l...",
+      "snippet": "Durante lo spettacolo “Apocalisse morbida”, andato in scena nel 1998, Grillo accusò i vaccini di abbassare il sistema immunitario: Il principio del vaccino è: prendi ...",
+      "prerender": false,
+      "snippet_matched": [
+        "vaccini",
+        "vaccino"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:2j1FSf_yfDgJ:https://www.open.online/2019/01/11/beppe-grillo-contro-la-pseudoscienza-ecco-cosa-diceva-su-vaccini-cancro-e-farmaci/+&cd=43&hl=it&ct=clnk&gl=it",
+      "prefix": "11 gen 2019",
+      "block_position": 3
+    },
+    {
+      "position": 44,
+      "title": "Dopo l'autismo dai vaccini, il Premio Nobel Luc Montagnier ...",
+      "link": "https://www.bufale.net/dopo-lautismo-dai-vaccini-il-premio-nobel-luc-montagnier-approva-il-coronavirus-dai-laboratori/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Versioni a confronto",
+      "snippet": "Dopo le ipotesi di correlazione tra autismo e vaccini, il Premio Nobel Luc Montagnier fa discutere parlando di Coronavirus dai laboratori.",
+      "prerender": false,
+      "snippet_matched": [
+        "autismo",
+        "vaccini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:KPxqmcelCwYJ:https://www.bufale.net/dopo-lautismo-dai-vaccini-il-premio-nobel-luc-montagnier-approva-il-coronavirus-dai-laboratori/+&cd=44&hl=it&ct=clnk&gl=it",
+      "date": "17 apr 2020",
+      "date_utc": "2020-04-17T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 45,
+      "title": "Sentenze di Tribunale e vaccini | Butac - Bufale Un Tanto Al ...",
+      "link": "https://www.butac.it/sentenze-di-tribunale-e-vaccini/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Salute › Vaccini › Vergogna",
+      "snippet": "Vaccini: come mi è stato segnalato da alcuni la sentenza in questo caso particolare non riguarda la SIDS, che come spiegato qui sotto non è imputabile alla ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Vaccini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:rlMm6U-1adgJ:https://www.butac.it/sentenze-di-tribunale-e-vaccini/+&cd=45&hl=it&ct=clnk&gl=it",
+      "prefix": "10 giu 2014",
+      "block_position": 3
+    },
+    {
+      "position": 46,
+      "title": "BUFALA Wakefield assolto da ogni accusa, provata la ... - Bufale",
+      "link": "https://www.bufale.net/bufala-wakefield-assolto-accusa-provata-la-correlazione-autismo-vaccini-bufale-net/",
+      "domain": "www.bufale.net",
+      "displayed_link": "www.bufale.net › Bufala",
+      "snippet": "BUFALA Wakefield assolto da ogni accusa, provata la correlazione autismo-vaccini - bufale.net. Scopri di più su Bufale, il sito contro la disinformazione, ...",
+      "prerender": false,
+      "snippet_matched": [
+        "autismo",
+        "vaccini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:MWdfbrQnaG0J:https://www.bufale.net/bufala-wakefield-assolto-accusa-provata-la-correlazione-autismo-vaccini-bufale-net/+&cd=46&hl=it&ct=clnk&gl=it",
+      "prefix": "7 ott 2017",
+      "block_position": 3
+    },
+    {
+      "position": 47,
+      "title": "Invalido dopo due vaccini | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/invalido-dopo-due-vaccini/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Misinformation › Salute › Vaccini",
+      "snippet": "Prevenire è meglio che curare, e quindi ho deciso di scrivere questo breve articolo per una notizia che è apparsa su Il Centro. Titolo usato: ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:OI9SdV4sv9YJ:https://www.butac.it/invalido-dopo-due-vaccini/+&cd=47&hl=it&ct=clnk&gl=it",
+      "prefix": "10 lug 2020",
+      "block_position": 3
+    },
+    {
+      "position": 48,
+      "title": "Nei vaccini DNA fetale umano | Butac - Bufale Un Tanto Al Chilo",
+      "link": "https://www.butac.it/nei-vaccini-dna-fetale-umano/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › Medicina › Salute › Vaccini",
+      "snippet": "Autismo: lo studio del Dr Theresa Deisher; il suo incremento e la correlazione con frammenti di DNA umano contenuto nei vaccini. La macchina della bufala ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Autismo",
+        "vaccini"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:boGuDvE24ZEJ:https://www.butac.it/nei-vaccini-dna-fetale-umano/+&cd=48&hl=it&ct=clnk&gl=it",
+      "date": "18 ago 2016",
+      "date_utc": "2016-08-18T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 49,
+      "title": "«Il medioevo in Parlamento» sulla scienza, raccontato da ...",
+      "link": "https://www.open.online/2019/03/19/il-medioevo-in-parlamento-sulla-scienza-raccontato-da-elena-fattori/",
+      "domain": "www.open.online",
+      "displayed_link": "www.open.online › 2019/03/19 › il-medioevo-in-parla...",
+      "snippet": "Abbiamo letto in anteprima il libro della senatrice del M5S Elena Fattori sulle posizioni antiscientifiche nella scorsa legislatura. Le pressioni di Conte ...",
+      "prerender": false,
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:vu0VOpWgeyoJ:https://www.open.online/2019/03/19/il-medioevo-in-parlamento-sulla-scienza-raccontato-da-elena-fattori/+&cd=49&hl=it&ct=clnk&gl=it",
+      "date": "19 mar 2019",
+      "date_utc": "2019-03-19T12:00:00.000Z",
+      "block_position": 3
+    },
+    {
+      "position": 50,
+      "title": "La disinformazione criminale sui vaccini | Butac - Bufale Un ...",
+      "link": "https://www.butac.it/disinformazione-criminale-sui-vaccini/",
+      "domain": "www.butac.it",
+      "displayed_link": "www.butac.it › ... › Vaccini › Vergogna",
+      "snippet": "Vaccino esavalente Infanrix Hexa: casi di autismo insorti durante i trial clinici omessi intenzionalmente dall'azienda produttrice. Come già detto NON sono ...",
+      "prerender": false,
+      "snippet_matched": [
+        "Vaccino",
+        "autismo"
+      ],
+      "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:TGdjmA8a5W4J:https://www.butac.it/disinformazione-criminale-sui-vaccini/+&cd=50&hl=it&ct=clnk&gl=it",
+      "prefix": "17 ott 2014",
+      "block_position": 3
+    }
+  ]
+}
