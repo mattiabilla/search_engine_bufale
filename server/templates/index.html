@@ -37,7 +37,7 @@
                 <div class="row">
                     <div class="col-md-11 mb-3">
                         <div class="input-group" >
-                            <input type="text" class="form-control" aria-label="Text input with dropdown button" id="query" name="query">
+                            <input type="text" class="form-control" aria-label="Text input with dropdown button" id="query" name="query" value="{{ query }}">
                             <button type="button" class="btn btn-outline-secondary" aria-label="Left Align" id="drop-avanzate">
                               <i class="fa fa-cog"></i>
                             </button>
@@ -52,7 +52,7 @@
                         <div class="input-group mb-5" >
                             <input class="form-control" type="date" name="start-date">
                             <input class="form-control" type="date" name="end-date">
-                            <div class="input-group-append">
+                            <!-- <div class="input-group-append">
                                 <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorie</button>
                                 <div class="dropdown-menu">
                                     <a class="dropdown-item" href="#">Vaccini</a>
@@ -61,17 +61,54 @@
                                     <div role="separator" class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="#">Bill Gates</a>
                                 </div>
-                            </div>
+                            </div>-->
                             <div class="input-group-append">
                                 <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fonte</button>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Bufale.net</a>
-                                    <a class="dropdown-item" href="#">Butac</a>
-                                    <a class="dropdown-item" href="#">Open</a>
+                                    <div class="form-check dropdown-item">
+                                        <input class="form-check-input" checked type="checkbox" value="bufale.net" name="site">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                         Bufale.net
+                                                    </label>
+                                    </div>
+                                    <div class="form-check dropdown-item">
+                                        <input class="form-check-input" checked type="checkbox" value="open.online" name="site">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                         Open.online
+                                                    </label>
+                                    </div>
+                                    <div class="form-check dropdown-item">
+                                        <input class="form-check-input" checked type="checkbox" value="butac.it" name="site">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                         Butac.it
+                                                    </label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    {% for concept,value in concepts.items() %}
+                        <div class="row">
+                            <div class="col-md-11">
+                                <h3>{{ concept }}</h3>
+                                {% for k,v in value.items() %}
+                                    <div>
+                                        <h4>{{ k }}</h4>
+                                        {% for _ in v %}
+                                            <div class="form-check">
+                                             <input class="form-check-input" type="checkbox" value="{{ concept }}:{{ _ }}" name="concept">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                     {{ _ }}
+                                                </label>
+                                            </div>
+                                        {% endfor %}
+
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    {% endfor %}
+
                 </div>
 
             </form>

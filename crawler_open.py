@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 
 # crawler per bufale.net
-f = open("links.txt", "w")
-for i in range(1, 11):
+f = open("linkopen.txt", "w",encoding='utf-8')
+for i in range(1, 94):
     URL = f"https://www.open.online/c/fact-checking/page/{str(i)}/"
 
     page = requests.get(URL, headers={"User-Agent": "Mozilla/5.0"})
@@ -15,6 +15,11 @@ for i in range(1, 11):
     for result in results:
         children = result.find("a")
         f.write(children.get("href"))
-        f.write("\n")
 
+        children = result.find("img")
+        f.write(",")
+        f.write(children.get("src"))
+
+        f.write("\n")
+    print(i)
 f.close()

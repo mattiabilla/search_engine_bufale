@@ -35,17 +35,20 @@ def tag_visible(element):
     return True
 
 
-links = open("links.txt", "r")
+links = open("linkbufale.txt", "r",encoding='utf-8')
 counter = 0
 
 for URL in links:
+    parts = URL.split(",")
+    URL = parts[0]
+    img = parts[1]
     page = requests.get(URL, headers={"User-Agent": "Mozilla/5.0"})
 
     soup = BeautifulSoup(page.content, "html.parser")
 
     title = soup.find(class_="title").findChildren('h1')[0]
 
-    s = URL
+    s = URL+"\n"
     s += f"{title.contents[0]}\n"
 
     categories = soup.find_all(class_="tag")
@@ -57,8 +60,8 @@ for URL in links:
 
     s += "\n"
     try:
-        image = soup.find(id="post-thumbnail").find("figure").find("img", class_="img-responsive wp-post-image")
-        s += f"{image['data-src']}\n"
+        image = img
+        s += image+"\n"
     except:
         s += "https://static.nexilia.it/bufale/2016/10/logo_bufale.png\n"
 
@@ -72,15 +75,18 @@ for URL in links:
         os.mkdir("corpus/")
 
     f = open(f"corpus/bufale_{counter}.txt", "w", encoding='utf-8')
+    try:
+        texts = soup.find(class_="text-article").findAll(text=True)
+        visible_texts = filter(tag_visible, texts)
 
-    texts = soup.find(class_="text-article").findAll(text=True)
-    visible_texts = filter(tag_visible, texts)
-
-    for t in visible_texts:
-        s += t
+        for t in visible_texts:
+            s += t
+    except:
+        pass
 
     f.write(s)
     f.close()
     counter += 1
+    print(str(counter)+" "+URL)
 
 links.close()
