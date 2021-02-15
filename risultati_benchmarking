@@ -1,0 +1,6 @@
+trace = bm25 AND 0.636
+trace2 = bm25 OrGroup 0.574
+trace3 = TF_IDF 0.395
+trace4 = Boost title 2 0.594
+trace5 = Boost title 3 0.557
+trace6 = nolanganalyzer 0.539

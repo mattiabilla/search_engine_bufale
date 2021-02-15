@@ -4,8 +4,8 @@ import statistics
 score = [0] * 10
 optimal = [0] * 10
 for i in range(10):
-    fgoogle = open('google_query_' + str(i) + '.txt', 'r', encoding='utf-8')
-    fbufale = open('server/trace2' + str(i) + '.txt', 'r', encoding='utf-8')
+    fgoogle = open('query/google/google_query_' + str(i) + '.txt', 'r', encoding='utf-8')
+    fbufale = open('query/trace6_' + str(i) + '.txt', 'r', encoding='utf-8')
     resgoogle = fgoogle.readlines()
     resbufale = fbufale.readlines()
 
