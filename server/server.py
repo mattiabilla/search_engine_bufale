@@ -21,6 +21,8 @@ from whoosh.query import Term, Or, And, DateRange
 
 from datetime import date, time, datetime
 
+from whoosh.scoring import TF_IDF
+
 app = Flask(__name__)
 
 
@@ -52,7 +54,7 @@ def filter_site(site_pref):
 
 @app.route('/', methods=['GET'])
 def home_results():
-    log = open('trace2.txt', 'w', encoding='utf-8')
+    log = open('trace6_.txt', 'w', encoding='utf-8')
     data = ""
     par_conc = dict()  # struttura dati per rappresentare i concetti che vogliamo cercare
     site_pref = list()  # filtro per la lista dei siti che vogliamo cercare
@@ -88,16 +90,15 @@ def home_results():
         thterm = ""
         concepts = dict()
 
-        # provvisorio ricerca con thesaurus con []
+        # ricerca con thesaurus con []
         p = re.compile(r'\[\w*\]')
         for i in p.findall(data):
-            # print(i)
             thterm = i[1:len(i) - 1]  # prendo il termine escludendo le parentesi quadre
-            # if "[" in data and "]" in data:
-            # qp = MultifieldParser(["categories", "title"], ix.schema)
-            # thterm = data[data.find("[") + 1:data.find("]")]
             synlist = wn.synsets(thterm, lang="ita")
-            concepts[thterm] = {"hyper": [], "hypo": []}  # TODO , "related": []}
+
+            # struttura dati da passare alla pagina HTML
+            concepts[thterm] = {"hyper": [], "hypo": [], "related": []}
+
             for syn in synlist:
                 for i in syn.hyponyms():
                     if len(i.lemmas(lang="ita")):
@@ -106,16 +107,21 @@ def home_results():
                     if len(i.lemmas(lang="ita")):
                         concepts[thterm]["hyper"].append(i.lemmas(lang="ita")[0].name())
 
-                # TODO parole related
+                concepts[thterm]["related"].extend(syn.lemma_names(lang="ita"))
 
-            # print(concepts)
-        # else:
-        # ricerca "normale"
-        # qp = MultifieldParser(["content", "title"], ix.schema)
+            concepts[thterm]["related"] = list(set(concepts[thterm]["related"]).difference(set([thterm])))
+
+            # limitiamo la lunghezza delle liste a 5 risultati
+            try:
+                concepts[thterm]['hyper'] = concepts[thterm]['hyper'][0:5]
+                concepts[thterm]['hypo'] = concepts[thterm]['hypo'][0:5]
+                concepts[thterm]['related'] = concepts[thterm]['related'][0:5]
+            except IndexError:
+                pass
+
         olddata = data
 
-        # espansione della query con i concetti dati dall'utente
-        # per ogni parola considerata
+        # espansione della query con i concetti dati dall'utente per ogni parola considerata
         for i in p.findall(data):
             thterm = i[1:len(i) - 1]
             replstr = f"({thterm}"
@@ -129,10 +135,8 @@ def home_results():
 
             data = data.replace(i, replstr)
 
-        # print(data)
-        # log.write(data+'\n')  # scrivo nel file di log la query che è stata effettuata
-
-        qp = MultifieldParser(["categories", "title", "content"], ix.schema, group=OrGroup)
+        qp = MultifieldParser(["categories", "title", "content"], ix.schema, group=OrGroup)#,
+                              # fieldboosts={'title': 2.0})
         query = qp.parse(data)
 
         corrected = searcher.correct_query(query, data)  # correzione degli errori nella query
