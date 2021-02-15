@@ -1,6 +1,8 @@
 BufalSearch
 Motore di ricerca per i temi più interessati da fake news/bufale.
 
+Versione minima richiesta di Python: 3.8.5
+
 Guida installazione per Windows:
 1. Aprire una finestra Windows PowerShell
 2. Entrare nella cartella del progetto

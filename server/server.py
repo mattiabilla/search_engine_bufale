@@ -4,8 +4,9 @@ Created on Wed Oct 28 23:06:58 2020
 
 @author: Mattia
 """
+from whoosh.analysis import LanguageAnalyzer
 from whoosh.qparser import QueryParser
-from whoosh.qparser import MultifieldParser
+from whoosh.qparser import MultifieldParser, OrGroup
 
 from whoosh.index import open_dir
 
@@ -51,12 +52,15 @@ def filter_site(site_pref):
 
 @app.route('/', methods=['GET'])
 def home_results():
+    log = open('trace2.txt', 'w', encoding='utf-8')
     data = ""
-    par_conc = dict()
-    site_pref = list()
-    startdate = datetime.min
+    par_conc = dict()  # struttura dati per rappresentare i concetti che vogliamo cercare
+    site_pref = list()  # filtro per la lista dei siti che vogliamo cercare
+    startdate = datetime.min  # le date da usare come filtro
     enddate = datetime.today()
-    if request.method == 'GET' and 'query' in request.args:  # this block is only entered when the form is submitted
+
+    # prendo tutti i parametri che mi servono dalla query GET
+    if request.method == 'GET' and 'query' in request.args:
         data = request.args.get('query')
 
         if 'concept' in request.args:
@@ -126,16 +130,24 @@ def home_results():
             data = data.replace(i, replstr)
 
         # print(data)
+        # log.write(data+'\n')  # scrivo nel file di log la query che è stata effettuata
 
-        qp = MultifieldParser(["categories", "title", "content"], ix.schema)
+        qp = MultifieldParser(["categories", "title", "content"], ix.schema, group=OrGroup)
         query = qp.parse(data)
-        corrected = searcher.correct_query(query, data)
+
+        corrected = searcher.correct_query(query, data)  # correzione degli errori nella query
         if corrected.query != query:
             did_you_mean = corrected.string
-        results = searcher.search(query, filter=And([Or(filter_site(site_pref)), DateRange('date', startdate, enddate)]))
+
+        # effettuo la ricerca applicando i filtri
+        results = searcher.search(query,
+                                  filter=And([Or(filter_site(site_pref)), DateRange('date', startdate, enddate)]))
         results.fragmenter = SentenceFragmenter()
+
+        # per ogni risultato, ottengo i dati e li metto in una lista e poi li passo alla pagina html
         for i in results:
             link = i["url"]
+            log.write(link + '\n')
             title = i["title"]
             linkimage = i["urlimage"]
             resultdate = i["date"]
@@ -151,5 +163,7 @@ def home_results():
             retrieved.append(
                 {"link": link, "title": title, "site": site, "urlimage": linkimage, "date": resultdate,
                  "snippet": snippet})
+
+        log.close()
 
     return render_template("index.html", results=retrieved, correction=did_you_mean, concepts=concepts, query=olddata)
