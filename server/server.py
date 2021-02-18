@@ -61,6 +61,10 @@ def home_results():
     startdate = datetime.min  # le date da usare come filtro
     enddate = datetime.today()
 
+    boost_title = 2.0           # parametri di tuning per la ricerca tramite concetti o "normale"
+    boost_categories = 1.0
+    boost_content = 1.0
+
     # prendo tutti i parametri che mi servono dalla query GET
     if request.method == 'GET' and 'query' in request.args:
         data = request.args.get('query')
@@ -93,7 +97,8 @@ def home_results():
         # ricerca con thesaurus con []
         p = re.compile(r'\[\w*\]')
         for i in p.findall(data):
-            thterm = i[1:len(i) - 1]  # prendo il termine escludendo le parentesi quadre
+            boost_categories = 2.0                      # se sono per concetti allora effettuo il boost
+            thterm = i[1:len(i) - 1]                    # prendo il termine escludendo le parentesi quadre
             synlist = wn.synsets(thterm, lang="ita")
 
             # struttura dati da passare alla pagina HTML
@@ -135,8 +140,9 @@ def home_results():
 
             data = data.replace(i, replstr)
 
-        qp = MultifieldParser(["categories", "title", "content"], ix.schema, group=OrGroup)#,
-                              # fieldboosts={'title': 2.0})
+        qp = MultifieldParser(["categories", "title", "content"], ix.schema, group=OrGroup,
+                              fieldboosts={'categories': boost_categories, 'title': boost_title,
+                                           'content': boost_content})
         query = qp.parse(data)
 
         corrected = searcher.correct_query(query, data)  # correzione degli errori nella query

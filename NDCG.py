@@ -5,7 +5,7 @@ score = [0] * 10
 optimal = [0] * 10
 for i in range(10):
     fgoogle = open('query/google/google_query_' + str(i) + '.txt', 'r', encoding='utf-8')
-    fbufale = open('query/trace6_' + str(i) + '.txt', 'r', encoding='utf-8')
+    fbufale = open('query/trace7_' + str(i) + '.txt', 'r', encoding='utf-8')
     resgoogle = fgoogle.readlines()
     resbufale = fbufale.readlines()
 
@@ -23,7 +23,7 @@ for i in range(10):
         if res in resgoogle:
             posgoogle = resgoogle.index(res)
             posbufale = resbufale.index(res)
-            if posgoogle < 2:  # se sono tra i risultati migliori di google allora do 3 punti
+            if posbufale < 2:  # se sono tra i risultati migliori di google allora do 3 punti
                 score[i] += 3 / math.log2(max(posbufale+1, 2))  # così se è alla posizione 0 del nostro allora prende 2
 
             elif posbufale < 4: # se sono tra i primi 4 allora do 2 punti
