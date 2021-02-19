@@ -1,3 +1,7 @@
+"""
+script con cui vengono scaricati tutti gli articoli del sito open.online, prendendoli dal file linkopen.txt
+e inseriti nella cartella "corpus"
+"""
 from datetime import datetime
 
 import requests
@@ -5,7 +9,7 @@ from bs4 import BeautifulSoup
 from bs4.element import Comment
 import os
 
-
+# dizionario per la traduzione del nome del mese nel corrispondente valore numerico
 month = {
     "Gen": "01",
     "Feb": "02",
@@ -23,11 +27,20 @@ month = {
 
 
 def convertdate(date):
+    """
+    Funzione per convertire la data letta in un formato a piacere.
+    :param date: Data letta dal sito.
+    :return: Data da inserire nel file del corpus.
+    """
     return datetime.strptime(date, '%Y-%m-%d %H:%M') # ritorno il formato corretto
 
 
 def tag_visible(element):
-
+    """
+    Filtro utilizzato per prendere tutti e solo i tag di una pagina web che contengono qualcosa di visibile.
+    :param element: Il tag da controllare.
+    :return: True se il tag è tra i "visibili", False altrimenti.
+    """
     if element.parent.name in ['style', 'script', 'head', 'title', 'meta', '[document]']:
         return False
     if isinstance(element, Comment):
@@ -38,11 +51,11 @@ def tag_visible(element):
 links = open("linkopen.txt", "r",encoding='utf-8')
 counter = 0
 
+# per ogni link che è contenuto nel file, si ottengono le parti che ci interessano
 for URL in links:
     counter += 1
 
-
-    parts = URL.split(",")
+    parts = URL.split(",")  # ogni riga è composta dal link della pagina e dal link della sua immagine, separati da ","
     URL = parts[0]
     img = parts[1]
 
@@ -90,6 +103,7 @@ for URL in links:
     except:
         pass
 
+    # qui la variabile "s" conterrà tutto il contenuto del sito selezionato, così è scritta su file
     f.write(s)
     f.close()
 

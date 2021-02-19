@@ -1,8 +1,5 @@
-# -*- coding: utf-8 -*-
 """
-Created on Wed Oct 28 22:48:34 2020
-
-@author: Mattia
+file vecchio di prove, inutile ai fini del progetto finale
 """
 
 from whoosh.qparser import QueryParser

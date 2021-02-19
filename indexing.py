@@ -1,3 +1,6 @@
+"""
+Script che è utilizzato per creare l'intero indice utilizzando whoosh.
+"""
 import os
 from os import listdir
 from os.path import isfile, join
@@ -16,10 +19,12 @@ if not os.path.exists("indexdir"):
     os.mkdir("indexdir/")
 ix = create_in("indexdir", schema)
 
+# si crea una lista di file prendendoli dalla cartella corpus
 filelist = [f for f in listdir("corpus") if isfile(join("corpus", f))]
 
 writer = ix.writer()
 
+# per ogni file ottenuto, si prendono le sue parti e si aggiungono nell'indice
 for i in filelist:
     f = open("corpus/" + i, "r", encoding='utf-8')
     furl = f.readline()
@@ -27,7 +32,7 @@ for i in filelist:
 
     p = re.compile(r"www\.[^\/]+")
     match = p.search(furl)
-    fsite = match.group(0)[4:]  # così prendiamo il sito a cui appartiene l'articolo, senza il "www." all'inizio
+    fsite = match.group(0)[4:]  # così si prende il sito a cui appartiene l'articolo, senza il "www." all'inizio
 
     ftitle = f.readline()
     ftitle = ftitle.rstrip()

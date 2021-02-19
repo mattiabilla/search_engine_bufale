@@ -1,6 +1,6 @@
-# tool per leggere i risultati delle ricerche google da un file .json, ottenuto con l'utilizzo del sito
-# scaleserp.com
-
+"""
+tool per leggere i risultati delle ricerche google da un file .json, ottenuto con l'utilizzo del sito scaleserp.com
+"""
 import json
 
 
