@@ -1,3 +1,7 @@
+"""
+Script con cui vengono calcolati i NDCG delle varie versioni del sistema.
+Vengono calcolati confrontando i risultati del sistema con quelli di google utilizzando 6 livelli di rilevanza.
+"""
 import math
 import statistics
 
@@ -8,7 +12,8 @@ for i in range(10):
     fbufale = open('query/trace_' + str(i) + '.txt', 'r', encoding='utf-8')
     resgoogle = fgoogle.readlines()
     resbufale = fbufale.readlines()
-
+    
+    # Vengono letti i file dei risultati
     for j in range(len(resgoogle)):
         resgoogle[j] = resgoogle[j].strip()
         if resgoogle[j][len(resgoogle[j])-1] == '/':
@@ -18,7 +23,8 @@ for i in range(10):
         resbufale[j] = resbufale[j].strip()
         if resbufale[j][len(resbufale[j])-1] == '/':
             resbufale[j] = resbufale[j][:len(resbufale[j])-1]
-
+            
+    # Viene calcolato il DCG confrontando la posizione del risultato con quella di Google
     for res in resbufale:
         if res in resgoogle:
             posgoogle = resgoogle.index(res)
@@ -40,7 +46,8 @@ for i in range(10):
 
             elif 4 < posbufale < 10:  # per gli altri, prima di 10, do 1
                 score[i] += 1 / math.log2(max(posbufale + 1, 2))
-
+                
+    # Viene calcolato il DCG ottimale ottenuto da Google per poi normalizzare il risultato
     for res in resgoogle:
         posgoogle = resgoogle.index(res)
         if posgoogle == 0:  # se sono tra i risultati migliori di google allora do 3 punti
