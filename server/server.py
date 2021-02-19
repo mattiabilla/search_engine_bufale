@@ -113,26 +113,26 @@ def home_results():
             synlist = wn.synsets(thterm, lang="ita")
 
             # struttura dati da passare alla pagina HTML
-            concepts[thterm] = {"hyper": [], "hypo": [], "related": []}
+            concepts[thterm] = {"Iperonimo": [], "Iponimo": [], "Correlato": []}
 
             # ottengo tutte le possibili espansioni di una parola indicata tra parentesi quadre
             for syn in synlist:
                 for i in syn.hyponyms():
                     if len(i.lemmas(lang="ita")):
-                        concepts[thterm]["hypo"].append(i.lemmas(lang="ita")[0].name())
+                        concepts[thterm]["Iponimo"].append(i.lemmas(lang="ita")[0].name())
                 for i in syn.hypernyms():
                     if len(i.lemmas(lang="ita")):
-                        concepts[thterm]["hyper"].append(i.lemmas(lang="ita")[0].name())
+                        concepts[thterm]["Iperonimo"].append(i.lemmas(lang="ita")[0].name())
 
-                concepts[thterm]["related"].extend(syn.lemma_names(lang="ita"))
+                concepts[thterm]["Correlato"].extend(syn.lemma_names(lang="ita"))
 
-            concepts[thterm]["related"] = list(set(concepts[thterm]["related"]).difference(set([thterm])))
+            concepts[thterm]["Correlato"] = list(set(concepts[thterm]["Correlato"]).difference(set([thterm])))
 
             # limitiamo la lunghezza delle liste a 5 risultati
             try:
-                concepts[thterm]['hyper'] = concepts[thterm]['hyper'][0:5]
-                concepts[thterm]['hypo'] = concepts[thterm]['hypo'][0:5]
-                concepts[thterm]['related'] = concepts[thterm]['related'][0:5]
+                concepts[thterm]['Iperonimo'] = concepts[thterm]['Iperonimo'][0:5]
+                concepts[thterm]['Iponimo'] = concepts[thterm]['Iponimo'][0:5]
+                concepts[thterm]['Correlato'] = concepts[thterm]['Correlato'][0:5]
             except IndexError:
                 pass
 
