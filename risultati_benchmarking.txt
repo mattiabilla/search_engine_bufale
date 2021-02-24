@@ -5,6 +5,7 @@ trace4 = Boost title 2 0.612
 trace5 = Boost title 3 0.569
 trace6 = nolanganalyzer 0.563
 trace7 = conceptboost 2 0.523
+trace8 = Frequency 0.30
 
 v2
 trace = bm25 AND 0.682
@@ -14,3 +15,4 @@ trace4 = Boost title 2 0.622
 trace5 = Boost title 3 0.591
 trace6 = nolanganalyzer 0.576
 trace7 = conceptboost 2 0.531
+trace8 = Frequency 0.31

@@ -1,8 +1,8 @@
 """
 Script che contiene tutta la parte di ricerca sull'indice e utilizza flask per restituire i risultati in una pagina web.
 """
+from whoosh import qparser
 from whoosh.analysis import LanguageAnalyzer
-from whoosh.qparser import QueryParser
 from whoosh.qparser import MultifieldParser, OrGroup
 
 from whoosh.index import open_dir
@@ -158,6 +158,7 @@ def home_results():
         qp = MultifieldParser(["categories", "title", "content"], ix.schema, group=OrGroup,
                               fieldboosts={'categories': boost_categories, 'title': boost_title,
                                            'content': boost_content})
+        qp.remove_plugin_class(qparser.WildcardPlugin)
         query = qp.parse(data)
 
         # correzione degli errori nella query
